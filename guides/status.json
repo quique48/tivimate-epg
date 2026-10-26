@@ -1,0 +1,51 @@
+{
+  "errors": {},
+  "generated_at": "2026-10-26T02:27:48.193242+00:00",
+  "groups": {
+    "all": {
+      "channels": 2810,
+      "gzip_bytes": 10217246,
+      "gzip_url": "guides/all.xml.gz",
+      "programmes": 147215,
+      "updated_from_sources": true,
+      "xml_bytes": 92989200,
+      "xml_url": "guides/all.xml"
+    },
+    "ca": {
+      "channels": 696,
+      "gzip_bytes": 2487100,
+      "gzip_url": "guides/ca.xml.gz",
+      "programmes": 49959,
+      "updated_from_sources": true,
+      "xml_bytes": 19287072,
+      "xml_url": "guides/ca.xml"
+    },
+    "gb": {
+      "channels": 561,
+      "gzip_bytes": 2398613,
+      "gzip_url": "guides/gb.xml.gz",
+      "programmes": 29399,
+      "updated_from_sources": true,
+      "xml_bytes": 22435385,
+      "xml_url": "guides/gb.xml"
+    },
+    "sports": {
+      "channels": 525,
+      "gzip_bytes": 111969,
+      "gzip_url": "guides/sports.xml.gz",
+      "programmes": 5302,
+      "updated_from_sources": true,
+      "xml_bytes": 2675596,
+      "xml_url": "guides/sports.xml"
+    },
+    "us": {
+      "channels": 1028,
+      "gzip_bytes": 5220003,
+      "gzip_url": "guides/us.xml.gz",
+      "programmes": 62555,
+      "updated_from_sources": true,
+      "xml_bytes": 48591582,
+      "xml_url": "guides/us.xml"
+    }
+  }
+}
