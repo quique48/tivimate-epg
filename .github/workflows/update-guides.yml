@@ -1,0 +1,71 @@
+name: Update XMLTV guides
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-xmltv-guides
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test generator
+        run: python -m unittest -v
+
+      - name: Build guides
+        run: python build_guides.py --output-dir guides
+
+      - name: Validate generated XMLTV files
+        shell: python
+        run: |
+          import gzip
+          import json
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          for name in ('us', 'ca', 'gb', 'sports', 'all'):
+              plain = Path(f'guides/{name}.xml')
+              compressed = Path(f'guides/{name}.xml.gz')
+              if plain.exists():
+                  root = ET.parse(plain).getroot()
+              else:
+                  with gzip.open(compressed, 'rb') as stream:
+                      root = ET.parse(stream).getroot()
+              assert root.tag == 'tv'
+              assert root.find('channel') is not None
+              assert root.find('programme') is not None
+              print(f'{name}: valid XMLTV')
+
+          status = json.loads(Path('guides/status.json').read_text())
+          if status['errors']:
+              print('Some groups reused their last good guide:')
+              print(json.dumps(status['errors'], indent=2))
+
+      - name: Commit updated guides
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add guides
+          if git diff --cached --quiet; then
+            echo 'No guide changes to commit.'
+          else
+            git commit -m 'Update XMLTV guides'
+            git push origin main
+          fi
