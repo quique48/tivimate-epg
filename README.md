@@ -13,6 +13,7 @@ For the best compatibility, start with one uncompressed regional URL. Add it und
 | Canada | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml.gz |
 | United Kingdom | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml.gz |
 | US + Canada sports | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml.gz |
+| LayerSeven custom (panel lineup aliases) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven-custom.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven-custom.xml.gz |
 | Generic LayerSeven (US + Canada + UK + sports) | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven.xml.gz |
 | Everything combined | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/all.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/all.xml.gz |
 
@@ -34,11 +35,11 @@ The workflow:
 ## Sources
 
 - EPGTalk US Lite and US Local
-- EPGTalk UK Lite
+- EPGTalk UK Full and UK Lite
 - EPGTalk Sports
-- epg.pw Canada, with iptv-epg.org Canada as a fallback
+- epg.pw Canada and United Kingdom, with iptv-epg.org fallbacks
 
-Coverage and schedule accuracy depend on these upstream sources. US and UK Lite guides emphasize a smaller 48-hour window; US Local, sports, and Canadian coverage can have different time windows.
+Coverage and schedule accuracy depend on these upstream sources. US and UK Lite guides emphasize a smaller 48-hour window; other sources can have different time windows. The custom LayerSeven guide adds exact panel channel-name aliases only where a confident public-EPG match exists; unmatched channels are listed in `guides/layerseven-custom-mapping.json`.
 
 ## Local generation
 
@@ -47,6 +48,7 @@ Requires Python 3.11 or newer and no third-party packages:
 ```bash
 python -m unittest -v
 python build_guides.py --output-dir guides
+python build_layerseven_custom.py --inventory layerseven-channels.json --guides-dir guides
 ```
 
 Use the scheduling data only in accordance with upstream terms and applicable content rights.
