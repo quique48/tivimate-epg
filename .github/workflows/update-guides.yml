@@ -32,6 +32,9 @@ jobs:
       - name: Build guides
         run: python build_guides.py --output-dir guides
 
+      - name: Build LayerSeven custom aliases
+        run: python build_layerseven_custom.py --inventory layerseven-channels.json --guides-dir guides
+
       - name: Validate generated XMLTV files
         shell: python
         run: |
@@ -40,7 +43,7 @@ jobs:
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
-          for name in ('us', 'ca', 'gb', 'sports', 'chicago', 'all', 'layerseven'):
+          for name in ('us', 'ca', 'gb', 'sports', 'chicago', 'all', 'layerseven', 'layerseven-custom'):
               plain = Path(f'guides/{name}.xml')
               compressed = Path(f'guides/{name}.xml.gz')
               if plain.exists():
