@@ -52,6 +52,20 @@ GROUPS = {
     ),
     "gb": (
         Source(
+            "United Kingdom epg.pw",
+            (
+                "https://epg.pw/xmltv/epg_GB.xml",
+                "https://iptv-epg.org/files/epg-gb.xml",
+            ),
+        ),
+        Source(
+            "EPGTalk UK Full",
+            (
+                "https://epgtalk.com/UK_guide.xml.gz",
+                "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/UK_guide.xml.gz",
+            ),
+        ),
+        Source(
             "EPGTalk UK Lite",
             (
                 "https://epgtalk.com/UK_lite.xml.gz",
