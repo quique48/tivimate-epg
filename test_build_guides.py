@@ -1,7 +1,7 @@
 import unittest
 import xml.etree.ElementTree as ET
 
-from build_guides import merge_roots
+from build_guides import filter_channels_by_name, merge_roots
 
 
 class MergeGuidesTest(unittest.TestCase):
@@ -38,6 +38,23 @@ class MergeGuidesTest(unittest.TestCase):
         merged = merge_roots([source])
 
         self.assertEqual(len(merged.findall("programme")), 0)
+
+    def test_filter_channels_by_name_keeps_only_matching_programmes(self):
+        source = ET.fromstring(
+            """<tv>
+            <channel id="nbc"><display-name>US - NBC Chicago</display-name></channel>
+            <channel id="cnn"><display-name>CNN</display-name></channel>
+            <programme channel="nbc" start="20261025200000 +0000" stop="20261025210000 +0000"><title>Chicago News</title></programme>
+            <programme channel="cnn" start="20261025200000 +0000" stop="20261025210000 +0000"><title>National News</title></programme>
+            </tv>"""
+        )
+
+        filtered = filter_channels_by_name(source, "Chicago")
+
+        self.assertEqual(len(filtered.findall("channel")), 1)
+        self.assertEqual(len(filtered.findall("programme")), 1)
+        self.assertEqual(filtered.find("channel").attrib["id"], "nbc")
+        self.assertEqual(filtered.find("programme/title").text, "Chicago News")
 
 
 if __name__ == "__main__":
