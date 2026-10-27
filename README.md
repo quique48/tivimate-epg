@@ -9,6 +9,7 @@ For the best compatibility, start with one uncompressed regional URL. Add it und
 | Guide | Uncompressed XML | Compressed XMLTV.GZ |
 |---|---|---|
 | US national + local | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/us.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/us.xml.gz |
+| Chicago only | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/chicago.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/chicago.xml.gz |
 | Canada | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml.gz |
 | United Kingdom | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml.gz |
 | US + Canada sports | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml.gz |
