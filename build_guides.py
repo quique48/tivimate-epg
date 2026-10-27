@@ -190,7 +190,8 @@ def write_outputs(directory: Path, name: str, root: ET.Element, plain_xml: bool 
     data = xml_bytes(root)
     xml_path = directory / f"{name}.xml"
     gzip_path = directory / f"{name}.xml.gz"
-    if plain_xml:
+    publish_plain_xml = plain_xml and len(data) <= MAX_ALL_XML_BYTES
+    if publish_plain_xml:
         atomic_write(xml_path, data)
     elif xml_path.exists():
         xml_path.unlink()
@@ -198,15 +199,17 @@ def write_outputs(directory: Path, name: str, root: ET.Element, plain_xml: bool 
     return {
         "channels": len(root.findall("channel")),
         "programmes": len(root.findall("programme")),
-        "xml_bytes": len(data) if plain_xml else 0,
+        "xml_bytes": len(data) if publish_plain_xml else 0,
         "gzip_bytes": gzip_path.stat().st_size,
-        "xml_url": f"guides/{name}.xml" if plain_xml else None,
+        "xml_url": f"guides/{name}.xml" if publish_plain_xml else None,
         "gzip_url": f"guides/{name}.xml.gz",
     }
 
 
 def existing_guide(path: Path) -> ET.Element:
-    root = ET.parse(path).getroot()
+    opener = gzip.open if path.suffix == ".gz" else open
+    with opener(path, "rb") as stream:
+        root = ET.parse(stream).getroot()
     if root.tag != "tv":
         raise ValueError(f"Existing guide {path} is not XMLTV")
     return root
@@ -234,6 +237,8 @@ def main() -> None:
             status["groups"][name] = {"updated_from_sources": True}
         except Exception as error:
             previous = output_dir / f"{name}.xml"
+            if not previous.exists():
+                previous = output_dir / f"{name}.xml.gz"
             if not previous.exists():
                 status["errors"][name] = str(error)
                 print(f"  No previous {name} guide is available: {error}")
