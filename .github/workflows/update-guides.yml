@@ -40,7 +40,7 @@ jobs:
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
-          for name in ('us', 'ca', 'gb', 'sports', 'chicago', 'all'):
+          for name in ('us', 'ca', 'gb', 'sports', 'chicago', 'all', 'layerseven'):
               plain = Path(f'guides/{name}.xml')
               compressed = Path(f'guides/{name}.xml.gz')
               if plain.exists():
