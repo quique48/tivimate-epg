@@ -13,7 +13,7 @@ For the best compatibility, start with one uncompressed regional URL. Add it und
 | Canada | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml.gz |
 | United Kingdom | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml.gz |
 | US + Canada sports | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml.gz |
-| Generic LayerSeven (US + Canada + UK + sports) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven.xml.gz |
+| Generic LayerSeven (US + Canada + UK + sports) | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven.xml.gz |
 | Everything combined | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/all.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/all.xml.gz |
 
 The combined file can be large. Regional files are recommended for Fire Sticks and other lower-memory devices. If `all.xml` exceeds the repository size threshold, only `all.xml.gz` is published.
