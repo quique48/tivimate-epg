@@ -242,13 +242,21 @@ def main() -> None:
         print("\nBuilding combined guide")
         combined = merge_roots([built[name] for name in GROUPS if name in built])
         combined_data = xml_bytes(combined)
+        publish_plain_xml = len(combined_data) <= MAX_ALL_XML_BYTES
         status["groups"]["all"] = write_outputs(
             output_dir,
             "all",
             combined,
-            plain_xml=len(combined_data) <= MAX_ALL_XML_BYTES,
+            plain_xml=publish_plain_xml,
         )
         status["groups"]["all"]["updated_from_sources"] = not status["errors"]
+        status["groups"]["layerseven"] = write_outputs(
+            output_dir,
+            "layerseven",
+            combined,
+            plain_xml=publish_plain_xml,
+        )
+        status["groups"]["layerseven"]["updated_from_sources"] = not status["errors"]
 
     atomic_write(
         output_dir / "status.json",
