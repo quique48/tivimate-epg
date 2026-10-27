@@ -11,7 +11,7 @@ For the best compatibility, start with one uncompressed regional URL. Add it und
 | US national + local | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/us.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/us.xml.gz |
 | Chicago only | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/chicago.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/chicago.xml.gz |
 | Canada | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml.gz |
-| United Kingdom | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml.gz |
+| United Kingdom | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml.gz |
 | US + Canada sports | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml.gz |
 | LayerSeven custom (panel lineup aliases) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven-custom.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven-custom.xml.gz |
 | Generic LayerSeven (US + Canada + UK + sports) | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven.xml.gz |
