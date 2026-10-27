@@ -1,6 +1,6 @@
 {
   "errors": {},
-  "generated_at": "2026-10-27T12:18:13.481500+00:00",
+  "generated_at": "2026-10-27T16:42:23.601175+00:00",
   "groups": {
     "all": {
       "channels": 2810,
@@ -19,6 +19,15 @@
       "updated_from_sources": true,
       "xml_bytes": 19456364,
       "xml_url": "guides/ca.xml"
+    },
+    "chicago": {
+      "channels": 19,
+      "gzip_bytes": 69628,
+      "gzip_url": "guides/chicago.xml.gz",
+      "programmes": 1254,
+      "updated_from_sources": true,
+      "xml_bytes": 860726,
+      "xml_url": "guides/chicago.xml"
     },
     "gb": {
       "channels": 561,
