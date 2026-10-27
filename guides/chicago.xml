@@ -113,63 +113,6 @@
 		<display-name>62.2</display-name>
 		<icon src="https://zpmc.tmsimg.com/h3/NowShowing/62338/s104950_ll_h15_ab.png" />
 	</channel>
-	<programme start="20261027103000 +0000" stop="20261027110000 +0000" channel="I25.183131.gracenote.com">
-		<title lang="en">Going To The Bathroom Too Much?</title>
-		<desc lang="en">Better Bladder is a new safe and natural alternative to drugs, surgery and adult diapers. 90 percent see fewer bathroom visits, leaks &amp; accidents. Tune in for a special TV offer!</desc>
-		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p18365876_b_v9_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH03526650.0000</episode-num>
-		<previously-shown />
-	</programme>
-	<programme start="20261027110000 +0000" stop="20261027113000 +0000" channel="I25.183131.gracenote.com">
-		<title lang="en">Paid Programming</title>
-		<desc lang="en">Paid programming.</desc>
-		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p459763_b_v13_ba.jpg?w=360" />
-		<episode-num system="dd_progid">SH00000001.0000</episode-num>
-		<previously-shown />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027113000 +0000" stop="20261027120000 +0000" channel="I25.183131.gracenote.com">
-		<title lang="en">Men's Health - All-Natural Secret for Prostate Health</title>
-		<desc lang="en">Prosvent is a doctor-formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
-		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p12448618_b_v13_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH02334186.0000</episode-num>
-		<previously-shown />
-	</programme>
-	<programme start="20261027120000 +0000" stop="20261027140000 +0000" channel="I25.183131.gracenote.com">
-		<title lang="en">Haugh &amp; Payton Show [NEW]</title>
-		<desc lang="en">David Haugh and Jarrett Payton lead you into your workday by discussing the biggest sports storylines in Chicago and beyond.</desc>
-		<date>20261026</date>
-		<category lang="en">Series</category>
-		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p33934944_b_v13_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH06583348.0000</episode-num>
-		<new />
-	</programme>
-	<programme start="20261027140000 +0000" stop="20261027143000 +0000" channel="I25.183131.gracenote.com">
-		<title lang="en">The Aging Brain</title>
-		<desc lang="en">Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p30127108_b_v10_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH05771824.0000</episode-num>
-		<previously-shown />
-	</programme>
-	<programme start="20261027143000 +0000" stop="20261027150000 +0000" channel="I25.183131.gracenote.com">
-		<title lang="en">Paid Programming</title>
-		<desc lang="en">Paid programming.</desc>
-		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p459763_b_v13_ba.jpg?w=360" />
-		<episode-num system="dd_progid">SH00000001.0000</episode-num>
-		<previously-shown />
-		<subtitles type="teletext" />
-	</programme>
 	<programme start="20261027150000 +0000" stop="20261027173000 +0000" channel="I25.183131.gracenote.com">
 		<title lang="en">NBA Basketball</title>
 		<sub-title lang="en">🏀🐂 [NBA] Chicago Bulls at Boston 🏀 [NBA] Celtics</sub-title>
@@ -660,79 +603,64 @@
 		<episode-num system="dd_progid">SH03526650.0000</episode-num>
 		<previously-shown />
 	</programme>
-	<programme start="20261027103000 +0000" stop="20261027110000 +0000" channel="I187.20456.gracenote.com">
-		<title lang="en">ABC7 Eyewitness News at 5:30am [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
+	<programme start="20261029110000 +0000" stop="20261029113000 +0000" channel="I25.183131.gracenote.com">
+		<title lang="en">The Aging Brain</title>
+		<desc lang="en">Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
 		<category lang="en">Series</category>
 		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p28785477_b_v13_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH05407326.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
+		<icon src="https://zpmc.tmsimg.com/assets/p30127108_b_v10_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH05771824.0000</episode-num>
+		<previously-shown />
 	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I187.20456.gracenote.com">
-		<title lang="en">ABC7 Eyewitness News at 6am [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
+	<programme start="20261029113000 +0000" stop="20261029120000 +0000" channel="I25.183131.gracenote.com">
+		<title lang="en">Men's Health - All-Natural Secret for Prostate Health</title>
+		<desc lang="en">Prosvent is a doctor-formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
 		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p12910798_b_v13_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH02433882.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
+		<length units="minutes">30</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p12448618_b_v13_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH02334186.0000</episode-num>
+		<previously-shown />
 	</programme>
-	<programme start="20261027120000 +0000" stop="20261027140000 +0000" channel="I187.20456.gracenote.com">
-		<title lang="en">Good Morning America [NEW]</title>
-		<desc lang="en">Actors Carrie Coon, Morgan Spector, Cynthia Nixon, Louisa Jacobson and Denée Benton; professional mountain climbers Jimmy Chin and Jim Morrison; Deals &amp; Steals with Tory Johnson.</desc>
-		<date>20261027</date>
-		<category lang="en">News</category>
+	<programme start="20261029120000 +0000" stop="20261029140000 +0000" channel="I25.183131.gracenote.com">
+		<title lang="en">Haugh &amp; Payton Show [NEW]</title>
+		<desc lang="en">David Haugh and Jarrett Payton lead you into your workday by discussing the biggest sports storylines in Chicago and beyond.</desc>
+		<date>20261026</date>
 		<category lang="en">Series</category>
 		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p184220_b_v13_ab.jpg?w=360" />
-		<episode-num system="dd_progid">EP03944032.2106</episode-num>
-		<episode-num system="xmltv_ns">.340.</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
+		<icon src="https://zpmc.tmsimg.com/assets/p33934944_b_v13_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH06583348.0000</episode-num>
 		<new />
+	</programme>
+	<programme start="20261029140000 +0000" stop="20261029143000 +0000" channel="I25.183131.gracenote.com">
+		<title lang="en">The Aging Brain</title>
+		<desc lang="en">Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
+		<category lang="en">Series</category>
+		<length units="minutes">30</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p30127108_b_v10_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH05771824.0000</episode-num>
+		<previously-shown />
+	</programme>
+	<programme start="20261029143000 +0000" stop="20261029150000 +0000" channel="I25.183131.gracenote.com">
+		<title lang="en">Paid Programming</title>
+		<desc lang="en">Paid programming.</desc>
+		<category lang="en">Series</category>
+		<length units="minutes">30</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p459763_b_v13_ba.jpg?w=360" />
+		<episode-num system="dd_progid">SH00000001.0000</episode-num>
+		<previously-shown />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027140000 +0000" stop="20261027150000 +0000" channel="I187.20456.gracenote.com">
-		<title lang="en">Live with Kelly and Mark [NEW]</title>
-		<desc lang="en">Scott Speedman (ABC's "R.J. Decker"); Tim Daly; the countdown to Halloween Eve begins with the Crafty Lumberjacks.</desc>
-		<date>20261027</date>
-		<category lang="en">Talk</category>
+	<programme start="20261029150000 +0000" stop="20261029173000 +0000" channel="I25.183131.gracenote.com">
+		<title lang="en">NBA Basketball</title>
+		<sub-title lang="en">New York 🏀 [NBA] Knicks at 🏀🐂 [NBA] Chicago Bulls</sub-title>
+		<desc lang="en">From the United Center in Chicago.</desc>
+		<date>20261029</date>
+		<category lang="en">Sports</category>
 		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p24324378_b_v13_ab.jpg?w=360" />
-		<episode-num system="common">S05E35</episode-num>
-		<episode-num system="dd_progid">EP04681361.0922</episode-num>
-		<episode-num system="xmltv_ns">4.34.</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027150000 +0000" stop="20261027160000 +0000" channel="I187.20456.gracenote.com">
-		<title lang="en">The View [NEW]</title>
-		<desc lang="en">Sen. Mark Kelly (D-Ariz.); author Ayesha Nurdjaja.</desc>
-		<date>20261027</date>
-		<category lang="en">Talk</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p184466_b_v13_ah.jpg?w=360" />
-		<episode-num system="common">S30E36</episode-num>
-		<episode-num system="dd_progid">EP00225395.6805</episode-num>
-		<episode-num system="xmltv_ns">29.35.</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
-		<new />
-		<subtitles type="teletext" />
+		<length units="minutes">150</length>
+		<icon src="https://zpmc.tmsimg.com/assets/GNLZZGG003M4SF7.jpg?w=360" />
+		<episode-num system="dd_progid">EP05185372.3318</episode-num>
+		<previously-shown start="20261029000000" />
 	</programme>
 	<programme start="20261027160000 +0000" stop="20261027170000 +0000" channel="I187.20456.gracenote.com">
 		<title lang="en">ABC7 Eyewitness News at 11am [NEW]</title>
@@ -1608,78 +1536,78 @@
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027103000 +0000" stop="20261027110000 +0000" channel="I188.20452.gracenote.com">
-		<title lang="en">NBC 5 News Today at 5:30 AM [NEW]</title>
-		<desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p816046_b_v9_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH00325353.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I188.20452.gracenote.com">
-		<title lang="en">NBC 5 News Today at 6 AM [NEW]</title>
-		<desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I187.20456.gracenote.com">
+		<title lang="en">ABC7 Eyewitness News at 6am [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p816047_b_v9_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH00325341.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p12910798_b_v13_ab.jpg?w=360" />
+		<episode-num system="dd_progid">SH02433882.0000</episode-num>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027120000 +0000" stop="20261027140000 +0000" channel="I188.20452.gracenote.com">
-		<title lang="en">Today [NEW]</title>
-		<desc lang="en">Journalist Chloe Malle; editor Wyna Liu; Today Food with Geoffrey Zakarian.</desc>
-		<date>20261027</date>
+	<programme start="20261029120000 +0000" stop="20261029140000 +0000" channel="I187.20456.gracenote.com">
+		<title lang="en">Good Morning America [NEW]</title>
+		<desc lang="en">Actor Curry Barker; cookbook author Susan Spungen; Lori's Lab: Trunk or Treat with Lori Bergamotto; Deals &amp; Steals with Tory Johnson.</desc>
+		<date>20261029</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p184072_b_v13_ag.jpg?w=360" />
-		<episode-num system="common">S75E31</episode-num>
-		<episode-num system="dd_progid">EP01915214.5473</episode-num>
-		<episode-num system="xmltv_ns">74.30.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p184220_b_v13_ab.jpg?w=360" />
+		<episode-num system="dd_progid">EP03944032.2108</episode-num>
+		<episode-num system="xmltv_ns">.342.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027140000 +0000" stop="20261027150000 +0000" channel="I188.20452.gracenote.com">
-		<title lang="en">Today 3rd Hour [NEW]</title>
-		<desc lang="en">Business reporter Allie Canal; actor Tony Shalhoub; actress Josie Adams; all things autumn with Chassie Post; TV presenter Cassie Stokes; Today Food with Esther Choi.</desc>
-		<date>20261027</date>
-		<category lang="en">News</category>
+	<programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="I187.20456.gracenote.com">
+		<title lang="en">Live with Kelly and Mark [NEW]</title>
+		<sub-title lang="en">Shopping Day at Live</sub-title>
+		<desc lang="en">Liev Schreiber; Justin Hartley; shopping with Steve Patterson; the countdown to Halloween Eve continues with Adam Bierton.</desc>
+		<date>20261029</date>
+		<category lang="en">Talk</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p16183023_b_v13_af.jpg?w=360" />
-		<episode-num system="common">S09E27</episode-num>
-		<episode-num system="dd_progid">EP03083898.2085</episode-num>
-		<episode-num system="xmltv_ns">8.26.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p24324378_b_v13_ab.jpg?w=360" />
+		<episode-num system="common">S05E37</episode-num>
+		<episode-num system="dd_progid">EP04681361.0924</episode-num>
+		<episode-num system="xmltv_ns">4.36.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027150000 +0000" stop="20261027160000 +0000" channel="I188.20452.gracenote.com">
-		<title lang="en">Today With Jenna &amp; Sheinelle [NEW]</title>
-		<desc lang="en">Relationship dilemmas with Devyn Simone; actor Andrew Rannells; girls getaway favorites with Melissa Garcia; Kirk Franklin performs.</desc>
-		<date>20261027</date>
-		<category lang="en">News</category>
+	<programme start="20261029150000 +0000" stop="20261029160000 +0000" channel="I187.20456.gracenote.com">
+		<title lang="en">The View [NEW]</title>
+		<desc lang="en">Actor LL Cool J; actress and author Sophia Bush.</desc>
+		<date>20261029</date>
+		<category lang="en">Talk</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p31933422_b_v13_ae.jpg?w=360" />
-		<episode-num system="common">S02E27</episode-num>
-		<episode-num system="dd_progid">EP06205221.0206</episode-num>
-		<episode-num system="xmltv_ns">1.26.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p184466_b_v13_ah.jpg?w=360" />
+		<episode-num system="common">S30E38</episode-num>
+		<episode-num system="dd_progid">EP00225395.6807</episode-num>
+		<episode-num system="xmltv_ns">29.37.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029160000 +0000" stop="20261029170000 +0000" channel="I187.20456.gracenote.com">
+		<title lang="en">ABC7 Eyewitness News at 11am [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p18783782_b_v13_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH03614016.0000</episode-num>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
@@ -2464,86 +2392,78 @@
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027100000 +0000" stop="20261027110000 +0000" channel="I189.20454.gracenote.com">
-		<title lang="en">CBS News Chicago 5:00am [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I188.20452.gracenote.com">
+		<title lang="en">NBC 5 News Today at 6 AM [NEW]</title>
+		<desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p21040813_b_v13_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH04098708.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p816047_b_v9_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH00325341.0000</episode-num>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I189.20454.gracenote.com">
-		<title lang="en">CBS News Chicago 6:00am [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p21040818_b_v13_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH04098712.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027120000 +0000" stop="20261027140000 +0000" channel="I189.20454.gracenote.com">
-		<title lang="en">CBS Mornings [NEW]</title>
-		<desc lang="en">Record producer John Summit; singer Elizabeth Cook.</desc>
-		<date>20261027</date>
+	<programme start="20261029120000 +0000" stop="20261029140000 +0000" channel="I188.20452.gracenote.com">
+		<title lang="en">Today [NEW]</title>
+		<desc lang="en">Jason Bateman, Sean Hayes and Will Arnett on "Smartless" podcast; Your Health; the Making of Macy's Thanksgiving Parade Balloons; Shop Today: Ageless Beauty Awards with Adrianna Brach.</desc>
+		<date>20261029</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p20589677_b_v13_ak.jpg?w=360" />
-		<episode-num system="dd_progid">EP03989671.1342</episode-num>
-		<episode-num system="xmltv_ns">.213.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p184072_b_v13_ag.jpg?w=360" />
+		<episode-num system="common">S75E33</episode-num>
+		<episode-num system="dd_progid">EP01915214.5475</episode-num>
+		<episode-num system="xmltv_ns">74.32.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027140000 +0000" stop="20261027150000 +0000" channel="I189.20454.gracenote.com">
-		<title lang="en">CBS News Chicago 9:00am [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+	<programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="I188.20452.gracenote.com">
+		<title lang="en">Today 3rd Hour [NEW]</title>
+		<desc lang="en">Catching up with David Alan Grier; catching up with Jaalen Best; Life Lessons: "Enjoy Yourself Now" with Pat Croce; Shop Today: Ageless Beauty Awards with Adrianna Brach; prepping your plants for cold weather with Hilton Carter.</desc>
+		<date>20261029</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p16183023_b_v13_af.jpg?w=360" />
+		<episode-num system="common">S09E29</episode-num>
+		<episode-num system="dd_progid">EP03083898.2087</episode-num>
+		<episode-num system="xmltv_ns">8.28.</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029150000 +0000" stop="20261029160000 +0000" channel="I188.20452.gracenote.com">
+		<title lang="en">Today With Jenna &amp; Sheinelle [NEW]</title>
+		<desc lang="en">Nicholas Galitzine, Bill Skarsgard, Ray Nicholson and Tom Francis on "Mosquito Bowl"; Fall Flavors with Alejandra Ramos; Meagan Good on "Reasonable Doubt"; Lølø and Tom Higgenson perform.</desc>
+		<date>20261029</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p31933422_b_v13_ae.jpg?w=360" />
+		<episode-num system="common">S02E29</episode-num>
+		<episode-num system="dd_progid">EP06205221.0208</episode-num>
+		<episode-num system="xmltv_ns">1.28.</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029160000 +0000" stop="20261029170000 +0000" channel="I188.20452.gracenote.com">
+		<title lang="en">NBC 5 News Today at 11 AM [NEW]</title>
+		<desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p15250275_b_v13_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH02916734.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027150000 +0000" stop="20261027160000 +0000" channel="I189.20454.gracenote.com">
-		<title lang="en">The Price Is Right [NEW]</title>
-		<desc lang="en">Participants must guess the prices of different types of items, ranging from vehicles to electronic appliances, to win a prize.</desc>
-		<date>20261027</date>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p183911_b_v13_ab.jpg?w=360" />
-		<episode-num system="common">S55E27</episode-num>
-		<episode-num system="dd_progid">EP00004372.3706</episode-num>
-		<episode-num system="xmltv_ns">54.26.</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027160000 +0000" stop="20261027163000 +0000" channel="I189.20454.gracenote.com">
-		<title lang="en">CBS News Chicago 11:00am [NEW]</title>
-		<desc lang="en">The CBS 2 News Team presents the latest news along with sports, weather and traffic.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p605091_b_v13_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH00352374.0000</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
+		<icon src="https://zpmc.tmsimg.com/assets/p11003838_b_v9_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH01980319.0000</episode-num>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
@@ -3480,52 +3400,92 @@
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027100000 +0000" stop="20261027110000 +0000" channel="I190.20361.gracenote.com">
-		<title lang="en">Chicago Morning News at 5A [NEW]</title>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I189.20454.gracenote.com">
+		<title lang="en">CBS News Chicago 6:00am [NEW]</title>
 		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p33250879_b_v9_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH06457162.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p21040818_b_v13_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH04098712.0000</episode-num>
 		<new />
+		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I190.20361.gracenote.com">
-		<title lang="en">Chicago Morning News at 6A [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p33250883_b_v9_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH06457164.0000</episode-num>
-		<new />
-	</programme>
-	<programme start="20261027120000 +0000" stop="20261027140000 +0000" channel="I190.20361.gracenote.com">
-		<title lang="en">Chicago Morning News at 7A [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
+	<programme start="20261029120000 +0000" stop="20261029140000 +0000" channel="I189.20454.gracenote.com">
+		<title lang="en">CBS Mornings [NEW]</title>
+		<desc lang="en">Career expert Catherine Fisher.</desc>
+		<date>20261029</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p33250900_b_v9_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH06457166.0000</episode-num>
-		<new />
-	</programme>
-	<programme start="20261027140000 +0000" stop="20261027160000 +0000" channel="I190.20361.gracenote.com">
-		<title lang="en">Good Day Chicago [NEW]</title>
-		<desc lang="en">The latest news, weather, sports and weekend activities in and around Chicago; with anchors George Smith and Natalie Bomke.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p10401089_b_v9_ac.jpg?w=360" />
-		<episode-num system="dd_progid">SH01839958.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p20589677_b_v13_ak.jpg?w=360" />
+		<episode-num system="dd_progid">EP03989671.1344</episode-num>
+		<episode-num system="xmltv_ns">.215.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="I189.20454.gracenote.com">
+		<title lang="en">CBS News Chicago 9:00am [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p15250275_b_v13_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH02916734.0000</episode-num>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029150000 +0000" stop="20261029160000 +0000" channel="I189.20454.gracenote.com">
+		<title lang="en">The Price Is Right [NEW]</title>
+		<desc lang="en">Participants must guess the prices of different types of items, ranging from vehicles to electronic appliances, to win a prize.</desc>
+		<date>20261029</date>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p183911_b_v13_ab.jpg?w=360" />
+		<episode-num system="common">S55E29</episode-num>
+		<episode-num system="dd_progid">EP00004372.3708</episode-num>
+		<episode-num system="xmltv_ns">54.28.</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029160000 +0000" stop="20261029163000 +0000" channel="I189.20454.gracenote.com">
+		<title lang="en">CBS News Chicago 11:00am [NEW]</title>
+		<desc lang="en">The CBS 2 News Team presents the latest news along with sports, weather and traffic.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">30</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p605091_b_v13_ab.jpg?w=360" />
+		<episode-num system="dd_progid">SH00352374.0000</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029163000 +0000" stop="20261029173000 +0000" channel="I189.20454.gracenote.com">
+		<title lang="en">The Young and the Restless [NEW]</title>
+		<desc lang="en">Adam pays Sally a surprise visit; Sharon forces Nick to come clean; Victoria second guesses her relationship with Kyle.</desc>
+		<date>20261029</date>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p183904_b_v13_ai.jpg?w=360" />
+		<episode-num system="common">S54E16</episode-num>
+		<episode-num system="dd_progid">EP04768071.0861</episode-num>
+		<episode-num system="xmltv_ns">53.15.</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
 	</programme>
 	<programme start="20261027160000 +0000" stop="20261027180000 +0000" channel="I190.20361.gracenote.com">
 		<title lang="en">The Loop [NEW]</title>
@@ -3971,89 +3931,52 @@
 		<episode-num system="dd_progid">SH06457162.0000</episode-num>
 		<new />
 	</programme>
-	<programme start="20261027100000 +0000" stop="20261027110000 +0000" channel="I192.20455.gracenote.com">
-		<title lang="en">WGN Early Morning News [NEW]</title>
-		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I190.20361.gracenote.com">
+		<title lang="en">Chicago Morning News at 6A [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p13972283_b_v13_ah.jpg?w=360" />
-		<episode-num system="dd_progid">SH02652251.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p33250883_b_v9_ab.jpg?w=360" />
+		<episode-num system="dd_progid">SH06457164.0000</episode-num>
 		<new />
-		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I192.20455.gracenote.com">
-		<title lang="en">WGN Morning News [NEW]</title>
-		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+	<programme start="20261029120000 +0000" stop="20261029140000 +0000" channel="I190.20361.gracenote.com">
+		<title lang="en">Chicago Morning News at 7A [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
-		<episode-num system="dd_progid">SH00327876.0000</episode-num>
+		<length units="minutes">120</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p33250900_b_v9_ab.jpg?w=360" />
+		<episode-num system="dd_progid">SH06457166.0000</episode-num>
+		<new />
+	</programme>
+	<programme start="20261029140000 +0000" stop="20261029160000 +0000" channel="I190.20361.gracenote.com">
+		<title lang="en">Good Day Chicago [NEW]</title>
+		<desc lang="en">The latest news, weather, sports and weekend activities in and around Chicago; with anchors George Smith and Natalie Bomke.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">120</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p10401089_b_v9_ac.jpg?w=360" />
+		<episode-num system="dd_progid">SH01839958.0000</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
-		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027120000 +0000" stop="20261027130000 +0000" channel="I192.20455.gracenote.com">
-		<title lang="en">WGN Morning News [NEW]</title>
-		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+	<programme start="20261029160000 +0000" stop="20261029180000 +0000" channel="I190.20361.gracenote.com">
+		<title lang="en">The Loop [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
-		<episode-num system="dd_progid">SH00327876.0000</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
+		<length units="minutes">120</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p11908393_b_v9_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH02218465.0000</episode-num>
 		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027130000 +0000" stop="20261027140000 +0000" channel="I192.20455.gracenote.com">
-		<title lang="en">WGN Morning News [NEW]</title>
-		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
-		<episode-num system="dd_progid">SH00327876.0000</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027140000 +0000" stop="20261027150000 +0000" channel="I192.20455.gracenote.com">
-		<title lang="en">WGN Morning News [NEW]</title>
-		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
-		<episode-num system="dd_progid">SH00327876.0000</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027150000 +0000" stop="20261027160000 +0000" channel="I192.20455.gracenote.com">
-		<title lang="en">Daytime Chicago [NEW]</title>
-		<desc lang="en">The latest trends in food, entertainment, fashion, events, culture, health and wellness; Amy Rutledge and Tonya Francisco host.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p20375198_b_v13_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH03941481.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
 	</programme>
 	<programme start="20261027160000 +0000" stop="20261027170000 +0000" channel="I192.20455.gracenote.com">
 		<title lang="en">WGN Midday News [NEW]</title>
@@ -4851,74 +4774,92 @@
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027100000 +0000" stop="20261027110000 +0000" channel="I193.24521.gracenote.com">
-		<title lang="en">Al rojo vivo</title>
-		<desc lang="en">La revista noticiosa que define la agenda de la televisión en español en EE. UU. Se caracteriza por ofrecer, antes que nadie, historias que cautivan al público hispano y por presentarlas en un formato innovador que resalta el aspecto humano.</desc>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I192.20455.gracenote.com">
+		<title lang="en">WGN Morning News [NEW]</title>
+		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p326736_b_v13_an.jpg?w=360" />
-		<episode-num system="dd_progid">EP02799865.1995</episode-num>
-		<episode-num system="xmltv_ns">.212.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
+		<episode-num system="dd_progid">SH00327876.0000</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
-		<previously-shown start="20261026000000" />
+		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I193.24521.gracenote.com">
-		<title lang="en">Noticias Telemundo AHORA [NEW]</title>
-		<desc lang="en">Las noticias más recientes y las historias más importantes para la comunidad latina.</desc>
-		<date>20261027</date>
+	<programme start="20261029120000 +0000" stop="20261029130000 +0000" channel="I192.20455.gracenote.com">
+		<title lang="en">WGN Morning News [NEW]</title>
+		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p27645723_b_v10_aa.jpg?w=360" />
-		<episode-num system="dd_progid">EP05175188.0325</episode-num>
-		<episode-num system="xmltv_ns">.213.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
+		<episode-num system="dd_progid">SH00327876.0000</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027120000 +0000" stop="20261027153000 +0000" channel="I193.24521.gracenote.com">
-		<title lang="en">Hoy día [NEW]</title>
-		<desc lang="en">El show de las mañanas que ofrece más entretenimiento y diversión, con contenido positivo, útil e inspirador, pero sin dejar de lado los titulares y noticias que la comunidad hispana en Estados Unidos necesita para comenzar el día bien informada.</desc>
-		<date>20261027</date>
-		<category lang="en">Talk</category>
+	<programme start="20261029130000 +0000" stop="20261029140000 +0000" channel="I192.20455.gracenote.com">
+		<title lang="en">WGN Morning News [NEW]</title>
+		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
 		<category lang="en">Series</category>
-		<length units="minutes">210</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p19473387_b_v13_ak.jpg?w=360" />
-		<episode-num system="common">S06E214</episode-num>
-		<episode-num system="dd_progid">EP03763587.1481</episode-num>
-		<episode-num system="xmltv_ns">5.213.</episode-num>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
+		<episode-num system="dd_progid">SH00327876.0000</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027153000 +0000" stop="20261027160000 +0000" channel="I193.24521.gracenote.com">
-		<title lang="en">Acceso total</title>
-		<desc lang="en">Las últimas noticias sobre importantes y reconocidas personalidades y sobre el mundo del entretenimiento.</desc>
+	<programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="I192.20455.gracenote.com">
+		<title lang="en">WGN Morning News [NEW]</title>
+		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p8340806_b_v13_ae.jpg?w=360" />
-		<episode-num system="dd_progid">SH01338057.0000</episode-num>
-		<previously-shown />
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
+		<episode-num system="dd_progid">SH00327876.0000</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027160000 +0000" stop="20261027163000 +0000" channel="I193.24521.gracenote.com">
-		<title lang="en">Noticiero Telemundo Chicago</title>
-		<desc lang="en">Las noticias más importantes son transmitidas en español para la comunidad hispana que vive en Chicago.</desc>
+	<programme start="20261029150000 +0000" stop="20261029160000 +0000" channel="I192.20455.gracenote.com">
+		<title lang="en">Daytime Chicago [NEW]</title>
+		<desc lang="en">The latest trends in food, entertainment, fashion, events, culture, health and wellness; Amy Rutledge and Tonya Francisco host.</desc>
+		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p15043199_b_v13_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH02872127.0000</episode-num>
-		<previously-shown />
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p20375198_b_v13_ab.jpg?w=360" />
+		<episode-num system="dd_progid">SH03941481.0000</episode-num>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029160000 +0000" stop="20261029170000 +0000" channel="I192.20455.gracenote.com">
+		<title lang="en">WGN Midday News [NEW]</title>
+		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p984857_b_v13_ap.jpg?w=360" />
+		<episode-num system="dd_progid">SH01079006.0000</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
 	</programme>
 	<programme start="20261027163000 +0000" stop="20261027170000 +0000" channel="I193.24521.gracenote.com">
 		<title lang="en">Noticias Telemundo mediodía [NEW]</title>
@@ -5622,83 +5563,70 @@
 		<previously-shown start="20261028000000" />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027100000 +0000" stop="20261027110000 +0000" channel="I1002.20454.gracenote.com">
-		<title lang="en">CBS News Chicago 5:00am [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I193.24521.gracenote.com">
+		<title lang="en">Noticias Telemundo AHORA [NEW]</title>
+		<desc lang="en">Las noticias más recientes y las historias más importantes para la comunidad latina.</desc>
+		<date>20261029</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p21040813_b_v13_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH04098708.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I1002.20454.gracenote.com">
-		<title lang="en">CBS News Chicago 6:00am [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p21040818_b_v13_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH04098712.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027120000 +0000" stop="20261027140000 +0000" channel="I1002.20454.gracenote.com">
-		<title lang="en">CBS Mornings [NEW]</title>
-		<desc lang="en">Record producer John Summit; singer Elizabeth Cook.</desc>
-		<date>20261027</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p20589677_b_v13_ak.jpg?w=360" />
-		<episode-num system="dd_progid">EP03989671.1342</episode-num>
-		<episode-num system="xmltv_ns">.213.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p27645723_b_v10_aa.jpg?w=360" />
+		<episode-num system="dd_progid">EP05175188.0327</episode-num>
+		<episode-num system="xmltv_ns">.215.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027140000 +0000" stop="20261027150000 +0000" channel="I1002.20454.gracenote.com">
-		<title lang="en">CBS News Chicago 9:00am [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
+	<programme start="20261029120000 +0000" stop="20261029153000 +0000" channel="I193.24521.gracenote.com">
+		<title lang="en">Hoy día [NEW]</title>
+		<desc lang="en">El show de las mañanas que ofrece más entretenimiento y diversión, con contenido positivo, útil e inspirador, pero sin dejar de lado los titulares y noticias que la comunidad hispana en Estados Unidos necesita para comenzar el día bien informada.</desc>
+		<date>20261029</date>
+		<category lang="en">Talk</category>
 		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p15250275_b_v13_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH02916734.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027150000 +0000" stop="20261027160000 +0000" channel="I1002.20454.gracenote.com">
-		<title lang="en">The Price Is Right [NEW]</title>
-		<desc lang="en">Participants must guess the prices of different types of items, ranging from vehicles to electronic appliances, to win a prize.</desc>
-		<date>20261027</date>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p183911_b_v13_ab.jpg?w=360" />
-		<episode-num system="common">S55E27</episode-num>
-		<episode-num system="dd_progid">EP00004372.3706</episode-num>
-		<episode-num system="xmltv_ns">54.26.</episode-num>
+		<length units="minutes">210</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p19473387_b_v13_ak.jpg?w=360" />
+		<episode-num system="common">S06E216</episode-num>
+		<episode-num system="dd_progid">EP03763587.1483</episode-num>
+		<episode-num system="xmltv_ns">5.215.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027160000 +0000" stop="20261027163000 +0000" channel="I1002.20454.gracenote.com">
-		<title lang="en">CBS News Chicago 11:00am [NEW]</title>
-		<desc lang="en">The CBS 2 News Team presents the latest news along with sports, weather and traffic.</desc>
+	<programme start="20261029153000 +0000" stop="20261029160000 +0000" channel="I193.24521.gracenote.com">
+		<title lang="en">Acceso total</title>
+		<desc lang="en">Las últimas noticias sobre importantes y reconocidas personalidades y sobre el mundo del entretenimiento.</desc>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">30</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p8340806_b_v13_ae.jpg?w=360" />
+		<episode-num system="dd_progid">SH01338057.0000</episode-num>
+		<previously-shown />
+	</programme>
+	<programme start="20261029160000 +0000" stop="20261029163000 +0000" channel="I193.24521.gracenote.com">
+		<title lang="en">Noticiero Telemundo Chicago [NEW]</title>
+		<desc lang="en">Las noticias más importantes son transmitidas en español para la comunidad hispana que vive en Chicago.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p605091_b_v13_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH00352374.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p270748_b_v9_ac.jpg?w=360" />
+		<episode-num system="dd_progid">SH00874902.0000</episode-num>
+		<new />
+	</programme>
+	<programme start="20261029163000 +0000" stop="20261029170000 +0000" channel="I193.24521.gracenote.com">
+		<title lang="en">Noticias Telemundo mediodía [NEW]</title>
+		<desc lang="en">Un informativo con un estilo único de narrar noticias de una manera atractiva. Se presentan historias locales y nacionales, desde diferentes ángulos de los acontecimientos, y entrevistas.</desc>
+		<date>20261029</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">30</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p14971948_b_v13_aa.jpg?w=360" />
+		<episode-num system="dd_progid">EP02851358.2262</episode-num>
+		<episode-num system="xmltv_ns">.215.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
@@ -6638,75 +6566,87 @@
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027103000 +0000" stop="20261027110000 +0000" channel="I1005.20452.gracenote.com">
-		<title lang="en">NBC 5 News Today at 5:30 AM [NEW]</title>
-		<desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I1002.20454.gracenote.com">
+		<title lang="en">CBS News Chicago 6:00am [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p21040818_b_v13_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH04098712.0000</episode-num>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029120000 +0000" stop="20261029140000 +0000" channel="I1002.20454.gracenote.com">
+		<title lang="en">CBS Mornings [NEW]</title>
+		<desc lang="en">Career expert Catherine Fisher.</desc>
+		<date>20261029</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">120</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p20589677_b_v13_ak.jpg?w=360" />
+		<episode-num system="dd_progid">EP03989671.1344</episode-num>
+		<episode-num system="xmltv_ns">.215.</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="I1002.20454.gracenote.com">
+		<title lang="en">CBS News Chicago 9:00am [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p15250275_b_v13_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH02916734.0000</episode-num>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029150000 +0000" stop="20261029160000 +0000" channel="I1002.20454.gracenote.com">
+		<title lang="en">The Price Is Right [NEW]</title>
+		<desc lang="en">Participants must guess the prices of different types of items, ranging from vehicles to electronic appliances, to win a prize.</desc>
+		<date>20261029</date>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p183911_b_v13_ab.jpg?w=360" />
+		<episode-num system="common">S55E29</episode-num>
+		<episode-num system="dd_progid">EP00004372.3708</episode-num>
+		<episode-num system="xmltv_ns">54.28.</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029160000 +0000" stop="20261029163000 +0000" channel="I1002.20454.gracenote.com">
+		<title lang="en">CBS News Chicago 11:00am [NEW]</title>
+		<desc lang="en">The CBS 2 News Team presents the latest news along with sports, weather and traffic.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p816046_b_v9_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH00325353.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I1005.20452.gracenote.com">
-		<title lang="en">NBC 5 News Today at 6 AM [NEW]</title>
-		<desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p816047_b_v9_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH00325341.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027120000 +0000" stop="20261027140000 +0000" channel="I1005.20452.gracenote.com">
-		<title lang="en">Today [NEW]</title>
-		<desc lang="en">Journalist Chloe Malle; editor Wyna Liu; Today Food with Geoffrey Zakarian.</desc>
-		<date>20261027</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p184072_b_v13_ag.jpg?w=360" />
-		<episode-num system="common">S75E31</episode-num>
-		<episode-num system="dd_progid">EP01915214.5473</episode-num>
-		<episode-num system="xmltv_ns">74.30.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p605091_b_v13_ab.jpg?w=360" />
+		<episode-num system="dd_progid">SH00352374.0000</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027140000 +0000" stop="20261027150000 +0000" channel="I1005.20452.gracenote.com">
-		<title lang="en">Today 3rd Hour [NEW]</title>
-		<desc lang="en">Business reporter Allie Canal; actor Tony Shalhoub; actress Josie Adams; all things autumn with Chassie Post; TV presenter Cassie Stokes; Today Food with Esther Choi.</desc>
-		<date>20261027</date>
-		<category lang="en">News</category>
+	<programme start="20261029163000 +0000" stop="20261029173000 +0000" channel="I1002.20454.gracenote.com">
+		<title lang="en">The Young and the Restless [NEW]</title>
+		<desc lang="en">Adam pays Sally a surprise visit; Sharon forces Nick to come clean; Victoria second guesses her relationship with Kyle.</desc>
+		<date>20261029</date>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p16183023_b_v13_af.jpg?w=360" />
-		<episode-num system="common">S09E27</episode-num>
-		<episode-num system="dd_progid">EP03083898.2085</episode-num>
-		<episode-num system="xmltv_ns">8.26.</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027150000 +0000" stop="20261027160000 +0000" channel="I1005.20452.gracenote.com">
-		<title lang="en">Today With Jenna &amp; Sheinelle [NEW]</title>
-		<desc lang="en">Relationship dilemmas with Devyn Simone; actor Andrew Rannells; girls getaway favorites with Melissa Garcia; Kirk Franklin performs.</desc>
-		<date>20261027</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p31933422_b_v13_ae.jpg?w=360" />
-		<episode-num system="common">S02E27</episode-num>
-		<episode-num system="dd_progid">EP06205221.0206</episode-num>
-		<episode-num system="xmltv_ns">1.26.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p183904_b_v13_ai.jpg?w=360" />
+		<episode-num system="common">S54E16</episode-num>
+		<episode-num system="dd_progid">EP04768071.0861</episode-num>
+		<episode-num system="xmltv_ns">53.15.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
@@ -7494,77 +7434,78 @@
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027103000 +0000" stop="20261027110000 +0000" channel="I1007.20456.gracenote.com">
-		<title lang="en">ABC7 Eyewitness News at 5:30am [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p28785477_b_v13_aa.jpg?w=360" />
-		<episode-num system="dd_progid">SH05407326.0000</episode-num>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I1007.20456.gracenote.com">
-		<title lang="en">ABC7 Eyewitness News at 6am [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I1005.20452.gracenote.com">
+		<title lang="en">NBC 5 News Today at 6 AM [NEW]</title>
+		<desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p12910798_b_v13_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH02433882.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p816047_b_v9_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH00325341.0000</episode-num>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027120000 +0000" stop="20261027140000 +0000" channel="I1007.20456.gracenote.com">
-		<title lang="en">Good Morning America [NEW]</title>
-		<desc lang="en">Actors Carrie Coon, Morgan Spector, Cynthia Nixon, Louisa Jacobson and Denée Benton; professional mountain climbers Jimmy Chin and Jim Morrison; Deals &amp; Steals with Tory Johnson.</desc>
-		<date>20261027</date>
+	<programme start="20261029120000 +0000" stop="20261029140000 +0000" channel="I1005.20452.gracenote.com">
+		<title lang="en">Today [NEW]</title>
+		<desc lang="en">Jason Bateman, Sean Hayes and Will Arnett on "Smartless" podcast; Your Health; the Making of Macy's Thanksgiving Parade Balloons; Shop Today: Ageless Beauty Awards with Adrianna Brach.</desc>
+		<date>20261029</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p184220_b_v13_ab.jpg?w=360" />
-		<episode-num system="dd_progid">EP03944032.2106</episode-num>
-		<episode-num system="xmltv_ns">.340.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p184072_b_v13_ag.jpg?w=360" />
+		<episode-num system="common">S75E33</episode-num>
+		<episode-num system="dd_progid">EP01915214.5475</episode-num>
+		<episode-num system="xmltv_ns">74.32.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027140000 +0000" stop="20261027150000 +0000" channel="I1007.20456.gracenote.com">
-		<title lang="en">Live with Kelly and Mark [NEW]</title>
-		<desc lang="en">Scott Speedman (ABC's "R.J. Decker"); Tim Daly; the countdown to Halloween Eve begins with the Crafty Lumberjacks.</desc>
-		<date>20261027</date>
-		<category lang="en">Talk</category>
+	<programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="I1005.20452.gracenote.com">
+		<title lang="en">Today 3rd Hour [NEW]</title>
+		<desc lang="en">Catching up with David Alan Grier; catching up with Jaalen Best; Life Lessons: "Enjoy Yourself Now" with Pat Croce; Shop Today: Ageless Beauty Awards with Adrianna Brach; prepping your plants for cold weather with Hilton Carter.</desc>
+		<date>20261029</date>
+		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p24324378_b_v13_ab.jpg?w=360" />
-		<episode-num system="common">S05E35</episode-num>
-		<episode-num system="dd_progid">EP04681361.0922</episode-num>
-		<episode-num system="xmltv_ns">4.34.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p16183023_b_v13_af.jpg?w=360" />
+		<episode-num system="common">S09E29</episode-num>
+		<episode-num system="dd_progid">EP03083898.2087</episode-num>
+		<episode-num system="xmltv_ns">8.28.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027150000 +0000" stop="20261027160000 +0000" channel="I1007.20456.gracenote.com">
-		<title lang="en">The View [NEW]</title>
-		<desc lang="en">Sen. Mark Kelly (D-Ariz.); author Ayesha Nurdjaja.</desc>
-		<date>20261027</date>
-		<category lang="en">Talk</category>
+	<programme start="20261029150000 +0000" stop="20261029160000 +0000" channel="I1005.20452.gracenote.com">
+		<title lang="en">Today With Jenna &amp; Sheinelle [NEW]</title>
+		<desc lang="en">Nicholas Galitzine, Bill Skarsgard, Ray Nicholson and Tom Francis on "Mosquito Bowl"; Fall Flavors with Alejandra Ramos; Meagan Good on "Reasonable Doubt"; Lølø and Tom Higgenson perform.</desc>
+		<date>20261029</date>
+		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p184466_b_v13_ah.jpg?w=360" />
-		<episode-num system="common">S30E36</episode-num>
-		<episode-num system="dd_progid">EP00225395.6805</episode-num>
-		<episode-num system="xmltv_ns">29.35.</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p31933422_b_v13_ae.jpg?w=360" />
+		<episode-num system="common">S02E29</episode-num>
+		<episode-num system="dd_progid">EP06205221.0208</episode-num>
+		<episode-num system="xmltv_ns">1.28.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029160000 +0000" stop="20261029170000 +0000" channel="I1005.20452.gracenote.com">
+		<title lang="en">NBC 5 News Today at 11 AM [NEW]</title>
+		<desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p11003838_b_v9_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH01980319.0000</episode-num>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
@@ -8442,87 +8383,78 @@
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027100000 +0000" stop="20261027110000 +0000" channel="I1009.20455.gracenote.com">
-		<title lang="en">WGN Early Morning News [NEW]</title>
-		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I1007.20456.gracenote.com">
+		<title lang="en">ABC7 Eyewitness News at 6am [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p13972283_b_v13_ah.jpg?w=360" />
-		<episode-num system="dd_progid">SH02652251.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p12910798_b_v13_ab.jpg?w=360" />
+		<episode-num system="dd_progid">SH02433882.0000</episode-num>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I1009.20455.gracenote.com">
-		<title lang="en">WGN Morning News [NEW]</title>
-		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
-		<date>20261026</date>
+	<programme start="20261029120000 +0000" stop="20261029140000 +0000" channel="I1007.20456.gracenote.com">
+		<title lang="en">Good Morning America [NEW]</title>
+		<desc lang="en">Actor Curry Barker; cookbook author Susan Spungen; Lori's Lab: Trunk or Treat with Lori Bergamotto; Deals &amp; Steals with Tory Johnson.</desc>
+		<date>20261029</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
-		<episode-num system="dd_progid">SH00327876.0000</episode-num>
+		<length units="minutes">120</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p184220_b_v13_ab.jpg?w=360" />
+		<episode-num system="dd_progid">EP03944032.2108</episode-num>
+		<episode-num system="xmltv_ns">.342.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027120000 +0000" stop="20261027130000 +0000" channel="I1009.20455.gracenote.com">
-		<title lang="en">WGN Morning News [NEW]</title>
-		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
+	<programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="I1007.20456.gracenote.com">
+		<title lang="en">Live with Kelly and Mark [NEW]</title>
+		<sub-title lang="en">Shopping Day at Live</sub-title>
+		<desc lang="en">Liev Schreiber; Justin Hartley; shopping with Steve Patterson; the countdown to Halloween Eve continues with Adam Bierton.</desc>
+		<date>20261029</date>
+		<category lang="en">Talk</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
-		<episode-num system="dd_progid">SH00327876.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p24324378_b_v13_ab.jpg?w=360" />
+		<episode-num system="common">S05E37</episode-num>
+		<episode-num system="dd_progid">EP04681361.0924</episode-num>
+		<episode-num system="xmltv_ns">4.36.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027130000 +0000" stop="20261027140000 +0000" channel="I1009.20455.gracenote.com">
-		<title lang="en">WGN Morning News [NEW]</title>
-		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
+	<programme start="20261029150000 +0000" stop="20261029160000 +0000" channel="I1007.20456.gracenote.com">
+		<title lang="en">The View [NEW]</title>
+		<desc lang="en">Actor LL Cool J; actress and author Sophia Bush.</desc>
+		<date>20261029</date>
+		<category lang="en">Talk</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
-		<episode-num system="dd_progid">SH00327876.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p184466_b_v13_ah.jpg?w=360" />
+		<episode-num system="common">S30E38</episode-num>
+		<episode-num system="dd_progid">EP00225395.6807</episode-num>
+		<episode-num system="xmltv_ns">29.37.</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027140000 +0000" stop="20261027150000 +0000" channel="I1009.20455.gracenote.com">
-		<title lang="en">WGN Morning News [NEW]</title>
-		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+	<programme start="20261029160000 +0000" stop="20261029170000 +0000" channel="I1007.20456.gracenote.com">
+		<title lang="en">ABC7 Eyewitness News at 11am [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
-		<episode-num system="dd_progid">SH00327876.0000</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
-		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027150000 +0000" stop="20261027160000 +0000" channel="I1009.20455.gracenote.com">
-		<title lang="en">Daytime Chicago [NEW]</title>
-		<desc lang="en">The latest trends in food, entertainment, fashion, events, culture, health and wellness; Amy Rutledge and Tonya Francisco host.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p20375198_b_v13_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH03941481.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p18783782_b_v13_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH03614016.0000</episode-num>
 		<new />
 		<subtitles type="teletext" />
 	</programme>
@@ -9322,52 +9254,92 @@
 		<new />
 		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027100000 +0000" stop="20261027110000 +0000" channel="I1032.20361.gracenote.com">
-		<title lang="en">Chicago Morning News at 5A [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I1009.20455.gracenote.com">
+		<title lang="en">WGN Morning News [NEW]</title>
+		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p33250879_b_v9_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH06457162.0000</episode-num>
-		<new />
-	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I1032.20361.gracenote.com">
-		<title lang="en">Chicago Morning News at 6A [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p33250883_b_v9_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH06457164.0000</episode-num>
-		<new />
-	</programme>
-	<programme start="20261027120000 +0000" stop="20261027140000 +0000" channel="I1032.20361.gracenote.com">
-		<title lang="en">Chicago Morning News at 7A [NEW]</title>
-		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p33250900_b_v9_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH06457166.0000</episode-num>
-		<new />
-	</programme>
-	<programme start="20261027140000 +0000" stop="20261027160000 +0000" channel="I1032.20361.gracenote.com">
-		<title lang="en">Good Day Chicago [NEW]</title>
-		<desc lang="en">The latest news, weather, sports and weekend activities in and around Chicago; with anchors George Smith and Natalie Bomke.</desc>
-		<date>20261026</date>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">120</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p10401089_b_v9_ac.jpg?w=360" />
-		<episode-num system="dd_progid">SH01839958.0000</episode-num>
+		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
+		<episode-num system="dd_progid">SH00327876.0000</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029120000 +0000" stop="20261029130000 +0000" channel="I1009.20455.gracenote.com">
+		<title lang="en">WGN Morning News [NEW]</title>
+		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
+		<episode-num system="dd_progid">SH00327876.0000</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029130000 +0000" stop="20261029140000 +0000" channel="I1009.20455.gracenote.com">
+		<title lang="en">WGN Morning News [NEW]</title>
+		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
+		<episode-num system="dd_progid">SH00327876.0000</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="I1009.20455.gracenote.com">
+		<title lang="en">WGN Morning News [NEW]</title>
+		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p984858_b_v10_ai.jpg?w=360" />
+		<episode-num system="dd_progid">SH00327876.0000</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029150000 +0000" stop="20261029160000 +0000" channel="I1009.20455.gracenote.com">
+		<title lang="en">Daytime Chicago [NEW]</title>
+		<desc lang="en">The latest trends in food, entertainment, fashion, events, culture, health and wellness; Amy Rutledge and Tonya Francisco host.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p20375198_b_v13_ab.jpg?w=360" />
+		<episode-num system="dd_progid">SH03941481.0000</episode-num>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029160000 +0000" stop="20261029170000 +0000" channel="I1009.20455.gracenote.com">
+		<title lang="en">WGN Midday News [NEW]</title>
+		<desc lang="en">The latest from Chicago's Very Own WGN News team.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p984857_b_v13_ap.jpg?w=360" />
+		<episode-num system="dd_progid">SH01079006.0000</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
 	</programme>
 	<programme start="20261027160000 +0000" stop="20261027180000 +0000" channel="I1032.20361.gracenote.com">
 		<title lang="en">The Loop [NEW]</title>
@@ -9813,74 +9785,52 @@
 		<episode-num system="dd_progid">SH06457162.0000</episode-num>
 		<new />
 	</programme>
-	<programme start="20261027100000 +0000" stop="20261027110000 +0000" channel="I1044.24521.gracenote.com">
-		<title lang="en">Al rojo vivo</title>
-		<desc lang="en">La revista noticiosa que define la agenda de la televisión en español en EE. UU. Se caracteriza por ofrecer, antes que nadie, historias que cautivan al público hispano y por presentarlas en un formato innovador que resalta el aspecto humano.</desc>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I1032.20361.gracenote.com">
+		<title lang="en">Chicago Morning News at 6A [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
 		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
 		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p326736_b_v13_an.jpg?w=360" />
-		<episode-num system="dd_progid">EP02799865.1995</episode-num>
-		<episode-num system="xmltv_ns">.212.</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
-		<previously-shown start="20261026000000" />
-		<subtitles type="teletext" />
+		<icon src="https://zpmc.tmsimg.com/assets/p33250883_b_v9_ab.jpg?w=360" />
+		<episode-num system="dd_progid">SH06457164.0000</episode-num>
+		<new />
 	</programme>
-	<programme start="20261027110000 +0000" stop="20261027120000 +0000" channel="I1044.24521.gracenote.com">
-		<title lang="en">Noticias Telemundo AHORA [NEW]</title>
-		<desc lang="en">Las noticias más recientes y las historias más importantes para la comunidad latina.</desc>
-		<date>20261027</date>
+	<programme start="20261029120000 +0000" stop="20261029140000 +0000" channel="I1032.20361.gracenote.com">
+		<title lang="en">Chicago Morning News at 7A [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+		<date>20261026</date>
 		<category lang="en">News</category>
 		<category lang="en">Series</category>
-		<length units="minutes">60</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p27645723_b_v10_aa.jpg?w=360" />
-		<episode-num system="dd_progid">EP05175188.0325</episode-num>
-		<episode-num system="xmltv_ns">.213.</episode-num>
+		<length units="minutes">120</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p33250900_b_v9_ab.jpg?w=360" />
+		<episode-num system="dd_progid">SH06457166.0000</episode-num>
+		<new />
+	</programme>
+	<programme start="20261029140000 +0000" stop="20261029160000 +0000" channel="I1032.20361.gracenote.com">
+		<title lang="en">Good Day Chicago [NEW]</title>
+		<desc lang="en">The latest news, weather, sports and weekend activities in and around Chicago; with anchors George Smith and Natalie Bomke.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">120</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p10401089_b_v9_ac.jpg?w=360" />
+		<episode-num system="dd_progid">SH01839958.0000</episode-num>
 		<audio>
 			<stereo>stereo</stereo>
 		</audio>
 		<new />
-		<subtitles type="teletext" />
 	</programme>
-	<programme start="20261027120000 +0000" stop="20261027153000 +0000" channel="I1044.24521.gracenote.com">
-		<title lang="en">Hoy día [NEW]</title>
-		<desc lang="en">El show de las mañanas que ofrece más entretenimiento y diversión, con contenido positivo, útil e inspirador, pero sin dejar de lado los titulares y noticias que la comunidad hispana en Estados Unidos necesita para comenzar el día bien informada.</desc>
-		<date>20261027</date>
-		<category lang="en">Talk</category>
+	<programme start="20261029160000 +0000" stop="20261029180000 +0000" channel="I1032.20361.gracenote.com">
+		<title lang="en">The Loop [NEW]</title>
+		<desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
 		<category lang="en">Series</category>
-		<length units="minutes">210</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p19473387_b_v13_ak.jpg?w=360" />
-		<episode-num system="common">S06E214</episode-num>
-		<episode-num system="dd_progid">EP03763587.1481</episode-num>
-		<episode-num system="xmltv_ns">5.213.</episode-num>
-		<audio>
-			<stereo>stereo</stereo>
-		</audio>
+		<length units="minutes">120</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p11908393_b_v9_aa.jpg?w=360" />
+		<episode-num system="dd_progid">SH02218465.0000</episode-num>
 		<new />
-		<subtitles type="teletext" />
-	</programme>
-	<programme start="20261027153000 +0000" stop="20261027160000 +0000" channel="I1044.24521.gracenote.com">
-		<title lang="en">Acceso total</title>
-		<desc lang="en">Las últimas noticias sobre importantes y reconocidas personalidades y sobre el mundo del entretenimiento.</desc>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p8340806_b_v13_ae.jpg?w=360" />
-		<episode-num system="dd_progid">SH01338057.0000</episode-num>
-		<previously-shown />
-	</programme>
-	<programme start="20261027160000 +0000" stop="20261027163000 +0000" channel="I1044.24521.gracenote.com">
-		<title lang="en">Noticiero Telemundo Chicago</title>
-		<desc lang="en">Las noticias más importantes son transmitidas en español para la comunidad hispana que vive en Chicago.</desc>
-		<category lang="en">News</category>
-		<category lang="en">Series</category>
-		<length units="minutes">30</length>
-		<icon src="https://zpmc.tmsimg.com/assets/p15043199_b_v13_ab.jpg?w=360" />
-		<episode-num system="dd_progid">SH02872127.0000</episode-num>
-		<previously-shown />
 	</programme>
 	<programme start="20261027163000 +0000" stop="20261027170000 +0000" channel="I1044.24521.gracenote.com">
 		<title lang="en">Noticias Telemundo mediodía [NEW]</title>
@@ -10582,6 +10532,76 @@
 			<stereo>stereo</stereo>
 		</audio>
 		<previously-shown start="20261028000000" />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="I1044.24521.gracenote.com">
+		<title lang="en">Noticias Telemundo AHORA [NEW]</title>
+		<desc lang="en">Las noticias más recientes y las historias más importantes para la comunidad latina.</desc>
+		<date>20261029</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">60</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p27645723_b_v10_aa.jpg?w=360" />
+		<episode-num system="dd_progid">EP05175188.0327</episode-num>
+		<episode-num system="xmltv_ns">.215.</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029120000 +0000" stop="20261029153000 +0000" channel="I1044.24521.gracenote.com">
+		<title lang="en">Hoy día [NEW]</title>
+		<desc lang="en">El show de las mañanas que ofrece más entretenimiento y diversión, con contenido positivo, útil e inspirador, pero sin dejar de lado los titulares y noticias que la comunidad hispana en Estados Unidos necesita para comenzar el día bien informada.</desc>
+		<date>20261029</date>
+		<category lang="en">Talk</category>
+		<category lang="en">Series</category>
+		<length units="minutes">210</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p19473387_b_v13_ak.jpg?w=360" />
+		<episode-num system="common">S06E216</episode-num>
+		<episode-num system="dd_progid">EP03763587.1483</episode-num>
+		<episode-num system="xmltv_ns">5.215.</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
+		<subtitles type="teletext" />
+	</programme>
+	<programme start="20261029153000 +0000" stop="20261029160000 +0000" channel="I1044.24521.gracenote.com">
+		<title lang="en">Acceso total</title>
+		<desc lang="en">Las últimas noticias sobre importantes y reconocidas personalidades y sobre el mundo del entretenimiento.</desc>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">30</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p8340806_b_v13_ae.jpg?w=360" />
+		<episode-num system="dd_progid">SH01338057.0000</episode-num>
+		<previously-shown />
+	</programme>
+	<programme start="20261029160000 +0000" stop="20261029163000 +0000" channel="I1044.24521.gracenote.com">
+		<title lang="en">Noticiero Telemundo Chicago [NEW]</title>
+		<desc lang="en">Las noticias más importantes son transmitidas en español para la comunidad hispana que vive en Chicago.</desc>
+		<date>20261026</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">30</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p270748_b_v9_ac.jpg?w=360" />
+		<episode-num system="dd_progid">SH00874902.0000</episode-num>
+		<new />
+	</programme>
+	<programme start="20261029163000 +0000" stop="20261029170000 +0000" channel="I1044.24521.gracenote.com">
+		<title lang="en">Noticias Telemundo mediodía [NEW]</title>
+		<desc lang="en">Un informativo con un estilo único de narrar noticias de una manera atractiva. Se presentan historias locales y nacionales, desde diferentes ángulos de los acontecimientos, y entrevistas.</desc>
+		<date>20261029</date>
+		<category lang="en">News</category>
+		<category lang="en">Series</category>
+		<length units="minutes">30</length>
+		<icon src="https://zpmc.tmsimg.com/assets/p14971948_b_v13_aa.jpg?w=360" />
+		<episode-num system="dd_progid">EP02851358.2262</episode-num>
+		<episode-num system="xmltv_ns">.215.</episode-num>
+		<audio>
+			<stereo>stereo</stereo>
+		</audio>
+		<new />
 		<subtitles type="teletext" />
 	</programme>
 	<programme start="20261026120000 +0000" stop="20261026140000 +0000" channel="I2.1.20454.gracenote.com">
