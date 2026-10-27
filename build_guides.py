@@ -142,6 +142,26 @@ def merge_roots(roots: list[ET.Element]) -> ET.Element:
     return merged
 
 
+def filter_channels_by_name(root: ET.Element, search_term: str) -> ET.Element:
+    """Create a smaller guide containing channels whose display names match."""
+    filtered = ET.Element("tv", root.attrib)
+    search_term = search_term.casefold()
+    channel_ids: set[str] = set()
+
+    for channel in root.findall("channel"):
+        names = [node.text or "" for node in channel.findall("display-name")]
+        if any(search_term in name.casefold() for name in names):
+            channel_id = channel.attrib.get("id", "")
+            if channel_id:
+                channel_ids.add(channel_id)
+                filtered.append(channel)
+
+    for programme in root.findall("programme"):
+        if programme.attrib.get("channel", "") in channel_ids:
+            filtered.append(programme)
+    return filtered
+
+
 def xml_bytes(root: ET.Element) -> bytes:
     return ET.tostring(root, encoding="utf-8", xml_declaration=True)
 
@@ -210,9 +230,17 @@ def main() -> None:
             status["errors"][name] = str(error)
         status["groups"][name].update(write_outputs(output_dir, name, built[name]))
 
+    if "us" in built:
+        print("\nBuilding Chicago-only guide")
+        built["chicago"] = filter_channels_by_name(built["us"], "chicago")
+        status["groups"]["chicago"] = {
+            "updated_from_sources": status["groups"]["us"]["updated_from_sources"]
+        }
+        status["groups"]["chicago"].update(write_outputs(output_dir, "chicago", built["chicago"]))
+
     if built:
         print("\nBuilding combined guide")
-        combined = merge_roots(list(built.values()))
+        combined = merge_roots([built[name] for name in GROUPS if name in built])
         combined_data = xml_bytes(combined)
         status["groups"]["all"] = write_outputs(
             output_dir,
