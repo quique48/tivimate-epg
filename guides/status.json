@@ -1,12 +1,12 @@
 {
   "errors": {},
-  "generated_at": "2026-10-27T22:18:57.119305+00:00",
+  "generated_at": "2026-10-27T23:50:00.042228+00:00",
   "groups": {
     "all": {
-      "channels": 2810,
-      "gzip_bytes": 9651128,
+      "channels": 3564,
+      "gzip_bytes": 20229932,
       "gzip_url": "guides/all.xml.gz",
-      "programmes": 150045,
+      "programmes": 274846,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
@@ -22,47 +22,58 @@
     },
     "chicago": {
       "channels": 19,
-      "gzip_bytes": 70264,
+      "gzip_bytes": 69815,
       "gzip_url": "guides/chicago.xml.gz",
       "programmes": 1254,
       "updated_from_sources": true,
-      "xml_bytes": 861578,
+      "xml_bytes": 861673,
       "xml_url": "guides/chicago.xml"
     },
     "gb": {
-      "channels": 561,
-      "gzip_bytes": 2350064,
+      "channels": 1315,
+      "gzip_bytes": 12923787,
       "gzip_url": "guides/gb.xml.gz",
-      "programmes": 29217,
-      "updated_from_sources": true,
-      "xml_bytes": 22357046,
-      "xml_url": "guides/gb.xml"
-    },
-    "layerseven": {
-      "channels": 2810,
-      "gzip_bytes": 9651128,
-      "gzip_url": "guides/layerseven.xml.gz",
-      "programmes": 150045,
+      "programmes": 154013,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
     },
+    "layerseven": {
+      "channels": 3564,
+      "gzip_bytes": 20229932,
+      "gzip_url": "guides/layerseven.xml.gz",
+      "programmes": 274846,
+      "updated_from_sources": true,
+      "xml_bytes": 0,
+      "xml_url": null
+    },
+    "layerseven-custom": {
+      "channels": 620,
+      "gzip_bytes": 6531897,
+      "gzip_url": "guides/layerseven-custom.xml.gz",
+      "matched_layerseven_entries": 1112,
+      "programmes": 70440,
+      "unmatched_layerseven_entries": 2532,
+      "updated_from_sources": true,
+      "xml_bytes": 60522544,
+      "xml_url": "guides/layerseven-custom.xml"
+    },
     "sports": {
       "channels": 525,
-      "gzip_bytes": 115864,
+      "gzip_bytes": 116912,
       "gzip_url": "guides/sports.xml.gz",
-      "programmes": 5380,
+      "programmes": 5379,
       "updated_from_sources": true,
-      "xml_bytes": 2719562,
+      "xml_bytes": 2721476,
       "xml_url": "guides/sports.xml"
     },
     "us": {
       "channels": 1028,
-      "gzip_bytes": 4787929,
+      "gzip_bytes": 4790987,
       "gzip_url": "guides/us.xml.gz",
-      "programmes": 64777,
+      "programmes": 64783,
       "updated_from_sources": true,
-      "xml_bytes": 50392470,
+      "xml_bytes": 50389501,
       "xml_url": "guides/us.xml"
     }
   }
