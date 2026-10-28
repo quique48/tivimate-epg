@@ -59,7 +59,9 @@ TOKEN_ALIASES = {
 
 def name_variants(value: str) -> list[str]:
     """Return conservative exact-match keys, most specific first."""
-    cleaned = unicodedata.normalize("NFKC", value).upper()
+    raw = unicodedata.normalize("NFKC", value)
+    cleaned = raw.upper()
+    call_sign = re.search(r"\(([KWC][A-Z0-9]{2,3})\)", raw)
     without_call = re.sub(r"\(([KW][A-Z0-9]{2,3})\)", " ", cleaned)
     without_call = re.sub(r"\b[KW][A-Z]{2,3}\b", " ", without_call)
     variants: list[str] = []
@@ -75,11 +77,19 @@ def name_variants(value: str) -> list[str]:
             [token for token in base if not token.isdigit()],
             [token for token in base if not token.isdigit() and token not in STATE_TOKENS],
         ]
+        if (
+            base
+            and re.fullmatch(r"[KWC][A-Z0-9]{2,3}", base[0])
+            and (len(base) == 1 or base[1] in {"DT", "LD", "CD", "TV"})
+        ):
+            candidates.append([base[0]])
         for candidate in candidates:
             key = " ".join(candidate).strip()
             for variant in (key, key.replace(" ", "")):
                 if variant and variant not in variants:
                     variants.append(variant)
+    if call_sign:
+        variants.insert(1, call_sign.group(1))
     return variants
 
 
@@ -164,6 +174,7 @@ def match_channels(inventory, channels, programme_counts, regions):
                             and key_tokens < layerseven_tokens
                             and key.split()[0] == first_token
                             and first_token not in {"ITV", "CTV"}
+                            and variants[0].split()[:2] != ["NBC", "SPORTS"]
                             and not (extra_tokens & subset_blocked)
                         ):
                             candidates.update(channel_ids)
