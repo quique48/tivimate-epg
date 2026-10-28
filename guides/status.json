@@ -1,6 +1,6 @@
 {
   "errors": {},
-  "generated_at": "2026-10-28T00:36:15.679753+00:00",
+  "generated_at": "2026-10-28T00:47:13.421443+00:00",
   "groups": {
     "all": {
       "channels": 9088,
@@ -48,13 +48,14 @@
       "xml_url": null
     },
     "layerseven-custom": {
-      "channels": 1138,
-      "gzip_bytes": 10829521,
+      "channels": 1140,
+      "disney_plus_channels": 2,
+      "gzip_bytes": 10832337,
       "gzip_url": "guides/layerseven-custom.xml.gz",
       "hbo_epix_channels": 39,
       "matched_layerseven_entries": 1812,
       "paramount_plus_channels": 6,
-      "programmes": 128092,
+      "programmes": 128156,
       "unmatched_layerseven_entries": 2167,
       "updated_from_sources": true,
       "xml_bytes": 0,
