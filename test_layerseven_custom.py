@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from build_layerseven_custom import (
     is_disney_plus_channel,
     is_hbo_epix_channel,
+    is_max_channel,
     is_paramount_plus_channel,
     name_variants,
     tokens,
@@ -53,6 +54,15 @@ class LayerSevenMatchingTest(unittest.TestCase):
         channel = ET.Element("channel")
         ET.SubElement(channel, "display-name").text = "Disney Channel"
         self.assertFalse(is_disney_plus_channel(channel))
+
+    def test_max_detection_requires_exact_channel_name(self):
+        channel = ET.Element("channel")
+        ET.SubElement(channel, "display-name").text = "Max"
+        self.assertTrue(is_max_channel(channel))
+        for name in ("Sky Max", "Sony MAX", "Pop Max", "Cinemax"):
+            channel = ET.Element("channel")
+            ET.SubElement(channel, "display-name").text = name
+            self.assertFalse(is_max_channel(channel))
 
 
 if __name__ == "__main__":
