@@ -240,6 +240,11 @@ def is_hbo_epix_channel(channel):
     return any(term in names for term in ("HBO", "EPIX", "MGM+", "SCREENPIX"))
 
 
+def is_paramount_plus_channel(channel):
+    names = " ".join(node.text or "" for node in channel.findall("display-name")).upper()
+    return "PARAMOUNT+" in names or "PARAMOUNT PLUS" in names
+
+
 def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     aliases: dict[str, list[str]] = defaultdict(list)
     for match in matches:
@@ -247,6 +252,9 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
 
     premium_channel_ids = {
         channel_id for channel_id, channel in channels.items() if is_hbo_epix_channel(channel)
+    }
+    paramount_channel_ids = {
+        channel_id for channel_id, channel in channels.items() if is_paramount_plus_channel(channel)
     }
     programme_counts = Counter(programme.get("channel") for programme in root.findall("programme"))
     main_mgm = [
@@ -259,7 +267,7 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         aliases[main_mgm_id].extend(["US: EPIX 4K", "UK: EPIX 4K"])
 
     output = ET.Element("tv", {"generator-info-name": "LayerSeven public-lineup alias guide"})
-    selected = set(aliases) | premium_channel_ids
+    selected = set(aliases) | premium_channel_ids | paramount_channel_ids
     for channel_id in sorted(selected):
         channel = copy.deepcopy(channels[channel_id])
         existing = {(node.text or "").strip() for node in channel.findall("display-name")}
@@ -299,6 +307,7 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         "channels": len(selected),
         "programmes": programme_count,
         "hbo_epix_channels": len(premium_channel_ids),
+        "paramount_plus_channels": len(paramount_channel_ids),
         "matched_layerseven_entries": len(matches),
         "unmatched_layerseven_entries": len(unmatched),
         "xml_url": xml_url,
