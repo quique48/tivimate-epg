@@ -6310,13 +6310,76 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: CW ATLANTA HD",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "468537",
+      "epg_name": "WPCH-DT",
+      "matched_key": "WPCH-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW CHICAGO HD",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "469751",
+      "epg_name": "WCIU-DT",
+      "matched_key": "WCIU-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW PHILADELPHIA HD",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "465909",
+      "epg_name": "WPHL-DT",
+      "matched_key": "WPHL-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW PITTSBURGH",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "468854",
+      "epg_name": "WPNT-DT",
+      "matched_key": "WPNT-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW SACRAMENTO HD",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "466914",
+      "epg_name": "KQCA-DT",
+      "matched_key": "KQCA-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW SAN FRANCISCO HD",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "466452",
+      "epg_name": "KRON-DT",
+      "matched_key": "KRON-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW SEATTLE HD",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "470250",
+      "epg_name": "KUNS-DT",
+      "matched_key": "KUNS-DT",
+      "match_method": "cw-station"
+    },
+    {
       "layerseven_name": "US: CW TAMPA BAY HD",
       "category": "US| NEWS HD/4K",
       "country": "US",
-      "epg_id": "I44.1.30617.gracenote.com",
-      "epg_name": "CW Tampa",
-      "matched_key": "CW TAMPA",
-      "match_method": "regional-subset"
+      "epg_id": "467268",
+      "epg_name": "WTTA-DT",
+      "matched_key": "WTTA-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW 21 SHREVEPORT LA (KPXJ) HD",
@@ -6324,8 +6387,8 @@
       "country": "US",
       "epg_id": "469591",
       "epg_name": "KPXJ-DT",
-      "matched_key": "KPXJ",
-      "match_method": "exact"
+      "matched_key": "KPXJ-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW 21 BIRMINGHAM AL (WTTO) HD",
@@ -6333,8 +6396,8 @@
       "country": "US",
       "epg_id": "467448",
       "epg_name": "WTTO-DT",
-      "matched_key": "WTTO",
-      "match_method": "exact"
+      "matched_key": "WTTO-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: FOX 29",
@@ -8599,10 +8662,10 @@
       "layerseven_name": "US: CW 39 (WSFL-TV) Miami (A) HD",
       "category": "US| MIAMI HD/4K",
       "country": "US",
-      "epg_id": "I33.1.32725.gracenote.com",
-      "epg_name": "US - CW Miami",
-      "matched_key": "CW MIAMI",
-      "match_method": "regional-subset"
+      "epg_id": "465913",
+      "epg_name": "WSFL-DT",
+      "matched_key": "WSFL-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: FOX 7 (WSVN) Miami (A) HD",
@@ -8674,7 +8737,7 @@
       "epg_id": "496619",
       "epg_name": "CW",
       "matched_key": "CW",
-      "match_method": "exact"
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW (KOCB)",
@@ -8682,8 +8745,8 @@
       "country": "US",
       "epg_id": "469650",
       "epg_name": "KOCB-DT",
-      "matched_key": "KOCB",
-      "match_method": "exact"
+      "matched_key": "KOCB-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW (KSTW)",
@@ -8691,8 +8754,8 @@
       "country": "US",
       "epg_id": "469910",
       "epg_name": "KSTW-DT",
-      "matched_key": "KSTW",
-      "match_method": "exact"
+      "matched_key": "KSTW-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW (KVCW)",
@@ -8700,8 +8763,8 @@
       "country": "US",
       "epg_id": "467867",
       "epg_name": "KVCW-DT",
-      "matched_key": "KVCW",
-      "match_method": "exact"
+      "matched_key": "KVCW-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW (WKBD)",
@@ -8709,8 +8772,8 @@
       "country": "US",
       "epg_id": "467850",
       "epg_name": "WKBD-DT",
-      "matched_key": "WKBD",
-      "match_method": "exact"
+      "matched_key": "WKBD-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW (WNUV)",
@@ -8718,17 +8781,17 @@
       "country": "US",
       "epg_id": "466269",
       "epg_name": "WNUV-DT",
-      "matched_key": "WNUV",
-      "match_method": "exact"
+      "matched_key": "WNUV-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW (WPCW)",
       "category": "US| CW HD/4K",
       "country": "US",
-      "epg_id": "496619",
-      "epg_name": "CW",
-      "matched_key": "CW",
-      "match_method": "exact"
+      "epg_id": "468867",
+      "epg_name": "WPKD-DT",
+      "matched_key": "WPKD-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW (WPSG)",
@@ -8736,8 +8799,17 @@
       "country": "US",
       "epg_id": "468926",
       "epg_name": "WPSG-DT",
-      "matched_key": "WPSG",
-      "match_method": "exact"
+      "matched_key": "WPSG-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW NETWORK 4K",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "496619",
+      "epg_name": "CW",
+      "matched_key": "CW",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW (WUCW)",
@@ -8745,8 +8817,134 @@
       "country": "US",
       "epg_id": "466053",
       "epg_name": "WUCW-DT",
-      "matched_key": "WUCW",
-      "match_method": "exact"
+      "matched_key": "WUCW-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 5 HD [PALM SPRINGS]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "496443",
+      "epg_name": "KESQ-DT3",
+      "matched_key": "KESQ-DT3",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 8  HD [MISSOULA]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "564650",
+      "epg_name": "KPAX-DT2",
+      "matched_key": "KPAX-DT2",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW PIX 11 HD",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "470565",
+      "epg_name": "WPIX-DT",
+      "matched_key": "WPIX-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 11 HD [SEATTLE]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "469910",
+      "epg_name": "KSTW-DT",
+      "matched_key": "KSTW-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 13 HD [LAREDO]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "496619",
+      "epg_name": "CW",
+      "matched_key": "CW",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 17 HD [JACKSONVILLE]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "468206",
+      "epg_name": "WCWJ-DT",
+      "matched_key": "WCWJ-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 18 HD [DAYTONA BEACH]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "467182",
+      "epg_name": "WKCF-DT",
+      "matched_key": "WKCF-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 18 HD [CHARLOTTE]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "468671",
+      "epg_name": "WCCB-DT",
+      "matched_key": "WCCB-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 18 HD [MILWAUKEE]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "468297",
+      "epg_name": "WVTV-DT",
+      "matched_key": "WVTV-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 18 HD [ORLANDO]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "467182",
+      "epg_name": "WKCF-DT",
+      "matched_key": "WKCF-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 19 HD [TULSA]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "467935",
+      "epg_name": "KQCW-DT",
+      "matched_key": "KQCW-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 20 HD GREENSBORO/HIGH POINT/WINSTON-SALEM AREA",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "468476",
+      "epg_name": "WCWG-DT",
+      "matched_key": "WCWG-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 22 HD [MONTGOMERY]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "469836",
+      "epg_name": "WBMM-DT",
+      "matched_key": "WBMM-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 23 HD [LANCASTER PA]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "496619",
+      "epg_name": "CW",
+      "matched_key": "CW",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW 23 BUFFALO NY (WNLO)",
@@ -8754,8 +8952,44 @@
       "country": "US",
       "epg_id": "466463",
       "epg_name": "WNLO-DT",
-      "matched_key": "WNLO",
-      "match_method": "exact"
+      "matched_key": "WNLO-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 26 HD [CHICAGO]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "469751",
+      "epg_name": "WCIU-DT",
+      "matched_key": "WCIU-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 29 HD [KANSAS CITY]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "467385",
+      "epg_name": "KCWE-DT",
+      "matched_key": "KCWE-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 33 HD [LAS VEGAS]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "467867",
+      "epg_name": "KVCW-DT",
+      "matched_key": "KVCW-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 35 HD [SAN ANTONIO]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "466312",
+      "epg_name": "KMYS-DT",
+      "matched_key": "KMYS-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW 36 (KICU) SAN JOSE HD",
@@ -8763,17 +8997,26 @@
       "country": "US",
       "epg_id": "469921",
       "epg_name": "KICU-DT",
-      "matched_key": "KICU",
-      "match_method": "exact"
+      "matched_key": "KICU-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 44 HD [ST. PETERSBURG]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "468346",
+      "epg_name": "WTOG-DT",
+      "matched_key": "WTOG-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW 39 HD [MIAMI]",
       "category": "US| CW HD/4K",
       "country": "US",
-      "epg_id": "I33.1.32725.gracenote.com",
-      "epg_name": "US - CW Miami",
-      "matched_key": "CW MIAMI",
-      "match_method": "exact"
+      "epg_id": "465913",
+      "epg_name": "WSFL-DT",
+      "matched_key": "WSFL-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW 39 (KIAH) Houston HD",
@@ -8781,17 +9024,107 @@
       "country": "US",
       "epg_id": "468747",
       "epg_name": "KIAH-DT",
-      "matched_key": "KIAH",
-      "match_method": "exact"
+      "matched_key": "KIAH-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 44 HD [SAN FRANCISCO]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "466831",
+      "epg_name": "KPYX-DT",
+      "matched_key": "KPYX-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CW 44 HD [TAMPA]",
       "category": "US| CW HD/4K",
       "country": "US",
-      "epg_id": "I44.1.30617.gracenote.com",
-      "epg_name": "CW Tampa",
-      "matched_key": "CW TAMPA",
-      "match_method": "exact"
+      "epg_id": "468346",
+      "epg_name": "WTOG-DT",
+      "matched_key": "WTOG-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 46 HD [FORT MYERS]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "469343",
+      "epg_name": "WXCW-DT",
+      "matched_key": "WXCW-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 50 HD [DETROIT]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "467850",
+      "epg_name": "WKBD-DT",
+      "matched_key": "WKBD-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 53 HD [COLUMBUS]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "468535",
+      "epg_name": "WWHO-DT",
+      "matched_key": "WWHO-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 54 HD [BALTIMORE]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "466269",
+      "epg_name": "WNUV-DT",
+      "matched_key": "WNUV-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 56 HD [BOSTON]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "468383",
+      "epg_name": "WLVI-DT",
+      "matched_key": "WLVI-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 57 [PHILADELPHIA]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "468926",
+      "epg_name": "WPSG-DT",
+      "matched_key": "WPSG-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 58 HD [LOUISVILLE]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "470274",
+      "epg_name": "WBKI-DT",
+      "matched_key": "WBKI-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 58 [NASHVILLE]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "468933",
+      "epg_name": "WNAB-DT",
+      "matched_key": "WNAB-DT",
+      "match_method": "cw-station"
+    },
+    {
+      "layerseven_name": "US: CW 69 HD [ATLANTA]",
+      "category": "US| CW HD/4K",
+      "country": "US",
+      "epg_id": "467532",
+      "epg_name": "WUPA-DT",
+      "matched_key": "WUPA-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "US: CBS HD",
@@ -14012,6 +14345,15 @@
       "epg_name": "CTV Two - Vancouver/Victoria",
       "matched_key": "CTV VANCOUVER",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA: CW 11",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "469910",
+      "epg_name": "KSTW-DT",
+      "matched_key": "KSTW-DT",
+      "match_method": "cw-station"
     },
     {
       "layerseven_name": "CA: DEJAVIEW",
@@ -19381,41 +19723,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: CW ATLANTA HD",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW CHICAGO HD",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW PHILADELPHIA HD",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW PITTSBURGH",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW SACRAMENTO HD",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW SAN FRANCISCO HD",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW SEATTLE HD",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: CHEDDAR NEWS HD",
       "category": "US| NEWS HD/4K",
       "country": "US"
@@ -19793,156 +20100,6 @@
     {
       "layerseven_name": "US: CBSN Miami (D) HD",
       "category": "US| MIAMI HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW NETWORK 4K",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 5 HD [PALM SPRINGS]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 8  HD [MISSOULA]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW PIX 11 HD",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 11 HD [SEATTLE]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 13 HD [LAREDO]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 17 HD [JACKSONVILLE]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 18 HD [DAYTONA BEACH]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 18 HD [CHARLOTTE]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 18 HD [MILWAUKEE]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 18 HD [ORLANDO]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 19 HD [TULSA]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 20 HD GREENSBORO/HIGH POINT/WINSTON-SALEM AREA",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 22 HD [MONTGOMERY]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 23 HD [LANCASTER PA]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 26 HD [CHICAGO]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 29 HD [KANSAS CITY]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 33 HD [LAS VEGAS]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 35 HD [SAN ANTONIO]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 44 HD [ST. PETERSBURG]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 44 HD [SAN FRANCISCO]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 46 HD [FORT MYERS]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 50 HD [DETROIT]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 53 HD [COLUMBUS]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 54 HD [BALTIMORE]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 56 HD [BOSTON]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 57 [PHILADELPHIA]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 58 HD [LOUISVILLE]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 58 [NASHVILLE]",
-      "category": "US| CW HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CW 69 HD [ATLANTA]",
-      "category": "US| CW HD/4K",
       "country": "US"
     },
     {
@@ -21432,11 +21589,6 @@
     },
     {
       "layerseven_name": "CA: CTV Comedy HD",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA: CW 11",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
     },
