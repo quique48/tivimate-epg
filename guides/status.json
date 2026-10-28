@@ -1,12 +1,12 @@
 {
   "errors": {},
-  "generated_at": "2026-10-28T13:00:15.487153+00:00",
+  "generated_at": "2026-10-28T22:39:05.077765+00:00",
   "groups": {
     "all": {
       "channels": 9087,
-      "gzip_bytes": 51392919,
+      "gzip_bytes": 51393027,
       "gzip_url": "guides/all.xml.gz",
-      "programmes": 786803,
+      "programmes": 786804,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
@@ -40,9 +40,9 @@
     },
     "layerseven": {
       "channels": 9087,
-      "gzip_bytes": 51392919,
+      "gzip_bytes": 51393027,
       "gzip_url": "guides/layerseven.xml.gz",
-      "programmes": 786803,
+      "programmes": 786804,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
@@ -67,11 +67,11 @@
     },
     "sports": {
       "channels": 525,
-      "gzip_bytes": 117465,
+      "gzip_bytes": 117567,
       "gzip_url": "guides/sports.xml.gz",
-      "programmes": 5389,
+      "programmes": 5390,
       "updated_from_sources": true,
-      "xml_bytes": 2731238,
+      "xml_bytes": 2731932,
       "xml_url": "guides/sports.xml"
     },
     "us": {
