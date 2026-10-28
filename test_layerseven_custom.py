@@ -1,11 +1,13 @@
 import unittest
 import xml.etree.ElementTree as ET
+from collections import Counter
 
 from build_layerseven_custom import (
     is_disney_plus_channel,
     is_hbo_epix_channel,
     is_max_channel,
     is_paramount_plus_channel,
+    match_channels,
     name_variants,
     tokens,
 )
@@ -63,6 +65,33 @@ class LayerSevenMatchingTest(unittest.TestCase):
             channel = ET.Element("channel")
             ET.SubElement(channel, "display-name").text = name
             self.assertFalse(is_max_channel(channel))
+
+    def test_cw_station_mapping_overrides_generic_match(self):
+        def public_channel(channel_id, name):
+            channel = ET.Element("channel", {"id": channel_id})
+            ET.SubElement(channel, "display-name").text = name
+            return channel
+
+        channels = {
+            "wsfl": public_channel("wsfl", "WSFL-DT"),
+            "cw-miami": public_channel("cw-miami", "US - CW Miami"),
+            "national": public_channel("national", "CW"),
+        }
+        programme_counts = Counter({"wsfl": 100, "cw-miami": 128, "national": 60})
+        regions = {channel_id: {"us"} for channel_id in channels}
+        inventory = [{
+            "country": "US",
+            "name": "US| CW HD/4K",
+            "channels": ["US: CW 39 HD [MIAMI]", "US: CW NETWORK 4K"],
+        }]
+
+        matches, unmatched = match_channels(inventory, channels, programme_counts, regions)
+
+        self.assertEqual(unmatched, [])
+        by_name = {match["layerseven_name"]: match for match in matches}
+        self.assertEqual(by_name["US: CW 39 HD [MIAMI]"]["epg_id"], "wsfl")
+        self.assertEqual(by_name["US: CW NETWORK 4K"]["epg_id"], "national")
+        self.assertTrue(all(match["match_method"] == "cw-station" for match in matches))
 
 
 if __name__ == "__main__":
