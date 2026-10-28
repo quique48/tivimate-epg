@@ -250,6 +250,13 @@ def is_disney_plus_channel(channel):
     return "DISNEY+" in names or "DISNEY PLUS" in names
 
 
+def is_max_channel(channel):
+    return any(
+        (node.text or "").strip().upper() == "MAX"
+        for node in channel.findall("display-name")
+    )
+
+
 def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     aliases: dict[str, list[str]] = defaultdict(list)
     for match in matches:
@@ -264,6 +271,9 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     disney_channel_ids = {
         channel_id for channel_id, channel in channels.items() if is_disney_plus_channel(channel)
     }
+    max_channel_ids = {
+        channel_id for channel_id, channel in channels.items() if is_max_channel(channel)
+    }
     programme_counts = Counter(programme.get("channel") for programme in root.findall("programme"))
     main_mgm = [
         channel_id
@@ -275,7 +285,7 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         aliases[main_mgm_id].extend(["US: EPIX 4K", "UK: EPIX 4K"])
 
     output = ET.Element("tv", {"generator-info-name": "LayerSeven public-lineup alias guide"})
-    selected = set(aliases) | premium_channel_ids | paramount_channel_ids | disney_channel_ids
+    selected = set(aliases) | premium_channel_ids | paramount_channel_ids | disney_channel_ids | max_channel_ids
     for channel_id in sorted(selected):
         channel = copy.deepcopy(channels[channel_id])
         existing = {(node.text or "").strip() for node in channel.findall("display-name")}
@@ -317,6 +327,7 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         "hbo_epix_channels": len(premium_channel_ids),
         "paramount_plus_channels": len(paramount_channel_ids),
         "disney_plus_channels": len(disney_channel_ids),
+        "max_channels": len(max_channel_ids),
         "matched_layerseven_entries": len(matches),
         "unmatched_layerseven_entries": len(unmatched),
         "xml_url": xml_url,
