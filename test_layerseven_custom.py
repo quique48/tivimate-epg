@@ -1,6 +1,7 @@
 import unittest
+import xml.etree.ElementTree as ET
 
-from build_layerseven_custom import name_variants, tokens
+from build_layerseven_custom import is_hbo_epix_channel, name_variants, tokens
 
 
 class LayerSevenMatchingTest(unittest.TestCase):
@@ -21,6 +22,15 @@ class LayerSevenMatchingTest(unittest.TestCase):
 
     def test_west_direction_is_not_a_call_sign(self):
         self.assertNotIn("WEST", name_variants("US: NBC UNIVERSO (West)"))
+
+    def test_hbo_and_epix_family_detection(self):
+        for name in ("HBO East", "EPIX", "MGM+ Hits", "ScreenPix Action"):
+            channel = ET.Element("channel")
+            ET.SubElement(channel, "display-name").text = name
+            self.assertTrue(is_hbo_epix_channel(channel))
+        channel = ET.Element("channel")
+        ET.SubElement(channel, "display-name").text = "PIX 11"
+        self.assertFalse(is_hbo_epix_channel(channel))
 
 
 if __name__ == "__main__":
