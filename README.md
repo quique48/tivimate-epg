@@ -8,14 +8,14 @@ For the best compatibility, start with one uncompressed regional URL. Add it und
 
 | Guide | Uncompressed XML | Compressed XMLTV.GZ |
 |---|---|---|
-| US national + local | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/us.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/us.xml.gz |
+| US national + local | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/us.xml.gz |
 | Chicago only | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/chicago.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/chicago.xml.gz |
 | Canada | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml.gz |
 | United Kingdom | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml.gz |
 | US + Canada sports | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml.gz |
 | LayerSeven custom (panel lineup aliases) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven-custom.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven-custom.xml.gz |
 | Generic LayerSeven (US + Canada + UK + sports) | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven.xml.gz |
-| Everything combined | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/all.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/all.xml.gz |
+| Everything combined | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/all.xml.gz |
 
 The combined file can be large. Regional files are recommended for Fire Sticks and other lower-memory devices. If `all.xml` exceeds the repository size threshold, only `all.xml.gz` is published.
 
@@ -34,10 +34,10 @@ The workflow:
 
 ## Sources
 
-- EPGTalk US Lite and US Local
+- EPGTalk US Full, US Lite, and US Local
 - EPGTalk UK Full and UK Lite
 - EPGTalk Sports
-- epg.pw Canada and United Kingdom, with iptv-epg.org fallbacks
+- epg.pw United States, Canada, and United Kingdom, with iptv-epg.org fallbacks
 
 Coverage and schedule accuracy depend on these upstream sources. US and UK Lite guides emphasize a smaller 48-hour window; other sources can have different time windows. The custom LayerSeven guide adds exact panel channel-name aliases only where a confident public-EPG match exists; unmatched channels are listed in `guides/layerseven-custom-mapping.json`.
 
