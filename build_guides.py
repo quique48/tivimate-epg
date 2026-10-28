@@ -27,6 +27,20 @@ class Source:
 GROUPS = {
     "us": (
         Source(
+            "United States epg.pw",
+            (
+                "https://epg.pw/xmltv/epg_US.xml",
+                "https://iptv-epg.org/files/epg-us.xml",
+            ),
+        ),
+        Source(
+            "EPGTalk US Full",
+            (
+                "https://epgtalk.com/US_guide.xml.gz",
+                "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_guide.xml.gz",
+            ),
+        ),
+        Source(
             "EPGTalk US Lite",
             (
                 "https://epgtalk.com/US_lite.xml.gz",
