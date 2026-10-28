@@ -96,6 +96,23 @@ CW_FEED_STATIONS = {
     "CA: CW 11": "KSTW-DT",
 }
 
+TUDN_ALIASES = {
+    "TUDN",
+    "US: TUDN",
+    "US: TUDN HD",
+    "US: TUDN FHD",
+    "US: TUDN 4K",
+    "US: TUDN NETWORK",
+    "US: TUDN NETWORK HD",
+    "US: UNIVISION TDN",
+    "US: UNIVISION DEPORTES",
+    "US: UNIVISION DEPORTES NETWORK",
+    "CA: TUDN",
+    "CA: TUDN HD",
+    "LAT: TUDN",
+    "LAT: TUDN HD",
+}
+
 
 def read_xml(path: Path) -> ET.Element:
     opener = gzip.open if path.suffix == ".gz" else open
@@ -333,6 +350,13 @@ def is_max_channel(channel):
     )
 
 
+def is_tudn_channel(channel):
+    return any(
+        (node.text or "").strip().upper() == "TUDN"
+        for node in channel.findall("display-name")
+    )
+
+
 def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     aliases: dict[str, list[str]] = defaultdict(list)
     for match in matches:
@@ -350,6 +374,9 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     max_channel_ids = {
         channel_id for channel_id, channel in channels.items() if is_max_channel(channel)
     }
+    tudn_channel_ids = {
+        channel_id for channel_id, channel in channels.items() if is_tudn_channel(channel)
+    }
     programme_counts = Counter(programme.get("channel") for programme in root.findall("programme"))
     main_mgm = [
         channel_id
@@ -359,6 +386,9 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     if main_mgm:
         main_mgm_id = max(main_mgm, key=lambda channel_id: programme_counts[channel_id])
         aliases[main_mgm_id].extend(["US: EPIX 4K", "UK: EPIX 4K"])
+    if tudn_channel_ids:
+        main_tudn_id = max(tudn_channel_ids, key=lambda channel_id: programme_counts[channel_id])
+        aliases[main_tudn_id].extend(TUDN_ALIASES)
 
     output = ET.Element("tv", {"generator-info-name": "LayerSeven public-lineup alias guide"})
     selected = set(aliases) | premium_channel_ids | paramount_channel_ids | disney_channel_ids | max_channel_ids
@@ -404,6 +434,8 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         "paramount_plus_channels": len(paramount_channel_ids),
         "disney_plus_channels": len(disney_channel_ids),
         "max_channels": len(max_channel_ids),
+        "tudn_channels": int(bool(tudn_channel_ids)),
+        "tudn_aliases": len(TUDN_ALIASES) if tudn_channel_ids else 0,
         "cw_layerseven_entries": sum(
             match["match_method"] == "cw-station" for match in matches
         ),
