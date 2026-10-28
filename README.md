@@ -13,7 +13,7 @@ For the best compatibility, start with one uncompressed regional URL. Add it und
 | Canada | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/ca.xml.gz |
 | United Kingdom | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/gb.xml.gz |
 | US + Canada sports | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/sports.xml.gz |
-| LayerSeven custom (panel lineup aliases) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven-custom.xml | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven-custom.xml.gz |
+| LayerSeven custom (panel lineup aliases) | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven-custom.xml.gz |
 | Generic LayerSeven (US + Canada + UK + sports) | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/layerseven.xml.gz |
 | Everything combined | Not published (file too large) | https://raw.githubusercontent.com/quique48/tivimate-epg/main/guides/all.xml.gz |
 
