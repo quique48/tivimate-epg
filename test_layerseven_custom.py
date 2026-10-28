@@ -2,6 +2,7 @@ import unittest
 import xml.etree.ElementTree as ET
 
 from build_layerseven_custom import (
+    is_disney_plus_channel,
     is_hbo_epix_channel,
     is_paramount_plus_channel,
     name_variants,
@@ -44,6 +45,14 @@ class LayerSevenMatchingTest(unittest.TestCase):
         channel = ET.Element("channel")
         ET.SubElement(channel, "display-name").text = "Paramount Network"
         self.assertFalse(is_paramount_plus_channel(channel))
+
+    def test_disney_plus_detection_excludes_disney_channel(self):
+        channel = ET.Element("channel")
+        ET.SubElement(channel, "display-name").text = "Disney+CineHD"
+        self.assertTrue(is_disney_plus_channel(channel))
+        channel = ET.Element("channel")
+        ET.SubElement(channel, "display-name").text = "Disney Channel"
+        self.assertFalse(is_disney_plus_channel(channel))
 
 
 if __name__ == "__main__":
