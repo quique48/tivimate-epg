@@ -16280,6 +16280,33 @@
       "epg_name": "CBS Sports Network",
       "matched_key": "CBS SPORTS NETWORK",
       "match_method": "regional-subset"
+    },
+    {
+      "layerseven_name": "US: BLACK VOICES ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US",
+      "epg_id": "561893",
+      "epg_name": "Black Voices",
+      "matched_key": "BLACK VOICES",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: 80S SITCOMS ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US",
+      "epg_id": "561880",
+      "epg_name": "80s Sitcoms",
+      "matched_key": "80S SITCOMS",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: 90S SITCOMS ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US",
+      "epg_id": "561895",
+      "epg_name": "90s Sitcoms",
+      "matched_key": "90S SITCOMS",
+      "match_method": "exact"
     }
   ],
   "unmatched": [
@@ -25456,6 +25483,1666 @@
     {
       "layerseven_name": "US: PEACOCK LIVE WWE NETWORK",
       "category": "US| PEACOCK HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL INFO ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL 1 ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL 2 ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL 3 ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL 4 ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL 5 ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL 6 ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL 7 ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL 8 ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL 9 ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PARAMOUNT+ ORIGINAL 10 ᴴᴰ",
+      "category": "US| PARAMOUNT+ ORIGINAL",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PAROMOUNT MOVIES ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: REALITY TV COMPETITION ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: REALITY TV SHORES ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: RUPAUL S DRAG RACE ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPOUNG BOB MOVIES ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PRESS SCHOOL CORNER ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: GOALZILLA ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: HISTORY UNDISCOVERD ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: KIDS FAMILLY FUN ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: NOSTALGIC HITS ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: STAR TREK ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SURVIVOR ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: THE CHALLENGE ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: TV CLASSICS ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: 24 7 LAUGHS ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: ADULT ANIMATION ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: ALL DAY DRAMA ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: ANIMATION FAVORATES ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: PAW PATROL ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: CRIME AND JUSTICE ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: CSI ᴿᴬᵂ",
+      "category": "US| PARAMOUNT+ ᴿᴬᵂ",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 1: Parma vs Udinese | 16/09 12:20 ET",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 2: Lazio vs Hellas Verona | 16/09 14:35 ET",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 6: Roma vs Napoli | 23/12 14:00 ET",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Italy SerieA 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 21 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Champions League 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 42 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa League 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 63 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) UEFA Europa Conference League 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 84 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Scottish Professional Football League 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 105 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) CONCAF Nations League 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 126 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) National Womens Soccer League 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 147 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Barclays Womens Super League 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 168 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) The Masters 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 189 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Combate Global 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 210 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 1: Al Ain vs Al Sadd | 16/09 11:50 ET",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 2: Al Shorta vs Al Nassr | 16/09 11:50 ET",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 3: Al Ahli vs Persepolis | 16/09 13:50 ET",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 4: Esteghlal vs Al Gharafa | 16/09 13:50 ET",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) AFC Champions League 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 231 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Arnold Clark Cup 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 252 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 1",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Brazil Campeonato Brasileirao SerieA 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 273 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 1: Independiente Rivadavia vs Defensa y Justicia | 16/09 19:50 ET",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 2",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 3",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 4",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 5",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 6",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 7",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 8",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 9",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 10",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 11",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 12",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 13",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 14",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 15",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 16",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 17",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 18",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 19",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US (P+) Argentina Liga Profesional De Futbol 20",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 294 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 295 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 296 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 297 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 298 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 299 (D)",
+      "category": "US| PARAMOUNT+ PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US P+ 300 (D)",
+      "category": "US| PARAMOUNT+ PPV",
       "country": "US"
     }
   ]
