@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="tivimate-epg" generator-info-url="https://github.com/quique48/tivimate-epg"><channel id="465058">
-    <display-name lang="US">CHSN Chicago Sports Network</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465543">
+<tv generator-info-name="tivimate-epg" generator-info-url="https://github.com/quique48/tivimate-epg"><channel id="465543">
     <display-name lang="US">NBA - Chicago Bulls</display-name>
     <icon src="" />
   </channel>
@@ -13,10 +9,6 @@
   </channel>
   <channel id="465677">
     <display-name lang="US">NFL - Chicago Bears</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="572992">
-    <display-name lang="US">NBC Chicago (Live Stream)</display-name>
     <icon src="" />
   </channel>
   <channel id="576468">
@@ -33,6 +25,14 @@
   </channel>
   <channel id="576572">
     <display-name lang="US">WNBA - Chicago Sky</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465058">
+    <display-name lang="US">CHSN Chicago Sports Network</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="572992">
+    <display-name lang="US">NBC Chicago (Live Stream)</display-name>
     <icon src="" />
   </channel>
   <channel id="I25.183131.gracenote.com">
@@ -149,1007 +149,7 @@
 		<display-name>62.2</display-name>
 		<icon src="https://zpmc.tmsimg.com/h3/NowShowing/62338/s104950_ll_h15_ab.png" />
 	</channel>
-	<programme channel="572992" start="20261027000000 +0000" stop="20261027010000 +0000">
-    <title lang="zh">Live: NBC 5 News</title>
-    <desc>Local news, weather and investigative stories impacting the Chicago area.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="572992" start="20261027010000 +0000" stop="20261027013000 +0000">
-    <title lang="zh">Live: Chicago Today</title>
-    <desc>Local news, weather and investigative stories impacting the Chicago area.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="572992" start="20261027013000 +0000" stop="20261027020000 +0000">
-    <title lang="zh">Hollywood Reeltime</title>
-    <desc>Local news, weather and investigative stories impacting the Chicago area.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="572992" start="20261027020000 +0000" stop="20261027030000 +0000">
-    <title lang="zh">NBC 5 News Midday</title>
-    <desc>Local news, weather and investigative stories impacting the Chicago area.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="572992" start="20261027030000 +0000" stop="20261027040000 +0000">
-    <title lang="zh">NBC 5 News Midday</title>
-    <desc>Local news, weather and investigative stories impacting the Chicago area.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="572992" start="20261027040000 +0000" stop="20261027045900 +0000">
-    <title lang="zh">NBC 5 News Midday</title>
-    <desc>Local news, weather and investigative stories impacting the Chicago area.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="572992" start="20261027045900 +0000" stop="20261027055800 +0000">
-    <title lang="zh">Live: NBC 5 News</title>
-    <desc>Local news, weather and investigative stories impacting the Chicago area.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="572992" start="20261027055800 +0000" stop="20261027063000 +0000">
-    <title lang="zh">Live: NBC 5 News</title>
-    <desc>Local news, weather and investigative stories impacting the Chicago area.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="572992" start="20261027063000 +0000" stop="20261028000000 +0000">
-    <title lang="zh">NBC 5 News</title>
-    <desc>Local news, weather and investigative stories impacting the Chicago area.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261027000000 +0000" stop="20261027060000 +0000">
-    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
-    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261027060000 +0000" stop="20261027120000 +0000">
-    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
-    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261027120000 +0000" stop="20261027180000 +0000">
-    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
-    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261027180000 +0000" stop="20261028000000 +0000">
-    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
-    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261028000000 +0000" stop="20261028060000 +0000">
-    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
-    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261028060000 +0000" stop="20261028120000 +0000">
-    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
-    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261028120000 +0000" stop="20261028180000 +0000">
-    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
-    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261028180000 +0000" stop="20261029000000 +0000">
-    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
-    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261029000000 +0000" stop="20261029060000 +0000">
-    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
-    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261029060000 +0000" stop="20261029083000 +0000">
-    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
-    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261029083000 +0000" stop="20261029110000 +0000">
-    <title lang="zh">Orlando City SC at Chicago Fire FC</title>
-    <desc>Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV</desc>
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261029110000 +0000" stop="20261029120000 +0000">
-    <title lang="zh">Orlando City SC at Chicago Fire FC possible Extra Time</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261029120000 +0000" stop="20261029180000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261029180000 +0000" stop="20261030000000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261030000000 +0000" stop="20261030060000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261030060000 +0000" stop="20261030120000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261030120000 +0000" stop="20261030180000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261030180000 +0000" stop="20261031000000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261031000000 +0000" stop="20261031060000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261031060000 +0000" stop="20261031120000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261031120000 +0000" stop="20261031180000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261031180000 +0000" stop="20261101000000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261101000000 +0000" stop="20261101060000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261101060000 +0000" stop="20261101093000 +0000">
-    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
-    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261101093000 +0000" stop="20261101120000 +0000">
-    <title lang="zh">Chicago Fire FC at Colorado Rapids</title>
-    <desc>Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV</desc>
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261101120000 +0000" stop="20261101130000 +0000">
-    <title lang="zh">Chicago Fire FC at Colorado Rapids possible Extra Time</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261101130000 +0000" stop="20261101200000 +0000">
-    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
-    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261101200000 +0000" stop="20261102020000 +0000">
-    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
-    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261102020000 +0000" stop="20261102080000 +0000">
-    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
-    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
-    <date>20261102</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261102080000 +0000" stop="20261102140000 +0000">
-    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
-    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
-    <date>20261102</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261102140000 +0000" stop="20261102200000 +0000">
-    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
-    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
-    <date>20261102</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576468" start="20261102200000 +0000" stop="20261103000000 +0000">
-    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
-    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
-    <date>20261102</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261027000000 +0000" stop="20261027060000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261027060000 +0000" stop="20261027120000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261027120000 +0000" stop="20261027180000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261027180000 +0000" stop="20261028000000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261028000000 +0000" stop="20261028060000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261028060000 +0000" stop="20261028120000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261028120000 +0000" stop="20261028180000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261028180000 +0000" stop="20261029000000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261029000000 +0000" stop="20261029060000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261029060000 +0000" stop="20261029120000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261029120000 +0000" stop="20261029180000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261029180000 +0000" stop="20261030000000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261030000000 +0000" stop="20261030060000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261030060000 +0000" stop="20261030120000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261030120000 +0000" stop="20261030180000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261030180000 +0000" stop="20261031000000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261031000000 +0000" stop="20261031060000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261031060000 +0000" stop="20261031120000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261031120000 +0000" stop="20261031180000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261031180000 +0000" stop="20261101000000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261101000000 +0000" stop="20261101060000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261101060000 +0000" stop="20261101120000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261101120000 +0000" stop="20261101190000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261101190000 +0000" stop="20261102010000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261102010000 +0000" stop="20261102070000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261102</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576478" start="20261102070000 +0000" stop="20261103000000 +0000">
-    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
-    <desc />
-    <date>20261102</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261027000000 +0000" stop="20261027060000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261027060000 +0000" stop="20261027120000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261027120000 +0000" stop="20261027180000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261027180000 +0000" stop="20261028000000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261028000000 +0000" stop="20261028060000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261028060000 +0000" stop="20261028120000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261028120000 +0000" stop="20261028180000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261028180000 +0000" stop="20261029000000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261029000000 +0000" stop="20261029060000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261029060000 +0000" stop="20261029120000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261029120000 +0000" stop="20261029180000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261029180000 +0000" stop="20261030000000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261030000000 +0000" stop="20261030060000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261030060000 +0000" stop="20261030120000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261030120000 +0000" stop="20261030180000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261030180000 +0000" stop="20261031000000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261031000000 +0000" stop="20261031060000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261031060000 +0000" stop="20261031120000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261031120000 +0000" stop="20261031180000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261031180000 +0000" stop="20261101000000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261101000000 +0000" stop="20261101060000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261101060000 +0000" stop="20261101120000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261101120000 +0000" stop="20261101190000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261101190000 +0000" stop="20261102010000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261102010000 +0000" stop="20261102070000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261102</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576563" start="20261102070000 +0000" stop="20261103000000 +0000">
-    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
-    <desc />
-    <date>20261102</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261027000000 +0000" stop="20261027060000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261027060000 +0000" stop="20261027120000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261027120000 +0000" stop="20261027180000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261027180000 +0000" stop="20261028000000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261028000000 +0000" stop="20261028060000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261028060000 +0000" stop="20261028120000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261028120000 +0000" stop="20261028180000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261028180000 +0000" stop="20261029000000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261028</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261029000000 +0000" stop="20261029060000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261029060000 +0000" stop="20261029120000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261029120000 +0000" stop="20261029180000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261029180000 +0000" stop="20261030000000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261029</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261030000000 +0000" stop="20261030060000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261030060000 +0000" stop="20261030120000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261030120000 +0000" stop="20261030180000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261030180000 +0000" stop="20261031000000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261030</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261031000000 +0000" stop="20261031060000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261031060000 +0000" stop="20261031120000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261031120000 +0000" stop="20261031180000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261031180000 +0000" stop="20261101000000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261031</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261101000000 +0000" stop="20261101060000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261101060000 +0000" stop="20261101120000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261101120000 +0000" stop="20261101190000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261101190000 +0000" stop="20261102010000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261101</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261102010000 +0000" stop="20261102070000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261102</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="576572" start="20261102070000 +0000" stop="20261103000000 +0000">
-    <title lang="zh">Future Events for Chicago Sky not found yet</title>
-    <desc />
-    <date>20261102</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465543" start="20261027010000 +0000" stop="20261027073000 +0000">
-    <title lang="zh">Next game: Chicago Bulls at Boston Celtics at 10/26/2026 07:30 PM (US/Eastern)</title>
-    <desc>Next game: Chicago Bulls at Boston Celtics @ TD Garden in Boston at 10/26/2026 07:30 PM (US/Eastern)</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465543" start="20261027073000 +0000" stop="20261027103000 +0000">
-    <title lang="zh">Chicago Bulls at Boston Celtics</title>
-    <desc>Chicago Bulls at Boston Celtics @ TD Garden in Boston</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465543" start="20261027103000 +0000" stop="20261027110000 +0000">
-    <title lang="zh">Chicago Bulls at Boston Celtics possible Overtime</title>
-    <desc />
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465543" start="20261027110000 +0000" stop="20261027120000 +0000">
-    <title lang="zh">Next game: New York Knicks at Chicago Bulls at 10/28/2026 08:00 PM (US/Eastern)</title>
-    <desc>Next game: New York Knicks at Chicago Bulls @ United Center in Chicago at 10/28/2026 08:00 PM (US/Eastern)</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465543" start="20261027120000 +0000" stop="20261027180000 +0000">
-    <title lang="zh">Next game: New York Knicks at Chicago Bulls at 10/28/2026 08:00 PM (US/Eastern)</title>
-    <desc>Next game: New York Knicks at Chicago Bulls @ United Center in Chicago at 10/28/2026 08:00 PM (US/Eastern)</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465543" start="20261027180000 +0000" stop="20261028000000 +0000">
-    <title lang="zh">Next game: New York Knicks at Chicago Bulls at 10/28/2026 08:00 PM (US/Eastern)</title>
-    <desc>Next game: New York Knicks at Chicago Bulls @ United Center in Chicago at 10/28/2026 08:00 PM (US/Eastern)</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465543" start="20261028000000 +0000" stop="20261028060000 +0000">
+	<programme channel="465543" start="20261028000000 +0000" stop="20261028060000 +0000">
     <title lang="zh">Next game: New York Knicks at Chicago Bulls at 10/28/2026 08:00 PM (US/Eastern)</title>
     <desc>Next game: New York Knicks at Chicago Bulls @ United Center in Chicago at 10/28/2026 08:00 PM (US/Eastern)</desc>
     <date>20261028</date>
@@ -1381,7 +381,7 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465543" start="20261103000000 +0000" stop="20261104000000 +0000">
+  <programme channel="465543" start="20261103000000 +0000" stop="20261103060000 +0000">
     <title lang="zh">Next game: Chicago Bulls at Philadelphia 76ers at 11/02/2026 07:30 PM (US/Eastern)</title>
     <desc>Next game: Chicago Bulls at Philadelphia 76ers @ Xfinity Mobile Arena in Philadelphia at 11/02/2026 07:30 PM (US/Eastern)</desc>
     <date>20261103</date>
@@ -1389,34 +389,938 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465634" start="20261027010000 +0000" stop="20261027070000 +0000">
-    <title lang="zh">Next game: Los Angeles Kings at Chicago Blackhawks at 10/27/2026 08:00 PM (US/Eastern)</title>
-    <desc>Next game: Los Angeles Kings at Chicago Blackhawks @ United Center in Chicago on ESPN+ at 10/27/2026 08:00 PM (US/Eastern)</desc>
-    <date>20261027</date>
+  <programme channel="465543" start="20261103060000 +0000" stop="20261103073000 +0000">
+    <title lang="zh">Next game: Chicago Bulls at Philadelphia 76ers at 11/02/2026 07:30 PM (US/Eastern)</title>
+    <desc>Next game: Chicago Bulls at Philadelphia 76ers @ Xfinity Mobile Arena in Philadelphia at 11/02/2026 07:30 PM (US/Eastern)</desc>
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465634" start="20261027070000 +0000" stop="20261027130000 +0000">
-    <title lang="zh">Next game: Los Angeles Kings at Chicago Blackhawks at 10/27/2026 08:00 PM (US/Eastern)</title>
-    <desc>Next game: Los Angeles Kings at Chicago Blackhawks @ United Center in Chicago on ESPN+ at 10/27/2026 08:00 PM (US/Eastern)</desc>
-    <date>20261027</date>
+  <programme channel="465543" start="20261103073000 +0000" stop="20261103103000 +0000">
+    <title lang="zh">Chicago Bulls at Philadelphia 76ers</title>
+    <desc>Chicago Bulls at Philadelphia 76ers @ Xfinity Mobile Arena in Philadelphia</desc>
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465634" start="20261027130000 +0000" stop="20261027190000 +0000">
-    <title lang="zh">Next game: Los Angeles Kings at Chicago Blackhawks at 10/27/2026 08:00 PM (US/Eastern)</title>
-    <desc>Next game: Los Angeles Kings at Chicago Blackhawks @ United Center in Chicago on ESPN+ at 10/27/2026 08:00 PM (US/Eastern)</desc>
-    <date>20261027</date>
+  <programme channel="465543" start="20261103103000 +0000" stop="20261103113000 +0000">
+    <title lang="zh">Chicago Bulls at Philadelphia 76ers possible Overtime</title>
+    <desc />
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465634" start="20261027190000 +0000" stop="20261028010000 +0000">
-    <title lang="zh">Next game: Los Angeles Kings at Chicago Blackhawks at 10/27/2026 08:00 PM (US/Eastern)</title>
-    <desc>Next game: Los Angeles Kings at Chicago Blackhawks @ United Center in Chicago on ESPN+ at 10/27/2026 08:00 PM (US/Eastern)</desc>
-    <date>20261027</date>
+  <programme channel="465543" start="20261103113000 +0000" stop="20261103120000 +0000">
+    <title lang="zh">Chicago Bulls at Philadelphia 76ers possible Overtime</title>
+    <desc />
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="465543" start="20261103120000 +0000" stop="20261103180000 +0000">
+    <title lang="zh">Next game: Chicago Bulls at New York Knicks at 11/04/2026 07:30 PM EST</title>
+    <desc>Next game: Chicago Bulls at New York Knicks @ Madison Square Garden in New York at 11/04/2026 07:30 PM EST</desc>
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="465543" start="20261103180000 +0000" stop="20261104000000 +0000">
+    <title lang="zh">Next game: Chicago Bulls at New York Knicks at 11/04/2026 07:30 PM EST</title>
+    <desc>Next game: Chicago Bulls at New York Knicks @ Madison Square Garden in New York at 11/04/2026 07:30 PM EST</desc>
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="465543" start="20261104000000 +0000" stop="20261105000000 +0000">
+    <title lang="zh">Next game: Chicago Bulls at New York Knicks at 11/04/2026 07:30 PM EST</title>
+    <desc>Next game: Chicago Bulls at New York Knicks @ Madison Square Garden in New York at 11/04/2026 07:30 PM EST</desc>
+    <date>20261104</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261028000000 +0000" stop="20261028060000 +0000">
+    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
+    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261028060000 +0000" stop="20261028120000 +0000">
+    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
+    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261028120000 +0000" stop="20261028180000 +0000">
+    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
+    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261028180000 +0000" stop="20261029000000 +0000">
+    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
+    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261029000000 +0000" stop="20261029060000 +0000">
+    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
+    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261029060000 +0000" stop="20261029083000 +0000">
+    <title lang="zh">Next match: Orlando City SC at Chicago Fire FC at 10/28/2026 08:30 PM EDT</title>
+    <desc>Next match: Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV at 10/28/2026 08:30 PM EDT</desc>
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261029083000 +0000" stop="20261029110000 +0000">
+    <title lang="zh">Orlando City SC at Chicago Fire FC</title>
+    <desc>Orlando City SC at Chicago Fire FC @ Soldier Field in Chicago, Illinois on Apple TV</desc>
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261029110000 +0000" stop="20261029120000 +0000">
+    <title lang="zh">Orlando City SC at Chicago Fire FC possible Extra Time</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261029120000 +0000" stop="20261029180000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261029180000 +0000" stop="20261030000000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261030000000 +0000" stop="20261030060000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261030060000 +0000" stop="20261030120000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261030120000 +0000" stop="20261030180000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261030180000 +0000" stop="20261031000000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261031000000 +0000" stop="20261031060000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261031060000 +0000" stop="20261031120000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261031120000 +0000" stop="20261031180000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261031180000 +0000" stop="20261101000000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261101000000 +0000" stop="20261101060000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261101060000 +0000" stop="20261101093000 +0000">
+    <title lang="zh">Next match: Chicago Fire FC at Colorado Rapids at 10/31/2026 09:30 PM EDT</title>
+    <desc>Next match: Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV at 10/31/2026 09:30 PM EDT</desc>
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261101093000 +0000" stop="20261101120000 +0000">
+    <title lang="zh">Chicago Fire FC at Colorado Rapids</title>
+    <desc>Chicago Fire FC at Colorado Rapids @ Dick's Sporting Goods Park in Commerce City, Colorado on Apple TV</desc>
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261101120000 +0000" stop="20261101130000 +0000">
+    <title lang="zh">Chicago Fire FC at Colorado Rapids possible Extra Time</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261101130000 +0000" stop="20261101200000 +0000">
+    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
+    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261101200000 +0000" stop="20261102020000 +0000">
+    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
+    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261102020000 +0000" stop="20261102080000 +0000">
+    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
+    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261102080000 +0000" stop="20261102140000 +0000">
+    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
+    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261102140000 +0000" stop="20261102200000 +0000">
+    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
+    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261102200000 +0000" stop="20261103020000 +0000">
+    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
+    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261103020000 +0000" stop="20261103080000 +0000">
+    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
+    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261103080000 +0000" stop="20261103140000 +0000">
+    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
+    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261103140000 +0000" stop="20261103200000 +0000">
+    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
+    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576468" start="20261103200000 +0000" stop="20261104000000 +0000">
+    <title lang="zh">Next match: Columbus Crew at Chicago Fire FC at 11/07/2026 04:00 PM EST</title>
+    <desc>Next match: Columbus Crew at Chicago Fire FC @ SeatGeek Stadium in Bridgeview, Illinois on Apple TV at 11/07/2026 04:00 PM EST</desc>
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261028000000 +0000" stop="20261028060000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261028060000 +0000" stop="20261028120000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261028120000 +0000" stop="20261028180000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261028180000 +0000" stop="20261029000000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261029000000 +0000" stop="20261029060000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261029060000 +0000" stop="20261029120000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261029120000 +0000" stop="20261029180000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261029180000 +0000" stop="20261030000000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261030000000 +0000" stop="20261030060000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261030060000 +0000" stop="20261030120000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261030120000 +0000" stop="20261030180000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261030180000 +0000" stop="20261031000000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261031000000 +0000" stop="20261031060000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261031060000 +0000" stop="20261031120000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261031120000 +0000" stop="20261031180000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261031180000 +0000" stop="20261101000000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261101000000 +0000" stop="20261101060000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261101060000 +0000" stop="20261101120000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261101120000 +0000" stop="20261101190000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261101190000 +0000" stop="20261102010000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261102010000 +0000" stop="20261102070000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261102070000 +0000" stop="20261102130000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261102130000 +0000" stop="20261102190000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261102190000 +0000" stop="20261103010000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261103010000 +0000" stop="20261103070000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576478" start="20261103070000 +0000" stop="20261104000000 +0000">
+    <title lang="zh">Future Events for Chicago Cubs not found yet</title>
+    <desc />
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261028000000 +0000" stop="20261028060000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261028060000 +0000" stop="20261028120000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261028120000 +0000" stop="20261028180000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261028180000 +0000" stop="20261029000000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261029000000 +0000" stop="20261029060000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261029060000 +0000" stop="20261029120000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261029120000 +0000" stop="20261029180000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261029180000 +0000" stop="20261030000000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261030000000 +0000" stop="20261030060000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261030060000 +0000" stop="20261030120000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261030120000 +0000" stop="20261030180000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261030180000 +0000" stop="20261031000000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261031000000 +0000" stop="20261031060000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261031060000 +0000" stop="20261031120000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261031120000 +0000" stop="20261031180000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261031180000 +0000" stop="20261101000000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261101000000 +0000" stop="20261101060000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261101060000 +0000" stop="20261101120000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261101120000 +0000" stop="20261101190000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261101190000 +0000" stop="20261102010000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261102010000 +0000" stop="20261102070000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261102070000 +0000" stop="20261102130000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261102130000 +0000" stop="20261102190000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261102190000 +0000" stop="20261103010000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261103010000 +0000" stop="20261103070000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576563" start="20261103070000 +0000" stop="20261104000000 +0000">
+    <title lang="zh">Future Events for Chicago White Sox not found yet</title>
+    <desc />
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261028000000 +0000" stop="20261028060000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261028060000 +0000" stop="20261028120000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261028120000 +0000" stop="20261028180000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261028180000 +0000" stop="20261029000000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261028</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261029000000 +0000" stop="20261029060000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261029060000 +0000" stop="20261029120000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261029120000 +0000" stop="20261029180000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261029180000 +0000" stop="20261030000000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261029</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261030000000 +0000" stop="20261030060000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261030060000 +0000" stop="20261030120000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261030120000 +0000" stop="20261030180000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261030180000 +0000" stop="20261031000000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261030</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261031000000 +0000" stop="20261031060000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261031060000 +0000" stop="20261031120000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261031120000 +0000" stop="20261031180000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261031180000 +0000" stop="20261101000000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261031</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261101000000 +0000" stop="20261101060000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261101060000 +0000" stop="20261101120000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261101120000 +0000" stop="20261101190000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261101190000 +0000" stop="20261102010000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261101</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261102010000 +0000" stop="20261102070000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261102070000 +0000" stop="20261102130000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261102130000 +0000" stop="20261102190000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261102190000 +0000" stop="20261103010000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261102</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261103010000 +0000" stop="20261103070000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="576572" start="20261103070000 +0000" stop="20261104000000 +0000">
+    <title lang="zh">Future Events for Chicago Sky not found yet</title>
+    <desc />
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -1685,7 +1589,7 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465634" start="20261102230000 +0000" stop="20261103000000 +0000">
+  <programme channel="465634" start="20261102230000 +0000" stop="20261103050000 +0000">
     <title lang="zh">Next game: Colorado Avalanche at Chicago Blackhawks at 11/02/2026 08:00 PM (US/Eastern)</title>
     <desc>Next game: Colorado Avalanche at Chicago Blackhawks @ United Center in Chicago on CHSN+ at 11/02/2026 08:00 PM (US/Eastern)</desc>
     <date>20261102</date>
@@ -1693,34 +1597,58 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465677" start="20261027010000 +0000" stop="20261027070000 +0000">
-    <title lang="zh">Next game: Chicago Bears at Seattle Seahawks at 11/02/2026 08:15 PM (US/Eastern)</title>
-    <desc>Next game: Chicago Bears at Seattle Seahawks @ Lumen Field in Seattle on ESPN at 11/02/2026 08:15 PM (US/Eastern)</desc>
-    <date>20261027</date>
+  <programme channel="465634" start="20261103050000 +0000" stop="20261103080000 +0000">
+    <title lang="zh">Next game: Colorado Avalanche at Chicago Blackhawks at 11/02/2026 08:00 PM (US/Eastern)</title>
+    <desc>Next game: Colorado Avalanche at Chicago Blackhawks @ United Center in Chicago on CHSN+ at 11/02/2026 08:00 PM (US/Eastern)</desc>
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465677" start="20261027070000 +0000" stop="20261027130000 +0000">
-    <title lang="zh">Next game: Chicago Bears at Seattle Seahawks at 11/02/2026 08:15 PM (US/Eastern)</title>
-    <desc>Next game: Chicago Bears at Seattle Seahawks @ Lumen Field in Seattle on ESPN at 11/02/2026 08:15 PM (US/Eastern)</desc>
-    <date>20261027</date>
+  <programme channel="465634" start="20261103080000 +0000" stop="20261103100000 +0000">
+    <title lang="zh">Colorado Avalanche at Chicago Blackhawks</title>
+    <desc>Colorado Avalanche at Chicago Blackhawks @ United Center in Chicago on CHSN+</desc>
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465677" start="20261027130000 +0000" stop="20261027190000 +0000">
-    <title lang="zh">Next game: Chicago Bears at Seattle Seahawks at 11/02/2026 08:15 PM (US/Eastern)</title>
-    <desc>Next game: Chicago Bears at Seattle Seahawks @ Lumen Field in Seattle on ESPN at 11/02/2026 08:15 PM (US/Eastern)</desc>
-    <date>20261027</date>
+  <programme channel="465634" start="20261103100000 +0000" stop="20261103113000 +0000">
+    <title lang="zh">Colorado Avalanche at Chicago Blackhawks possible Overtime</title>
+    <desc />
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465677" start="20261027190000 +0000" stop="20261028010000 +0000">
-    <title lang="zh">Next game: Chicago Bears at Seattle Seahawks at 11/02/2026 08:15 PM (US/Eastern)</title>
-    <desc>Next game: Chicago Bears at Seattle Seahawks @ Lumen Field in Seattle on ESPN at 11/02/2026 08:15 PM (US/Eastern)</desc>
-    <date>20261027</date>
+  <programme channel="465634" start="20261103113000 +0000" stop="20261103120000 +0000">
+    <title lang="zh">Colorado Avalanche at Chicago Blackhawks possible Overtime</title>
+    <desc />
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="465634" start="20261103120000 +0000" stop="20261103180000 +0000">
+    <title lang="zh">Next game: Chicago Blackhawks at Florida Panthers at 11/04/2026 07:30 PM EST</title>
+    <desc>Next game: Chicago Blackhawks at Florida Panthers @ Amerant Bank Arena in Sunrise on TNT at 11/04/2026 07:30 PM EST</desc>
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="465634" start="20261103180000 +0000" stop="20261104000000 +0000">
+    <title lang="zh">Next game: Chicago Blackhawks at Florida Panthers at 11/04/2026 07:30 PM EST</title>
+    <desc>Next game: Chicago Blackhawks at Florida Panthers @ Amerant Bank Arena in Sunrise on TNT at 11/04/2026 07:30 PM EST</desc>
+    <date>20261103</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="465634" start="20261104000000 +0000" stop="20261105000000 +0000">
+    <title lang="zh">Next game: Chicago Blackhawks at Florida Panthers at 11/04/2026 07:30 PM EST</title>
+    <desc>Next game: Chicago Blackhawks at Florida Panthers @ Amerant Bank Arena in Sunrise on TNT at 11/04/2026 07:30 PM EST</desc>
+    <date>20261104</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -1909,7 +1837,7 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465677" start="20261102190000 +0000" stop="20261103000000 +0000">
+  <programme channel="465677" start="20261102190000 +0000" stop="20261103010000 +0000">
     <title lang="zh">Next game: Chicago Bears at Seattle Seahawks at 11/02/2026 08:15 PM (US/Eastern)</title>
     <desc>Next game: Chicago Bears at Seattle Seahawks @ Lumen Field in Seattle on ESPN at 11/02/2026 08:15 PM (US/Eastern)</desc>
     <date>20261102</date>
@@ -1917,218 +1845,58 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465058" start="20261027013000 +0000" stop="20261027020000 +0000">
-    <title lang="zh">Kash &amp; Matty Talkin' Golf</title>
-    <desc>Award winning golf journalist Steve Kashul, and Chicago area golf guru Matt Smith talk golf covering top Chicago area, Midwest, and national golf topics. Discussions include golf courses, equipment, apparel, and include interviews with golf personalities, tour pros, top swing instructors, and celebrities.</desc>
-    <date>20261027</date>
+  <programme channel="465677" start="20261103010000 +0000" stop="20261103070000 +0000">
+    <title lang="zh">Next game: Chicago Bears at Seattle Seahawks at 11/02/2026 08:15 PM (US/Eastern)</title>
+    <desc>Next game: Chicago Bears at Seattle Seahawks @ Lumen Field in Seattle on ESPN at 11/02/2026 08:15 PM (US/Eastern)</desc>
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465058" start="20261027020000 +0000" stop="20261027043000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>The Chicago Blackhawks host the Florida Panthers at the United Center. The Panthers defeated the Blackhawks 5-1 at the United Center in January 2026. The Atlantic Division Panthers and Central Division Blackhawks teams clash again in the same venue.</desc>
-    <date>20261027</date>
+  <programme channel="465677" start="20261103070000 +0000" stop="20261103081500 +0000">
+    <title lang="zh">Next game: Chicago Bears at Seattle Seahawks at 11/02/2026 08:15 PM (US/Eastern)</title>
+    <desc>Next game: Chicago Bears at Seattle Seahawks @ Lumen Field in Seattle on ESPN at 11/02/2026 08:15 PM (US/Eastern)</desc>
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465058" start="20261027043000 +0000" stop="20261027050000 +0000">
-    <title lang="zh">MidWest Outdoors</title>
-    <desc>Hunting, boating, canoeing, camping, hiking, snowmobiling.</desc>
-    <date>20261027</date>
+  <programme channel="465677" start="20261103081500 +0000" stop="20261103111500 +0000">
+    <title lang="zh">Chicago Bears at Seattle Seahawks</title>
+    <desc>Chicago Bears at Seattle Seahawks @ Lumen Field in Seattle on ESPN</desc>
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465058" start="20261027050000 +0000" stop="20261027060000 +0000">
-    <title lang="zh">Bulls Podcast</title>
-    <desc>Camron Smith and K. C. Johnson break down the latest news, interviews, and insider updates from around the team.</desc>
-    <date>20261027</date>
+  <programme channel="465677" start="20261103111500 +0000" stop="20261103120000 +0000">
+    <title lang="zh">Chicago Bears at Seattle Seahawks possible Overtime</title>
+    <desc />
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465058" start="20261027060000 +0000" stop="20261027063000 +0000">
-    <title lang="zh">The Big Pro Football Show</title>
-    <desc>A look at the Bears, the Bears' NFC North division rivals, and the NFL at large with insightful, analytical, and entertaining content every day.</desc>
-    <date>20261027</date>
+  <programme channel="465677" start="20261103120000 +0000" stop="20261103130000 +0000">
+    <title lang="zh">Next game: Tampa Bay Buccaneers at Chicago Bears at 11/08/2026 08:20 PM (US/Eastern)</title>
+    <desc>Next game: Tampa Bay Buccaneers at Chicago Bears @ Soldier Field in Chicago on NBC at 11/08/2026 08:20 PM (US/Eastern)</desc>
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465058" start="20261027063000 +0000" stop="20261027070000 +0000">
-    <title lang="zh">Live: The Chicago Lead</title>
-    <desc>Providing Chicago sports fans breaking news, analysis, features, and exclusive interviews and insights across the region's most relevant professional, collegiate, and high school sports stories and personalities.</desc>
-    <date>20261027</date>
+  <programme channel="465677" start="20261103130000 +0000" stop="20261103190000 +0000">
+    <title lang="zh">Next game: Tampa Bay Buccaneers at Chicago Bears at 11/08/2026 08:20 PM (US/Eastern)</title>
+    <desc>Next game: Tampa Bay Buccaneers at Chicago Bears @ Soldier Field in Chicago on NBC at 11/08/2026 08:20 PM (US/Eastern)</desc>
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="465058" start="20261027070000 +0000" stop="20261027073000 +0000">
-    <title lang="zh">Bulls Countdown Live</title>
-    <desc>Live pregame analysis and discussion.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027073000 +0000" stop="20261027100000 +0000">
-    <title lang="zh">Live: NBA Basketball</title>
-    <desc>From TD Garden in Boston.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027100000 +0000" stop="20261027103000 +0000">
-    <title lang="zh">Bulls Postgame Live</title>
-    <desc>Live postgame analysis, wrapping up the game with player/coach interviews and live press conferences.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027103000 +0000" stop="20261027113000 +0000">
-    <title lang="zh">Legends in Session With Horace Grant</title>
-    <desc>Four-time NBA champion Horace Grant interviews iconic basketball figures, offering unscripted conversations about their careers, memorable games and the era that defined the sport.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027113000 +0000" stop="20261027120000 +0000">
-    <title lang="zh">The Big Pro Football Show</title>
-    <desc>A look at the Bears, the Bears' NFC North division rivals, and the NFL at large with insightful, analytical, and entertaining content every day.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027120000 +0000" stop="20261027143000 +0000">
-    <title lang="zh">NBA Basketball</title>
-    <desc>From TD Garden in Boston.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027143000 +0000" stop="20261027150000 +0000">
-    <title lang="zh">The Big Pro Football Show</title>
-    <desc>A look at the Bears, the Bears' NFC North division rivals, and the NFL at large with insightful, analytical, and entertaining content every day.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027150000 +0000" stop="20261027153000 +0000">
-    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
-    <desc>Prosvent is a doctor-formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027153000 +0000" stop="20261027160000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027160000 +0000" stop="20261027163000 +0000">
-    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
-    <desc>Prosvent is a doctor-formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027163000 +0000" stop="20261027170000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027170000 +0000" stop="20261027173000 +0000">
-    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
-    <desc>Prosvent is a doctor-formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027173000 +0000" stop="20261027180000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027180000 +0000" stop="20261027183000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027183000 +0000" stop="20261027190000 +0000">
-    <title lang="zh">Going To The Bathroom Too Much?</title>
-    <desc>Better Bladder is a new safe and natural alternative to drugs, surgery and adult diapers. 90 percent see fewer bathroom visits, leaks &amp; accidents. Tune in for a special TV offer!</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027190000 +0000" stop="20261027193000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027193000 +0000" stop="20261027200000 +0000">
-    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
-    <desc>Prosvent is a doctor-formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027200000 +0000" stop="20261027220000 +0000">
-    <title lang="zh">Live: Haugh &amp; Payton Show</title>
-    <desc>David Haugh and Jarrett Payton lead you into your workday by discussing the biggest sports storylines in Chicago and beyond.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027220000 +0000" stop="20261027223000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027223000 +0000" stop="20261027230000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>20261027</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="465058" start="20261027230000 +0000" stop="20261028013000 +0000">
-    <title lang="zh">NBA Basketball</title>
-    <desc>From TD Garden in Boston.</desc>
-    <date>20261027</date>
+  <programme channel="465677" start="20261103190000 +0000" stop="20261104000000 +0000">
+    <title lang="zh">Next game: Tampa Bay Buccaneers at Chicago Bears at 11/08/2026 08:20 PM (US/Eastern)</title>
+    <desc>Next game: Tampa Bay Buccaneers at Chicago Bears @ Soldier Field in Chicago on NBC at 11/08/2026 08:20 PM (US/Eastern)</desc>
+    <date>20261103</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>

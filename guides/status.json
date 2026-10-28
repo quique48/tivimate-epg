@@ -1,32 +1,32 @@
 {
   "errors": {},
-  "generated_at": "2026-10-28T00:13:42.973366+00:00",
+  "generated_at": "2026-10-28T00:26:13.243199+00:00",
   "groups": {
     "all": {
       "channels": 9088,
-      "gzip_bytes": 51703371,
+      "gzip_bytes": 50943860,
       "gzip_url": "guides/all.xml.gz",
-      "programmes": 788707,
+      "programmes": 786200,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
     },
     "ca": {
       "channels": 696,
-      "gzip_bytes": 2398196,
+      "gzip_bytes": 2433121,
       "gzip_url": "guides/ca.xml.gz",
-      "programmes": 50671,
+      "programmes": 51615,
       "updated_from_sources": true,
-      "xml_bytes": 19456364,
+      "xml_bytes": 19795408,
       "xml_url": "guides/ca.xml"
     },
     "chicago": {
       "channels": 28,
-      "gzip_bytes": 176419,
+      "gzip_bytes": 176146,
       "gzip_url": "guides/chicago.xml.gz",
-      "programmes": 3368,
+      "programmes": 3339,
       "updated_from_sources": true,
-      "xml_bytes": 2207103,
+      "xml_bytes": 2196483,
       "xml_url": "guides/chicago.xml"
     },
     "gb": {
@@ -40,23 +40,24 @@
     },
     "layerseven": {
       "channels": 9088,
-      "gzip_bytes": 51703371,
+      "gzip_bytes": 50943860,
       "gzip_url": "guides/layerseven.xml.gz",
-      "programmes": 788707,
+      "programmes": 786200,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
     },
     "layerseven-custom": {
-      "channels": 1095,
-      "gzip_bytes": 10125392,
+      "channels": 1129,
+      "gzip_bytes": 10641048,
       "gzip_url": "guides/layerseven-custom.xml.gz",
+      "hbo_epix_channels": 39,
       "matched_layerseven_entries": 1809,
-      "programmes": 124723,
+      "programmes": 127370,
       "unmatched_layerseven_entries": 1835,
       "updated_from_sources": true,
-      "xml_bytes": 93513941,
-      "xml_url": "guides/layerseven-custom.xml"
+      "xml_bytes": 0,
+      "xml_url": null
     },
     "sports": {
       "channels": 525,
@@ -69,9 +70,9 @@
     },
     "us": {
       "channels": 6552,
-      "gzip_bytes": 36264691,
+      "gzip_bytes": 35470604,
       "gzip_url": "guides/us.xml.gz",
-      "programmes": 578644,
+      "programmes": 575193,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
