@@ -7,6 +7,7 @@ from build_layerseven_custom import (
     is_hbo_epix_channel,
     is_max_channel,
     is_paramount_plus_channel,
+    is_tudn_channel,
     match_channels,
     name_variants,
     tokens,
@@ -65,6 +66,14 @@ class LayerSevenMatchingTest(unittest.TestCase):
             channel = ET.Element("channel")
             ET.SubElement(channel, "display-name").text = name
             self.assertFalse(is_max_channel(channel))
+
+    def test_tudn_detection_excludes_xtra_event_feeds(self):
+        channel = ET.Element("channel")
+        ET.SubElement(channel, "display-name").text = "TUDN"
+        self.assertTrue(is_tudn_channel(channel))
+        channel = ET.Element("channel")
+        ET.SubElement(channel, "display-name").text = "TUDN Xtra 1"
+        self.assertFalse(is_tudn_channel(channel))
 
     def test_cw_station_mapping_overrides_generic_match(self):
         def public_channel(channel_id, name):
