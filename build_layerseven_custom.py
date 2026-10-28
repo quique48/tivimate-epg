@@ -34,6 +34,68 @@ STATE_TOKENS = {
     "VT", "VA", "WA", "WV", "WI", "WY", "DC",
 }
 
+# Numbered CW feeds often retain legacy station branding. City-only feeds use
+# the current local CW affiliate; subchannels without public listings fall back
+# to the national CW schedule.
+CW_FEED_STATIONS = {
+    "US: CW ATLANTA HD": "WPCH-DT",
+    "US: CW CHICAGO HD": "WCIU-DT",
+    "US: CW PHILADELPHIA HD": "WPHL-DT",
+    "US: CW PITTSBURGH": "WPNT-DT",
+    "US: CW SACRAMENTO HD": "KQCA-DT",
+    "US: CW SAN FRANCISCO HD": "KRON-DT",
+    "US: CW SEATTLE HD": "KUNS-DT",
+    "US: CW TAMPA BAY HD": "WTTA-DT",
+    "US: CW 21 SHREVEPORT LA (KPXJ) HD": "KPXJ-DT",
+    "US: CW 21 BIRMINGHAM AL (WTTO) HD": "WTTO-DT",
+    "US: CW 39 (WSFL-TV) Miami (A) HD": "WSFL-DT",
+    "US: CW HD": "CW",
+    "US: CW (KOCB)": "KOCB-DT",
+    "US: CW (KSTW)": "KSTW-DT",
+    "US: CW (KVCW)": "KVCW-DT",
+    "US: CW (WKBD)": "WKBD-DT",
+    "US: CW (WNUV)": "WNUV-DT",
+    "US: CW (WPCW)": "WPKD-DT",
+    "US: CW (WPSG)": "WPSG-DT",
+    "US: CW NETWORK 4K": "CW",
+    "US: CW (WUCW)": "WUCW-DT",
+    "US: CW 5 HD [PALM SPRINGS]": "KESQ-DT3",
+    "US: CW 8  HD [MISSOULA]": "KPAX-DT2",
+    "US: CW PIX 11 HD": "WPIX-DT",
+    "US: CW 11 HD [SEATTLE]": "KSTW-DT",
+    "US: CW 13 HD [LAREDO]": "CW",
+    "US: CW 17 HD [JACKSONVILLE]": "WCWJ-DT",
+    "US: CW 18 HD [DAYTONA BEACH]": "WKCF-DT",
+    "US: CW 18 HD [CHARLOTTE]": "WCCB-DT",
+    "US: CW 18 HD [MILWAUKEE]": "WVTV-DT",
+    "US: CW 18 HD [ORLANDO]": "WKCF-DT",
+    "US: CW 19 HD [TULSA]": "KQCW-DT",
+    "US: CW 20 HD GREENSBORO/HIGH POINT/WINSTON-SALEM AREA": "WCWG-DT",
+    "US: CW 22 HD [MONTGOMERY]": "WBMM-DT",
+    "US: CW 23 HD [LANCASTER PA]": "CW",
+    "US: CW 23 BUFFALO NY (WNLO)": "WNLO-DT",
+    "US: CW 26 HD [CHICAGO]": "WCIU-DT",
+    "US: CW 29 HD [KANSAS CITY]": "KCWE-DT",
+    "US: CW 33 HD [LAS VEGAS]": "KVCW-DT",
+    "US: CW 35 HD [SAN ANTONIO]": "KMYS-DT",
+    "US: CW 36 (KICU) SAN JOSE HD": "KICU-DT",
+    "US: CW 44 HD [ST. PETERSBURG]": "WTOG-DT",
+    "US: CW 39 HD [MIAMI]": "WSFL-DT",
+    "US: CW 39 (KIAH) Houston HD": "KIAH-DT",
+    "US: CW 44 HD [SAN FRANCISCO]": "KPYX-DT",
+    "US: CW 44 HD [TAMPA]": "WTOG-DT",
+    "US: CW 46 HD [FORT MYERS]": "WXCW-DT",
+    "US: CW 50 HD [DETROIT]": "WKBD-DT",
+    "US: CW 53 HD [COLUMBUS]": "WWHO-DT",
+    "US: CW 54 HD [BALTIMORE]": "WNUV-DT",
+    "US: CW 56 HD [BOSTON]": "WLVI-DT",
+    "US: CW 57 [PHILADELPHIA]": "WPSG-DT",
+    "US: CW 58 HD [LOUISVILLE]": "WBKI-DT",
+    "US: CW 58 [NASHVILLE]": "WNAB-DT",
+    "US: CW 69 HD [ATLANTA]": "WUPA-DT",
+    "CA: CW 11": "KSTW-DT",
+}
+
 
 def read_xml(path: Path) -> ET.Element:
     opener = gzip.open if path.suffix == ".gz" else open
@@ -131,6 +193,12 @@ def choose_candidate(candidates, programme_counts, regions, allowed_regions):
 
 def match_channels(inventory, channels, programme_counts, regions):
     index = build_index(channels, regions)
+    station_index: dict[str, set[str]] = defaultdict(set)
+    for channel_id, channel in channels.items():
+        for display in channel.findall("display-name"):
+            name = (display.text or "").strip().upper()
+            if name:
+                station_index[name].add(channel_id)
     matches = []
     unmatched = []
     subset_blocked = {
@@ -215,6 +283,14 @@ def match_channels(inventory, channels, programme_counts, regions):
                         ),
                     )
                     match_method = "close-spelling"
+
+            station_name = CW_FEED_STATIONS.get(layerseven_name)
+            if station_name:
+                candidates = station_index.get(station_name, set())
+                if candidates:
+                    found = choose_candidate(candidates, programme_counts, regions, allowed_regions)
+                    matched_key = station_name
+                    match_method = "cw-station"
 
             record = {
                 "layerseven_name": layerseven_name,
@@ -328,6 +404,9 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         "paramount_plus_channels": len(paramount_channel_ids),
         "disney_plus_channels": len(disney_channel_ids),
         "max_channels": len(max_channel_ids),
+        "cw_layerseven_entries": sum(
+            match["match_method"] == "cw-station" for match in matches
+        ),
         "matched_layerseven_entries": len(matches),
         "unmatched_layerseven_entries": len(unmatched),
         "xml_url": xml_url,
