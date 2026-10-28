@@ -15,6 +15,13 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertIn("GOLD", name_variants("UK: GOLD 4K"))
         self.assertIn("AMC PLUS", name_variants("US: AMC PLUS HD"))
 
+    def test_call_sign_matches_broadcast_suffix(self):
+        self.assertIn("KNBC", name_variants("US: NBC 4 (KNBC) LOS ANGELES HD"))
+        self.assertIn("KNBC", name_variants("KNBC-DT"))
+
+    def test_west_direction_is_not_a_call_sign(self):
+        self.assertNotIn("WEST", name_variants("US: NBC UNIVERSO (West)"))
+
 
 if __name__ == "__main__":
     unittest.main()
