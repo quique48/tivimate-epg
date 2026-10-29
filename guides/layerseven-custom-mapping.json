@@ -4258,6 +4258,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: LOCAL NOW HD",
+      "category": "US| ENTERTAINMENT HD/4K",
+      "country": "US",
+      "epg_id": "578054",
+      "epg_name": "Local Now",
+      "matched_key": "LOCAL NOW",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: LOGO HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US",
@@ -6463,6 +6472,33 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NEWS 12 THE BRONX 4K",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "578055",
+      "epg_name": "News 12 Bronx",
+      "matched_key": "NEWS 12 BRONX",
+      "match_method": "regional-subset"
+    },
+    {
+      "layerseven_name": "US: NEWS 12 LONG ISLAND 4K",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "578068",
+      "epg_name": "News 12 Long Island",
+      "matched_key": "NEWS 12 LONG ISLAND",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NEWS 12 WESTCHESTER HD",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "578058",
+      "epg_name": "News 12 Westchester",
+      "matched_key": "NEWS 12 WESTCHESTER",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: MSNBC HD",
       "category": "US| NEWS HD/4K",
       "country": "US",
@@ -6649,6 +6685,24 @@
       "epg_id": "I3.9.110711.gracenote.com",
       "epg_name": "Newsnet",
       "matched_key": "NEWSNET",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NEWS 12 BROOKLYN",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "578063",
+      "epg_name": "News 12 Brooklyn",
+      "matched_key": "NEWS 12 BROOKLYN",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NEWS 12 CONNECTICUT",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "578059",
+      "epg_name": "News 12 Connecticut",
+      "matched_key": "NEWS 12 CONNECTICUT",
       "match_method": "exact"
     },
     {
@@ -14728,8 +14782,8 @@
       "layerseven_name": "CA: TSN",
       "category": "CA| TSN SPORT HD/4K",
       "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
+      "epg_id": "470389",
+      "epg_name": "TSN 3 HD",
       "matched_key": "TSN",
       "match_method": "exact"
     },
@@ -15133,8 +15187,8 @@
       "layerseven_name": "CA FR: TSN/RDS EXTRA 1",
       "category": "CA| SPORTS FR",
       "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
+      "epg_id": "470389",
+      "epg_name": "TSN 3 HD",
       "matched_key": "TSN",
       "match_method": "exact"
     },
@@ -15142,8 +15196,8 @@
       "layerseven_name": "CA FR: TSN/RDS EXTRA 2",
       "category": "CA| SPORTS FR",
       "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
+      "epg_id": "470389",
+      "epg_name": "TSN 3 HD",
       "matched_key": "TSN",
       "match_method": "exact"
     },
@@ -15151,8 +15205,8 @@
       "layerseven_name": "CA FR: TSN/RDS EXTRA 3",
       "category": "CA| SPORTS FR",
       "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
+      "epg_id": "470389",
+      "epg_name": "TSN 3 HD",
       "matched_key": "TSN",
       "match_method": "exact"
     },
@@ -15160,8 +15214,8 @@
       "layerseven_name": "CA FR: TSN/RDS EXTRA 4",
       "category": "CA| SPORTS FR",
       "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
+      "epg_id": "470389",
+      "epg_name": "TSN 3 HD",
       "matched_key": "TSN",
       "match_method": "exact"
     },
@@ -15169,8 +15223,8 @@
       "layerseven_name": "CA FR: TSN/RDS EXTRA 5",
       "category": "CA| SPORTS FR",
       "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
+      "epg_id": "470389",
+      "epg_name": "TSN 3 HD",
       "matched_key": "TSN",
       "match_method": "exact"
     },
@@ -19298,11 +19352,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: LOCAL NOW HD",
-      "category": "US| ENTERTAINMENT HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US:  LAFF TV  HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US"
@@ -19738,21 +19787,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NEWS 12 THE BRONX 4K",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NEWS 12 LONG ISLAND 4K",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NEWS 12 WESTCHESTER HD",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: LIVENOW FROM FOX",
       "category": "US| NEWS HD/4K",
       "country": "US"
@@ -19778,17 +19812,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NEWS 12 BROOKLYN",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: KIRO 7 NEWS",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NEWS 12 CONNECTICUT",
       "category": "US| NEWS HD/4K",
       "country": "US"
     },
