@@ -1,12 +1,12 @@
 {
   "errors": {},
-  "generated_at": "2026-10-29T13:08:06.385333+00:00",
+  "generated_at": "2026-10-29T22:48:27.753593+00:00",
   "groups": {
     "all": {
       "channels": 9103,
-      "gzip_bytes": 53075075,
+      "gzip_bytes": 53076367,
       "gzip_url": "guides/all.xml.gz",
-      "programmes": 794690,
+      "programmes": 794697,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
@@ -40,9 +40,9 @@
     },
     "layerseven": {
       "channels": 9103,
-      "gzip_bytes": 53075075,
+      "gzip_bytes": 53076367,
       "gzip_url": "guides/layerseven.xml.gz",
-      "programmes": 794690,
+      "programmes": 794697,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
@@ -51,7 +51,7 @@
       "channels": 1177,
       "cw_layerseven_entries": 56,
       "disney_plus_channels": 2,
-      "gzip_bytes": 11323506,
+      "gzip_bytes": 11323334,
       "gzip_url": "guides/layerseven-custom.xml.gz",
       "hbo_epix_channels": 39,
       "matched_layerseven_entries": 1856,
@@ -67,11 +67,11 @@
     },
     "sports": {
       "channels": 525,
-      "gzip_bytes": 115702,
+      "gzip_bytes": 116988,
       "gzip_url": "guides/sports.xml.gz",
-      "programmes": 5311,
+      "programmes": 5318,
       "updated_from_sources": true,
-      "xml_bytes": 2679315,
+      "xml_bytes": 2686350,
       "xml_url": "guides/sports.xml"
     },
     "us": {
