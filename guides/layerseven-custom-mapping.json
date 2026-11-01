@@ -247,8 +247,8 @@
       "layerseven_name": "US: COMET HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US",
-      "epg_id": "465305",
-      "epg_name": "Comet",
+      "epg_id": "I24.3.46785.gracenote.com",
+      "epg_name": "Comet TV",
       "matched_key": "COMET",
       "match_method": "exact"
     },
@@ -331,6 +331,24 @@
       "epg_id": "469786",
       "epg_name": "WCTX-DT",
       "matched_key": "WCTX",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: E! ENTERTAINMENT WEST HD",
+      "category": "US| ENTERTAINMENT HD/4K",
+      "country": "US",
+      "epg_id": "I236.61812.schedulesdirect.org",
+      "epg_name": "E! Entertainment Television HD",
+      "matched_key": "E ENTERTAINMENT",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: E! ENTERTAINMENT HD",
+      "category": "US| ENTERTAINMENT HD/4K",
+      "country": "US",
+      "epg_id": "I236.61812.schedulesdirect.org",
+      "epg_name": "E! Entertainment Television HD",
+      "matched_key": "E ENTERTAINMENT",
       "match_method": "exact"
     },
     {
@@ -547,6 +565,15 @@
       "epg_id": "I272.46762.schedulesdirect.org",
       "epg_name": "Logo TV",
       "matched_key": "LOGO",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US:  LAFF TV  HD",
+      "category": "US| ENTERTAINMENT HD/4K",
+      "country": "US",
+      "epg_id": "I239.92091.gracenote.com",
+      "epg_name": "Laff",
+      "matched_key": "LAFF",
       "match_method": "exact"
     },
     {
@@ -802,6 +829,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: RETRO TV",
+      "category": "US| ENTERTAINMENT HD/4K",
+      "country": "US",
+      "epg_id": "465151",
+      "epg_name": "RETRO",
+      "matched_key": "RETRO",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: RETROPLEX HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US",
@@ -874,6 +910,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: SUNDANCE HD",
+      "category": "US| ENTERTAINMENT HD/4K",
+      "country": "US",
+      "epg_id": "I239.71280.schedulesdirect.org",
+      "epg_name": "Sundance TV HD",
+      "matched_key": "SUNDANCE",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: SYFY HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US",
@@ -890,15 +935,6 @@
       "epg_name": "Syfy HD",
       "matched_key": "SYFY",
       "match_method": "exact"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM BAY NEWS 9 HD",
-      "category": "US| ENTERTAINMENT HD/4K",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
     },
     {
       "layerseven_name": "US: TASTEMADE HD",
@@ -1261,15 +1297,6 @@
       "match_method": "exact"
     },
     {
-      "layerseven_name": "US: SPECTRUM NEWS NY1 ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
       "layerseven_name": "US: SPECTRUM NEWS MO ST LOUIS- IP ᴴᴰ",
       "category": "US| SPECTRUM NETWORK",
       "country": "US",
@@ -1297,105 +1324,6 @@
       "match_method": "exact"
     },
     {
-      "layerseven_name": "US: SPECTRUM NEWS 1 WORCESTER ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 SPRINGFIELD ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 SOUTHERN TIER ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 ROTX ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 ROCHESTER ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 RALEIGH ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 PITTSFIELD ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 OHIO ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 KENTUCKY ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 KANSAS CITY ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 HUDSON VALLEY ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
       "layerseven_name": "US: SPECTRUM NEWS 1 ᴴᴰ",
       "category": "US| SPECTRUM NETWORK",
       "country": "US",
@@ -1403,69 +1331,6 @@
       "epg_name": "Spectrum News+",
       "matched_key": "SPECTRUM NEWS",
       "match_method": "exact"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 GREENSBORO ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 DALLAS ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 CHARLOTTE ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 CENTRAL NY ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 CAROLINAS MOUNTAIN ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 BUFFALO ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 ALBANY ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
     },
     {
       "layerseven_name": "US: SPECTRUM NEWS 1 - TOLEDO/LIMA ᴴᴰ",
@@ -1477,51 +1342,6 @@
       "match_method": "exact"
     },
     {
-      "layerseven_name": "US: SPECTRUM NEWS 1 - SO CAL ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 - EL PASO TEXAS ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 - DAYTON ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 - DALLAS -FT WORTH ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 - COLUMBUS ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
       "layerseven_name": "US: SPECTRUM NEWS 1 - CLEVELAND/AKRON ᴴᴰ",
       "category": "US| SPECTRUM NETWORK",
       "country": "US",
@@ -1529,42 +1349,6 @@
       "epg_name": "Spectrum News 1 - Cleveland/Akron - STVA",
       "matched_key": "SPECTRUM NEWS 1 CLEVELAND",
       "match_method": "exact"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 - CINCINNATI ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 - (MA) WORCESTER ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 - (MA) SPRINGFIELD ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 - (MA) PITTSFIELD ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
     },
     {
       "layerseven_name": "US: SPECTRUM NEWS 1 - (KENTUCKY) LOUISVILLE ᴴᴰ",
@@ -1601,60 +1385,6 @@
       "epg_name": "Spectrum News 1 (Kentucky) Covington",
       "matched_key": "SPECTRUM NEWS 1 KENTUCKY COVINGTON",
       "match_method": "exact"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 (CAROLINAS) - RALEIGH ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 (CAROLINAS) - MOUNTAIN ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 (CAROLINAS) - COASTAL ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 (CAROLINAS) - CHARLOTTE ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS 1 (CAROLINAS) -  GREENSBORO ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS - NY1 ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
     },
     {
       "layerseven_name": "US: SPECTRUM NEWS - CENTRAL NY ᴴᴰ",
@@ -1694,15 +1424,6 @@
     },
     {
       "layerseven_name": "US: SPECTRUM NEWS - (NEW YORK) ROCHESTER ᴴᴰ",
-      "category": "US| SPECTRUM NETWORK",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM BAY NEWS 9 ᴴᴰ",
       "category": "US| SPECTRUM NETWORK",
       "country": "US",
       "epg_id": "464938",
@@ -1828,6 +1549,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: TELEMUNDO (KHRR-DT) MARANA ᴴᴰ",
+      "category": "US| TELEMUNDO NETWORK",
+      "country": "US",
+      "epg_id": "467157",
+      "epg_name": "KHRR-DT",
+      "matched_key": "KHRRDT",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: TELEMUNDO (KHRR) TUCSON ᴴᴰ",
       "category": "US| TELEMUNDO NETWORK",
       "country": "US",
@@ -1862,6 +1592,15 @@
       "epg_name": "KQRE-LD",
       "matched_key": "KQRE",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: TELEMUNDO (KSTS-DT) CONCORD ᴴᴰ",
+      "category": "US| TELEMUNDO NETWORK",
+      "country": "US",
+      "epg_id": "467199",
+      "epg_name": "KSTS-DT",
+      "matched_key": "KSTSDT",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: TELEMUNDO (KSTS) SAN JOSE ᴴᴰ",
@@ -1963,6 +1702,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: TELEMUNDO (KUAN-LD) CHULA VISTA ᴴᴰ",
+      "category": "US| TELEMUNDO NETWORK",
+      "country": "US",
+      "epg_id": "468961",
+      "epg_name": "KUAN-LD",
+      "matched_key": "KUANLD",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: TELEMUNDO (KUTU) TULSA ᴴᴰ",
       "category": "US| TELEMUNDO NETWORK",
       "country": "US",
@@ -2006,6 +1754,15 @@
       "epg_name": "KXTX-DT",
       "matched_key": "KXTX",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: TELEMUNDO (KXTX-DT) THE COLONY ᴴᴰ",
+      "category": "US| TELEMUNDO NETWORK",
+      "country": "US",
+      "epg_id": "467510",
+      "epg_name": "KXTX-DT",
+      "matched_key": "KXTXDT",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: TELEMUNDO (WEST) ᴴᴰ",
@@ -2179,6 +1936,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: TELEMUNDO (WZDC( LEESBURG ᴴᴰ",
+      "category": "US| TELEMUNDO NETWORK",
+      "country": "US",
+      "epg_id": "469991",
+      "epg_name": "WZDC-CD",
+      "matched_key": "WZDC",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: TELEMUNDO (WZDC) WASHINGTON ᴴᴰ",
       "category": "US| TELEMUNDO NETWORK",
       "country": "US",
@@ -2341,6 +2107,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: TELEMUNDO 31 (WTMO-CD) DAYTONA BEACH ᴴᴰ",
+      "category": "US| TELEMUNDO NETWORK",
+      "country": "US",
+      "epg_id": "467391",
+      "epg_name": "WTMO-CD",
+      "matched_key": "WTMOCD",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: TELEMUNDO 39 (KXTX) DALLAS ᴴᴰ",
       "category": "US| TELEMUNDO NETWORK",
       "country": "US",
@@ -2348,6 +2123,15 @@
       "epg_name": "KXTX-DT",
       "matched_key": "KXTX",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: TELEMUNDO 42 (KGLA-DT) NEW ORLEANS ᴴᴰ",
+      "category": "US| TELEMUNDO NETWORK",
+      "country": "US",
+      "epg_id": "467329",
+      "epg_name": "KGLA-DT",
+      "matched_key": "KGLADT",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: TELEMUNDO 45 (WZTD) RICHMOND ᴴᴰ",
@@ -2377,6 +2161,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: TELEMUNDO 24 (KXTQ-CD) LUBBOCK/TEXAS ᴴᴰ",
+      "category": "US| TELEMUNDO NETWORK",
+      "country": "US",
+      "epg_id": "469927",
+      "epg_name": "KXTQ-CD",
+      "matched_key": "KXTQCD",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: TELEMUNDO 39 (KGKC) KANSAS CITY ᴴᴰ",
       "category": "US| TELEMUNDO NETWORK",
       "country": "US",
@@ -2384,6 +2177,15 @@
       "epg_name": "KGKC-LD",
       "matched_key": "KGKC",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: TELEMUNDO 20 (KTMW-DT) SALT LAKE CITY ᴴᴰ",
+      "category": "US| TELEMUNDO NETWORK",
+      "country": "US",
+      "epg_id": "466092",
+      "epg_name": "KTMW-DT",
+      "matched_key": "KTMWDT",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: TELEMUNDO 27 (KOHA) OMAHA ᴴᴰ",
@@ -2755,6 +2557,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FOX NEWS HD",
+      "category": "US| NEWS HD/4K",
+      "country": "US",
+      "epg_id": "I360.60179.schedulesdirect.org",
+      "epg_name": "Fox News Channel HD",
+      "matched_key": "FOX NEWS CHANNEL",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: FOX HARTFORD (WTIC)",
       "category": "US| NEWS HD/4K",
       "country": "US",
@@ -3055,8 +2866,8 @@
       "layerseven_name": "US: NEWSMAX HD",
       "category": "US| NEWS HD/4K",
       "country": "US",
-      "epg_id": "I1115.97163.gracenote.com",
-      "epg_name": "Newsmax",
+      "epg_id": "I349.97163.schedulesdirect.org",
+      "epg_name": "Newsmax TV HD",
       "matched_key": "NEWSMAX",
       "match_method": "exact"
     },
@@ -3068,15 +2879,6 @@
       "epg_name": "Spectrum News+",
       "matched_key": "SPECTRUM NEWS",
       "match_method": "exact"
-    },
-    {
-      "layerseven_name": "US: SPECTRUM NEWS NY1 HD",
-      "category": "US| NEWS HD/4K",
-      "country": "US",
-      "epg_id": "464938",
-      "epg_name": "Spectrum News+",
-      "matched_key": "SPECTRUM NEWS",
-      "match_method": "regional-subset"
     },
     {
       "layerseven_name": "US: SPECTRUM SPORTSNET [LA DODGERS]",
@@ -3241,12 +3043,30 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: DISNEY JR HD",
+      "category": "US| KIDS HD/4K",
+      "country": "US",
+      "epg_id": "I289.74796.schedulesdirect.org",
+      "epg_name": "DISNEY JR US",
+      "matched_key": "DISNEY JR",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: DISNEY XD HD",
       "category": "US| KIDS HD/4K",
       "country": "US",
       "epg_id": "I292.60006.schedulesdirect.org",
       "epg_name": "Disney XD HD",
       "matched_key": "DISNEY XD",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: DISNEY JR WEST HD",
+      "category": "US| KIDS HD/4K",
+      "country": "US",
+      "epg_id": "I289.74796.schedulesdirect.org",
+      "epg_name": "DISNEY JR US",
+      "matched_key": "DISNEY JR",
       "match_method": "exact"
     },
     {
@@ -3304,6 +3124,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: BABY FIRST HD",
+      "category": "US| KIDS HD/4K",
+      "country": "US",
+      "epg_id": "I293.50338.schedulesdirect.org",
+      "epg_name": "BabyFirst TV",
+      "matched_key": "BABYFIRST",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: PBS KIDS",
       "category": "US| KIDS HD/4K",
       "country": "US",
@@ -3319,6 +3148,24 @@
       "epg_id": "565869",
       "epg_name": "3ABN Kids Network",
       "matched_key": "3ABN KIDS NETWORK",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: FOX NEWS HD",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "I360.60179.schedulesdirect.org",
+      "epg_name": "Fox News Channel HD",
+      "matched_key": "FOX NEWS CHANNEL",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: FOX NEWS HD",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "I360.60179.schedulesdirect.org",
+      "epg_name": "Fox News Channel HD",
+      "matched_key": "FOX NEWS CHANNEL",
       "match_method": "exact"
     },
     {
@@ -3709,6 +3556,15 @@
       "match_method": "regional-subset"
     },
     {
+      "layerseven_name": "US: FOX WTXF TV",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "467556",
+      "epg_name": "WTXF-DT",
+      "matched_key": "WTXF",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: FOX (KABB) SAN ANTONIO HD ",
       "category": "US| FOX HD/4K",
       "country": "US",
@@ -3898,6 +3754,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FOX (WEVV2) OWENSBORO HD ",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "483233",
+      "epg_name": "WEVV-DT2",
+      "matched_key": "WEVVDT2",
+      "match_method": "call-sign"
+    },
+    {
+      "layerseven_name": "US: FOX (WEVV2) OWENSBORO HD ",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "483233",
+      "epg_name": "WEVV-DT2",
+      "matched_key": "WEVVDT2",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: FOX (WGXA) MACON HD ",
       "category": "US| FOX HD/4K",
       "country": "US",
@@ -4042,6 +3916,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FOX 5 HD [LAS VEGAS]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "466192",
+      "epg_name": "KVVU-DT",
+      "matched_key": "KVVU-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: FOX 6 (WBRC) BIRMINGHAM HD",
       "category": "US| FOX HD/4K",
       "country": "US",
@@ -4123,6 +4006,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FOX 8 HD [GREENSBORO]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "468164",
+      "epg_name": "WGHP-DT",
+      "matched_key": "WGHP",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: FOX 9 (KMSP) MINNEAPOLIS HD",
       "category": "US| FOX HD/4K",
       "country": "US",
@@ -4148,6 +4040,15 @@
       "epg_name": "KNIN-DT",
       "matched_key": "KNIN",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: FOX 10 HD [MOBILE]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "469736",
+      "epg_name": "WALA-DT",
+      "matched_key": "WALA-TV",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: FOX 10 (KSAZ) PHOENIX HD",
@@ -4256,6 +4157,24 @@
       "epg_name": "WHBQ-DT",
       "matched_key": "WHBQ",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: FOX 13 HD [ALBUQUERQUE]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "471839",
+      "epg_name": "KRQE-DT2",
+      "matched_key": "KRQE-DT2",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: FOX 13 HD [SEATTLE]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "466885",
+      "epg_name": "KCPQ-LD",
+      "matched_key": "KCPQ",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: FOX 13 (WTVT) TAMPA HD",
@@ -4600,6 +4519,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FOX 29 HD [BUFFALO]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "466483",
+      "epg_name": "WUTV-DT",
+      "matched_key": "WUTV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: FOX 29 HD [PALM BEACH]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "468921",
+      "epg_name": "WFLX-DT",
+      "matched_key": "WFLX",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: FOX 29 (WFLX) WEST PALM BEACH HD",
       "category": "US| FOX HD/4K",
       "country": "US",
@@ -4634,6 +4571,15 @@
       "epg_name": "WFOX-DT",
       "matched_key": "WFOX",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: FOX 30 HD [MERIDIAN MS]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "466591",
+      "epg_name": "WGBC-DT",
+      "matched_key": "WGBC",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: FOX 31 (KDVR) DENVER HD",
@@ -4798,6 +4744,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FOX 43 HD [HARRISBURG]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "467968",
+      "epg_name": "WPMT-DT",
+      "matched_key": "WPMT",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: FOX 43 (WPMT) YORK HD",
       "category": "US| FOX HD/4K",
       "country": "US",
@@ -4897,6 +4852,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FOX 46 HD [CHARLOTTE]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "468354",
+      "epg_name": "WJZY-DT",
+      "matched_key": "WJZY",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: FOX 47 (WMSN) MADISON HD ",
       "category": "US| FOX HD/4K",
       "country": "US",
@@ -4949,6 +4913,15 @@
       "epg_name": "FOX Waco",
       "matched_key": "FOX",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: FOX 51 HD [GAINESVILLE]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "466026",
+      "epg_name": "WOGX-DT",
+      "matched_key": "WOGX",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: FOX 51 (KFXK) LONGVIEW HD",
@@ -5075,6 +5048,15 @@
       "epg_name": "WTIC-DT",
       "matched_key": "WTIC",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: FOX 61 HD [HARTFORD]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "468085",
+      "epg_name": "WTIC-DT",
+      "matched_key": "WTIC-TV",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: FOX 62 (WYFX) YOUNGSTOWN HD ",
@@ -5453,6 +5435,15 @@
       "epg_name": "WRAZ-DT",
       "matched_key": "WRAZ",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: FOX (KRQEDT2) ALBUQUERQUE NEW MEXICO",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "471839",
+      "epg_name": "KRQE-DT2",
+      "matched_key": "KRQEDT2",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: ABC (WPLG) Miami (D) HD",
@@ -6283,6 +6274,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: CBS 3 (WWAY-DT2) WILMINGTON HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "484832",
+      "epg_name": "WWAY-DT2",
+      "matched_key": "WWAYDT2",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: CBS 3 (WWMT) KALAMAZOO HD",
       "category": "US| CBS HD/4K",
       "country": "US",
@@ -6425,6 +6425,15 @@
       "epg_name": "WWL-DT",
       "matched_key": "WWL",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: CBS 5 (KALB-DT2) ALEXANDRIA HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "493556",
+      "epg_name": "KALB-DT2",
+      "matched_key": "KALBDT2",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: CBS 5 (KCTV) KANSAS CITY HD",
@@ -6634,6 +6643,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: CBS 7 (KBNZ-LD) BEND HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "467480",
+      "epg_name": "KBNZ-LD",
+      "matched_key": "KBNZLD",
+      "match_method": "call-sign"
+    },
+    {
+      "layerseven_name": "US: CBS 7 (KHQA-DT) QUINCY HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "467419",
+      "epg_name": "KHQA-DT",
+      "matched_key": "KHQADT",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: CBS 7 (KIRO) SEATTLE HD",
       "category": "US| CBS HD/4K",
       "country": "US",
@@ -6659,6 +6686,15 @@
       "epg_name": "KOSA-DT",
       "matched_key": "KOSA",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: CBS 7 (WBBJ-DT3) JACKSON HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "493405",
+      "epg_name": "WBBJ-DT3",
+      "matched_key": "WBBJDT3",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: CBS 7 (WDBJ) ROANOKE HD",
@@ -7246,6 +7282,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: CBS 13 (WLOX-DT2) GULFPORT HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "493573",
+      "epg_name": "WLOX-DT2",
+      "matched_key": "WLOXDT2",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: CBS 13 JEFFERSON CITY MO (KRCG)",
       "category": "US| CBS HD/4K",
       "country": "US",
@@ -7318,6 +7363,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: CBS 17 (KSWL-LD) LAKE CHARLES HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "466834",
+      "epg_name": "KSWL-LD",
+      "matched_key": "KSWLLD",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: CBS 17 (WNCN) GOLDSBORO HD",
       "category": "US| CBS HD/4K",
       "country": "US",
@@ -7325,6 +7379,24 @@
       "epg_name": "WNCN-DT",
       "matched_key": "WNCN",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: CBS 18 (WECP-LD) PANAMA CITY HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "466356",
+      "epg_name": "WECP-LD",
+      "matched_key": "WECPLD",
+      "match_method": "call-sign"
+    },
+    {
+      "layerseven_name": "US: CBS 18 (WLFI-DT) LAFAYETTE HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "466365",
+      "epg_name": "WLFI-DT",
+      "matched_key": "WLFIDT",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: CBS 19 (KYTX) LONGVIEW HD",
@@ -7435,6 +7507,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: CBS 23 (WIFR-LD) ROCKFORD HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "465992",
+      "epg_name": "WIFR-LD",
+      "matched_key": "WIFRLD",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: CBS 24 (WMDN) MERIDIAN HD",
       "category": "US| CBS HD/4K",
       "country": "US",
@@ -7534,6 +7615,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: CBS 35 (WOHL-CD2) LIMA HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "493404",
+      "epg_name": "WOHL-CD2",
+      "matched_key": "WOHLCD2",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: CBS 35 (WSEE) ERIE HD",
       "category": "US| CBS HD/4K",
       "country": "US",
@@ -7541,6 +7631,24 @@
       "epg_name": "WSEE-DT",
       "matched_key": "WSEE",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: CBS 39 (KJNB-LD2) JONESBORO HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "493408",
+      "epg_name": "KJNB-LD2",
+      "matched_key": "KJNBLD2",
+      "match_method": "call-sign"
+    },
+    {
+      "layerseven_name": "US: CBS 40 (WNKY-DT2) BOWLING GREEN HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "493557",
+      "epg_name": "WNKY-DT2",
+      "matched_key": "WNKYDT2",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: CBS 42 (KEYE) AUSTIN HD",
@@ -7606,6 +7714,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: CBS 57 (WYMT-DT) HAZARD HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "467073",
+      "epg_name": "WYMT-DT",
+      "matched_key": "WYMTDT",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: CBS 58 (WDJT) MILWAUKEE HD",
       "category": "US| CBS HD/4K",
       "country": "US",
@@ -7654,10 +7771,10 @@
       "layerseven_name": "US: CBS WLNY HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "464830",
-      "epg_name": "CBS West",
-      "matched_key": "CBS",
-      "match_method": "exact"
+      "epg_id": "468692",
+      "epg_name": "WLNY-DT",
+      "matched_key": "WLNY",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: CBS (KPHO)",
@@ -7849,6 +7966,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: CBS SPORTS USA",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "I221.59250.schedulesdirect.org",
+      "epg_name": "CBS Sports Network HD",
+      "matched_key": "CBS SPORTS NETWORK",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: CBS (WGME) PORTLAND MAINE",
       "category": "US| CBS HD/4K",
       "country": "US",
@@ -7948,6 +8074,42 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 2 HD [BANGOR]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "467704",
+      "epg_name": "WLBZ-DT",
+      "matched_key": "WLBZ",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 2 HD [CHARLESTON SC]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "467216",
+      "epg_name": "WCBD-DT",
+      "matched_key": "WCBD-TV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 2 HD [TERRE HAUTE]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "469064",
+      "epg_name": "WTWO-DT",
+      "matched_key": "WTWO",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 2 HD [UTICA]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "469205",
+      "epg_name": "WKTV-DT",
+      "matched_key": "WKTV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 3 (KCRA) SACRAMENTO HD",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -7955,6 +8117,15 @@
       "epg_name": "KCRA-DT",
       "matched_key": "KCRA",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 2 HD [ORLANDO]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "469649",
+      "epg_name": "WESH-DT",
+      "matched_key": "WESH",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 3 (KYTV) SPRINGFIELD HD",
@@ -8027,6 +8198,24 @@
       "epg_name": "NBC Chattanooga",
       "matched_key": "NBC CHATTANOOGA",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 3 HD [LAS VEGAS]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "465891",
+      "epg_name": "KSNV-DT",
+      "matched_key": "KSNV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 3 HD [SYRACUSE]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "470162",
+      "epg_name": "WSTM-DT",
+      "matched_key": "WSTM-TV",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 4 (KNBC) LOS ANGELES HD",
@@ -8146,6 +8335,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 4 HD [SAN ANTONIO TX]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466583",
+      "epg_name": "WOAI-DT",
+      "matched_key": "WOAI-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 4 HD [OKLAHOMA CITY]",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8153,6 +8351,15 @@
       "epg_name": "NBC Oklahoma City",
       "matched_key": "NBC OKLAHOMA CITY",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 4 SD [AMARILLO]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "470122",
+      "epg_name": "KAMR-DT",
+      "matched_key": "KAMR-TV",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 5 (KING) SEATTLE HD",
@@ -8252,6 +8459,24 @@
       "epg_name": "WRAL-DT",
       "matched_key": "WRAL",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 5 HD [BISMARCK]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468621",
+      "epg_name": "KFYR-DT",
+      "matched_key": "KFYR-TV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 5 HD [DALLAS TX]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468293",
+      "epg_name": "KXAS-DT",
+      "matched_key": "KXAS-TV",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 6 (KCEN) TEMPLE HD",
@@ -8380,6 +8605,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 6 HD [JOHNSTOWN]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466973",
+      "epg_name": "WJAC-LD",
+      "matched_key": "WJAC-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 6 HD [SHREVEPORT LA]",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8434,6 +8668,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 7 HD [HATTIESBURG MS]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466249",
+      "epg_name": "WDAM-DT",
+      "matched_key": "WDAM-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 8 (KGW) PORTLAND HD",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8479,6 +8722,42 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 8 HD [BILLINGS]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466423",
+      "epg_name": "KULR-DT",
+      "matched_key": "KULR-TV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 8 HD [JEFFERSON CITY]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466907",
+      "epg_name": "KOMU-DT",
+      "matched_key": "KOMU-TV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 8 HD [JONESBORO]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "494131",
+      "epg_name": "KAIT-DT2",
+      "matched_key": "KAIT-DT2",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 8 HD [LIMA]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "467838",
+      "epg_name": "WLIO-DT",
+      "matched_key": "WLIO",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 8 JEFFERSON CITY MO (KOMU) 4K",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8513,6 +8792,33 @@
       "epg_name": "KUSA-DT",
       "matched_key": "KUSA",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 9 HD [ABILENE]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "467575",
+      "epg_name": "KRBC-DT",
+      "matched_key": "KRBC-TV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 9 HD [ODESSA]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468109",
+      "epg_name": "KWES-DT",
+      "matched_key": "KWES-TV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 9 HD [TUPELO]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468875",
+      "epg_name": "WTVA-DT",
+      "matched_key": "WTVA",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 10 (WAVY) PORTSMOUTH HD",
@@ -8578,6 +8884,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 10 HD [ALBANY]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466277",
+      "epg_name": "WALB-DT",
+      "matched_key": "WALB-TV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 10 HD [LANSING MI]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468508",
+      "epg_name": "WILX-DT",
+      "matched_key": "WILX-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 10 (WJAR) RHODE ISLAND",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8641,6 +8965,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 11 HD [BALTIMORE]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466296",
+      "epg_name": "WBAL-DT",
+      "matched_key": "WBAL-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 12 (KPNX) MESA HD",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8695,6 +9028,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 12 HD [CLARKSBURG. WV]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468602",
+      "epg_name": "WBOY-DT",
+      "matched_key": "WBOY-TV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 12 HD [ERIE]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468254",
+      "epg_name": "WICU-DT",
+      "matched_key": "WICU-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 13 (KHNL) HONOLULU HD",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8738,6 +9089,33 @@
       "epg_name": "WVTM-DT",
       "matched_key": "WVTM",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 13 HD [ALBANY NY]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "469474",
+      "epg_name": "WNYT-LD",
+      "matched_key": "WNYT",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 13 HD [CASPER]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468531",
+      "epg_name": "KCWY-DT",
+      "matched_key": "KCWY-DT",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 13 HD [DES MOINES]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "469841",
+      "epg_name": "WHO-DT",
+      "matched_key": "WHO-DT",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 14 (WFIE) EVANSVILLE HD",
@@ -8785,6 +9163,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 17 HD [VICTORIA]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "469281",
+      "epg_name": "KMOL-LD",
+      "matched_key": "KMOL-LD",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 18 (WLEX) LEXINGTON HD",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8794,6 +9181,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 18 HD [ZANESVILLE]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "469257",
+      "epg_name": "WHIZ-DT",
+      "matched_key": "WHIZ-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 20 (WBBH) FORT MYERS HD",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8801,6 +9197,15 @@
       "epg_name": "WBBH-DT",
       "matched_key": "WBBH",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 20 HD [BINGHAMTON]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468935",
+      "epg_name": "WBGH-CD",
+      "matched_key": "WBGH-CD",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 21 (WFMJ) YOUNGSTOWN HD",
@@ -8819,6 +9224,33 @@
       "epg_name": "WPTA-DT",
       "matched_key": "WPTA",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 21 HD [BEND]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "469843",
+      "epg_name": "KTVZ-DT",
+      "matched_key": "KTVZ",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 21 HD [RAPID CITY]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "469038",
+      "epg_name": "KNBN-DT",
+      "matched_key": "KNBN",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 21 HD [ST. JOSEPH]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466762",
+      "epg_name": "KNPG-LD",
+      "matched_key": "KNPG-CD",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 22 (WWLP) SPRINGFIELD HD",
@@ -8855,6 +9287,15 @@
       "epg_name": "KSEE-DT",
       "matched_key": "KSEE",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 24 HD [TOLEDO]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "467878",
+      "epg_name": "WNWO-DT",
+      "matched_key": "WNWO-TV",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 25 (WEEK) PEORIA HD",
@@ -8902,6 +9343,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 29 HD [CHARLOTTESVILLE]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468167",
+      "epg_name": "WVIR-CD",
+      "matched_key": "WVIR-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 30 (WVIT) NEW BRITAIN HD",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8920,6 +9370,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 31 HD [SALISBURY]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466635",
+      "epg_name": "WRDE-LD",
+      "matched_key": "WRDE-LD",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 32 HD [LOUISVILLE]",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8927,6 +9386,15 @@
       "epg_name": "NBC Louisville",
       "matched_key": "NBC LOUISVILLE",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 33 HD [BATON ROUGE]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "467346",
+      "epg_name": "WVLA-DT",
+      "matched_key": "WVLA-TV",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 36 (KXAN) AUSTIN HD",
@@ -8965,6 +9433,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 39 HD [JACKSON]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466230",
+      "epg_name": "WNBJ-LD",
+      "matched_key": "WNBJ-LD",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: NBC 40 HD [BOWLING GREEN]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468927",
+      "epg_name": "WNKY-DT",
+      "matched_key": "WNKY",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: NBC 40 (WTWC) TALLAHASSEE HD",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -8981,6 +9467,15 @@
       "epg_name": "WTWC-DT",
       "matched_key": "WTWC",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 41 HD [MACON]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "467215",
+      "epg_name": "WMGT-DT",
+      "matched_key": "WMGT-TV",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 41 (KSHB) KANSAS CITY HD",
@@ -8990,6 +9485,15 @@
       "epg_name": "KSHB-DT",
       "matched_key": "KSHB",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 45 HD [WATERTOWN]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "469081",
+      "epg_name": "WVNC-LD",
+      "matched_key": "WVNC-LD",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: NBC 46 (KDLT) SIOUX FALLS HD",
@@ -9118,6 +9622,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC (WPXIDT)",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "468942",
+      "epg_name": "WPXI-DT",
+      "matched_key": "WPXIDT",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: NBC (WRC)",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -9172,6 +9685,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC WMFP HD",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466802",
+      "epg_name": "WMFP-DT",
+      "matched_key": "WMFP",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: NBC (KPNX)",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -9197,6 +9719,15 @@
       "epg_name": "KSDK-DT",
       "matched_key": "KSDK",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC (KSNVDT)",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "465891",
+      "epg_name": "KSNV-DT",
+      "matched_key": "KSNVDT",
+      "match_method": "call-sign"
     },
     {
       "layerseven_name": "US: NBC (KUSA)",
@@ -9280,6 +9811,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC (WSVW/WHSV) HARRISONBURG HD",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "466046",
+      "epg_name": "WSVW-LD",
+      "matched_key": "WSVW",
+      "match_method": "call-sign"
+    },
+    {
       "layerseven_name": "US: NBC (WRAL) RALEIGH NORTH CAROLINA",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -9295,6 +9835,15 @@
       "epg_id": "467169",
       "epg_name": "KMIR-DT",
       "matched_key": "KMIR",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC GOLF CHANNEL HD",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "I218.61854.schedulesdirect.org",
+      "epg_name": "Golf Channel HD",
+      "matched_key": "GOLF CHANNEL",
       "match_method": "exact"
     },
     {
@@ -9322,6 +9871,15 @@
       "epg_id": "I419.63138.gracenote.com",
       "epg_name": "NBC Sports Bay Area",
       "matched_key": "NBC SPORTS BAY AREA",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC SPORTS BAY AREA PLU HD",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "465013",
+      "epg_name": "NBC Sports Bay Area Plus",
+      "matched_key": "NBC SPORTS BAY AREA PLUS",
       "match_method": "exact"
     },
     {
@@ -9388,6 +9946,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC SPORTS PHILADELFIA 4K",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "465037",
+      "epg_name": "NBC Sports Philadelphia HD",
+      "matched_key": "NBC SPORTS PHILADELPHIA",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC SPORTS PHILADELFIA HD",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "465037",
+      "epg_name": "NBC Sports Philadelphia HD",
+      "matched_key": "NBC SPORTS PHILADELPHIA",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: ABC NEWS LIVE HD",
       "category": "US| ABC HD/4K",
       "country": "US",
@@ -9449,6 +10025,15 @@
       "epg_name": "ABC Baltimore",
       "matched_key": "ABC BALTIMORE",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: ABC 3 HD [PENSACOLA]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "466948",
+      "epg_name": "WEAR-DT",
+      "matched_key": "WEAR-TV",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: ABC 3 HD [SHREVEPORT]",
@@ -9694,6 +10279,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: ABC 9 HD [MANCHESTER]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "466683",
+      "epg_name": "WMUR-DT",
+      "matched_key": "WMUR-TV",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: ABC 9 HD [CHARLOTTE]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "468652",
+      "epg_name": "WSOC-LD",
+      "matched_key": "WSOC-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: ABC 9 (KMBC) KANSAS CITY HD",
       "category": "US| ABC HD/4K",
       "country": "US",
@@ -9773,6 +10376,15 @@
       "epg_name": "ABC Albany",
       "matched_key": "ABC ALBANY",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: ABC 11 HD [RALEIGH]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "467664",
+      "epg_name": "WTVD-DT",
+      "matched_key": "WTVD",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: ABC 11 (WTVD) DURHAM HD",
@@ -9856,6 +10468,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: ABC 13 HD [NORFOLK]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "466339",
+      "epg_name": "WVEC-DT",
+      "matched_key": "WVEC",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: ABC 13 HD [LAS VEGAS]",
       "category": "US| ABC HD/4K",
       "country": "US",
@@ -9919,6 +10540,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: ABC 20 HD [GAINESVILLE]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "467828",
+      "epg_name": "WCJB-DT",
+      "matched_key": "WCJB-TV",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "US: ABC 24 (WATN) MEMPHIS HD",
       "category": "US| ABC HD/4K",
       "country": "US",
@@ -9980,6 +10610,24 @@
       "epg_name": "KFSN-DT",
       "matched_key": "KFSN",
       "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: ABC 36 HD [LEXINGTON]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "466345",
+      "epg_name": "WTVQ-DT",
+      "matched_key": "WTVQ-DT",
+      "match_method": "local-station"
+    },
+    {
+      "layerseven_name": "US: ABC 68 HD [BIRMINGHAM]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "471813",
+      "epg_name": "WABM-DT2",
+      "matched_key": "WABM-DT2",
+      "match_method": "local-station"
     },
     {
       "layerseven_name": "US: ABC (KABC)",
@@ -10630,6 +11278,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC SPORTS PHILADELFIA",
+      "category": "US| SPORT HD/4K",
+      "country": "US",
+      "epg_id": "465037",
+      "epg_name": "NBC Sports Philadelphia HD",
+      "matched_key": "NBC SPORTS PHILADELPHIA",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: NESN ᵁᴴᴰ 3840P",
       "category": "US| SPORT HD/4K",
       "country": "US",
@@ -10766,15 +11423,6 @@
     },
     {
       "layerseven_name": "US: THE MASTERS - AMEN CORNER (FIRST ROUND)",
-      "category": "US| THE MASTERS PPV",
-      "country": "US",
-      "epg_id": "I347.114934.schedulesdirect.org",
-      "epg_name": "The First",
-      "matched_key": "THE FIRST",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: THE MASTERS - HOLES 15 & 16 (FIRST ROUND)",
       "category": "US| THE MASTERS PPV",
       "country": "US",
       "epg_id": "I347.114934.schedulesdirect.org",
@@ -11413,6 +12061,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NHL MONTRÉAL CANADIENS HD",
+      "category": "US| NHL TEAM PPV",
+      "country": "US",
+      "epg_id": "465629",
+      "epg_name": "NHL - Montreal Canadiens",
+      "matched_key": "NHL MONTREAL CANADIENS",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: NHL NASHVILLE PREDATORS HD",
       "category": "US| NHL TEAM PPV",
       "country": "US",
@@ -11962,453 +12619,12 @@
       "match_method": "regional-subset"
     },
     {
-      "layerseven_name": "MILB 1: Las Vegas Aviators @ Sugar Land Space Cowboys 03/04 12:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576623",
-      "epg_name": "MILB - Las Vegas Aviators",
-      "matched_key": "MILB LAS VEGAS AVIATORS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 2: Reading Fightin Phils @ Harrisburg Senators 15/09 13:00et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576507",
-      "epg_name": "MILB - Harrisburg Senators",
-      "matched_key": "MILB HARRISBURG SENATORS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 3: Richmond Flying Squirrels @ Altoona Curve 15/09 13:00et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576500",
-      "epg_name": "MILB - Altoona Curve",
-      "matched_key": "MILB ALTOONA CURVE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 4: Buffalo Bisons @ Gwinnett Stripers 15/09 13:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576467",
-      "epg_name": "MILB - Gwinnett Stripers",
-      "matched_key": "MILB GWINNETT STRIPERS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 5: Lehigh Valley IronPigs @ Scranton/Wilkes-Barre RailRiders 15/09 13:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576504",
-      "epg_name": "MILB - Lehigh Valley IronPigs",
-      "matched_key": "MILB LEHIGH VALLEY IRONPIGS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 6: New Hampshire Fisher Cats @ Somerset Patriots 15/09 13:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576629",
-      "epg_name": "MILB - Somerset Patriots",
-      "matched_key": "MILB SOMERSET PATRIOTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 8: St. Paul Saints @ Columbus Clippers 15/09 13:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576628",
-      "epg_name": "MILB - Columbus Clippers",
-      "matched_key": "MILB COLUMBUS CLIPPERS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 9: Syracuse Mets @ Worcester Red Sox 15/09 13:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576495",
-      "epg_name": "MILB - Worcester Red Sox",
-      "matched_key": "MILB WORCESTER RED SOX",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 10: Bowie Baysox @ Erie SeaWolves 15/09 13:35et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576632",
-      "epg_name": "MILB - Erie SeaWolves",
-      "matched_key": "MILB ERIE SEAWOLVES",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 11: Rochester Red Wings @ Indianapolis Indians 15/09 13:35et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576592",
-      "epg_name": "MILB - Rochester Red Wings",
-      "matched_key": "MILB ROCHESTER RED WINGS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 12: Birmingham Barons @ Tennessee Smokies 15/09 14:00et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576505",
-      "epg_name": "MILB - Birmingham Barons",
-      "matched_key": "MILB BIRMINGHAM BARONS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 13: Frisco RoughRiders @ Amarillo Sod Poodles 15/09 14:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576490",
-      "epg_name": "MILB - Frisco RoughRiders",
-      "matched_key": "MILB FRISCO ROUGHRIDERS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 14: Hudson Valley Renegades @ Bowling Green Hot Rods 15/09 14:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576462",
-      "epg_name": "MILB - Hudson Valley Renegades",
-      "matched_key": "MILB HUDSON VALLEY RENEGADES",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 15: Midland RockHounds @ Corpus Christi Hooks 15/09 14:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576576",
-      "epg_name": "MILB - Midland RockHounds",
-      "matched_key": "MILB MIDLAND ROCKHOUNDS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 16: Mississippi Braves @ Biloxi Shuckers 15/09 14:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576526",
-      "epg_name": "MILB - Biloxi Shuckers",
-      "matched_key": "MILB BILOXI SHUCKERS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 17: Sacramento River Cats @ Round Rock Express 15/09 14:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576498",
-      "epg_name": "MILB - Round Rock Express",
-      "matched_key": "MILB ROUND ROCK EXPRESS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 18: Salt Lake Bees @ El Paso Chihuahuas 15/09 14:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576477",
-      "epg_name": "MILB - Salt Lake Bees",
-      "matched_key": "MILB SALT LAKE BEES",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 19: Springfield Cardinals @ San Antonio Missions 15/09 14:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576535",
-      "epg_name": "MILB - Springfield Cardinals",
-      "matched_key": "MILB SPRINGFIELD CARDINALS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 20: Tulsa Drillers @ Wichita Wind Surge 15/09 14:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576479",
-      "epg_name": "MILB - Tulsa Drillers",
-      "matched_key": "MILB TULSA DRILLERS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 21: Louisville Bats @ Iowa Cubs 15/09 14:08et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576538",
-      "epg_name": "MILB - Louisville Bats",
-      "matched_key": "MILB LOUISVILLE BATS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 22: Rocket City Trash Pandas @ Chattanooga Lookouts 15/09 14:15et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576544",
-      "epg_name": "MILB - Chattanooga Lookouts",
-      "matched_key": "MILB CHATTANOOGA LOOKOUTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 23: Arkansas Travelers @ Northwest Arkansas Naturals 15/09 15:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576652",
-      "epg_name": "MILB - Arkansas Travelers",
-      "matched_key": "MILB ARKANSAS TRAVELERS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 25: Tacoma Rainiers @ Oklahoma City Baseball Club 15/09 15:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576635",
-      "epg_name": "MILB - Tacoma Rainiers",
-      "matched_key": "MILB TACOMA RAINIERS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 26: Toledo Mud Hens @ Omaha Storm Chasers 15/09 15:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576566",
-      "epg_name": "MILB - Toledo Mud Hens",
-      "matched_key": "MILB TOLEDO MUD HENS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 27: Las Vegas Aviators @ Albuquerque Isotopes 15/09 15:35et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576486",
-      "epg_name": "MILB - Albuquerque Isotopes",
-      "matched_key": "MILB ALBUQUERQUE ISOTOPES",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 28: Modesto Nuts @ Lake Elsinore Storm 15/09 16:15et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576610",
-      "epg_name": "MILB - Lake Elsinore Storm",
-      "matched_key": "MILB LAKE ELSINORE STORM",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 29: Palm Beach Cardinals @ Lakeland Flying Tigers 15/09 17:00et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576465",
-      "epg_name": "MILB - Lakeland Flying Tigers",
-      "matched_key": "MILB LAKELAND FLYING TIGERS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 30: Montgomery Biscuits @ Pensacola Blue Wahoos 15/09 17:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576480",
-      "epg_name": "MILB - Montgomery Biscuits",
-      "matched_key": "MILB MONTGOMERY BISCUITS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 31: Fredericksburg Nationals @ Kannapolis Cannon Ballers 15/09 17:30et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576650",
-      "epg_name": "MILB - Fredericksburg Nationals",
-      "matched_key": "MILB FREDERICKSBURG NATIONALS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 32: Hartford Yard Goats @ Akron RubberDucks 15/09 18:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576581",
-      "epg_name": "MILB - Akron RubberDucks",
-      "matched_key": "MILB AKRON RUBBERDUCKS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 33: Memphis Redbirds @ Nashville Sounds 15/09 19:05et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576494",
-      "epg_name": "MILB - Memphis Redbirds",
-      "matched_key": "MILB MEMPHIS REDBIRDS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MILB 34: Lake County Captains @ Wisconsin Timber Rattlers 15/09 19:40et",
-      "category": "US| MILB PPV",
-      "country": "US",
-      "epg_id": "576560",
-      "epg_name": "MILB - Wisconsin Timber Rattlers",
-      "matched_key": "MILB WISCONSIN TIMBER RATTLERS",
-      "match_method": "regional-subset"
-    },
-    {
       "layerseven_name": "MLB: MLB NETWORK (US)",
       "category": "US| MLB PPV",
       "country": "US",
       "epg_id": "I213.62079.schedulesdirect.org",
       "epg_name": "MLB Network",
       "matched_key": "MLB NETWORK",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 1 | Minnesota twins @ cleveland guardians // UK Mon 16 Sep 11:30pm // ET Mon 16 Sep 6:30pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I721.75674.schedulesdirect.org",
-      "epg_name": "MLB 1",
-      "matched_key": "MLB 1",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 2 | Washington nationals @ new york mets // UK Tue 17 Sep 12:00am // ET Mon 16 Sep 7:00pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I727.60883.schedulesdirect.org",
-      "epg_name": "MLB 7",
-      "matched_key": "MLB 7",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 3 | Los angeles dodgers @ atlanta braves // UK Tue 17 Sep 12:10am // ET Mon 16 Sep 7:10pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I727.60883.schedulesdirect.org",
-      "epg_name": "MLB 7",
-      "matched_key": "MLB 7",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 4 | Detroit tigers @ kansas city royals // UK Tue 17 Sep 12:30am // ET Mon 16 Sep 7:30pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I727.60883.schedulesdirect.org",
-      "epg_name": "MLB 7",
-      "matched_key": "MLB 7",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 5 | Oakland athletics @ chicago cubs // UK Tue 17 Sep 12:30am // ET Mon 16 Sep 7:30pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I727.60883.schedulesdirect.org",
-      "epg_name": "MLB 7",
-      "matched_key": "MLB 7",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 6 | Philadelphia phillies @ milwaukee brewers // UK Tue 17 Sep 12:30am // ET Mon 16 Sep 7:30pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I727.60883.schedulesdirect.org",
-      "epg_name": "MLB 7",
-      "matched_key": "MLB 7",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 7 | Pittsburgh pirates @ st. Louis cardinals // UK Tue 17 Sep 12:35am // ET Mon 16 Sep 7:35pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I727.60883.schedulesdirect.org",
-      "epg_name": "MLB 7",
-      "matched_key": "MLB 7",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 8 |Arizona diamondbacks @ colorado rockies // UK Tue 17 Sep 1:30am // ET Mon 16 Sep 8:30pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I721.75674.schedulesdirect.org",
-      "epg_name": "MLB 1",
-      "matched_key": "MLB 1",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 9 | Chicago white sox @ los angeles angels // UK Tue 17 Sep 2:28am // ET Mon 16 Sep 9:28pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I722.60878.schedulesdirect.org",
-      "epg_name": "MLB 2",
-      "matched_key": "MLB 2",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 10 |Houston astros @ san diego padres // UK Tue 17 Sep 2:30am // ET Mon 16 Sep 9:30pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I722.60878.schedulesdirect.org",
-      "epg_name": "MLB 2",
-      "matched_key": "MLB 2",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 11| Chicago cubs @ colorado rockies // UK Sun 15 Sep 8:00pm // ET Sun 15 Sep 3:00pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I723.60879.schedulesdirect.org",
-      "epg_name": "MLB 3",
-      "matched_key": "MLB 3",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 12 |San diego padres @ san francisco giants // UK Sun 15 Sep 8:55pm // ET Sun 15 Sep 3:55pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I723.60879.schedulesdirect.org",
-      "epg_name": "MLB 3",
-      "matched_key": "MLB 3",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 13 | Houston astros @ los angeles angels // UK Sun 15 Sep 8:57pm // ET Sun 15 Sep 3:57pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I723.60879.schedulesdirect.org",
-      "epg_name": "MLB 3",
-      "matched_key": "MLB 3",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 14 | Texas rangers @ seattle mariners // UK Sun 15 Sep 9:00pm // ET Sun 15 Sep 4:00pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I734.50109.schedulesdirect.org",
-      "epg_name": "MLB 14",
-      "matched_key": "MLB 14",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 15 | Milwaukee brewers @ arizona diamondbacks // UK Sun 15 Sep 9:00pm // ET Sun 15 Sep 4:00pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I724.60880.schedulesdirect.org",
-      "epg_name": "MLB 4",
-      "matched_key": "MLB 4",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 16 | Toronto Blue Jays @ Atlanta Braves // UK Sun 8 Sep 12:10am // ET Sat 7 Sep 7:10pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I727.60883.schedulesdirect.org",
-      "epg_name": "MLB 7",
-      "matched_key": "MLB 7",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "MLB 17: Philadelphia Phillies @ Los Angeles Dodgers // UK Thu 8 Aug 3:00am // ET Wed 7 Aug 10:00pm",
-      "category": "US| MLB PPV",
-      "country": "US",
-      "epg_id": "I727.60883.schedulesdirect.org",
-      "epg_name": "MLB 7",
-      "matched_key": "MLB 7",
       "match_method": "regional-subset"
     },
     {
@@ -12961,69 +13177,6 @@
       "match_method": "exact"
     },
     {
-      "layerseven_name": "WNBA 1 Dallas Wings @ Indiana Fever start:2024-09-15 20:00:00 stop:2024-09-15 22:00:00",
-      "category": "US| WNBA PPV",
-      "country": "US",
-      "epg_id": "576524",
-      "epg_name": "WNBA - Indiana Fever",
-      "matched_key": "WNBA INDIANA FEVER",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 2 Phoenix Mercury @ Chicago Sky start:2024-09-15 23:00:00 stop:2024-09-16 01:00:00",
-      "category": "US| WNBA PPV",
-      "country": "US",
-      "epg_id": "576572",
-      "epg_name": "WNBA - Chicago Sky",
-      "matched_key": "WNBA CHICAGO SKY",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 3 Minnesota Lynx @ New York Liberty start:2024-09-15 20:00:00 stop:2024-09-15 22:00:00",
-      "category": "US| WNBA PPV",
-      "country": "US",
-      "epg_id": "576578",
-      "epg_name": "WNBA - Minnesota Lynx",
-      "matched_key": "WNBA MINNESOTA LYNX",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 4 Los Angeles Sparks @ Seattle Storm start:2024-09-15 23:00:00 stop:2024-09-16 01:00:00",
-      "category": "US| WNBA PPV",
-      "country": "US",
-      "epg_id": "576517",
-      "epg_name": "WNBA - Seattle Storm",
-      "matched_key": "WNBA SEATTLE STORM",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 5 Atlanta Dream @ Washington Mystics start:2024-09-15 20:00:00 stop:2024-09-15 22:00:00",
-      "category": "US| WNBA PPV",
-      "country": "US",
-      "epg_id": "465511",
-      "epg_name": "WNBA - Atlanta Dream",
-      "matched_key": "WNBA ATLANTA DREAM",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 6 Connecticut Sun @ Las Vegas Aces start:2024-09-15 23:00:00 stop:2024-09-16 01:00:00",
-      "category": "US| WNBA PPV",
-      "country": "US",
-      "epg_id": "576492",
-      "epg_name": "WNBA - Connecticut Sun",
-      "matched_key": "WNBA CONNECTICUT SUN",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 8 Connecticut Sun @ Dallas Wings start:2024-08-17 02:30:00 stop:2024-08-17 04:30:00",
-      "category": "US| WNBA PPV",
-      "country": "US",
-      "epg_id": "576492",
-      "epg_name": "WNBA - Connecticut Sun",
-      "matched_key": "WNBA CONNECTICUT SUN",
-      "match_method": "regional-subset"
-    },
-    {
       "layerseven_name": "WNBA 9",
       "category": "US| WNBA PPV",
       "country": "US",
@@ -13031,60 +13184,6 @@
       "epg_name": "WGN 9",
       "matched_key": "9",
       "match_method": "exact"
-    },
-    {
-      "layerseven_name": "WNBA 01: Dallas Wings vs Indiana Fever @ 03:00 PM",
-      "category": "US| WNBA REAL PPV",
-      "country": "US",
-      "epg_id": "576524",
-      "epg_name": "WNBA - Indiana Fever",
-      "matched_key": "WNBA INDIANA FEVER",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 02 : Minnesota Lynx vs New York Liberty @ 03:00 PM",
-      "category": "US| WNBA REAL PPV",
-      "country": "US",
-      "epg_id": "576578",
-      "epg_name": "WNBA - Minnesota Lynx",
-      "matched_key": "WNBA MINNESOTA LYNX",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 03 :  Atlanta Dream vs Washington Mystics @ 03:00 PM",
-      "category": "US| WNBA REAL PPV",
-      "country": "US",
-      "epg_id": "465511",
-      "epg_name": "WNBA - Atlanta Dream",
-      "matched_key": "WNBA ATLANTA DREAM",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 04:  Phoenix Mercury vs Chicago Sky @ 06:00 PM",
-      "category": "US| WNBA REAL PPV",
-      "country": "US",
-      "epg_id": "576572",
-      "epg_name": "WNBA - Chicago Sky",
-      "matched_key": "WNBA CHICAGO SKY",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 05:  Connecticut Sun vs Las Vegas Aces @ 06:00 PM",
-      "category": "US| WNBA REAL PPV",
-      "country": "US",
-      "epg_id": "576492",
-      "epg_name": "WNBA - Connecticut Sun",
-      "matched_key": "WNBA CONNECTICUT SUN",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "WNBA 06: Los Angeles Sparks vs Seattle Storm @ 06:00 PM",
-      "category": "US| WNBA REAL PPV",
-      "country": "US",
-      "epg_id": "576517",
-      "epg_name": "WNBA - Seattle Storm",
-      "matched_key": "WNBA SEATTLE STORM",
-      "match_method": "regional-subset"
     },
     {
       "layerseven_name": "NBA: LEAGUE PASS 1 ᴴᴰ",
@@ -13996,6 +14095,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA: ADDIK TV",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470494",
+      "epg_name": "ADDIK HD",
+      "matched_key": "ADDIK",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA: AMC",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
@@ -14050,6 +14158,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA: CBC MONTREAL",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470320",
+      "epg_name": "CBMT - CBC Montreal",
+      "matched_key": "CBC MONTREAL",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA: CBC NEWS",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470760",
+      "epg_name": "CBC News Network HD",
+      "matched_key": "CBC NEWS NETWORK",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA: CBC OTTAWA",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
@@ -14083,6 +14209,15 @@
       "epg_id": "470301",
       "epg_name": "CHCH-DT",
       "matched_key": "CHCH",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA: CINEPOP",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470576",
+      "epg_name": "CinéPop HD",
+      "matched_key": "CINEPOP",
       "match_method": "exact"
     },
     {
@@ -14266,6 +14401,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA: CTV NEWS NETWORK",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470326",
+      "epg_name": "CTV News Channel HD",
+      "matched_key": "CTV NEWS CHANNEL",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA: ONE SOCCER HD",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
@@ -14311,6 +14455,15 @@
       "match_method": "cw-station"
     },
     {
+      "layerseven_name": "CA: DAYSTAR TV",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470819",
+      "epg_name": "Daystar Canada",
+      "matched_key": "DAYSTAR",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA: DEJAVIEW",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
@@ -14347,12 +14500,30 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA: EVASION",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470563",
+      "epg_name": "Évasion HD",
+      "matched_key": "EVASION",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA: FOOD NETWORK",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
       "epg_id": "470789",
       "epg_name": "Food Network",
       "matched_key": "FOOD NETWORK",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA: FOX NEWS",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470504",
+      "epg_name": "Fox News Channel",
+      "matched_key": "FOX NEWS CHANNEL",
       "match_method": "exact"
     },
     {
@@ -14371,6 +14542,15 @@
       "epg_id": "470729",
       "epg_name": "Global Toronto HD",
       "matched_key": "GLOBAL TORONTO",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA: H2 CANADA",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470803",
+      "epg_name": "HISTORY 2",
+      "matched_key": "H2",
       "match_method": "exact"
     },
     {
@@ -14434,6 +14614,15 @@
       "epg_id": "470769",
       "epg_name": "Lifetime HD (Canada)",
       "matched_key": "LIFETIME",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA: MAKEFUL",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470737",
+      "epg_name": "Makeful TV SD",
+      "matched_key": "MAKEFUL",
       "match_method": "exact"
     },
     {
@@ -14518,6 +14707,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA: RDI",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470346",
+      "epg_name": "ICI RDI HD",
+      "matched_key": "ICI RDI",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA: RDS 2",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
@@ -14559,17 +14757,17 @@
       "country": "CA",
       "epg_id": "470855",
       "epg_name": "Super Écran 2",
-      "matched_key": "SUPER CRAN 2",
-      "match_method": "close-spelling"
+      "matched_key": "SUPER ECRAN 2",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "CA: SUPER ECRAN 4",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
-      "epg_id": "470385",
-      "epg_name": "Super Écran 4",
-      "matched_key": "SUPER CRAN 4",
-      "match_method": "close-spelling"
+      "epg_id": "470315",
+      "epg_name": "Super Écran 4 HD",
+      "matched_key": "SUPER ECRAN 4",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "CA: TFO",
@@ -14599,6 +14797,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA: TV5 QUEBEC",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470795",
+      "epg_name": "TV 5 Québec Canada HD",
+      "matched_key": "TV5QUEBEC",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA: TVA SPORTS",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
@@ -14623,6 +14830,15 @@
       "epg_id": "470342",
       "epg_name": "Unis TV HD",
       "matched_key": "UNIS TV",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA: VISION",
+      "category": "CA| CANADA HD/4K",
+      "country": "CA",
+      "epg_id": "470610",
+      "epg_name": "Vision TV HD",
+      "matched_key": "VISION",
       "match_method": "exact"
     },
     {
@@ -14806,6 +15022,15 @@
       "match_method": "regional-subset"
     },
     {
+      "layerseven_name": "CA FR: CBC MONTREAL HD",
+      "category": "CA| GENERAL FR",
+      "country": "CA",
+      "epg_id": "470677",
+      "epg_name": "CBFT-DT",
+      "matched_key": "CBFT",
+      "match_method": "local-station"
+    },
+    {
       "layerseven_name": "CA FR: EMCI TV (FR)",
       "category": "CA| GENERAL FR",
       "country": "CA",
@@ -14851,42 +15076,6 @@
       "match_method": "exact"
     },
     {
-      "layerseven_name": "CA FR: ICI TELE ESTRIE HD",
-      "category": "CA| GENERAL FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "CA FR: ICI TELE MAURICIE HD",
-      "category": "CA| GENERAL FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "CA FR: ICI TELE OTTAWA-GATINEAU HD",
-      "category": "CA| GENERAL FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "CA FR: ICI TELE SAGUENAY HD",
-      "category": "CA| GENERAL FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
       "layerseven_name": "CA FR: PRISE 2",
       "category": "CA| GENERAL FR",
       "country": "CA",
@@ -14902,6 +15091,15 @@
       "epg_id": "470352",
       "epg_name": "Prise 2 HD",
       "matched_key": "PRISE2",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA FR: RDI HD",
+      "category": "CA| GENERAL FR",
+      "country": "CA",
+      "epg_id": "470346",
+      "epg_name": "ICI RDI HD",
+      "matched_key": "ICI RDI",
       "match_method": "exact"
     },
     {
@@ -14923,12 +15121,21 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA FR: SAVOIR MEDIA",
+      "category": "CA| GENERAL FR",
+      "country": "CA",
+      "epg_id": "470884",
+      "epg_name": "Savoir média",
+      "matched_key": "SAVOIR MEDIA",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA FR: TV 5 QUÉBEC  HD",
       "category": "CA| GENERAL FR",
       "country": "CA",
       "epg_id": "470795",
       "epg_name": "TV 5 Québec Canada HD",
-      "matched_key": "TV 5 QU BEC",
+      "matched_key": "TV 5 QUEBEC",
       "match_method": "exact"
     },
     {
@@ -14959,12 +15166,39 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA FR: ADDIK TV HD",
+      "category": "CA| CINEMA FR",
+      "country": "CA",
+      "epg_id": "470494",
+      "epg_name": "ADDIK HD",
+      "matched_key": "ADDIK",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA FR: CINEPOP HD",
+      "category": "CA| CINEMA FR",
+      "country": "CA",
+      "epg_id": "470576",
+      "epg_name": "CinéPop HD",
+      "matched_key": "CINEPOP",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA FR: ELLE FICTIONS HD",
       "category": "CA| CINEMA FR",
       "country": "CA",
       "epg_id": "470358",
       "epg_name": "ELLE FICTIONS HD",
       "matched_key": "ELLE FICTIONS",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA FR: EVASION HD",
+      "category": "CA| CINEMA FR",
+      "country": "CA",
+      "epg_id": "470563",
+      "epg_name": "Évasion HD",
+      "matched_key": "EVASION",
       "match_method": "exact"
     },
     {
@@ -14982,8 +15216,8 @@
       "country": "CA",
       "epg_id": "470855",
       "epg_name": "Super Écran 2",
-      "matched_key": "SUPER CRAN 2",
-      "match_method": "close-spelling"
+      "matched_key": "SUPER ECRAN 2",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "CA FR: SUPER ECRAN 2 HD",
@@ -14991,71 +15225,35 @@
       "country": "CA",
       "epg_id": "470855",
       "epg_name": "Super Écran 2",
-      "matched_key": "SUPER CRAN 2",
-      "match_method": "close-spelling"
+      "matched_key": "SUPER ECRAN 2",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "CA FR: SUPER ECRAN 3",
       "category": "CA| CINEMA FR",
       "country": "CA",
-      "epg_id": "470634",
-      "epg_name": "Super Écran 3",
-      "matched_key": "SUPER CRAN 3",
-      "match_method": "close-spelling"
+      "epg_id": "470486",
+      "epg_name": "Super Écran 3 HD",
+      "matched_key": "SUPER ECRAN 3",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "CA FR: SUPER ECRAN 4",
       "category": "CA| CINEMA FR",
       "country": "CA",
-      "epg_id": "470385",
-      "epg_name": "Super Écran 4",
-      "matched_key": "SUPER CRAN 4",
-      "match_method": "close-spelling"
+      "epg_id": "470315",
+      "epg_name": "Super Écran 4 HD",
+      "matched_key": "SUPER ECRAN 4",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "CA FR: SUPER ECRAN 4 HD",
       "category": "CA| CINEMA FR",
       "country": "CA",
-      "epg_id": "470385",
-      "epg_name": "Super Écran 4",
-      "matched_key": "SUPER CRAN 4",
-      "match_method": "close-spelling"
-    },
-    {
-      "layerseven_name": "CA FR: ICI TELE ACADIE HD",
-      "category": "CA| KIDS FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "CA FR: ICI TELE ALBERTA HD",
-      "category": "CA| KIDS FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "CA FR: ICI TELE CB-YUKON HD",
-      "category": "CA| KIDS FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "CA FR: ICI TELE EST-QUEBEC HD",
-      "category": "CA| KIDS FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
+      "epg_id": "470315",
+      "epg_name": "Super Écran 4 HD",
+      "matched_key": "SUPER ECRAN 4",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "CA FR: ICI TELE HD",
@@ -15065,24 +15263,6 @@
       "epg_name": "ICI Tele HD",
       "matched_key": "ICI TELE",
       "match_method": "exact"
-    },
-    {
-      "layerseven_name": "CA FR: ICI TELE MANITOBA HD",
-      "category": "CA| KIDS FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "CA FR: ICI TELE SASKATCHEWAN HD",
-      "category": "CA| KIDS FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
     },
     {
       "layerseven_name": "CA FR: TSN/RDS EXTRA 1",
@@ -15166,6 +15346,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA FR: AMI TELE HD",
+      "category": "CA| DOCUMENTARY FR",
+      "country": "CA",
+      "epg_id": "470449",
+      "epg_name": "AMI-télé HD",
+      "matched_key": "AMI TELE",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA FR: CASA",
       "category": "CA| DOCUMENTARY FR",
       "country": "CA",
@@ -15202,48 +15391,84 @@
       "match_method": "exact"
     },
     {
-      "layerseven_name": "CA FR: ICI RADIO CANADA TELE MONCTON HD",
-      "category": "CA| DOCUMENTARY FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "CA FR: ICI RADIO CANADA TELE VANCOUVER HD",
-      "category": "CA| DOCUMENTARY FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "CA FR: ICI RADIO TELE TORONTO HD",
-      "category": "CA| DOCUMENTARY FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "CA FR: ICI RADIO-CANADA TELE TORONTO",
-      "category": "CA| DOCUMENTARY FR",
-      "country": "CA",
-      "epg_id": "470608",
-      "epg_name": "ICI Tele",
-      "matched_key": "ICI TELE",
-      "match_method": "regional-subset"
-    },
-    {
       "layerseven_name": "CA FR: INVESTIGATION HD",
       "category": "CA| DOCUMENTARY FR",
       "country": "CA",
       "epg_id": "470768",
       "epg_name": "Investigation HD",
       "matched_key": "INVESTIGATION",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: GLOBAL NEWS BC HD",
+      "category": "CA| NEWS EN",
+      "country": "CA",
+      "epg_id": "470600",
+      "epg_name": "Global BC HD",
+      "matched_key": "GLOBAL BC",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: GLOBAL NEWS CALGARY HD",
+      "category": "CA| NEWS EN",
+      "country": "CA",
+      "epg_id": "470885",
+      "epg_name": "Global Calgary HD",
+      "matched_key": "GLOBAL CALGARY",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: GLOBAL NEWS EDMONTON HD",
+      "category": "CA| NEWS EN",
+      "country": "CA",
+      "epg_id": "470488",
+      "epg_name": "Global Edmonton",
+      "matched_key": "GLOBAL EDMONTON",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: GLOBAL NEWS LETHBRIDGE HD",
+      "category": "CA| NEWS EN",
+      "country": "CA",
+      "epg_id": "470786",
+      "epg_name": "Global Lethbridge",
+      "matched_key": "GLOBAL LETHBRIDGE",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: GLOBAL NEWS MONTREAL HD",
+      "category": "CA| NEWS EN",
+      "country": "CA",
+      "epg_id": "470319",
+      "epg_name": "Global Montreal HD",
+      "matched_key": "GLOBAL MONTREAL",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: GLOBAL NEWS REGINA HD",
+      "category": "CA| NEWS EN",
+      "country": "CA",
+      "epg_id": "470341",
+      "epg_name": "Global Regina",
+      "matched_key": "GLOBAL REGINA",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: GLOBAL NEWS SASKATOON HD",
+      "category": "CA| NEWS EN",
+      "country": "CA",
+      "epg_id": "470750",
+      "epg_name": "Global Saskatoon",
+      "matched_key": "GLOBAL SASKATOON",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: GLOBAL NEWS TORONTO HD",
+      "category": "CA| NEWS EN",
+      "country": "CA",
+      "epg_id": "470729",
+      "epg_name": "Global Toronto HD",
+      "matched_key": "GLOBAL TORONTO",
       "match_method": "exact"
     },
     {
@@ -15265,6 +15490,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA EN: FOX NEWS HD",
+      "category": "CA| NEWS EN",
+      "country": "CA",
+      "epg_id": "470504",
+      "epg_name": "Fox News Channel",
+      "matched_key": "FOX NEWS CHANNEL",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA EN: AMC 4K",
       "category": "CA| GENERAL EN",
       "country": "CA",
@@ -15280,6 +15514,15 @@
       "epg_id": "470700",
       "epg_name": "CBC Calgary HD",
       "matched_key": "CBC CALGARY",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: CBC MONTREALHD",
+      "category": "CA| GENERAL EN",
+      "country": "CA",
+      "epg_id": "470320",
+      "epg_name": "CBMT - CBC Montreal",
+      "matched_key": "CBC MONTREAL",
       "match_method": "exact"
     },
     {
@@ -15517,6 +15760,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "CA EN: GLOBAL CALAGRY SD",
+      "category": "CA| GENERAL EN",
+      "country": "CA",
+      "epg_id": "470885",
+      "epg_name": "Global Calgary HD",
+      "matched_key": "GLOBAL CALGARY",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "CA EN: GLOBAL TORONTO HD",
       "category": "CA| GENERAL EN",
       "country": "CA",
@@ -15533,6 +15785,15 @@
       "epg_name": "HBO Canada 1 HD",
       "matched_key": "HBO 1",
       "match_method": "regional-subset"
+    },
+    {
+      "layerseven_name": "CA EN: MAKEFUL SD",
+      "category": "CA| GENERAL EN",
+      "country": "CA",
+      "epg_id": "470737",
+      "epg_name": "Makeful TV SD",
+      "matched_key": "MAKEFUL",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "CA EN: MOVIE TIME",
@@ -15577,6 +15838,15 @@
       "epg_id": "470459",
       "epg_name": "SLICE HD",
       "matched_key": "SLICE",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: VISION HD",
+      "category": "CA| GENERAL EN",
+      "country": "CA",
+      "epg_id": "470610",
+      "epg_name": "Vision TV HD",
+      "matched_key": "VISION",
       "match_method": "exact"
     },
     {
@@ -15919,6 +16189,15 @@
       "epg_id": "470309",
       "epg_name": "Treehouse HD",
       "matched_key": "TREEHOUSE",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "CA EN: H2 HD",
+      "category": "CA| DOCUMENTARY EN",
+      "country": "CA",
+      "epg_id": "470803",
+      "epg_name": "HISTORY 2",
+      "matched_key": "H2",
       "match_method": "exact"
     },
     {
@@ -16789,19 +17068,19 @@
       "layerseven_name": "UK: BBC ONE SCOT HD ◉",
       "category": "UK| GENERAL HD/4K",
       "country": "UK",
-      "epg_id": "I128.69387.schedulesdirect.org",
-      "epg_name": "UK - BBC ONE",
-      "matched_key": "BBC 1",
-      "match_method": "regional-subset"
+      "epg_id": "12294",
+      "epg_name": "BBC One ScotHD",
+      "matched_key": "BBC 1 SCOT",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "UK: BBC ONE SCOT ◉",
       "category": "UK| GENERAL HD/4K",
       "country": "UK",
-      "epg_id": "I128.69387.schedulesdirect.org",
-      "epg_name": "UK - BBC ONE",
-      "matched_key": "BBC 1",
-      "match_method": "regional-subset"
+      "epg_id": "12294",
+      "epg_name": "BBC One ScotHD",
+      "matched_key": "BBC 1 SCOT",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "UK: BBC ONE YORKS ◉",
@@ -16969,10 +17248,19 @@
       "layerseven_name": "UK: ITV LONDON ◉",
       "category": "UK| GENERAL HD/4K",
       "country": "UK",
-      "epg_id": "I635.17468.schedulesdirect.org",
-      "epg_name": "UK - ITV 1",
-      "matched_key": "ITV1 LONDON",
-      "match_method": "close-spelling"
+      "epg_id": "I656.50523.schedulesdirect.org",
+      "epg_name": "UK - ITV1 HD",
+      "matched_key": "ITV LONDON",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: ITV ANGLIA TV WEST ◉",
+      "category": "UK| GENERAL HD/4K",
+      "country": "UK",
+      "epg_id": "I605.112077.schedulesdirect.org",
+      "epg_name": "UK - ITV1 Anglia West HD",
+      "matched_key": "ITV ANGLIA",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "UK: ITV CENTRAL WEST ◉",
@@ -16980,8 +17268,17 @@
       "country": "UK",
       "epg_id": "I630.68143.schedulesdirect.org",
       "epg_name": "UK - ITV1 Central West HD",
-      "matched_key": "ITV1 CENTRAL WEST",
-      "match_method": "close-spelling"
+      "matched_key": "ITV CENTRAL WEST",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: Talk TV 4K ◉",
+      "category": "UK| GENERAL HD/4K",
+      "country": "UK",
+      "epg_id": "I1022.122614.schedulesdirect.org",
+      "epg_name": "Talk",
+      "matched_key": "TALK",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "UK: STV 4K ◉",
@@ -16996,8 +17293,8 @@
       "layerseven_name": "UK: ITV WALES ◉",
       "category": "UK| GENERAL HD/4K",
       "country": "UK",
-      "epg_id": "I1000.117210.schedulesdirect.org",
-      "epg_name": "UK - ITV Wales HD",
+      "epg_id": "I658.96374.schedulesdirect.org",
+      "epg_name": "UK - ITV1 Wales HD",
       "matched_key": "ITV WALES",
       "match_method": "exact"
     },
@@ -17007,8 +17304,8 @@
       "country": "UK",
       "epg_id": "I650.29194.schedulesdirect.org",
       "epg_name": "UK - ITV1 Border Scotland HD",
-      "matched_key": "ITV1 BORDER SCOTLAND",
-      "match_method": "close-spelling"
+      "matched_key": "ITV BORDER SCOTLAND",
+      "match_method": "exact"
     },
     {
       "layerseven_name": "UK: DAYSTAR HD ◉",
@@ -17494,6 +17791,15 @@
       "epg_id": "I448.31786.schedulesdirect.org",
       "epg_name": "E4 Extra",
       "matched_key": "E4 EXTRA",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: New Vision / ARY WORLD ◉",
+      "category": "UK| GENERAL HD/4K",
+      "country": "UK",
+      "epg_id": "12531",
+      "epg_name": "New Vision TV",
+      "matched_key": "NEW VISION",
       "match_method": "exact"
     },
     {
@@ -18235,6 +18541,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "NOW: NICKELDEON ᴴᴰ",
+      "category": "UK| NOW ENTERTAINMENT ᴴᴰ ᴳᴼᴸᴰ",
+      "country": "UK",
+      "epg_id": "I809.83626.schedulesdirect.org",
+      "epg_name": "Nickelodeon",
+      "matched_key": "NICKELODEON",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "NOW: NICKTOONS ᴴᴰ",
       "category": "UK| NOW ENTERTAINMENT ᴴᴰ ᴳᴼᴸᴰ",
       "country": "UK",
@@ -18646,7 +18961,7 @@
       "epg_id": "I579.87374.schedulesdirect.org",
       "epg_name": "i24 News",
       "matched_key": "I24 NEWS",
-      "match_method": "regional-subset"
+      "match_method": "exact"
     },
     {
       "layerseven_name": "UK: BLOOMBERG HD ◉",
@@ -18670,8 +18985,8 @@
       "layerseven_name": "UK: RT UK HD ◉",
       "category": "UK| NEWS",
       "country": "UK",
-      "epg_id": "I939.99521.schedulesdirect.org",
-      "epg_name": "RTE 2 HD",
+      "epg_id": "I937.98986.schedulesdirect.org",
+      "epg_name": "RT HD",
       "matched_key": "RT",
       "match_method": "exact"
     },
@@ -18682,6 +18997,24 @@
       "epg_id": "I1284.104305.schedulesdirect.org",
       "epg_name": "TRT World",
       "matched_key": "TRT WORLD",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: TALK TV 4K ◉",
+      "category": "UK| NEWS",
+      "country": "UK",
+      "epg_id": "I1022.122614.schedulesdirect.org",
+      "epg_name": "Talk",
+      "matched_key": "TALK",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: TALK TV HD ◉",
+      "category": "UK| NEWS",
+      "country": "UK",
+      "epg_id": "I1022.122614.schedulesdirect.org",
+      "epg_name": "Talk",
+      "matched_key": "TALK",
       "match_method": "exact"
     },
     {
@@ -19945,6 +20278,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "UK: DISNEY JUNIOR 4K",
+      "category": "UK| KIDS HD/4K",
+      "country": "UK",
+      "epg_id": "479490",
+      "epg_name": "Disney Jr HD",
+      "matched_key": "DISNEY JR",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "UK: NICKELODEON 4K",
       "category": "UK| KIDS HD/4K",
       "country": "UK",
@@ -19978,6 +20320,33 @@
       "epg_id": "I815.31168.schedulesdirect.org",
       "epg_name": "Nicktoons",
       "matched_key": "NICKTOONS",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: NICK JUNIOR",
+      "category": "UK| KIDS HD/4K",
+      "country": "UK",
+      "epg_id": "I807.212064.schedulesdirect.org",
+      "epg_name": "Nick Jr.",
+      "matched_key": "NICK JR",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: NICK JUNIOR +1",
+      "category": "UK| KIDS HD/4K",
+      "country": "UK",
+      "epg_id": "I804.97286.schedulesdirect.org",
+      "epg_name": "Nick Jr. +1",
+      "matched_key": "NICK JR 1",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: NICK JUNIOR TOO",
+      "category": "UK| KIDS HD/4K",
+      "country": "UK",
+      "epg_id": "I806.50269.schedulesdirect.org",
+      "epg_name": "Nick Jr. Too",
+      "matched_key": "NICK JR TOO",
       "match_method": "exact"
     },
     {
@@ -20089,6 +20458,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "UK: NICK  HEVC HD",
+      "category": "UK| KIDS HEVC",
+      "country": "UK",
+      "epg_id": "I809.83626.schedulesdirect.org",
+      "epg_name": "Nickelodeon",
+      "matched_key": "NICKELODEON",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "UK: CARTOON NETWORK HEVC HD",
       "category": "UK| KIDS HEVC",
       "country": "UK",
@@ -20122,6 +20500,15 @@
       "epg_id": "I807.212064.schedulesdirect.org",
       "epg_name": "Nick Jr.",
       "matched_key": "NICK JR",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: NICK HEVC 4K",
+      "category": "UK| KIDS HEVC",
+      "country": "UK",
+      "epg_id": "I809.83626.schedulesdirect.org",
+      "epg_name": "Nickelodeon",
+      "matched_key": "NICKELODEON",
       "match_method": "exact"
     },
     {
@@ -20236,8 +20623,8 @@
       "layerseven_name": "NOW: SKY SPORTS NEWS ᴴᴰ",
       "category": "UK| NOW SPORT ᴴᴰ ᴳᴼᴸᴰ",
       "country": "UK",
-      "epg_id": "I1096.68347.schedulesdirect.org",
-      "epg_name": "SKY Sports News",
+      "epg_id": "I1068.87131.schedulesdirect.org",
+      "epg_name": "Sky Sport News HD",
       "matched_key": "SKY SPORTS NEWS",
       "match_method": "exact"
     },
@@ -20248,7 +20635,7 @@
       "epg_id": "I1000.49609.schedulesdirect.org",
       "epg_name": "Sky Sports Main Event",
       "matched_key": "SKY SPORTS MAIN EVENT",
-      "match_method": "close-spelling"
+      "match_method": "exact"
     },
     {
       "layerseven_name": "NOW: SKY SPORTS PREMIER LEAGUE ᴴᴰ",
@@ -20272,10 +20659,10 @@
       "layerseven_name": "NOW: SKY SPORT MIX ᴴᴰ",
       "category": "UK| NOW SPORT ᴴᴰ ᴳᴼᴸᴰ",
       "country": "UK",
-      "epg_id": "I1093.100265.schedulesdirect.org",
-      "epg_name": "SKY Sports Mix",
+      "epg_id": "I1094.100264.schedulesdirect.org",
+      "epg_name": "Sky Sports Mix HD",
       "matched_key": "SKY SPORTS MIX",
-      "match_method": "close-spelling"
+      "match_method": "exact"
     },
     {
       "layerseven_name": "NOW: SKY SPORTS ACTION ᴴᴰ",
@@ -20320,7 +20707,7 @@
       "epg_id": "I1079.51204.schedulesdirect.org",
       "epg_name": "Sky Sports Cricket",
       "matched_key": "SKY SPORTS CRICKET",
-      "match_method": "close-spelling"
+      "match_method": "exact"
     },
     {
       "layerseven_name": "NOW: SKY SPORT GOLF ᴴᴰ",
@@ -20329,7 +20716,7 @@
       "epg_id": "I1002.67695.schedulesdirect.org",
       "epg_name": "Sky Sports Golf HD",
       "matched_key": "SKY SPORTS GOLF",
-      "match_method": "close-spelling"
+      "match_method": "exact"
     },
     {
       "layerseven_name": "NOW: TNT SPORTS 1 SD",
@@ -20425,8 +20812,8 @@
       "layerseven_name": "NOW: SKY SPORTS NEWS ᴿᴬᵂ",
       "category": "UK| NOW SPORT ᴿᴬᵂ ᴳᴼᴸᴰ",
       "country": "UK",
-      "epg_id": "I1096.68347.schedulesdirect.org",
-      "epg_name": "SKY Sports News",
+      "epg_id": "I1068.87131.schedulesdirect.org",
+      "epg_name": "Sky Sport News HD",
       "matched_key": "SKY SPORTS NEWS",
       "match_method": "exact"
     },
@@ -20434,8 +20821,8 @@
       "layerseven_name": "NOW: SKY SPORTS MAIN EVENT ᴿᴬᵂ",
       "category": "UK| NOW SPORT ᴿᴬᵂ ᴳᴼᴸᴰ",
       "country": "UK",
-      "epg_id": "I1092.131630.schedulesdirect.org",
-      "epg_name": "Sky Sports Main Event UHD",
+      "epg_id": "I1000.49609.schedulesdirect.org",
+      "epg_name": "Sky Sports Main Event",
       "matched_key": "SKY SPORTS MAIN EVENT",
       "match_method": "exact"
     },
@@ -20560,8 +20947,8 @@
       "layerseven_name": "UK: SKY SPORTS NEWS HD ◉",
       "category": "UK| SPORT HD/4K",
       "country": "UK",
-      "epg_id": "I1096.68347.schedulesdirect.org",
-      "epg_name": "SKY Sports News",
+      "epg_id": "I1068.87131.schedulesdirect.org",
+      "epg_name": "Sky Sport News HD",
       "matched_key": "SKY SPORTS NEWS",
       "match_method": "exact"
     },
@@ -20611,6 +20998,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "UK: SKY SPORTS PL HD ◉",
+      "category": "UK| SPORT HD/4K",
+      "country": "UK",
+      "epg_id": "I1099.116645.schedulesdirect.org",
+      "epg_name": "Sky Sports Premier League",
+      "matched_key": "SKY SPORTS PREMIER LEAGUE",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "UK: SKY SPORTS F1 HD ◉",
       "category": "UK| SPORT HD/4K",
       "country": "UK",
@@ -20653,6 +21049,15 @@
       "epg_id": "I1103.147889.schedulesdirect.org",
       "epg_name": "Sky Sports Tennis",
       "matched_key": "SKY SPORTS TENNIS",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: MANCHESTER UNITED HD ◉",
+      "category": "UK| SPORT HD/4K",
+      "country": "UK",
+      "epg_id": "I731.91178.schedulesdirect.org",
+      "epg_name": "Manchester United Television HD",
+      "matched_key": "MANCHESTER UNITED",
       "match_method": "exact"
     },
     {
@@ -20701,12 +21106,39 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "UK: VIAPLAY SPORTS 1 HD ◉",
+      "category": "UK| SPORT HD/4K",
+      "country": "UK",
+      "epg_id": "12160",
+      "epg_name": "Viaplay 1 HD",
+      "matched_key": "VIAPLAY 1",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: VIAPLAY SPORT 2 HD ◉",
+      "category": "UK| SPORT HD/4K",
+      "country": "UK",
+      "epg_id": "12557",
+      "epg_name": "Viaplay 2 HD",
+      "matched_key": "VIAPLAY 2",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "UK: VIAPLAY XTRA HD ◉",
       "category": "UK| SPORT HD/4K",
       "country": "UK",
       "epg_id": "I1342.105525.schedulesdirect.org",
       "epg_name": "Viaplay Xtra HD",
       "matched_key": "VIAPLAY XTRA",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: RACING HD ◉",
+      "category": "UK| SPORT HD/4K",
+      "country": "UK",
+      "epg_id": "I910.24226.schedulesdirect.org",
+      "epg_name": "Racing TV",
+      "matched_key": "RACING",
       "match_method": "exact"
     },
     {
@@ -20794,8 +21226,8 @@
       "layerseven_name": "UK: SKY SPORTS NEWS 4K",
       "category": "UK| SPORT HD/4K",
       "country": "UK",
-      "epg_id": "I1096.68347.schedulesdirect.org",
-      "epg_name": "SKY Sports News",
+      "epg_id": "I1068.87131.schedulesdirect.org",
+      "epg_name": "Sky Sport News HD",
       "matched_key": "SKY SPORTS NEWS",
       "match_method": "exact"
     },
@@ -20812,8 +21244,8 @@
       "layerseven_name": "UK: SKY SPORTS MAIN EVENT 4K",
       "category": "UK| SPORT HD/4K",
       "country": "UK",
-      "epg_id": "I1092.131630.schedulesdirect.org",
-      "epg_name": "Sky Sports Main Event UHD",
+      "epg_id": "I1000.49609.schedulesdirect.org",
+      "epg_name": "Sky Sports Main Event",
       "matched_key": "SKY SPORTS MAIN EVENT",
       "match_method": "exact"
     },
@@ -20872,6 +21304,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "UK: SKY SPORTS PL 4K",
+      "category": "UK| SPORT HD/4K",
+      "country": "UK",
+      "epg_id": "I1099.116645.schedulesdirect.org",
+      "epg_name": "Sky Sports Premier League",
+      "matched_key": "SKY SPORTS PREMIER LEAGUE",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "UK: SKY SPORTS F1 4K",
       "category": "UK| SPORT HD/4K",
       "country": "UK",
@@ -20899,6 +21340,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "UK: VIAPLAY SPORT 1 4K",
+      "category": "UK| SPORT HD/4K",
+      "country": "UK",
+      "epg_id": "12160",
+      "epg_name": "Viaplay 1 HD",
+      "matched_key": "VIAPLAY 1",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: VIAPLAY SPORTS 2 4K",
+      "category": "UK| SPORT HD/4K",
+      "country": "UK",
+      "epg_id": "12557",
+      "epg_name": "Viaplay 2 HD",
+      "matched_key": "VIAPLAY 2",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "UK: EUROSPORT 1 4K",
       "category": "UK| SPORT HD/4K",
       "country": "UK",
@@ -20914,6 +21373,15 @@
       "epg_id": "I462.66603.schedulesdirect.org",
       "epg_name": "Eurosport 1",
       "matched_key": "EUROSPORT",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "UK: RACING 4K",
+      "category": "UK| SPORT HD/4K",
+      "country": "UK",
+      "epg_id": "I910.24226.schedulesdirect.org",
+      "epg_name": "Racing TV",
+      "matched_key": "RACING",
       "match_method": "exact"
     },
     {
@@ -20956,8 +21424,8 @@
       "layerseven_name": "UK: SKY SPORTS NEWS",
       "category": "UK| SPORT HD/4K",
       "country": "UK",
-      "epg_id": "I1096.68347.schedulesdirect.org",
-      "epg_name": "SKY Sports News",
+      "epg_id": "I1068.87131.schedulesdirect.org",
+      "epg_name": "Sky Sport News HD",
       "matched_key": "SKY SPORTS NEWS",
       "match_method": "exact"
     },
@@ -20965,8 +21433,8 @@
       "layerseven_name": "UK: SKY SPORTS MAIN EVENT",
       "category": "UK| SPORT HD/4K",
       "country": "UK",
-      "epg_id": "I1092.131630.schedulesdirect.org",
-      "epg_name": "Sky Sports Main Event UHD",
+      "epg_id": "I1000.49609.schedulesdirect.org",
+      "epg_name": "Sky Sports Main Event",
       "matched_key": "SKY SPORTS MAIN EVENT",
       "match_method": "exact"
     },
@@ -21091,8 +21559,8 @@
       "layerseven_name": "UK: SKY SPORTS NEWS HEVC HD",
       "category": "UK| SPORT HEVC",
       "country": "UK",
-      "epg_id": "I1096.68347.schedulesdirect.org",
-      "epg_name": "SKY Sports News",
+      "epg_id": "I1068.87131.schedulesdirect.org",
+      "epg_name": "Sky Sport News HD",
       "matched_key": "SKY SPORTS NEWS",
       "match_method": "exact"
     },
@@ -21235,9 +21703,9 @@
       "layerseven_name": "UK: PREMIER SPORTS 2 IRELAND HEVC HD",
       "category": "UK| SPORT HEVC",
       "country": "UK",
-      "epg_id": "I867.79027.schedulesdirect.org",
-      "epg_name": "Premier Sports 1",
-      "matched_key": "PREMIER SPORTS",
+      "epg_id": "I869.109162.schedulesdirect.org",
+      "epg_name": "Premier Sports 2",
+      "matched_key": "PREMIER SPORTS 2",
       "match_method": "regional-subset"
     },
     {
@@ -21280,8 +21748,8 @@
       "layerseven_name": "UK: SKY SPORTS NEWS HEVC 4K",
       "category": "UK| SPORT HEVC",
       "country": "UK",
-      "epg_id": "I1096.68347.schedulesdirect.org",
-      "epg_name": "SKY Sports News",
+      "epg_id": "I1068.87131.schedulesdirect.org",
+      "epg_name": "Sky Sport News HD",
       "matched_key": "SKY SPORTS NEWS",
       "match_method": "exact"
     },
@@ -21424,9 +21892,9 @@
       "layerseven_name": "UK: PREMIER SPORTS 2 IRELAND HEVC 4K",
       "category": "UK| SPORT HEVC",
       "country": "UK",
-      "epg_id": "I867.79027.schedulesdirect.org",
-      "epg_name": "Premier Sports 1",
-      "matched_key": "PREMIER SPORTS",
+      "epg_id": "I869.109162.schedulesdirect.org",
+      "epg_name": "Premier Sports 2",
+      "matched_key": "PREMIER SPORTS 2",
       "match_method": "regional-subset"
     },
     {
@@ -21918,16 +22386,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: E! ENTERTAINMENT WEST HD",
-      "category": "US| ENTERTAINMENT HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: E! ENTERTAINMENT HD",
-      "category": "US| ENTERTAINMENT HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: EWTN CATHOLIC",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US"
@@ -22053,11 +22511,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US:  LAFF TV  HD",
-      "category": "US| ENTERTAINMENT HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: LONGHORN NETWORK HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US"
@@ -22153,11 +22606,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: RETRO TV",
-      "category": "US| ENTERTAINMENT HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: RIDE TV HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US"
@@ -22168,7 +22616,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: SUNDANCE HD",
+      "layerseven_name": "US: SPECTRUM BAY NEWS 9 HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US"
     },
@@ -22258,6 +22706,181 @@
       "country": "US"
     },
     {
+      "layerseven_name": "US: SPECTRUM NEWS NY1 ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 WORCESTER ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 SPRINGFIELD ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 SOUTHERN TIER ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 ROTX ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 ROCHESTER ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 RALEIGH ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 PITTSFIELD ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 OHIO ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 KENTUCKY ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 KANSAS CITY ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 HUDSON VALLEY ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 GREENSBORO ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 DALLAS ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 CHARLOTTE ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 CENTRAL NY ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 CAROLINAS MOUNTAIN ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 BUFFALO ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 ALBANY ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 - SO CAL ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 - EL PASO TEXAS ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 - DAYTON ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 - DALLAS -FT WORTH ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 - COLUMBUS ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 - CINCINNATI ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 - (MA) WORCESTER ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 - (MA) SPRINGFIELD ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 - (MA) PITTSFIELD ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 (CAROLINAS) - RALEIGH ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 (CAROLINAS) - MOUNTAIN ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 (CAROLINAS) - COASTAL ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 (CAROLINAS) - CHARLOTTE ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS 1 (CAROLINAS) -  GREENSBORO ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS - NY1 ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM BAY NEWS 9 ᴴᴰ",
+      "category": "US| SPECTRUM NETWORK",
+      "country": "US"
+    },
+    {
       "layerseven_name": "US: TELEMUNDO ᴴᴰ",
       "category": "US| TELEMUNDO NETWORK",
       "country": "US"
@@ -22288,57 +22911,12 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: TELEMUNDO (KHRR-DT) MARANA ᴴᴰ",
-      "category": "US| TELEMUNDO NETWORK",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TELEMUNDO (KSTS-DT) CONCORD ᴴᴰ",
-      "category": "US| TELEMUNDO NETWORK",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TELEMUNDO (KUAN-LD) CHULA VISTA ᴴᴰ",
-      "category": "US| TELEMUNDO NETWORK",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TELEMUNDO (KXTX-DT) THE COLONY ᴴᴰ",
-      "category": "US| TELEMUNDO NETWORK",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TELEMUNDO (WZDC( LEESBURG ᴴᴰ",
-      "category": "US| TELEMUNDO NETWORK",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: TELEMUNDO 11 (KFFX-DT2) KENNEWICK ᴴᴰ ",
       "category": "US| TELEMUNDO NETWORK",
       "country": "US"
     },
     {
-      "layerseven_name": "US: TELEMUNDO 31 (WTMO-CD) DAYTONA BEACH ᴴᴰ",
-      "category": "US| TELEMUNDO NETWORK",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TELEMUNDO 42 (KGLA-DT) NEW ORLEANS ᴴᴰ",
-      "category": "US| TELEMUNDO NETWORK",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TELEMUNDO 24 (KXTQ-CD) LUBBOCK/TEXAS ᴴᴰ",
-      "category": "US| TELEMUNDO NETWORK",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: TELEMUNDO 13 (KRDO-DT2) PUEBLO ᴴᴰ",
-      "category": "US| TELEMUNDO NETWORK",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TELEMUNDO 20 (KTMW-DT) SALT LAKE CITY ᴴᴰ",
       "category": "US| TELEMUNDO NETWORK",
       "country": "US"
     },
@@ -22478,11 +23056,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX NEWS HD",
-      "category": "US| NEWS HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: FOX KANSAS HD",
       "category": "US| NEWS HD/4K",
       "country": "US"
@@ -22534,6 +23107,11 @@
     },
     {
       "layerseven_name": "US: DISTRICT KNOWLEDGE NETWORK 4K",
+      "category": "US| NEWS HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: SPECTRUM NEWS NY1 HD",
       "category": "US| NEWS HD/4K",
       "country": "US"
     },
@@ -25543,22 +26121,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: DISNEY JR HD",
-      "category": "US| KIDS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: DISNEY JR WEST HD",
-      "category": "US| KIDS HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: BABY TV HD",
-      "category": "US| KIDS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: BABY FIRST HD",
       "category": "US| KIDS HD/4K",
       "country": "US"
     },
@@ -25584,16 +26147,6 @@
     },
     {
       "layerseven_name": "US: FOX NEWS. UHD",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX NEWS HD",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX NEWS HD",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
@@ -25743,42 +26296,17 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX WTXF TV",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX (WEVV2) OWENSBORO HD ",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX (WEVV2) OWENSBORO HD ",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: FOX 5 HD [SAN DIEGO]",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
     {
       "layerseven_name": "US: FOX 5 HD [SAN DIEGO]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 5 HD [LAS VEGAS]",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
     {
       "layerseven_name": "US: FOX 5 PLUS HD [WASHINGTON]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 8 HD [GREENSBORO]",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
@@ -25793,22 +26321,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX 10 HD [MOBILE]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: FOX 10 XTRA HD [PHOENIX]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 13 HD [ALBUQUERQUE]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 13 HD [SEATTLE]",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
@@ -25819,21 +26332,6 @@
     },
     {
       "layerseven_name": "US: FOX 21 HD [ASHEVILLE]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 29 HD [BUFFALO]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 29 HD [PALM BEACH]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 30 HD [MERIDIAN MS]",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
@@ -25853,32 +26351,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX 43 HD [HARRISBURG]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: FOX 44 HD [EVANSVILLE]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 46 HD [CHARLOTTE]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 51 HD [GAINESVILLE]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 61 HD [HARTFORD]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX (KRQEDT2) ALBUQUERQUE NEW MEXICO",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
@@ -25888,82 +26361,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: CBS 3 (WWAY-DT2) WILMINGTON HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 5 (KALB-DT2) ALEXANDRIA HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 7 (KBNZ-LD) BEND HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 7 (KHQA-DT) QUINCY HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 7 (WBBJ-DT3) JACKSON HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 13 (WLOX-DT2) GULFPORT HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: CBS 13 (WSVF-CD2) HARRISONBURG HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 17 (KSWL-LD) LAKE CHARLES HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 18 (WECP-LD) PANAMA CITY HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 18 (WLFI-DT) LAFAYETTE HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 23 (WIFR-LD) ROCKFORD HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 35 (WOHL-CD2) LIMA HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 39 (KJNB-LD2) JONESBORO HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 40 (WNKY-DT2) BOWLING GREEN HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 57 (WYMT-DT) HAZARD HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS SPORTS USA",
       "category": "US| CBS HD/4K",
       "country": "US"
     },
@@ -25973,32 +26371,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 2 HD [BANGOR]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 2 HD [CHARLESTON SC]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 2 HD [NORTH PLATTE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 2 HD [TERRE HAUTE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 2 HD [UTICA]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 2 HD [ORLANDO]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26008,27 +26381,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 3 HD [LAS VEGAS]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 3 HD [SYRACUSE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 4 NY 4K",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 4 HD [SAN ANTONIO TX]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 4 SD [AMARILLO]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26043,17 +26396,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 5 HD [BISMARCK]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 5 HD [BRISTOL]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 5 HD [DALLAS TX]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26064,11 +26407,6 @@
     },
     {
       "layerseven_name": "US: NBC 5 HD [MEDFORD]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 6 HD [JOHNSTOWN]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26084,11 +26422,6 @@
     },
     {
       "layerseven_name": "US: NBC 6 HD [POCATELLO]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 7 HD [HATTIESBURG MS]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26118,47 +26451,12 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 8 HD [BILLINGS]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 8 HD [JEFFERSON CITY]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 8 HD [JONESBORO]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 8 HD [LIMA]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 9 HD [ABILENE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 9 SD [GAINESVILLE]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 9 HD [ODESSA]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 9 HD [STEUBENVILLE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 9 HD [TUPELO]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26173,17 +26471,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 10 HD [ALBANY]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 10 HD [EL DORADO]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 10 HD [LANSING MI]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26203,11 +26491,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 11 HD [BALTIMORE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 11 HD [FAIRBANKS]",
       "category": "US| NBC HD/4K",
       "country": "US"
@@ -26219,16 +26502,6 @@
     },
     {
       "layerseven_name": "US: NBC 11 HD [SAN FRANCISCO]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 12 HD [CLARKSBURG. WV]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 12 HD [ERIE]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26249,21 +26522,6 @@
     },
     {
       "layerseven_name": "US: NBC 12 HD [SAN JOSE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 13 HD [ALBANY NY]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 13 HD [CASPER]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 13 HD [DES MOINES]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26338,16 +26596,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 17 HD [VICTORIA]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 18 HD [ZANESVILLE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 19 HD [CLEVELAND]",
       "category": "US| NBC HD/4K",
       "country": "US"
@@ -26358,27 +26606,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 20 HD [BINGHAMTON]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 21 HD [BEND]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 21 HD [RAPID CITY]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 21 HD [SIOUX FALLS]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 21 HD [ST. JOSEPH]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26389,11 +26617,6 @@
     },
     {
       "layerseven_name": "US: NBC 24 HD [CHICO-READING]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 24 HD [TOLEDO]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26413,42 +26636,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 29 HD [CHARLOTTESVILLE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 31 HD [SALISBURY]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 32 HD [BATON ROUGE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 33 HD [BATON ROUGE]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 39 HD [JACKSON]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 40 HD [BOWLING GREEN]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 41 HD [MACON]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 45 HD [WATERTOWN]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26468,52 +26656,12 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC (WPXIDT)",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC WMFP HD",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC (KSNVDT)",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC SD [SIOUX CITY]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC (WSVW/WHSV) HARRISONBURG HD",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC GOLF CHANNEL HD",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC SPORTS BAY AREA PLU HD",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC SPORTS NORTHWEST HD",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC SPORTS PHILADELFIA 4K",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC SPORTS PHILADELFIA HD",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26548,11 +26696,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: ABC 3 HD [PENSACOLA]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: ABC 4 HD [HONOLULU]",
       "category": "US| ABC HD/4K",
       "country": "US"
@@ -26573,22 +26716,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: ABC 9 HD [MANCHESTER]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: ABC 9 HD [TUCSON]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: ABC 9 HD [CHARLOTTE]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: ABC 11 HD [RALEIGH]",
       "category": "US| ABC HD/4K",
       "country": "US"
     },
@@ -26599,16 +26727,6 @@
     },
     {
       "layerseven_name": "US: ABC 13 Asheville",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: ABC 13 HD [NORFOLK]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: ABC 20 HD [GAINESVILLE]",
       "category": "US| ABC HD/4K",
       "country": "US"
     },
@@ -26638,17 +26756,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: ABC 36 HD [LEXINGTON]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: ABC 45 HD [WINSTON-SALEM]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: ABC 68 HD [BIRMINGHAM]",
       "category": "US| ABC HD/4K",
       "country": "US"
     },
@@ -26764,11 +26872,6 @@
     },
     {
       "layerseven_name": "US: NBC SPORTS NORTHWEST",
-      "category": "US| SPORT HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC SPORTS PHILADELFIA",
       "category": "US| SPORT HD/4K",
       "country": "US"
     },
@@ -27049,6 +27152,11 @@
     },
     {
       "layerseven_name": "US: THE MASTERS - SKY GOLF",
+      "category": "US| THE MASTERS PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: THE MASTERS - HOLES 15 & 16 (FIRST ROUND)",
       "category": "US| THE MASTERS PPV",
       "country": "US"
     },
@@ -28948,11 +29056,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NHL MONTRÉAL CANADIENS HD",
-      "category": "US| NHL TEAM PPV",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: ARIZONA COYOTES",
       "category": "US| NHL TEAM PPV",
       "country": "US"
@@ -28968,12 +29071,172 @@
       "country": "US"
     },
     {
+      "layerseven_name": "MILB 1: Las Vegas Aviators @ Sugar Land Space Cowboys 03/04 12:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 2: Reading Fightin Phils @ Harrisburg Senators 15/09 13:00et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 3: Richmond Flying Squirrels @ Altoona Curve 15/09 13:00et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 4: Buffalo Bisons @ Gwinnett Stripers 15/09 13:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 5: Lehigh Valley IronPigs @ Scranton/Wilkes-Barre RailRiders 15/09 13:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 6: New Hampshire Fisher Cats @ Somerset Patriots 15/09 13:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
       "layerseven_name": "MILB 7: Norfolk Tides @ Durham Bulls 15/09 13:05et",
       "category": "US| MILB PPV",
       "country": "US"
     },
     {
+      "layerseven_name": "MILB 8: St. Paul Saints @ Columbus Clippers 15/09 13:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 9: Syracuse Mets @ Worcester Red Sox 15/09 13:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 10: Bowie Baysox @ Erie SeaWolves 15/09 13:35et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 11: Rochester Red Wings @ Indianapolis Indians 15/09 13:35et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 12: Birmingham Barons @ Tennessee Smokies 15/09 14:00et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 13: Frisco RoughRiders @ Amarillo Sod Poodles 15/09 14:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 14: Hudson Valley Renegades @ Bowling Green Hot Rods 15/09 14:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 15: Midland RockHounds @ Corpus Christi Hooks 15/09 14:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 16: Mississippi Braves @ Biloxi Shuckers 15/09 14:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 17: Sacramento River Cats @ Round Rock Express 15/09 14:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 18: Salt Lake Bees @ El Paso Chihuahuas 15/09 14:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 19: Springfield Cardinals @ San Antonio Missions 15/09 14:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 20: Tulsa Drillers @ Wichita Wind Surge 15/09 14:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 21: Louisville Bats @ Iowa Cubs 15/09 14:08et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 22: Rocket City Trash Pandas @ Chattanooga Lookouts 15/09 14:15et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 23: Arkansas Travelers @ Northwest Arkansas Naturals 15/09 15:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
       "layerseven_name": "MILB 24: Reno Aces @ Sugar Land Space Cowboys 15/09 15:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 25: Tacoma Rainiers @ Oklahoma City Baseball Club 15/09 15:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 26: Toledo Mud Hens @ Omaha Storm Chasers 15/09 15:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 27: Las Vegas Aviators @ Albuquerque Isotopes 15/09 15:35et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 28: Modesto Nuts @ Lake Elsinore Storm 15/09 16:15et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 29: Palm Beach Cardinals @ Lakeland Flying Tigers 15/09 17:00et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 30: Montgomery Biscuits @ Pensacola Blue Wahoos 15/09 17:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 31: Fredericksburg Nationals @ Kannapolis Cannon Ballers 15/09 17:30et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 32: Hartford Yard Goats @ Akron RubberDucks 15/09 18:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 33: Memphis Redbirds @ Nashville Sounds 15/09 19:05et",
+      "category": "US| MILB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MILB 34: Lake County Captains @ Wisconsin Timber Rattlers 15/09 19:40et",
       "category": "US| MILB PPV",
       "country": "US"
     },
@@ -29358,6 +29621,91 @@
       "country": "US"
     },
     {
+      "layerseven_name": "MLB 1 | Minnesota twins @ cleveland guardians // UK Mon 16 Sep 11:30pm // ET Mon 16 Sep 6:30pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 2 | Washington nationals @ new york mets // UK Tue 17 Sep 12:00am // ET Mon 16 Sep 7:00pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 3 | Los angeles dodgers @ atlanta braves // UK Tue 17 Sep 12:10am // ET Mon 16 Sep 7:10pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 4 | Detroit tigers @ kansas city royals // UK Tue 17 Sep 12:30am // ET Mon 16 Sep 7:30pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 5 | Oakland athletics @ chicago cubs // UK Tue 17 Sep 12:30am // ET Mon 16 Sep 7:30pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 6 | Philadelphia phillies @ milwaukee brewers // UK Tue 17 Sep 12:30am // ET Mon 16 Sep 7:30pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 7 | Pittsburgh pirates @ st. Louis cardinals // UK Tue 17 Sep 12:35am // ET Mon 16 Sep 7:35pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 8 |Arizona diamondbacks @ colorado rockies // UK Tue 17 Sep 1:30am // ET Mon 16 Sep 8:30pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 9 | Chicago white sox @ los angeles angels // UK Tue 17 Sep 2:28am // ET Mon 16 Sep 9:28pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 10 |Houston astros @ san diego padres // UK Tue 17 Sep 2:30am // ET Mon 16 Sep 9:30pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 11| Chicago cubs @ colorado rockies // UK Sun 15 Sep 8:00pm // ET Sun 15 Sep 3:00pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 12 |San diego padres @ san francisco giants // UK Sun 15 Sep 8:55pm // ET Sun 15 Sep 3:55pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 13 | Houston astros @ los angeles angels // UK Sun 15 Sep 8:57pm // ET Sun 15 Sep 3:57pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 14 | Texas rangers @ seattle mariners // UK Sun 15 Sep 9:00pm // ET Sun 15 Sep 4:00pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 15 | Milwaukee brewers @ arizona diamondbacks // UK Sun 15 Sep 9:00pm // ET Sun 15 Sep 4:00pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 16 | Toronto Blue Jays @ Atlanta Braves // UK Sun 8 Sep 12:10am // ET Sat 7 Sep 7:10pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "MLB 17: Philadelphia Phillies @ Los Angeles Dodgers // UK Thu 8 Aug 3:00am // ET Wed 7 Aug 10:00pm",
+      "category": "US| MLB PPV",
+      "country": "US"
+    },
+    {
       "layerseven_name": "USA Real MLB 01: Twins VS Guardians (Twins Feed ) @ 18:40",
       "category": "US| MLB REAL PPV",
       "country": "US"
@@ -29493,13 +29841,78 @@
       "country": "US"
     },
     {
+      "layerseven_name": "WNBA 1 Dallas Wings @ Indiana Fever start:2024-09-15 20:00:00 stop:2024-09-15 22:00:00",
+      "category": "US| WNBA PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 2 Phoenix Mercury @ Chicago Sky start:2024-09-15 23:00:00 stop:2024-09-16 01:00:00",
+      "category": "US| WNBA PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 3 Minnesota Lynx @ New York Liberty start:2024-09-15 20:00:00 stop:2024-09-15 22:00:00",
+      "category": "US| WNBA PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 4 Los Angeles Sparks @ Seattle Storm start:2024-09-15 23:00:00 stop:2024-09-16 01:00:00",
+      "category": "US| WNBA PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 5 Atlanta Dream @ Washington Mystics start:2024-09-15 20:00:00 stop:2024-09-15 22:00:00",
+      "category": "US| WNBA PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 6 Connecticut Sun @ Las Vegas Aces start:2024-09-15 23:00:00 stop:2024-09-16 01:00:00",
+      "category": "US| WNBA PPV",
+      "country": "US"
+    },
+    {
       "layerseven_name": "WNBA 7 New York Liberty @ Los Angeles Sparks start:2024-08-16 02:00:00 stop:2024-08-16 04:00:00",
+      "category": "US| WNBA PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 8 Connecticut Sun @ Dallas Wings start:2024-08-17 02:30:00 stop:2024-08-17 04:30:00",
       "category": "US| WNBA PPV",
       "country": "US"
     },
     {
       "layerseven_name": "WNBA 10",
       "category": "US| WNBA PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 01: Dallas Wings vs Indiana Fever @ 03:00 PM",
+      "category": "US| WNBA REAL PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 02 : Minnesota Lynx vs New York Liberty @ 03:00 PM",
+      "category": "US| WNBA REAL PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 03 :  Atlanta Dream vs Washington Mystics @ 03:00 PM",
+      "category": "US| WNBA REAL PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 04:  Phoenix Mercury vs Chicago Sky @ 06:00 PM",
+      "category": "US| WNBA REAL PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 05:  Connecticut Sun vs Las Vegas Aces @ 06:00 PM",
+      "category": "US| WNBA REAL PPV",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "WNBA 06: Los Angeles Sparks vs Seattle Storm @ 06:00 PM",
+      "category": "US| WNBA REAL PPV",
       "country": "US"
     },
     {
@@ -37768,11 +38181,6 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA: ADDIK TV",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA: AHC",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
@@ -37818,27 +38226,12 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA: CBC MONTREAL",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA: CBC NEWS",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA: CBS EAST",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
     },
     {
       "layerseven_name": "CA: CBS WEST",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA: CINEPOP",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
     },
@@ -37883,11 +38276,6 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA: CTV NEWS NETWORK",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA: CTV News Regina HD",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
@@ -37909,11 +38297,6 @@
     },
     {
       "layerseven_name": "CA: CTV Comedy HD",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA: DAYSTAR TV",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
     },
@@ -37948,11 +38331,6 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA: EVASION",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA: FAMILY CHRGD",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
@@ -37979,11 +38357,6 @@
     },
     {
       "layerseven_name": "CA: FOX EAST",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA: FOX NEWS",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
     },
@@ -38033,11 +38406,6 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA: H2 CANADA",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA: HGTV",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
@@ -38064,11 +38432,6 @@
     },
     {
       "layerseven_name": "CA: LCN",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA: MAKEFUL",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
     },
@@ -38129,11 +38492,6 @@
     },
     {
       "layerseven_name": "CA: PEACH TREE",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA: RDI",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
     },
@@ -38238,17 +38596,7 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA: TV5 QUEBEC",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA: VIE",
-      "category": "CA| CANADA HD/4K",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA: VISION",
       "category": "CA| CANADA HD/4K",
       "country": "CA"
     },
@@ -38293,11 +38641,6 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA FR: CBC MONTREAL HD",
-      "category": "CA| GENERAL FR",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA FR: CGTN",
       "category": "CA| GENERAL FR",
       "country": "CA"
@@ -38314,6 +38657,26 @@
     },
     {
       "layerseven_name": "CA FR: EWTN",
+      "category": "CA| GENERAL FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI TELE ESTRIE HD",
+      "category": "CA| GENERAL FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI TELE MAURICIE HD",
+      "category": "CA| GENERAL FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI TELE OTTAWA-GATINEAU HD",
+      "category": "CA| GENERAL FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI TELE SAGUENAY HD",
       "category": "CA| GENERAL FR",
       "country": "CA"
     },
@@ -38373,11 +38736,6 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA FR: RDI HD",
-      "category": "CA| GENERAL FR",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA FR: RDS",
       "category": "CA| GENERAL FR",
       "country": "CA"
@@ -38394,11 +38752,6 @@
     },
     {
       "layerseven_name": "CA FR: ROGERS TV LONDON HD",
-      "category": "CA| GENERAL FR",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA FR: SAVOIR MEDIA",
       "category": "CA| GENERAL FR",
       "country": "CA"
     },
@@ -38493,11 +38846,6 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA FR: ADDIK TV HD",
-      "category": "CA| CINEMA FR",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA FR: BET",
       "category": "CA| CINEMA FR",
       "country": "CA"
@@ -38508,17 +38856,7 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA FR: CINEPOP HD",
-      "category": "CA| CINEMA FR",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA FR: ENGLISH CLUB TV",
-      "category": "CA| CINEMA FR",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA FR: EVASION HD",
       "category": "CA| CINEMA FR",
       "country": "CA"
     },
@@ -38574,6 +38912,36 @@
     },
     {
       "layerseven_name": "CA FR: DISNEY HD",
+      "category": "CA| KIDS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI TELE ACADIE HD",
+      "category": "CA| KIDS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI TELE ALBERTA HD",
+      "category": "CA| KIDS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI TELE CB-YUKON HD",
+      "category": "CA| KIDS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI TELE EST-QUEBEC HD",
+      "category": "CA| KIDS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI TELE MANITOBA HD",
+      "category": "CA| KIDS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI TELE SASKATCHEWAN HD",
       "category": "CA| KIDS FR",
       "country": "CA"
     },
@@ -38678,11 +39046,6 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA FR: AMI TELE HD",
-      "category": "CA| DOCUMENTARY FR",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA FR: APTN",
       "category": "CA| DOCUMENTARY FR",
       "country": "CA"
@@ -38693,23 +39056,28 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA FR: ICI RADIO-CANADA TÉLÉ TORONTO  HD",
+      "layerseven_name": "CA FR: ICI RADIO CANADA TELE MONCTON HD",
       "category": "CA| DOCUMENTARY FR",
       "country": "CA"
     },
     {
-      "layerseven_name": "CA EN: GLOBAL NEWS BC HD",
-      "category": "CA| NEWS EN",
+      "layerseven_name": "CA FR: ICI RADIO CANADA TELE VANCOUVER HD",
+      "category": "CA| DOCUMENTARY FR",
       "country": "CA"
     },
     {
-      "layerseven_name": "CA EN: GLOBAL NEWS CALGARY HD",
-      "category": "CA| NEWS EN",
+      "layerseven_name": "CA FR: ICI RADIO TELE TORONTO HD",
+      "category": "CA| DOCUMENTARY FR",
       "country": "CA"
     },
     {
-      "layerseven_name": "CA EN: GLOBAL NEWS EDMONTON HD",
-      "category": "CA| NEWS EN",
+      "layerseven_name": "CA FR: ICI RADIO-CANADA TELE TORONTO",
+      "category": "CA| DOCUMENTARY FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: ICI RADIO-CANADA TÉLÉ TORONTO  HD",
+      "category": "CA| DOCUMENTARY FR",
       "country": "CA"
     },
     {
@@ -38719,16 +39087,6 @@
     },
     {
       "layerseven_name": "CA EN: GLOBAL NEWS KINGSTON HD",
-      "category": "CA| NEWS EN",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA EN: GLOBAL NEWS LETHBRIDGE HD",
-      "category": "CA| NEWS EN",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA EN: GLOBAL NEWS MONTREAL HD",
       "category": "CA| NEWS EN",
       "country": "CA"
     },
@@ -38743,22 +39101,7 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA EN: GLOBAL NEWS REGINA HD",
-      "category": "CA| NEWS EN",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA EN: GLOBAL NEWS SASKATOON HD",
-      "category": "CA| NEWS EN",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA EN: GLOBAL NEWS VANCOUVER HD",
-      "category": "CA| NEWS EN",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA EN: GLOBAL NEWS TORONTO HD",
       "category": "CA| NEWS EN",
       "country": "CA"
     },
@@ -38828,11 +39171,6 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA EN: FOX NEWS HD",
-      "category": "CA| NEWS EN",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA EN: AMI TV HD",
       "category": "CA| GENERAL EN",
       "country": "CA"
@@ -38849,11 +39187,6 @@
     },
     {
       "layerseven_name": "CA EN: CBC CHARLOTTETOWN (HD)",
-      "category": "CA| GENERAL EN",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA EN: CBC MONTREALHD",
       "category": "CA| GENERAL EN",
       "country": "CA"
     },
@@ -38928,11 +39261,6 @@
       "country": "CA"
     },
     {
-      "layerseven_name": "CA EN: GLOBAL CALAGRY SD",
-      "category": "CA| GENERAL EN",
-      "country": "CA"
-    },
-    {
       "layerseven_name": "CA EN: GLOBAL HALIFAX SD",
       "category": "CA| GENERAL EN",
       "country": "CA"
@@ -38949,11 +39277,6 @@
     },
     {
       "layerseven_name": "CA EN: KTO",
-      "category": "CA| GENERAL EN",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA EN: MAKEFUL SD",
       "category": "CA| GENERAL EN",
       "country": "CA"
     },
@@ -39004,11 +39327,6 @@
     },
     {
       "layerseven_name": "CA EN: TVA QUEST (R)",
-      "category": "CA| GENERAL EN",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA EN: VISION HD",
       "category": "CA| GENERAL EN",
       "country": "CA"
     },
@@ -39129,11 +39447,6 @@
     },
     {
       "layerseven_name": "CA EN: DISCOVERY VELOCITY HD",
-      "category": "CA| DOCUMENTARY EN",
-      "country": "CA"
-    },
-    {
-      "layerseven_name": "CA EN: H2 HD",
       "category": "CA| DOCUMENTARY EN",
       "country": "CA"
     },
@@ -40513,11 +40826,6 @@
       "country": "UK"
     },
     {
-      "layerseven_name": "UK: ITV ANGLIA TV WEST ◉",
-      "category": "UK| GENERAL HD/4K",
-      "country": "UK"
-    },
-    {
       "layerseven_name": "UK: ITV WESTCOUNTRY WEST ◉",
       "category": "UK| GENERAL HD/4K",
       "country": "UK"
@@ -40534,11 +40842,6 @@
     },
     {
       "layerseven_name": "UK: ITV TYNE TEES ◉",
-      "category": "UK| GENERAL HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: Talk TV 4K ◉",
       "category": "UK| GENERAL HD/4K",
       "country": "UK"
     },
@@ -40613,11 +40916,6 @@
       "country": "UK"
     },
     {
-      "layerseven_name": "UK: New Vision / ARY WORLD ◉",
-      "category": "UK| GENERAL HD/4K",
-      "country": "UK"
-    },
-    {
       "layerseven_name": "UK: CRIME INVESTIGATION 4K ◉",
       "category": "UK| GENERAL HD/4K",
       "country": "UK"
@@ -40663,11 +40961,6 @@
       "country": "UK"
     },
     {
-      "layerseven_name": "NOW: NICKELDEON ᴴᴰ",
-      "category": "UK| NOW ENTERTAINMENT ᴴᴰ ᴳᴼᴸᴰ",
-      "country": "UK"
-    },
-    {
       "layerseven_name": "NOW: SKY SHOWCASE ᴿᴬᵂ",
       "category": "UK| NOW ENTERTAINMENT ᴿᴬᵂ ᴳᴼᴸᴰ",
       "country": "UK"
@@ -40704,16 +40997,6 @@
     },
     {
       "layerseven_name": "UK: RT AMERICA HD ◉",
-      "category": "UK| NEWS",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: TALK TV 4K ◉",
-      "category": "UK| NEWS",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: TALK TV HD ◉",
       "category": "UK| NEWS",
       "country": "UK"
     },
@@ -42838,27 +43121,7 @@
       "country": "UK"
     },
     {
-      "layerseven_name": "UK: DISNEY JUNIOR 4K",
-      "category": "UK| KIDS HD/4K",
-      "country": "UK"
-    },
-    {
       "layerseven_name": "UK: DISNEY XD 4K",
-      "category": "UK| KIDS HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: NICK JUNIOR",
-      "category": "UK| KIDS HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: NICK JUNIOR +1",
-      "category": "UK| KIDS HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: NICK JUNIOR TOO",
       "category": "UK| KIDS HD/4K",
       "country": "UK"
     },
@@ -42910,16 +43173,6 @@
     {
       "layerseven_name": "UK: CHU CHU TV 10 4K",
       "category": "UK| KIDS HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: NICK  HEVC HD",
-      "category": "UK| KIDS HEVC",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: NICK HEVC 4K",
-      "category": "UK| KIDS HEVC",
       "country": "UK"
     },
     {
@@ -43628,37 +43881,12 @@
       "country": "UK"
     },
     {
-      "layerseven_name": "UK: SKY SPORTS PL HD ◉",
-      "category": "UK| SPORT HD/4K",
-      "country": "UK"
-    },
-    {
       "layerseven_name": "UK: DAZN 1 HD ◉",
       "category": "UK| SPORT HD/4K",
       "country": "UK"
     },
     {
-      "layerseven_name": "UK: MANCHESTER UNITED HD ◉",
-      "category": "UK| SPORT HD/4K",
-      "country": "UK"
-    },
-    {
       "layerseven_name": "UK: CHELSEA TV HD ◉",
-      "category": "UK| SPORT HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: VIAPLAY SPORTS 1 HD ◉",
-      "category": "UK| SPORT HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: VIAPLAY SPORT 2 HD ◉",
-      "category": "UK| SPORT HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: RACING HD ◉",
       "category": "UK| SPORT HD/4K",
       "country": "UK"
     },
@@ -43699,26 +43927,6 @@
     },
     {
       "layerseven_name": "UK: TNT SPORT ULTIMATE ᵁᴴᴰ 3840P (PPV ONLY)",
-      "category": "UK| SPORT HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: SKY SPORTS PL 4K",
-      "category": "UK| SPORT HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: VIAPLAY SPORT 1 4K",
-      "category": "UK| SPORT HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: VIAPLAY SPORTS 2 4K",
-      "category": "UK| SPORT HD/4K",
-      "country": "UK"
-    },
-    {
-      "layerseven_name": "UK: RACING 4K",
       "category": "UK| SPORT HD/4K",
       "country": "UK"
     },

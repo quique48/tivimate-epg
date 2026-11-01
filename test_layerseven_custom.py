@@ -100,6 +100,101 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertEqual(summary["hbo_epix_channels"], 0)
         self.assertEqual(summary["tudn_aliases"], 1)
 
+    def test_call_sign_extraction_includes_subchannels(self):
+        from build_layerseven_custom import panel_call_sign_keys
+
+        self.assertIn("WWAYDT2", panel_call_sign_keys("US: CBS 3 (WWAY-DT2) WILMINGTON HD"))
+        self.assertIn("WEVVDT2", panel_call_sign_keys("US: FOX (WEVV2) OWENSBORO HD"))
+        self.assertIn("WTXFTV", panel_call_sign_keys("US: FOX WTXF TV"))
+        self.assertNotIn("WEST", panel_call_sign_keys("US: NBC UNIVERSO (West)"))
+        self.assertEqual(panel_call_sign_keys("US: TWINS FEED"), [])
+        self.assertEqual(panel_call_sign_keys("US: DOCTOR WHO 4K"), [])
+        self.assertEqual(panel_call_sign_keys("US: KING OF THE HILL 4K"), [])
+        self.assertEqual(panel_call_sign_keys("US: WILL & GRACE 4K"), [])
+
+    def test_conservative_network_name_variants(self):
+        self.assertIn("NBC SPORTS BAY AREA PLUS", name_variants("US: NBC SPORTS BAY AREA PLU HD"))
+        self.assertIn("GLOBAL TORONTO", name_variants("CA EN: GLOBAL NEWS TORONTO HD"))
+        self.assertIn("CTV NEWS CHANNEL", name_variants("CA: CTV NEWS NETWORK"))
+        self.assertIn("VIAPLAY 1", name_variants("UK: VIAPLAY SPORT 1 4K"))
+        self.assertIn("NICK JR", name_variants("UK: NICK JUNIOR"))
+        self.assertIn("CBC MONTREAL", name_variants("CBMT - CBC Montréal"))
+        self.assertNotIn("ABC LOS ANGELES", name_variants("US: NBC LOS ANGELES"))
+        self.assertNotIn("SUPER ECRAN", name_variants("CA FR: SUPER ECRAN 1 HD"))
+        self.assertNotIn("NATIONAL GEOGRAPHIC", name_variants("US: NAT GEO HD"))
+
+    def test_explicit_call_sign_overrides_generic_network_match(self):
+        def public_channel(channel_id, name):
+            channel = ET.Element("channel", {"id": channel_id})
+            ET.SubElement(channel, "display-name").text = name
+            return channel
+
+        channels = {
+            "waco": public_channel("waco", "FOX"),
+            "philadelphia": public_channel("philadelphia", "WTXF-DT"),
+        }
+        programme_counts = Counter({"waco": 500, "philadelphia": 100})
+        regions = {channel_id: {"us"} for channel_id in channels}
+        inventory = [{
+            "country": "US",
+            "name": "US| NETWORK HD/4K",
+            "channels": ["US: FOX WTXF TV"],
+        }]
+
+        matches, unmatched = match_channels(inventory, channels, programme_counts, regions)
+
+        self.assertEqual(unmatched, [])
+        self.assertEqual(matches[0]["epg_id"], "philadelphia")
+        self.assertEqual(matches[0]["match_method"], "call-sign")
+
+    def test_first_explicit_call_sign_wins(self):
+        def public_channel(channel_id, name):
+            channel = ET.Element("channel", {"id": channel_id})
+            ET.SubElement(channel, "display-name").text = name
+            return channel
+
+        channels = {
+            "nbc": public_channel("nbc", "WSVW-LD"),
+            "abc": public_channel("abc", "WHSV-LD"),
+        }
+        programme_counts = Counter({"nbc": 89, "abc": 500})
+        regions = {channel_id: {"us"} for channel_id in channels}
+        inventory = [{
+            "country": "US",
+            "name": "US| NETWORK HD/4K",
+            "channels": ["US: NBC (WSVW/WHSV) HARRISONBURG HD"],
+        }]
+
+        matches, unmatched = match_channels(inventory, channels, programme_counts, regions)
+
+        self.assertEqual(unmatched, [])
+        self.assertEqual(matches[0]["epg_id"], "nbc")
+        self.assertEqual(matches[0]["matched_key"], "WSVW")
+
+    def test_call_sign_match_preserves_exact_subchannel(self):
+        def public_channel(channel_id, name):
+            channel = ET.Element("channel", {"id": channel_id})
+            ET.SubElement(channel, "display-name").text = name
+            return channel
+
+        channels = {
+            "main": public_channel("main", "KRQE-DT"),
+            "fox": public_channel("fox", "KRQE-DT2"),
+        }
+        programme_counts = Counter({"main": 500, "fox": 100})
+        regions = {channel_id: {"us"} for channel_id in channels}
+        inventory = [{
+            "country": "US",
+            "name": "US| FOX HD/4K",
+            "channels": ["US: FOX (KRQEDT2) ALBUQUERQUE NEW MEXICO"],
+        }]
+
+        matches, unmatched = match_channels(inventory, channels, programme_counts, regions)
+
+        self.assertEqual(unmatched, [])
+        self.assertEqual(matches[0]["epg_id"], "fox")
+        self.assertEqual(matches[0]["match_method"], "call-sign")
+
     def test_cw_station_mapping_overrides_generic_match(self):
         def public_channel(channel_id, name):
             channel = ET.Element("channel", {"id": channel_id})

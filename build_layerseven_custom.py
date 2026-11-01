@@ -122,7 +122,9 @@ def read_xml(path: Path) -> ET.Element:
 
 
 def tokens(value: str) -> list[str]:
-    value = unicodedata.normalize("NFKC", value).upper().replace("&", " AND ")
+    value = unicodedata.normalize("NFKD", value).upper().replace("&", " AND ")
+    value = "".join(char for char in value if not unicodedata.combining(char))
+    value = re.sub(r"(?<=[A-Z])(FHD|UHD|HD|SD|4K|8K)$", r" \1", value)
     value = re.sub(r"^(?:(?:US|UK|CA)(?:\s+(?:FR|EN))?|NOW)\s*[:|\-]\s*", "", value)
     return re.findall(r"[A-Z0-9]+", value)
 
@@ -134,7 +136,55 @@ NUMBER_WORDS = {
 TOKEN_ALIASES = {
     "DOCUMENTRY": "DOCUMENTARY",
     "TELEVISION": "TV",
+    "PLU": "PLUS",
+    "PHILADELFIA": "PHILADELPHIA",
+    "NICKELDEON": "NICKELODEON",
+    "INVERSTIGATION": "INVESTIGATION",
+    "ATLENTIC": "ATLANTIC",
+    "CALAGRY": "CALGARY",
+    "JUNIOR": "JR",
+    "SPORT": "SPORTS",
 }
+LOCAL_STATION_OVERRIDES_PATH = Path(__file__).with_name("local-station-overrides.json")
+LOCAL_STATION_OVERRIDES = (
+    json.loads(LOCAL_STATION_OVERRIDES_PATH.read_text())
+    if LOCAL_STATION_OVERRIDES_PATH.exists()
+    else {}
+)
+
+
+def canonical_call_sign(value: str) -> str:
+    return re.sub(r"[^A-Z0-9]", "", value.upper())
+
+
+def panel_call_sign_keys(value: str) -> list[str]:
+    """Extract explicit US/CA call signs, including digital subchannels."""
+    cleaned = unicodedata.normalize("NFKC", value).upper()
+    pattern = r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*"
+    found = []
+    for content in re.findall(r"\(([^)]+)\)", cleaned):
+        found.extend(re.findall(rf"\b{pattern}\b", content))
+    network_call_signs = re.finditer(
+        r"\b(?:NBC|FOX|CBS|ABC|TELEMUNDO)\s*\(?\s*([KW][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*)\b",
+        cleaned,
+    )
+    found.extend(match.group(1) for match in network_call_signs)
+    keys = []
+    for call_sign in found:
+        if call_sign in {"WEST", "EAST"}:
+            continue
+        base = re.match(r"[KWC][A-Z]{2,3}", call_sign).group()
+        suffix = call_sign[len(base):]
+        candidates = [call_sign]
+        if suffix.isdigit():
+            candidates.append(f"{base}DT{suffix}")
+        elif not suffix:
+            candidates.extend([f"{base}DT", f"{base}TV"])
+        for candidate in candidates:
+            key = canonical_call_sign(candidate)
+            if key not in keys:
+                keys.append(key)
+    return keys
 
 
 def name_variants(value: str) -> list[str]:
@@ -149,14 +199,63 @@ def name_variants(value: str) -> list[str]:
     for source in sources:
         base = [token for token in tokens(source) if token not in QUALITY_TOKENS]
         base = [NUMBER_WORDS.get(token, TOKEN_ALIASES.get(token, token)) for token in base]
+        preserve_digits = base[:2] == ["SUPER", "ECRAN"]
         candidates = [
             base,
             base[2:] if base[:2] == ["U", "AND"] else base,
             [token for token in base if token not in {"UK", "USA", "CANADA", "UKTV"}],
             [token for token in base if token not in STATE_TOKENS],
-            [token for token in base if not token.isdigit()],
-            [token for token in base if not token.isdigit() and token not in STATE_TOKENS],
+            [] if preserve_digits else [token for token in base if not token.isdigit()],
+            [] if preserve_digits else [token for token in base if not token.isdigit() and token not in STATE_TOKENS],
         ]
+        if len(base) > 1 and base[-1] == "TV":
+            candidates.append(base[:-1])
+        if len(base) > 2 and base[:2] == ["GLOBAL", "NEWS"]:
+            candidates.append([base[0], *base[2:]])
+        if base == ["CTV", "NEWS", "NETWORK"]:
+            candidates.append(["CTV", "NEWS", "CHANNEL"])
+        if base == ["CBC", "NEWS"]:
+            candidates.append(["CBC", "NEWS", "NETWORK"])
+        if base == ["BNN"]:
+            candidates.append(["BUSINESS", "NEWS", "NETWORK"])
+        if base == ["RDI"]:
+            candidates.append(["ICI", "RDI"])
+        if base == ["NICK"]:
+            candidates.append(["NICKELODEON"])
+        if base[:2] == ["TELE", "TOON"]:
+            candidates.append(["TELETOON", *base[2:]])
+        if base == ["YTV", "E"]:
+            candidates.append(["YTV", "EAST"])
+        if base and base[0] == "FAMILY" and "CHANNEL" not in base:
+            candidates.append(["FAMILY", "CHANNEL", *base[1:]])
+        if base == ["DIY"]:
+            candidates.append(["DIY", "NETWORK"])
+        if base == ["VISION"]:
+            candidates.append(["VISION", "TV"])
+        if base[:2] == ["SERIES", "PLUS"]:
+            candidates.append(["SERIES", *base[2:]])
+        if base == ["FOX", "NEWS"]:
+            candidates.append(["FOX", "NEWS", "CHANNEL"])
+        if base == ["CBS", "SPORTS", "USA"]:
+            candidates.append(["CBS", "SPORTS", "NETWORK"])
+        if base[:2] == ["NBC", "GOLF"]:
+            candidates.append(base[1:])
+        if base == ["HISTORY", "2"]:
+            candidates.append(["H2"])
+        if base == ["E", "ENTERTAINMENT"]:
+            candidates.append(["E"])
+        if base and base[0] == "ITV1":
+            candidates.append(["ITV", *base[1:]])
+        if base and base[0] == "VIAPLAY" and "SPORTS" in base:
+            candidates.append([token for token in base if token != "SPORTS"])
+        if base[:2] == ["SKY", "SPORTS"] and "PL" in base:
+            candidates.append([token for token in base if token != "PL"] + ["PREMIER", "LEAGUE"])
+        if (
+            len(base) > 1
+            and re.fullmatch(r"[KWC][A-Z]{2,3}", base[0])
+            and base[1] in {"NBC", "CBS", "ABC", "FOX", "CBC", "CTV", "GLOBAL", "CW"}
+        ):
+            candidates.append(base[1:])
         if (
             base
             and re.fullmatch(r"[KWC][A-Z0-9]{2,3}", base[0])
@@ -212,18 +311,24 @@ def choose_candidate(candidates, programme_counts, regions, allowed_regions):
 def match_channels(inventory, channels, programme_counts, regions):
     index = build_index(channels, regions)
     station_index: dict[str, set[str]] = defaultdict(set)
+    call_sign_index: dict[str, set[str]] = defaultdict(set)
     for channel_id, channel in channels.items():
         for display in channel.findall("display-name"):
             name = (display.text or "").strip().upper()
             if name:
                 station_index[name].add(channel_id)
+            if re.fullmatch(r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*", name):
+                call_sign_index[canonical_call_sign(name)].add(channel_id)
+                if not re.search(r"(?:DT|LD|CD|TV)\d", name):
+                    base = re.match(r"[KWC][A-Z]{2,3}", name).group()
+                    call_sign_index[base].add(channel_id)
     matches = []
     unmatched = []
     subset_blocked = {
-        "24", "7", "48HRS", "BUTTON", "CEINMA", "CINEMA", "CINMA", "EAST",
-        "EVENT", "EVENTS", "EXTRA", "LIVE", "MAIN", "MOVIES", "NEWS", "NORTH",
-        "PEACOCK", "PL", "PLU", "PLUS", "RED", "SOUTH", "SPORT", "SPORTS", "STORE",
-        "WEST", "WORLD", "XTRA",
+        "24", "7", "48HRS", "BUTTON", "CEINMA", "CINEMA", "CINMA", "E", "EAST",
+        "EVENT", "EVENTS", "EXTRA", "LIVE", "MAIN", "MIDLANDS", "MOVIES", "NEWS", "NORTH",
+        "ONLY", "PEACOCK", "PL", "PLU", "PLUS", "PPV", "RED", "SOUTH", "SPORT", "SPORTS", "STORE",
+        "ULTIMATE", "W", "WEST", "WORLD", "XTRA",
     }
     for category in inventory:
         country = category["country"]
@@ -234,8 +339,26 @@ def match_channels(inventory, channels, programme_counts, regions):
             found = None
             matched_key = None
             match_method = None
+            station_override = LOCAL_STATION_OVERRIDES.get(layerseven_name)
+            if station_override:
+                has_subchannel = re.search(r"(?:DT|LD|CD|TV)\d", station_override)
+                station_key = (
+                    canonical_call_sign(station_override)
+                    if has_subchannel
+                    else re.match(r"[KWC][A-Z]{2,3}", station_override).group()
+                )
+                candidates = {
+                    channel_id
+                    for channel_id in call_sign_index.get(station_key, set())
+                    if programme_counts[channel_id]
+                    and regions.get(channel_id, set()) & set(allowed_regions)
+                }
+                if candidates:
+                    found = choose_candidate(candidates, programme_counts, regions, allowed_regions)
+                    matched_key = station_override
+                    match_method = "local-station"
             variants = name_variants(layerseven_name)
-            for key in variants:
+            for key in ([] if found else variants):
                 candidates = set()
                 for region in allowed_regions:
                     candidates.update(index.get(region, {}).get(key, set()))
@@ -244,6 +367,25 @@ def match_channels(inventory, channels, programme_counts, regions):
                     matched_key = key
                     match_method = "exact"
                     break
+
+            # Explicit call signs supplement exact matches and override only generic network names.
+            generic_network_keys = {"NBC", "FOX", "CBS", "ABC", "TELEMUNDO"}
+            if not found or matched_key in generic_network_keys:
+                station_keys = panel_call_sign_keys(layerseven_name)
+                candidates = set()
+                for key in station_keys:
+                    candidates = {
+                        channel_id
+                        for channel_id in call_sign_index.get(key, set())
+                        if programme_counts[channel_id]
+                        and regions.get(channel_id, set()) & set(allowed_regions)
+                    }
+                    if candidates:
+                        matched_key = key
+                        break
+                if candidates:
+                    found = choose_candidate(candidates, programme_counts, regions, allowed_regions)
+                    match_method = "call-sign"
 
             # Regional variants may add a city, but not a different brand or service.
             if not found and variants and "+" not in layerseven_name:
@@ -259,9 +401,10 @@ def match_channels(inventory, channels, programme_counts, regions):
                             len(key_tokens) >= 2
                             and key_tokens < layerseven_tokens
                             and key.split()[0] == first_token
-                            and first_token not in {"ITV", "CTV"}
+                            and first_token not in {"ITV", "CTV", "ICI"}
                             and variants[0].split()[:2] != ["NBC", "SPORTS"]
                             and not (extra_tokens & subset_blocked)
+                            and not any(char.isdigit() for token in extra_tokens for char in token)
                         ):
                             candidates.update(channel_ids)
                             for channel_id in channel_ids:
