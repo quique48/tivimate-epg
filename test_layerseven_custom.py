@@ -71,6 +71,8 @@ class LayerSevenMatchingTest(unittest.TestCase):
         channel = ET.Element("channel")
         ET.SubElement(channel, "display-name").text = "TUDN"
         self.assertTrue(is_tudn_channel(channel))
+        from build_layerseven_custom import TUDN_ALIASES
+        self.assertIn("MXC: TUDN", TUDN_ALIASES)
         channel = ET.Element("channel")
         ET.SubElement(channel, "display-name").text = "TUDN Xtra 1"
         self.assertFalse(is_tudn_channel(channel))

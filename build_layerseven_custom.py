@@ -109,6 +109,7 @@ TUDN_ALIASES = {
     "US: UNIVISION DEPORTES NETWORK",
     "CA: TUDN",
     "CA: TUDN HD",
+    "MXC: TUDN",
     "LAT: TUDN",
     "LAT: TUDN HD",
 }
