@@ -7,6 +7,7 @@ import argparse
 import copy
 import difflib
 import gzip
+import hashlib
 import json
 import re
 import unicodedata
@@ -555,11 +556,44 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
                 node = ET.SubElement(channel, "display-name")
                 node.text = alias
         output.append(channel)
+
+    # TiViMate does not reliably use secondary display-name aliases for local
+    # stations. Give each LayerSeven station name its own channel and programmes.
+    direct_station_aliases = []
+    direct_ids_by_source: dict[str, list[str]] = defaultdict(list)
+    seen_direct_aliases = set()
+    for match in matches:
+        source_id = match["epg_id"]
+        public_name = (channels[source_id].findtext("display-name") or "").strip().upper()
+        if not re.fullmatch(r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*", public_name):
+            continue
+        alias = match["layerseven_name"]
+        if (source_id, alias) in seen_direct_aliases:
+            continue
+        seen_direct_aliases.add((source_id, alias))
+        digest = hashlib.sha256(f"{source_id}\0{alias}".encode("utf-8")).hexdigest()[:16]
+        direct_id = f"layerseven.{digest}"
+        direct_station_aliases.append((direct_id, source_id, alias))
+        direct_ids_by_source[source_id].append(direct_id)
+    for direct_id, source_id, alias in direct_station_aliases:
+        direct = ET.Element("channel", {"id": direct_id})
+        ET.SubElement(direct, "display-name").text = alias
+        for child in channels[source_id]:
+            if child.tag != "display-name":
+                direct.append(copy.deepcopy(child))
+        output.append(direct)
+
     programme_count = 0
     for programme in root.findall("programme"):
-        if programme.get("channel") in selected:
+        source_id = programme.get("channel")
+        if source_id in selected:
             output.append(copy.deepcopy(programme))
             programme_count += 1
+            for direct_id in direct_ids_by_source[source_id]:
+                direct_programme = copy.deepcopy(programme)
+                direct_programme.set("channel", direct_id)
+                output.append(direct_programme)
+                programme_count += 1
 
     ET.indent(output, space="  ")
     payload = ET.tostring(output, encoding="utf-8", xml_declaration=True)
@@ -583,8 +617,9 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     }, indent=2, ensure_ascii=False) + "\n")
 
     return {
-        "channels": len(selected),
+        "channels": len(selected) + len(direct_station_aliases),
         "programmes": programme_count,
+        "direct_station_aliases": len(direct_station_aliases),
         "hbo_epix_channels": len(premium_channel_ids & selected),
         "paramount_plus_channels": len(paramount_channel_ids & selected),
         "disney_plus_channels": len(disney_channel_ids & selected),

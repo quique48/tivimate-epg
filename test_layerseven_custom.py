@@ -100,6 +100,47 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertEqual(summary["hbo_epix_channels"], 0)
         self.assertEqual(summary["tudn_aliases"], 1)
 
+    def test_local_station_alias_has_direct_channel_and_programmes(self):
+        from pathlib import Path
+        from tempfile import TemporaryDirectory
+        from build_layerseven_custom import read_xml, write_custom_guide
+
+        root = ET.Element("tv")
+        station = ET.SubElement(root, "channel", {"id": "wmaq"})
+        ET.SubElement(station, "display-name").text = "WMAQ-DT"
+        programme = ET.SubElement(root, "programme", {"channel": "wmaq"})
+        ET.SubElement(programme, "title").text = "NBC Nightly News"
+        matches = [{
+            "layerseven_name": "US: NBC 5 CHICAGO IL (WMAQ) HD",
+            "category": "US| NETWORK HD/4K",
+            "country": "US",
+            "epg_id": "wmaq",
+            "epg_name": "WMAQ-DT",
+            "matched_key": "WMAQ",
+            "match_method": "local-station",
+        }]
+        matches.append(matches[0].copy())
+
+        with TemporaryDirectory() as temp_dir:
+            summary = write_custom_guide(Path(temp_dir), root, {"wmaq": station}, matches, [])
+            output = read_xml(Path(temp_dir) / "layerseven-custom.xml.gz")
+
+        direct = next(
+            channel for channel in output.findall("channel")
+            if channel.findtext("display-name") == "US: NBC 5 CHICAGO IL (WMAQ) HD"
+        )
+        self.assertNotEqual(direct.get("id"), "wmaq")
+        self.assertEqual(len(direct.findall("display-name")), 1)
+        direct_programmes = [
+            item for item in output.findall("programme")
+            if item.get("channel") == direct.get("id")
+        ]
+        self.assertEqual(len(direct_programmes), 1)
+        self.assertEqual(direct_programmes[0].findtext("title"), "NBC Nightly News")
+        self.assertEqual(summary["channels"], 2)
+        self.assertEqual(summary["programmes"], 2)
+        self.assertEqual(summary["direct_station_aliases"], 1)
+
     def test_call_sign_extraction_includes_subchannels(self):
         from build_layerseven_custom import panel_call_sign_keys
 
