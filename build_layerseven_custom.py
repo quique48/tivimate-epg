@@ -391,12 +391,12 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         if any((node.text or "").strip().upper() == "MGM+" for node in channels[channel_id].findall("display-name"))
     ]
     if main_mgm:
-        main_mgm_id = max(main_mgm, key=lambda channel_id: programme_counts[channel_id])
+        main_mgm_id = max(main_mgm, key=lambda channel_id: (programme_counts[channel_id], channel_id))
         aliases[main_mgm_id].extend(
             alias for alias in ("US: EPIX 4K", "UK: EPIX 4K") if alias in lineup_names
         )
     if tudn_channel_ids:
-        main_tudn_id = max(tudn_channel_ids, key=lambda channel_id: programme_counts[channel_id])
+        main_tudn_id = max(tudn_channel_ids, key=lambda channel_id: (programme_counts[channel_id], channel_id))
         aliases[main_tudn_id].extend(
             alias for alias in sorted(TUDN_ALIASES) if alias in lineup_names
         )
