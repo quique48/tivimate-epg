@@ -124,7 +124,12 @@ class LayerSevenMatchingTest(unittest.TestCase):
         with TemporaryDirectory() as temp_dir:
             summary = write_custom_guide(Path(temp_dir), root, {"wmaq": station}, matches, [])
             output = read_xml(Path(temp_dir) / "layerseven-custom.xml.gz")
+            nbc_output = read_xml(Path(temp_dir) / "layerseven-nbc.xml.gz")
 
+        self.assertEqual(len(nbc_output.findall("channel")), 1)
+        self.assertEqual(len(nbc_output.findall("programme")), 1)
+        self.assertEqual(summary["nbc_channels"], 1)
+        self.assertEqual(summary["nbc_programmes"], 1)
         direct = next(
             channel for channel in output.findall("channel")
             if channel.findtext("display-name") == "US: NBC 5 CHICAGO IL (WMAQ) HD"

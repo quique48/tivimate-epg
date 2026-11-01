@@ -595,6 +595,26 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
                 output.append(direct_programme)
                 programme_count += 1
 
+    nbc_ids = {
+        direct_id
+        for direct_id, source_id, alias in direct_station_aliases
+        if "NBC" in alias.upper()
+    }
+    nbc_output = ET.Element("tv", {"generator-info-name": "LayerSeven NBC alias guide"})
+    for channel in output.findall("channel"):
+        if channel.get("id") in nbc_ids:
+            nbc_output.append(copy.deepcopy(channel))
+    nbc_programme_count = 0
+    for programme in output.findall("programme"):
+        if programme.get("channel") in nbc_ids:
+            nbc_output.append(copy.deepcopy(programme))
+            nbc_programme_count += 1
+    ET.indent(nbc_output, space="  ")
+    nbc_payload = ET.tostring(nbc_output, encoding="utf-8", xml_declaration=True)
+    nbc_gzip_path = guides_dir / "layerseven-nbc.xml.gz"
+    with gzip.open(nbc_gzip_path, "wb", compresslevel=9) as stream:
+        stream.write(nbc_payload)
+
     ET.indent(output, space="  ")
     payload = ET.tostring(output, encoding="utf-8", xml_declaration=True)
     plain_path = guides_dir / "layerseven-custom.xml"
@@ -640,6 +660,10 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         "xml_bytes": xml_bytes,
         "gzip_url": "guides/layerseven-custom.xml.gz",
         "gzip_bytes": gzip_path.stat().st_size,
+        "nbc_gzip_url": "guides/layerseven-nbc.xml.gz",
+        "nbc_gzip_bytes": nbc_gzip_path.stat().st_size,
+        "nbc_channels": len(nbc_ids),
+        "nbc_programmes": nbc_programme_count,
         "updated_from_sources": True,
     }
 
