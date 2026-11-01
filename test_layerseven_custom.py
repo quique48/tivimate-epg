@@ -77,6 +77,29 @@ class LayerSevenMatchingTest(unittest.TestCase):
         ET.SubElement(channel, "display-name").text = "TUDN Xtra 1"
         self.assertFalse(is_tudn_channel(channel))
 
+    def test_unlisted_public_channels_and_aliases_are_excluded(self):
+        from pathlib import Path
+        from tempfile import TemporaryDirectory
+        from build_layerseven_custom import read_xml, write_custom_guide
+
+        root = ET.Element("tv")
+        tudn = ET.SubElement(root, "channel", {"id": "tudn"})
+        ET.SubElement(tudn, "display-name").text = "TUDN"
+        hbo = ET.SubElement(root, "channel", {"id": "hbo"})
+        ET.SubElement(hbo, "display-name").text = "HBO East"
+        channels = {"tudn": tudn, "hbo": hbo}
+
+        with TemporaryDirectory() as temp_dir:
+            summary = write_custom_guide(Path(temp_dir), root, channels, [], [])
+            output = read_xml(Path(temp_dir) / "layerseven-custom.xml.gz")
+
+        self.assertEqual([channel.get("id") for channel in output.findall("channel")], ["tudn"])
+        names = [node.text for node in output.findall("channel/display-name")]
+        self.assertIn("MXC: TUDN", names)
+        self.assertNotIn("US: TUDN HD", names)
+        self.assertEqual(summary["hbo_epix_channels"], 0)
+        self.assertEqual(summary["tudn_aliases"], 1)
+
     def test_cw_station_mapping_overrides_generic_match(self):
         def public_channel(channel_id, name):
             channel = ET.Element("channel", {"id": channel_id})

@@ -363,6 +363,12 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     for match in matches:
         aliases[match["epg_id"]].append(match["layerseven_name"])
 
+    lineup_names = {
+        record["layerseven_name"] for record in [*matches, *unmatched]
+    }
+    # Verified directly in the panel's Mexico category, outside the saved regions.
+    lineup_names.add("MXC: TUDN")
+
     premium_channel_ids = {
         channel_id for channel_id, channel in channels.items() if is_hbo_epix_channel(channel)
     }
@@ -386,13 +392,18 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     ]
     if main_mgm:
         main_mgm_id = max(main_mgm, key=lambda channel_id: programme_counts[channel_id])
-        aliases[main_mgm_id].extend(["US: EPIX 4K", "UK: EPIX 4K"])
+        aliases[main_mgm_id].extend(
+            alias for alias in ("US: EPIX 4K", "UK: EPIX 4K") if alias in lineup_names
+        )
     if tudn_channel_ids:
         main_tudn_id = max(tudn_channel_ids, key=lambda channel_id: programme_counts[channel_id])
-        aliases[main_tudn_id].extend(TUDN_ALIASES)
+        aliases[main_tudn_id].extend(
+            alias for alias in sorted(TUDN_ALIASES) if alias in lineup_names
+        )
 
     output = ET.Element("tv", {"generator-info-name": "LayerSeven public-lineup alias guide"})
-    selected = set(aliases) | premium_channel_ids | paramount_channel_ids | disney_channel_ids | max_channel_ids
+    # Do not emit public channels or speculative aliases absent from the panel.
+    selected = {channel_id for channel_id, names in aliases.items() if names}
     for channel_id in sorted(selected):
         channel = copy.deepcopy(channels[channel_id])
         existing = {(node.text or "").strip() for node in channel.findall("display-name")}
@@ -431,12 +442,17 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     return {
         "channels": len(selected),
         "programmes": programme_count,
-        "hbo_epix_channels": len(premium_channel_ids),
-        "paramount_plus_channels": len(paramount_channel_ids),
-        "disney_plus_channels": len(disney_channel_ids),
-        "max_channels": len(max_channel_ids),
-        "tudn_channels": int(bool(tudn_channel_ids)),
-        "tudn_aliases": len(TUDN_ALIASES) if tudn_channel_ids else 0,
+        "hbo_epix_channels": len(premium_channel_ids & selected),
+        "paramount_plus_channels": len(paramount_channel_ids & selected),
+        "disney_plus_channels": len(disney_channel_ids & selected),
+        "max_channels": len(max_channel_ids & selected),
+        "tudn_channels": len(tudn_channel_ids & selected),
+        "tudn_aliases": len({
+            alias
+            for channel_id in selected
+            for alias in aliases[channel_id]
+            if alias in TUDN_ALIASES
+        }),
         "cw_layerseven_entries": sum(
             match["match_method"] == "cw-station" for match in matches
         ),
