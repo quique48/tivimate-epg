@@ -11,8 +11,10 @@ import hashlib
 import json
 import re
 import unicodedata
+import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 MAX_PLAIN_XML_BYTES = 90 * 1024 * 1024
@@ -315,6 +317,60 @@ def load_public_channels(guides_dir: Path):
     return root, channels, programme_counts, regions
 
 
+def add_fubo_xumo_guide(root, channels, programme_counts, regions, days=4):
+    """Add the public Fubo Sports Network schedule from Xumo."""
+    channel_id = "xumo.fuboSportsNetwork"
+    xumo_channel_id = 99951548
+    programmes = {}
+    today = datetime.now(timezone.utc).date()
+    for day in range(days):
+        date = (today + timedelta(days=day)).strftime("%Y%m%d")
+        for segment in range(4):
+            url = (
+                f"https://valencia-app-mds.xumo.com/v2/epg/10006/{date}/{segment}.json"
+                "?limit=50&offset=50&f=asset.title&f=asset.descriptions"
+            )
+            request = urllib.request.Request(url, headers={"User-Agent": "LayerSeven-EPG/1.0"})
+            with urllib.request.urlopen(request, timeout=20) as response:
+                payload = json.load(response)
+            channel_data = next(
+                (item for item in payload.get("channels", []) if item.get("channelId") == xumo_channel_id),
+                None,
+            )
+            if not channel_data:
+                continue
+            assets = payload.get("assets", {})
+            for item in channel_data.get("schedule", []):
+                asset = assets.get(item.get("assetId"), {})
+                key = (item["start"], item["end"], item["assetId"])
+                programmes[key] = (item, asset)
+    if not programmes:
+        return 0
+
+    channel = ET.Element("channel", {"id": channel_id})
+    ET.SubElement(channel, "display-name").text = "Fubo Sports Network"
+    channels[channel_id] = channel
+    root.append(channel)
+    for start, end, asset_id in sorted(programmes):
+        item, asset = programmes[(start, end, asset_id)]
+        start_time = datetime.fromisoformat(start).strftime("%Y%m%d%H%M%S %z")
+        end_time = datetime.fromisoformat(end).strftime("%Y%m%d%H%M%S %z")
+        programme = ET.Element("programme", {
+            "channel": channel_id,
+            "start": start_time,
+            "stop": end_time,
+        })
+        ET.SubElement(programme, "title", {"lang": "en"}).text = asset.get("title") or "Fubo Sports"
+        descriptions = asset.get("descriptions") or {}
+        description = descriptions.get("medium") or descriptions.get("small") or descriptions.get("tiny")
+        if description:
+            ET.SubElement(programme, "desc", {"lang": "en"}).text = description
+        root.append(programme)
+        programme_counts[channel_id] += 1
+    regions[channel_id].update({"us", "sports"})
+    return len(programmes)
+
+
 def build_index(channels, regions):
     index: dict[str, dict[str, set[str]]] = defaultdict(lambda: defaultdict(set))
     for channel_id, channel in channels.items():
@@ -388,6 +444,8 @@ def match_channels(inventory, channels, programme_counts, regions):
 
             sports_key = fox_sports_key(layerseven_name)
             sports_override = FOX_SPORTS_OVERRIDES.get(sports_key)
+            if sports_key == "FUBO SPORTS NETWORK":
+                sports_override = "FUBO SPORTS NETWORK"
             if sports_override and not found:
                 candidates = {
                     channel_id
@@ -398,7 +456,7 @@ def match_channels(inventory, channels, programme_counts, regions):
                 if candidates:
                     found = choose_candidate(candidates, programme_counts, regions, allowed_regions)
                     matched_key = sports_override
-                    match_method = "fox-sports"
+                    match_method = "fubo-sports" if sports_key.startswith("FUBO") else "fox-sports"
             variants = [] if sports_key.startswith("FOX SPORTS") and not found else name_variants(layerseven_name)
             for key in ([] if found else variants):
                 candidates = set()
@@ -606,7 +664,7 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     for match in matches:
         source_id = match["epg_id"]
         public_name = (channels[source_id].findtext("display-name") or "").strip().upper()
-        if match["match_method"] != "fox-sports" and not re.fullmatch(
+        if match["match_method"] not in {"fox-sports", "fubo-sports"} and not re.fullmatch(
             r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*", public_name
         ):
             continue
@@ -719,8 +777,14 @@ def main():
 
     inventory = json.loads(args.inventory.read_text())
     root, channels, programme_counts, regions = load_public_channels(args.guides_dir)
+    try:
+        fubo_programmes = add_fubo_xumo_guide(root, channels, programme_counts, regions)
+    except (OSError, ValueError, KeyError) as error:
+        print(f"Warning: Fubo Xumo schedule unavailable: {error}")
+        fubo_programmes = 0
     matches, unmatched = match_channels(inventory, channels, programme_counts, regions)
     summary = write_custom_guide(args.guides_dir, root, channels, matches, unmatched)
+    summary["fubo_programmes"] = fubo_programmes
 
     status_path = args.guides_dir / "status.json"
     status = json.loads(status_path.read_text())

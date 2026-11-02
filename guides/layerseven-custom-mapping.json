@@ -10873,6 +10873,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FUBO SPORTS NETWORK HD",
+      "category": "US| SPORT HD/4K",
+      "country": "US",
+      "epg_id": "xumo.fuboSportsNetwork",
+      "epg_name": "Fubo Sports Network",
+      "matched_key": "FUBO SPORTS NETWORK",
+      "match_method": "fubo-sports"
+    },
+    {
       "layerseven_name": "US: FUSE HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
@@ -26657,11 +26666,6 @@
     },
     {
       "layerseven_name": "US: FUBO SPORTS 5 HD",
-      "category": "US| SPORT HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FUBO SPORTS NETWORK HD",
       "category": "US| SPORT HD/4K",
       "country": "US"
     },

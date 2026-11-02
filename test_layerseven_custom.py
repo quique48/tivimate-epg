@@ -275,6 +275,26 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertTrue(all(match["match_method"] == "fox-sports" for match in matches))
         self.assertEqual([r["layerseven_name"] for r in unmatched], ["US: FOX SPORTS ARIZONA HD"])
 
+    def test_fubo_network_uses_xumo_listing(self):
+        channel = ET.Element("channel", {"id": "xumo.fuboSportsNetwork"})
+        ET.SubElement(channel, "display-name").text = "Fubo Sports Network"
+        inventory = [{
+            "country": "US",
+            "name": "US| SPORT HD/4K",
+            "channels": ["US: FUBO SPORTS NETWORK HD", "US: FUBO SPORTS 1 HD"],
+        }]
+
+        matches, unmatched = match_channels(
+            inventory,
+            {"xumo.fuboSportsNetwork": channel},
+            Counter({"xumo.fuboSportsNetwork": 80}),
+            {"xumo.fuboSportsNetwork": {"us", "sports"}},
+        )
+
+        self.assertEqual(matches[0]["epg_id"], "xumo.fuboSportsNetwork")
+        self.assertEqual(matches[0]["match_method"], "fubo-sports")
+        self.assertEqual([r["layerseven_name"] for r in unmatched], ["US: FUBO SPORTS 1 HD"])
+
     def test_cw_station_mapping_overrides_generic_match(self):
         def public_channel(channel_id, name):
             channel = ET.Element("channel", {"id": channel_id})
