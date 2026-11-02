@@ -140,6 +140,20 @@ FOX_SPORTS_OVERRIDES = {
     "FOX SPORTS OKLAHOMA": "FANDUEL SPORTS NETWORK OKLAHOMA",
 }
 
+TSN_SPORTS_OVERRIDES = {
+    "TSN": "TSN 1",
+    "TSN 1": "TSN 1",
+    "TSN 2": "TSN 2",
+    "TSN 3": "TSN 3",
+    "TSN 4": "TSN 4",
+    "TSN 5": "TSN 5",
+    "TSN SPORT 1": "TSN 1",
+    "TSN SPORT 2": "TSN 2",
+    "TSN SPORT 3": "TSN 3",
+    "TSN SPORT 4": "TSN 4",
+    "TSN SPORT 5": "TSN 5",
+}
+
 
 def fox_sports_key(value: str) -> str:
     return " ".join(token for token in tokens(value) if token not in QUALITY_TOKENS)
@@ -444,20 +458,29 @@ def match_channels(inventory, channels, programme_counts, regions):
 
             sports_key = fox_sports_key(layerseven_name)
             sports_override = FOX_SPORTS_OVERRIDES.get(sports_key)
+            sports_method = "fox-sports"
             if sports_key == "FUBO SPORTS NETWORK":
                 sports_override = "FUBO SPORTS NETWORK"
+                sports_method = "fubo-sports"
+            elif sports_key in TSN_SPORTS_OVERRIDES:
+                sports_override = TSN_SPORTS_OVERRIDES[sports_key]
+                sports_method = "tsn-sports"
             if sports_override and not found:
                 candidates = {
                     channel_id
                     for channel_id in station_index.get(sports_override, set())
                     if programme_counts[channel_id]
-                    and regions.get(channel_id, set()) & set(allowed_regions)
+                    and (
+                        sports_method == "tsn-sports"
+                        or regions.get(channel_id, set()) & set(allowed_regions)
+                    )
                 }
                 if candidates:
                     found = choose_candidate(candidates, programme_counts, regions, allowed_regions)
                     matched_key = sports_override
-                    match_method = "fubo-sports" if sports_key.startswith("FUBO") else "fox-sports"
-            variants = [] if sports_key.startswith("FOX SPORTS") and not found else name_variants(layerseven_name)
+                    match_method = sports_method
+            block_generic_sports = sports_key.startswith("FOX SPORTS") or sports_key.startswith("TSN RDS EXTRA")
+            variants = [] if block_generic_sports and not found else name_variants(layerseven_name)
             for key in ([] if found else variants):
                 candidates = set()
                 for region in allowed_regions:
@@ -664,7 +687,7 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     for match in matches:
         source_id = match["epg_id"]
         public_name = (channels[source_id].findtext("display-name") or "").strip().upper()
-        if match["match_method"] not in {"fox-sports", "fubo-sports"} and not re.fullmatch(
+        if match["match_method"] not in {"fox-sports", "fubo-sports", "tsn-sports"} and not re.fullmatch(
             r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*", public_name
         ):
             continue

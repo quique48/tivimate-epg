@@ -295,6 +295,34 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertEqual(matches[0]["match_method"], "fubo-sports")
         self.assertEqual([r["layerseven_name"] for r in unmatched], ["US: FUBO SPORTS 1 HD"])
 
+    def test_tsn_uses_distinct_canadian_listings(self):
+        def public_channel(channel_id, name):
+            channel = ET.Element("channel", {"id": channel_id})
+            ET.SubElement(channel, "display-name").text = name
+            return channel
+
+        channels = {
+            "tsn1": public_channel("tsn1", "TSN 1"),
+            "tsn2": public_channel("tsn2", "TSN 2"),
+            "tsn3": public_channel("tsn3", "TSN 3"),
+        }
+        programme_counts = Counter({"tsn1": 150, "tsn2": 171, "tsn3": 159})
+        regions = {channel_id: {"ca"} for channel_id in channels}
+        inventory = [{
+            "country": "US",
+            "name": "US| SPORT HD/4K",
+            "channels": ["CA: TSN", "CA EN: TSN 2", "US: TSN SPORT 3 HD", "CA FR: TSN/RDS EXTRA 1"],
+        }]
+
+        matches, unmatched = match_channels(inventory, channels, programme_counts, regions)
+
+        by_name = {match["layerseven_name"]: match for match in matches}
+        self.assertEqual(by_name["CA: TSN"]["epg_id"], "tsn1")
+        self.assertEqual(by_name["CA EN: TSN 2"]["epg_id"], "tsn2")
+        self.assertEqual(by_name["US: TSN SPORT 3 HD"]["epg_id"], "tsn3")
+        self.assertTrue(all(match["match_method"] == "tsn-sports" for match in matches))
+        self.assertEqual([r["layerseven_name"] for r in unmatched], ["CA FR: TSN/RDS EXTRA 1"])
+
     def test_cw_station_mapping_overrides_generic_match(self):
         def public_channel(channel_id, name):
             channel = ET.Element("channel", {"id": channel_id})

@@ -11026,6 +11026,42 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: TSN SPORT 2 HD",
+      "category": "US| SPORT HD/4K",
+      "country": "US",
+      "epg_id": "I401.18990.schedulesdirect.org",
+      "epg_name": "TSN 2",
+      "matched_key": "TSN 2",
+      "match_method": "tsn-sports"
+    },
+    {
+      "layerseven_name": "US: TSN SPORT 3 HD",
+      "category": "US| SPORT HD/4K",
+      "country": "US",
+      "epg_id": "I402.90118.schedulesdirect.org",
+      "epg_name": "TSN 3",
+      "matched_key": "TSN 3",
+      "match_method": "tsn-sports"
+    },
+    {
+      "layerseven_name": "US: TSN SPORT 4 HD",
+      "category": "US| SPORT HD/4K",
+      "country": "US",
+      "epg_id": "I403.90122.schedulesdirect.org",
+      "epg_name": "TSN 4",
+      "matched_key": "TSN 4",
+      "match_method": "tsn-sports"
+    },
+    {
+      "layerseven_name": "US: TSN SPORT 5 HD",
+      "category": "US| SPORT HD/4K",
+      "country": "US",
+      "epg_id": "I404.90124.schedulesdirect.org",
+      "epg_name": "TSN 5",
+      "matched_key": "TSN 5",
+      "match_method": "tsn-sports"
+    },
+    {
       "layerseven_name": "US: TENNIS CHANNEL",
       "category": "US| SPORT HD/4K",
       "country": "US",
@@ -14593,55 +14629,55 @@
       "layerseven_name": "CA: TSN",
       "category": "CA| TSN SPORT HD/4K",
       "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
-      "matched_key": "TSN",
-      "match_method": "exact"
+      "epg_id": "I400.11182.schedulesdirect.org",
+      "epg_name": "TSN 1",
+      "matched_key": "TSN 1",
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA: TSN 1 HD",
       "category": "CA| TSN SPORT HD/4K",
       "country": "CA",
-      "epg_id": "470446",
+      "epg_id": "I400.11182.schedulesdirect.org",
       "epg_name": "TSN 1",
       "matched_key": "TSN 1",
-      "match_method": "exact"
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA: TSN 2 HD",
       "category": "CA| TSN SPORT HD/4K",
       "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
+      "epg_id": "I401.18990.schedulesdirect.org",
+      "epg_name": "TSN 2",
       "matched_key": "TSN 2",
-      "match_method": "exact"
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA: TSN 3 HD",
       "category": "CA| TSN SPORT HD/4K",
       "country": "CA",
-      "epg_id": "470389",
-      "epg_name": "TSN 3 HD",
+      "epg_id": "I402.90118.schedulesdirect.org",
+      "epg_name": "TSN 3",
       "matched_key": "TSN 3",
-      "match_method": "exact"
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA: TSN 4 HD",
       "category": "CA| TSN SPORT HD/4K",
       "country": "CA",
-      "epg_id": "470915",
-      "epg_name": "TSN 4 HD",
+      "epg_id": "I403.90122.schedulesdirect.org",
+      "epg_name": "TSN 4",
       "matched_key": "TSN 4",
-      "match_method": "exact"
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA: TSN 5 HD",
       "category": "CA| TSN SPORT HD/4K",
       "country": "CA",
-      "epg_id": "470513",
-      "epg_name": "TSN 5 HD",
+      "epg_id": "I404.90124.schedulesdirect.org",
+      "epg_name": "TSN 5",
       "matched_key": "TSN 5",
-      "match_method": "exact"
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA: SPORTSNET 360",
@@ -14956,51 +14992,6 @@
       "epg_id": "470575",
       "epg_name": "ICI Tele HD",
       "matched_key": "ICI TELE",
-      "match_method": "exact"
-    },
-    {
-      "layerseven_name": "CA FR: TSN/RDS EXTRA 1",
-      "category": "CA| SPORTS FR",
-      "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
-      "matched_key": "TSN",
-      "match_method": "exact"
-    },
-    {
-      "layerseven_name": "CA FR: TSN/RDS EXTRA 2",
-      "category": "CA| SPORTS FR",
-      "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
-      "matched_key": "TSN",
-      "match_method": "exact"
-    },
-    {
-      "layerseven_name": "CA FR: TSN/RDS EXTRA 3",
-      "category": "CA| SPORTS FR",
-      "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
-      "matched_key": "TSN",
-      "match_method": "exact"
-    },
-    {
-      "layerseven_name": "CA FR: TSN/RDS EXTRA 4",
-      "category": "CA| SPORTS FR",
-      "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
-      "matched_key": "TSN",
-      "match_method": "exact"
-    },
-    {
-      "layerseven_name": "CA FR: TSN/RDS EXTRA 5",
-      "category": "CA| SPORTS FR",
-      "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
-      "matched_key": "TSN",
       "match_method": "exact"
     },
     {
@@ -15763,46 +15754,46 @@
       "layerseven_name": "CA EN: TSN 1",
       "category": "CA| SPORTS EN",
       "country": "CA",
-      "epg_id": "470446",
+      "epg_id": "I400.11182.schedulesdirect.org",
       "epg_name": "TSN 1",
       "matched_key": "TSN 1",
-      "match_method": "exact"
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA EN: TSN 2",
       "category": "CA| SPORTS EN",
       "country": "CA",
-      "epg_id": "470401",
-      "epg_name": "TSN 2 HD",
+      "epg_id": "I401.18990.schedulesdirect.org",
+      "epg_name": "TSN 2",
       "matched_key": "TSN 2",
-      "match_method": "exact"
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA EN: TSN 3",
       "category": "CA| SPORTS EN",
       "country": "CA",
-      "epg_id": "470389",
-      "epg_name": "TSN 3 HD",
+      "epg_id": "I402.90118.schedulesdirect.org",
+      "epg_name": "TSN 3",
       "matched_key": "TSN 3",
-      "match_method": "exact"
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA EN: TSN 4",
       "category": "CA| SPORTS EN",
       "country": "CA",
-      "epg_id": "470915",
-      "epg_name": "TSN 4 HD",
+      "epg_id": "I403.90122.schedulesdirect.org",
+      "epg_name": "TSN 4",
       "matched_key": "TSN 4",
-      "match_method": "exact"
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA EN: TSN 5",
       "category": "CA| SPORTS EN",
       "country": "CA",
-      "epg_id": "470513",
-      "epg_name": "TSN 5 HD",
+      "epg_id": "I404.90124.schedulesdirect.org",
+      "epg_name": "TSN 5",
       "matched_key": "TSN 5",
-      "match_method": "exact"
+      "match_method": "tsn-sports"
     },
     {
       "layerseven_name": "CA EN: THE FIGHT NETWORK HD",
@@ -26801,26 +26792,6 @@
     },
     {
       "layerseven_name": "US: SPORTSNET LA LAKERS HD",
-      "category": "US| SPORT HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TSN SPORT 2 HD",
-      "category": "US| SPORT HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TSN SPORT 3 HD",
-      "category": "US| SPORT HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TSN SPORT 4 HD",
-      "category": "US| SPORT HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: TSN SPORT 5 HD",
       "category": "US| SPORT HD/4K",
       "country": "US"
     },
@@ -38856,6 +38827,31 @@
     },
     {
       "layerseven_name": "CA FR: MOI SPORT HD",
+      "category": "CA| SPORTS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: TSN/RDS EXTRA 1",
+      "category": "CA| SPORTS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: TSN/RDS EXTRA 2",
+      "category": "CA| SPORTS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: TSN/RDS EXTRA 3",
+      "category": "CA| SPORTS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: TSN/RDS EXTRA 4",
+      "category": "CA| SPORTS FR",
+      "country": "CA"
+    },
+    {
+      "layerseven_name": "CA FR: TSN/RDS EXTRA 5",
       "category": "CA| SPORTS FR",
       "country": "CA"
     },
