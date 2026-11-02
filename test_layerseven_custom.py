@@ -341,6 +341,8 @@ class LayerSevenMatchingTest(unittest.TestCase):
                 "USA Real NHL 01:",
                 "NCAAF 01:",
                 "NCAAB 1",
+                "US (P+) UEFA Champions League 1",
+                "US P+ 21 (D)",
                 "US: NHL NETWORK",
             )
         ]
@@ -348,12 +350,15 @@ class LayerSevenMatchingTest(unittest.TestCase):
 
         counts, programme_count = add_generic_event_listings(output, root, [], unmatched)
 
-        self.assertEqual(counts, Counter({"NFL": 2, "NHL": 2, "NCAAF": 1, "NCAAB": 1}))
-        self.assertEqual(programme_count, 12)
-        self.assertEqual(len(output.findall("channel")), 6)
+        self.assertEqual(counts, Counter({
+            "NFL": 2, "NHL": 2, "NCAAF": 1, "NCAAB": 1, "Paramount+": 2,
+        }))
+        self.assertEqual(programme_count, 16)
+        self.assertEqual(len(output.findall("channel")), 8)
         titles = {node.text for node in output.findall("programme/title")}
         self.assertEqual(titles, {
             "NFL Live Event", "NHL Live Event", "NCAAF Live Event", "NCAAB Live Event",
+            "Paramount+ Live Event",
         })
         names = {node.text for node in output.findall("channel/display-name")}
         self.assertNotIn("US: NHL NETWORK", names)
