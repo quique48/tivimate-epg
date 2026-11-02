@@ -323,7 +323,7 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertTrue(all(match["match_method"] == "tsn-sports" for match in matches))
         self.assertEqual([r["layerseven_name"] for r in unmatched], ["CA FR: TSN/RDS EXTRA 1"])
 
-    def test_generic_nfl_and_nhl_event_listings(self):
+    def test_generic_sports_event_listings(self):
         from build_layerseven_custom import add_generic_event_listings
 
         root = ET.Element("tv")
@@ -339,6 +339,8 @@ class LayerSevenMatchingTest(unittest.TestCase):
                 "NFL  | 01 -",
                 "NHL | 01 -",
                 "USA Real NHL 01:",
+                "NCAAF 01:",
+                "NCAAB 1",
                 "US: NHL NETWORK",
             )
         ]
@@ -346,11 +348,13 @@ class LayerSevenMatchingTest(unittest.TestCase):
 
         counts, programme_count = add_generic_event_listings(output, root, [], unmatched)
 
-        self.assertEqual(counts, Counter({"NFL": 2, "NHL": 2}))
-        self.assertEqual(programme_count, 8)
-        self.assertEqual(len(output.findall("channel")), 4)
+        self.assertEqual(counts, Counter({"NFL": 2, "NHL": 2, "NCAAF": 1, "NCAAB": 1}))
+        self.assertEqual(programme_count, 12)
+        self.assertEqual(len(output.findall("channel")), 6)
         titles = {node.text for node in output.findall("programme/title")}
-        self.assertEqual(titles, {"NFL Live Event", "NHL Live Event"})
+        self.assertEqual(titles, {
+            "NFL Live Event", "NHL Live Event", "NCAAF Live Event", "NCAAB Live Event",
+        })
         names = {node.text for node in output.findall("channel/display-name")}
         self.assertNotIn("US: NHL NETWORK", names)
 

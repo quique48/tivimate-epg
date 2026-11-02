@@ -635,6 +635,10 @@ def generic_event_sport(value: str) -> str | None:
         r"^USA REAL NHL\s+\d+\b", normalized
     ):
         return "NHL"
+    if re.match(r"^NCAAF\s+\d+\b", normalized):
+        return "NCAAF"
+    if re.match(r"^NCAAB\s+\d+\b", normalized):
+        return "NCAAB"
     return None
 
 
@@ -833,6 +837,8 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         "direct_station_aliases": len(direct_station_aliases),
         "nfl_ppv_channels": generic_event_counts["NFL"],
         "nhl_ppv_channels": generic_event_counts["NHL"],
+        "ncaaf_ppv_channels": generic_event_counts["NCAAF"],
+        "ncaab_ppv_channels": generic_event_counts["NCAAB"],
         "generic_event_channels": sum(generic_event_counts.values()),
         "hbo_epix_channels": len(premium_channel_ids & selected),
         "paramount_plus_channels": len(paramount_channel_ids & selected),
