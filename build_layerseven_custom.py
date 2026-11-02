@@ -154,6 +154,18 @@ TSN_SPORTS_OVERRIDES = {
     "TSN SPORT 5": "TSN 5",
 }
 
+# These mapped sources have populated schedules. Direct entries avoid TiViMate's
+# unreliable secondary display-name matching; unmapped legacy feeds stay blank.
+NBC_SPORTS_LISTING_KEYS = {
+    "GOLF CHANNEL",
+    "NBC SPORTS NETWORK",
+    "NBC SPORTS BAY AREA",
+    "NBC SPORTS BAY AREA PLUS",
+    "NBC SPORTS BOSTON",
+    "NBC SPORTS CALIFORNIA",
+    "NBC SPORTS PHILADELPHIA",
+}
+
 
 def fox_sports_key(value: str) -> str:
     return " ".join(token for token in tokens(value) if token not in QUALITY_TOKENS)
@@ -760,11 +772,18 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     for match in matches:
         source_id = match["epg_id"]
         public_name = (channels[source_id].findtext("display-name") or "").strip().upper()
-        if match["match_method"] not in {"fox-sports", "fubo-sports", "tsn-sports"} and not re.fullmatch(
-            r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*", public_name
+        alias = match["layerseven_name"]
+        is_nbc_sports = (
+            alias.startswith("US: NBC ")
+            and match.get("matched_key") in NBC_SPORTS_LISTING_KEYS
+            and programme_counts[source_id] > 0
+        )
+        if (
+            match["match_method"] not in {"fox-sports", "fubo-sports", "tsn-sports"}
+            and not is_nbc_sports
+            and not re.fullmatch(r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*", public_name)
         ):
             continue
-        alias = match["layerseven_name"]
         if (source_id, alias) in seen_direct_aliases:
             continue
         seen_direct_aliases.add((source_id, alias))

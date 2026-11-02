@@ -146,6 +146,45 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertEqual(summary["programmes"], 2)
         self.assertEqual(summary["direct_station_aliases"], 1)
 
+    def test_nbc_sports_alias_has_direct_channel_and_programmes(self):
+        from pathlib import Path
+        from tempfile import TemporaryDirectory
+        from build_layerseven_custom import read_xml, write_custom_guide
+
+        root = ET.Element("tv")
+        golf = ET.SubElement(root, "channel", {"id": "golf"})
+        ET.SubElement(golf, "display-name").text = "Golf Channel HD"
+        programme = ET.SubElement(root, "programme", {"channel": "golf"})
+        ET.SubElement(programme, "title").text = "PGA Tour Golf"
+        matches = [{
+            "layerseven_name": "US: NBC GOLF CHANNEL HD",
+            "category": "US| NBC HD/4K",
+            "country": "US",
+            "epg_id": "golf",
+            "epg_name": "Golf Channel HD",
+            "matched_key": "GOLF CHANNEL",
+            "match_method": "exact",
+        }]
+
+        with TemporaryDirectory() as temp_dir:
+            write_custom_guide(Path(temp_dir), root, {"golf": golf}, matches, [])
+            output = read_xml(Path(temp_dir) / "layerseven-custom.xml.gz")
+            nbc_output = read_xml(Path(temp_dir) / "layerseven-nbc.xml.gz")
+
+        direct = next(
+            channel for channel in output.findall("channel")
+            if channel.findtext("display-name") == "US: NBC GOLF CHANNEL HD"
+            and len(channel.findall("display-name")) == 1
+        )
+        direct_programmes = [
+            item for item in output.findall("programme")
+            if item.get("channel") == direct.get("id")
+        ]
+        self.assertEqual(len(direct_programmes), 1)
+        self.assertEqual(direct_programmes[0].findtext("title"), "PGA Tour Golf")
+        self.assertEqual(len(nbc_output.findall("channel")), 1)
+        self.assertEqual(len(nbc_output.findall("programme")), 1)
+
     def test_call_sign_extraction_includes_subchannels(self):
         from build_layerseven_custom import panel_call_sign_keys
 
