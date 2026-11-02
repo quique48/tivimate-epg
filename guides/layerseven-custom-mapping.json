@@ -3154,10 +3154,10 @@
       "layerseven_name": "US: FOX SPORTS 1 4K",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
+      "epg_id": "I219.82547.schedulesdirect.org",
+      "epg_name": "Fox Sports 1 US HD",
+      "matched_key": "FOX SPORTS 1 US HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX BUSINESS NETWORK HD",
@@ -3172,316 +3172,235 @@
       "layerseven_name": "US: FOX SPORTS 2 4K",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
+      "epg_id": "I618.59305.schedulesdirect.org",
+      "epg_name": "Fox Sports 2 US HD",
+      "matched_key": "FOX SPORTS 2 US HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS 1 HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
+      "epg_id": "I219.82547.schedulesdirect.org",
+      "epg_name": "Fox Sports 1 US HD",
+      "matched_key": "FOX SPORTS 1 US HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS 2 HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
+      "epg_id": "I618.59305.schedulesdirect.org",
+      "epg_name": "Fox Sports 2 US HD",
+      "matched_key": "FOX SPORTS 2 US HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS 1",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
+      "epg_id": "I219.82547.schedulesdirect.org",
+      "epg_name": "Fox Sports 1 US HD",
+      "matched_key": "FOX SPORTS 1 US HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS 2",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS ARIZONA HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS COLLEGE ATLANTIC HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS COLLEGE CENTRAL HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS COLLEGE PACIFIC HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I618.59305.schedulesdirect.org",
+      "epg_name": "Fox Sports 2 US HD",
+      "matched_key": "FOX SPORTS 2 US HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS DETROIT HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I663.71234.gracenote.com",
+      "epg_name": "Fanduel Sports Network Detroit HD",
+      "matched_key": "FANDUEL SPORTS NETWORK DETROIT HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS FLORIDA HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I654.71238.gracenote.com",
+      "epg_name": "Fanduel Sports Network Florida HD",
+      "matched_key": "FANDUEL SPORTS NETWORK FLORIDA HD",
+      "match_method": "fox-sports"
     },
     {
-      "layerseven_name": "US: FOX SPORTS PRIME TICKET HD",
+      "layerseven_name": "US: FOX SPORTS MID WEST HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I671.71244.gracenote.com",
+      "epg_name": "Fanduel Sports Network Midwest HD",
+      "matched_key": "FANDUEL SPORTS NETWORK MIDWEST HD",
+      "match_method": "fox-sports"
     },
     {
-      "layerseven_name": "US: FOX SPORTS SAN DIEGO HD",
+      "layerseven_name": "US: FOX SPORTS NORTH HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I668.71264.gracenote.com",
+      "epg_name": "Fanduel Sports Network North HD",
+      "matched_key": "FANDUEL SPORTS NETWORK NORTH HD",
+      "match_method": "fox-sports"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS SOUTH EAST HD",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "I649.71271.gracenote.com",
+      "epg_name": "Fanduel Sports Network Southeast HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SOUTHEAST HD",
+      "match_method": "fox-sports"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS SOUTH HD",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "I646.71288.gracenote.com",
+      "epg_name": "Fanduel Sports Network South HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SOUTH HD",
+      "match_method": "fox-sports"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS SOUTH WEST HD",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "I676.71292.gracenote.com",
+      "epg_name": "Fanduel Sports Network Southwest HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SOUTHWEST HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS SUN HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS TENNESSEE HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I653.71266.gracenote.com",
+      "epg_name": "Fanduel Sports Network Sun HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SUN HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS WEST HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
+      "epg_id": "I692.71284.gracenote.com",
+      "epg_name": "Fanduel Sports Network West HD",
+      "matched_key": "FANDUEL SPORTS NETWORK WEST HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS WISCONSIN HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS ARIZONA HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I669.71258.gracenote.com",
+      "epg_name": "Fanduel Sports Network Wisconsin HD",
+      "matched_key": "FANDUEL SPORTS NETWORK WISCONSIN HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS DETROIT HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I663.71234.gracenote.com",
+      "epg_name": "Fanduel Sports Network Detroit HD",
+      "matched_key": "FANDUEL SPORTS NETWORK DETROIT HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS FLORIDA HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS KANSAS CITY HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I654.71238.gracenote.com",
+      "epg_name": "Fanduel Sports Network Florida HD",
+      "matched_key": "FANDUEL SPORTS NETWORK FLORIDA HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS MIDWEST HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I671.71244.gracenote.com",
+      "epg_name": "Fanduel Sports Network Midwest HD",
+      "matched_key": "FANDUEL SPORTS NETWORK MIDWEST HD",
+      "match_method": "fox-sports"
     },
     {
-      "layerseven_name": "US: FOX SPORTS NETBASE HD",
+      "layerseven_name": "US: FOX SPORTS NORTH HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I668.71264.gracenote.com",
+      "epg_name": "Fanduel Sports Network North HD",
+      "matched_key": "FANDUEL SPORTS NETWORK NORTH HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS OHIO HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I660.101522.gracenote.com",
+      "epg_name": "Fanduel Sports Network Ohio HD",
+      "matched_key": "FANDUEL SPORTS NETWORK OHIO HD",
+      "match_method": "fox-sports"
     },
     {
-      "layerseven_name": "US: FOX SPORTS PRIME TICKET HD",
+      "layerseven_name": "US: FOX SPORTS SOUTH HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS SAN DIEGO HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS SOCCER HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I646.71288.gracenote.com",
+      "epg_name": "Fanduel Sports Network South HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SOUTH HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS SOUTHEAST HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I649.71271.gracenote.com",
+      "epg_name": "Fanduel Sports Network Southeast HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SOUTHEAST HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS SOUTHWEST HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS SPORTSTIME OHIO HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I676.71292.gracenote.com",
+      "epg_name": "Fanduel Sports Network Southwest HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SOUTHWEST HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS SUN HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS TENNESSEE HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I653.71266.gracenote.com",
+      "epg_name": "Fanduel Sports Network Sun HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SUN HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS WEST HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
+      "epg_id": "I692.71284.gracenote.com",
+      "epg_name": "Fanduel Sports Network West HD",
+      "matched_key": "FANDUEL SPORTS NETWORK WEST HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS WISCONSIN HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS YES NETWORK HD",
-      "category": "US| FOX HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I669.71258.gracenote.com",
+      "epg_name": "Fanduel Sports Network Wisconsin HD",
+      "matched_key": "FANDUEL SPORTS NETWORK WISCONSIN HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX DEPORTES",
@@ -3514,10 +3433,10 @@
       "layerseven_name": "US: FOX SPORTS DEPORTES ",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I465.72189.schedulesdirect.org",
+      "epg_name": "Fox Deportes HD",
+      "matched_key": "FOX DEPORTES HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX WTXF TV",
@@ -10759,163 +10678,127 @@
       "layerseven_name": "US: FOX SPORTS 1 HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
+      "epg_id": "I219.82547.schedulesdirect.org",
+      "epg_name": "Fox Sports 1 US HD",
+      "matched_key": "FOX SPORTS 1 US HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS DETROIT HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I663.71234.gracenote.com",
+      "epg_name": "Fanduel Sports Network Detroit HD",
+      "matched_key": "FANDUEL SPORTS NETWORK DETROIT HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS 2 HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
+      "epg_id": "I618.59305.schedulesdirect.org",
+      "epg_name": "Fox Sports 2 US HD",
+      "matched_key": "FOX SPORTS 2 US HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS FLORIDA HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS ARIZONA HD",
-      "category": "US| SPORT HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I654.71238.gracenote.com",
+      "epg_name": "Fanduel Sports Network Florida HD",
+      "matched_key": "FANDUEL SPORTS NETWORK FLORIDA HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS OHIO HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I660.101522.gracenote.com",
+      "epg_name": "Fanduel Sports Network Ohio HD",
+      "matched_key": "FANDUEL SPORTS NETWORK OHIO HD",
+      "match_method": "fox-sports"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS NORTH HD",
+      "category": "US| SPORT HD/4K",
+      "country": "US",
+      "epg_id": "I668.71264.gracenote.com",
+      "epg_name": "Fanduel Sports Network North HD",
+      "matched_key": "FANDUEL SPORTS NETWORK NORTH HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS MIDWEST HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS CAROLINAS HD",
-      "category": "US| SPORT HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I671.71244.gracenote.com",
+      "epg_name": "Fanduel Sports Network Midwest HD",
+      "matched_key": "FANDUEL SPORTS NETWORK MIDWEST HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS OKLAHOMA HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I675.181304.gracenote.com",
+      "epg_name": "Fanduel Sports Network Oklahoma",
+      "matched_key": "FANDUEL SPORTS NETWORK OKLAHOMA",
+      "match_method": "fox-sports"
     },
     {
-      "layerseven_name": "US: FOX SPORTS PRIME TICKET HD",
+      "layerseven_name": "US: FOX SPORTS SOUTH HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS SAN DIEGO HD",
-      "category": "US| SPORT HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I646.71288.gracenote.com",
+      "epg_name": "Fanduel Sports Network South HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SOUTH HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS SOUTHEAST HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I649.71271.gracenote.com",
+      "epg_name": "Fanduel Sports Network Southeast HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SOUTHEAST HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS SOUTHWEST HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I676.71292.gracenote.com",
+      "epg_name": "Fanduel Sports Network Southwest HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SOUTHWEST HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS SUN HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I653.71266.gracenote.com",
+      "epg_name": "Fanduel Sports Network Sun HD",
+      "matched_key": "FANDUEL SPORTS NETWORK SUN HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS WEST",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "exact"
+      "epg_id": "I692.71284.gracenote.com",
+      "epg_name": "Fanduel Sports Network West HD",
+      "matched_key": "FANDUEL SPORTS NETWORK WEST HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SPORTS WISCONSIN HD",
       "category": "US| SPORT HD/4K",
       "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS TENNESSEE HD",
-      "category": "US| SPORT HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
-    },
-    {
-      "layerseven_name": "US: FOX SPORTS YES HD",
-      "category": "US| SPORT HD/4K",
-      "country": "US",
-      "epg_id": "575510",
-      "epg_name": "Fox Sports 4K",
-      "matched_key": "FOX SPORTS",
-      "match_method": "regional-subset"
+      "epg_id": "I669.71258.gracenote.com",
+      "epg_name": "Fanduel Sports Network Wisconsin HD",
+      "matched_key": "FANDUEL SPORTS NETWORK WISCONSIN HD",
+      "match_method": "fox-sports"
     },
     {
       "layerseven_name": "US: FOX SOCCER PLUS HD",
@@ -25973,27 +25856,47 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX SPORTS MID WEST HD",
+      "layerseven_name": "US: FOX SPORTS ARIZONA HD",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX SPORTS NORTH HD",
+      "layerseven_name": "US: FOX SPORTS COLLEGE ATLANTIC HD",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX SPORTS SOUTH EAST HD",
+      "layerseven_name": "US: FOX SPORTS COLLEGE CENTRAL HD",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX SPORTS SOUTH HD",
+      "layerseven_name": "US: FOX SPORTS COLLEGE PACIFIC HD",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX SPORTS SOUTH WEST HD",
+      "layerseven_name": "US: FOX SPORTS PRIME TICKET HD",
+      "category": "US| FOX HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS SAN DIEGO HD",
+      "category": "US| FOX HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS TENNESSEE HD",
+      "category": "US| FOX HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS ARIZONA HD",
+      "category": "US| FOX HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS KANSAS CITY HD",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
@@ -26003,17 +25906,42 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX SPORTS NORTH HD",
+      "layerseven_name": "US: FOX SPORTS NETBASE HD",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX SPORTS SOUTH HD",
+      "layerseven_name": "US: FOX SPORTS PRIME TICKET HD",
+      "category": "US| FOX HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS SAN DIEGO HD",
+      "category": "US| FOX HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS SOCCER HD",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
     {
       "layerseven_name": "US: FOX SPORTS SOUTHWEST PL HD",
+      "category": "US| FOX HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS SPORTSTIME OHIO HD",
+      "category": "US| FOX HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS TENNESSEE HD",
+      "category": "US| FOX HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS YES NETWORK HD",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
@@ -26663,12 +26591,32 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX SPORTS NORTH HD",
+      "layerseven_name": "US: FOX SPORTS ARIZONA HD",
       "category": "US| SPORT HD/4K",
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX SPORTS SOUTH HD",
+      "layerseven_name": "US: FOX SPORTS CAROLINAS HD",
+      "category": "US| SPORT HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS PRIME TICKET HD",
+      "category": "US| SPORT HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS SAN DIEGO HD",
+      "category": "US| SPORT HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS TENNESSEE HD",
+      "category": "US| SPORT HD/4K",
+      "country": "US"
+    },
+    {
+      "layerseven_name": "US: FOX SPORTS YES HD",
       "category": "US| SPORT HD/4K",
       "country": "US"
     },

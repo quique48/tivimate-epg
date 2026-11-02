@@ -115,6 +115,33 @@ TUDN_ALIASES = {
     "LAT: TUDN HD",
 }
 
+# Legacy FOX Sports names with confirmed current listings. Other regional or
+# discontinued feeds stay unmatched rather than inheriting the empty 4K guide.
+FOX_SPORTS_OVERRIDES = {
+    "FOX SPORTS 1": "FOX SPORTS 1 US HD",
+    "FOX SPORTS 2": "FOX SPORTS 2 US HD",
+    "FOX SPORTS DEPORTES": "FOX DEPORTES HD",
+    "FOX SPORTS DETROIT": "FANDUEL SPORTS NETWORK DETROIT HD",
+    "FOX SPORTS FLORIDA": "FANDUEL SPORTS NETWORK FLORIDA HD",
+    "FOX SPORTS SUN": "FANDUEL SPORTS NETWORK SUN HD",
+    "FOX SPORTS OHIO": "FANDUEL SPORTS NETWORK OHIO HD",
+    "FOX SPORTS NORTH": "FANDUEL SPORTS NETWORK NORTH HD",
+    "FOX SPORTS WISCONSIN": "FANDUEL SPORTS NETWORK WISCONSIN HD",
+    "FOX SPORTS MIDWEST": "FANDUEL SPORTS NETWORK MIDWEST HD",
+    "FOX SPORTS MID WEST": "FANDUEL SPORTS NETWORK MIDWEST HD",
+    "FOX SPORTS SOUTHWEST": "FANDUEL SPORTS NETWORK SOUTHWEST HD",
+    "FOX SPORTS SOUTH WEST": "FANDUEL SPORTS NETWORK SOUTHWEST HD",
+    "FOX SPORTS SOUTH": "FANDUEL SPORTS NETWORK SOUTH HD",
+    "FOX SPORTS SOUTHEAST": "FANDUEL SPORTS NETWORK SOUTHEAST HD",
+    "FOX SPORTS SOUTH EAST": "FANDUEL SPORTS NETWORK SOUTHEAST HD",
+    "FOX SPORTS WEST": "FANDUEL SPORTS NETWORK WEST HD",
+    "FOX SPORTS OKLAHOMA": "FANDUEL SPORTS NETWORK OKLAHOMA",
+}
+
+
+def fox_sports_key(value: str) -> str:
+    return " ".join(token for token in tokens(value) if token not in QUALITY_TOKENS)
+
 
 def read_xml(path: Path) -> ET.Element:
     opener = gzip.open if path.suffix == ".gz" else open
@@ -358,7 +385,21 @@ def match_channels(inventory, channels, programme_counts, regions):
                     found = choose_candidate(candidates, programme_counts, regions, allowed_regions)
                     matched_key = station_override
                     match_method = "local-station"
-            variants = name_variants(layerseven_name)
+
+            sports_key = fox_sports_key(layerseven_name)
+            sports_override = FOX_SPORTS_OVERRIDES.get(sports_key)
+            if sports_override and not found:
+                candidates = {
+                    channel_id
+                    for channel_id in station_index.get(sports_override, set())
+                    if programme_counts[channel_id]
+                    and regions.get(channel_id, set()) & set(allowed_regions)
+                }
+                if candidates:
+                    found = choose_candidate(candidates, programme_counts, regions, allowed_regions)
+                    matched_key = sports_override
+                    match_method = "fox-sports"
+            variants = [] if sports_key.startswith("FOX SPORTS") and not found else name_variants(layerseven_name)
             for key in ([] if found else variants):
                 candidates = set()
                 for region in allowed_regions:
@@ -565,7 +606,9 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     for match in matches:
         source_id = match["epg_id"]
         public_name = (channels[source_id].findtext("display-name") or "").strip().upper()
-        if not re.fullmatch(r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*", public_name):
+        if match["match_method"] != "fox-sports" and not re.fullmatch(
+            r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*", public_name
+        ):
             continue
         alias = match["layerseven_name"]
         if (source_id, alias) in seen_direct_aliases:

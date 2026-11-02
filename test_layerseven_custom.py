@@ -241,6 +241,40 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertEqual(matches[0]["epg_id"], "fox")
         self.assertEqual(matches[0]["match_method"], "call-sign")
 
+    def test_fox_sports_uses_confirmed_current_listings(self):
+        def public_channel(channel_id, name):
+            channel = ET.Element("channel", {"id": channel_id})
+            ET.SubElement(channel, "display-name").text = name
+            return channel
+
+        channels = {
+            "empty": public_channel("empty", "Fox Sports 4K"),
+            "fs1": public_channel("fs1", "Fox Sports 1 US HD"),
+            "fs2": public_channel("fs2", "Fox Sports 2 US HD"),
+            "north": public_channel("north", "Fanduel Sports Network North HD"),
+        }
+        programme_counts = Counter({"empty": 0, "fs1": 109, "fs2": 109, "north": 184})
+        regions = {channel_id: {"us"} for channel_id in channels}
+        inventory = [{
+            "country": "US",
+            "name": "US| SPORT HD/4K",
+            "channels": [
+                "US: FOX SPORTS 1 HD",
+                "US: FOX SPORTS 2 HD",
+                "US: FOX SPORTS NORTH HD",
+                "US: FOX SPORTS ARIZONA HD",
+            ],
+        }]
+
+        matches, unmatched = match_channels(inventory, channels, programme_counts, regions)
+
+        by_name = {match["layerseven_name"]: match for match in matches}
+        self.assertEqual(by_name["US: FOX SPORTS 1 HD"]["epg_id"], "fs1")
+        self.assertEqual(by_name["US: FOX SPORTS 2 HD"]["epg_id"], "fs2")
+        self.assertEqual(by_name["US: FOX SPORTS NORTH HD"]["epg_id"], "north")
+        self.assertTrue(all(match["match_method"] == "fox-sports" for match in matches))
+        self.assertEqual([r["layerseven_name"] for r in unmatched], ["US: FOX SPORTS ARIZONA HD"])
+
     def test_cw_station_mapping_overrides_generic_match(self):
         def public_channel(channel_id, name):
             channel = ET.Element("channel", {"id": channel_id})
