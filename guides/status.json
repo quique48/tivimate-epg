@@ -1,12 +1,12 @@
 {
   "errors": {},
-  "generated_at": "2026-11-02T06:13:46.522052+00:00",
+  "generated_at": "2026-11-02T16:09:29.844498+00:00",
   "groups": {
     "all": {
       "channels": 8998,
-      "gzip_bytes": 59494328,
+      "gzip_bytes": 59115923,
       "gzip_url": "guides/all.xml.gz",
-      "programmes": 908176,
+      "programmes": 909565,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
@@ -22,27 +22,27 @@
     },
     "chicago": {
       "channels": 22,
-      "gzip_bytes": 170135,
+      "gzip_bytes": 156195,
       "gzip_url": "guides/chicago.xml.gz",
-      "programmes": 2846,
+      "programmes": 2826,
       "updated_from_sources": true,
-      "xml_bytes": 1859898,
+      "xml_bytes": 1838918,
       "xml_url": "guides/chicago.xml"
     },
     "gb": {
       "channels": 1314,
-      "gzip_bytes": 13078590,
+      "gzip_bytes": 12891352,
       "gzip_url": "guides/gb.xml.gz",
-      "programmes": 154060,
+      "programmes": 154603,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
     },
     "layerseven": {
       "channels": 8998,
-      "gzip_bytes": 59494328,
+      "gzip_bytes": 59115923,
       "gzip_url": "guides/layerseven.xml.gz",
-      "programmes": 908176,
+      "programmes": 909565,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
@@ -52,9 +52,9 @@
       "cw_layerseven_entries": 58,
       "direct_station_aliases": 877,
       "disney_plus_channels": 0,
-      "gzip_bytes": 13676262,
+      "gzip_bytes": 13545116,
       "gzip_url": "guides/layerseven-custom.xml.gz",
-      "hbo_epix_channels": 5,
+      "hbo_epix_channels": 6,
       "matched_layerseven_entries": 2415,
       "max_channels": 1,
       "nbc_channels": 209,
@@ -62,7 +62,7 @@
       "nbc_gzip_url": "guides/layerseven-nbc.xml.gz",
       "nbc_programmes": 20202,
       "paramount_plus_channels": 0,
-      "programmes": 251900,
+      "programmes": 252162,
       "tudn_aliases": 1,
       "tudn_channels": 1,
       "unmatched_layerseven_entries": 5398,
@@ -72,18 +72,18 @@
     },
     "sports": {
       "channels": 526,
-      "gzip_bytes": 117930,
+      "gzip_bytes": 121730,
       "gzip_url": "guides/sports.xml.gz",
-      "programmes": 5027,
+      "programmes": 5437,
       "updated_from_sources": true,
-      "xml_bytes": 2618081,
+      "xml_bytes": 2804226,
       "xml_url": "guides/sports.xml"
     },
     "us": {
       "channels": 6462,
-      "gzip_bytes": 43815381,
+      "gzip_bytes": 43622199,
       "gzip_url": "guides/us.xml.gz",
-      "programmes": 700292,
+      "programmes": 700728,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
