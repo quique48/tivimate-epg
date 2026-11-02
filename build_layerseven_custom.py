@@ -624,6 +624,71 @@ def is_tudn_channel(channel):
     )
 
 
+def generic_event_sport(value: str) -> str | None:
+    """Identify numbered event feeds without guessing their current matchups."""
+    normalized = unicodedata.normalize("NFKC", value).upper()
+    if re.match(r"^US:\s*DAZN NFL PPV\s+\d+\b", normalized) or re.match(
+        r"^NFL\s*\|\s*\d+\b", normalized
+    ):
+        return "NFL"
+    if re.match(r"^NHL\s*\|\s*\d+\b", normalized) or re.match(
+        r"^USA REAL NHL\s+\d+\b", normalized
+    ):
+        return "NHL"
+    return None
+
+
+def add_generic_event_listings(output, root, matches, unmatched):
+    """Add nonblank, explicitly generic listings for feeds without public EPG."""
+    event_feeds = {}
+    for record in [*matches, *unmatched]:
+        name = record["layerseven_name"]
+        sport = generic_event_sport(name)
+        if sport:
+            event_feeds[name] = sport
+    if not event_feeds:
+        return Counter(), 0
+
+    source_programmes = root.findall("programme")
+    try:
+        starts = [datetime.strptime(item.get("start", "")[:14], "%Y%m%d%H%M%S") for item in source_programmes]
+        stops = [datetime.strptime(item.get("stop", "")[:14], "%Y%m%d%H%M%S") for item in source_programmes]
+        first_day = min(starts).replace(hour=0, minute=0, second=0)
+        final_stop = max(stops)
+    except (ValueError, TypeError):
+        return Counter(), 0
+
+    days = []
+    day = first_day
+    while day < final_stop:
+        days.append(day)
+        day += timedelta(days=1)
+    if not days:
+        return Counter(), 0
+
+    counts = Counter(event_feeds.values())
+    programme_count = 0
+    for name, sport in sorted(event_feeds.items()):
+        digest = hashlib.sha256(f"generic-event\0{name}".encode("utf-8")).hexdigest()[:16]
+        channel_id = f"layerseven.event.{digest}"
+        channel = ET.SubElement(output, "channel", {"id": channel_id})
+        ET.SubElement(channel, "display-name").text = name
+        for day in days:
+            programme = ET.SubElement(output, "programme", {
+                "channel": channel_id,
+                "start": day.strftime("%Y%m%d%H%M%S") + " +0000",
+                "stop": (day + timedelta(days=1)).strftime("%Y%m%d%H%M%S") + " +0000",
+            })
+            ET.SubElement(programme, "title").text = f"{sport} Live Event"
+            ET.SubElement(programme, "desc").text = (
+                "Event details are not available from the public guide. "
+                "Check the channel name or LayerSeven's current event schedule."
+            )
+            ET.SubElement(programme, "category").text = "Sports"
+            programme_count += 1
+    return counts, programme_count
+
+
 def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     aliases: dict[str, list[str]] = defaultdict(list)
     for match in matches:
@@ -707,7 +772,9 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
                 direct.append(copy.deepcopy(child))
         output.append(direct)
 
-    programme_count = 0
+    generic_event_counts, programme_count = add_generic_event_listings(
+        output, root, matches, unmatched
+    )
     for programme in root.findall("programme"):
         source_id = programme.get("channel")
         if source_id in selected:
@@ -761,9 +828,12 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
     }, indent=2, ensure_ascii=False) + "\n")
 
     return {
-        "channels": len(selected) + len(direct_station_aliases),
+        "channels": len(selected) + len(direct_station_aliases) + sum(generic_event_counts.values()),
         "programmes": programme_count,
         "direct_station_aliases": len(direct_station_aliases),
+        "nfl_ppv_channels": generic_event_counts["NFL"],
+        "nhl_ppv_channels": generic_event_counts["NHL"],
+        "generic_event_channels": sum(generic_event_counts.values()),
         "hbo_epix_channels": len(premium_channel_ids & selected),
         "paramount_plus_channels": len(paramount_channel_ids & selected),
         "disney_plus_channels": len(disney_channel_ids & selected),

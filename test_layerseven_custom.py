@@ -323,6 +323,37 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertTrue(all(match["match_method"] == "tsn-sports" for match in matches))
         self.assertEqual([r["layerseven_name"] for r in unmatched], ["CA FR: TSN/RDS EXTRA 1"])
 
+    def test_generic_nfl_and_nhl_event_listings(self):
+        from build_layerseven_custom import add_generic_event_listings
+
+        root = ET.Element("tv")
+        ET.SubElement(root, "programme", {
+            "channel": "source",
+            "start": "20261101000000 +0000",
+            "stop": "20261103000000 +0000",
+        })
+        unmatched = [
+            {"layerseven_name": name}
+            for name in (
+                "US: DAZN NFL PPV 1 - NO EVENT STREAMING -",
+                "NFL  | 01 -",
+                "NHL | 01 -",
+                "USA Real NHL 01:",
+                "US: NHL NETWORK",
+            )
+        ]
+        output = ET.Element("tv")
+
+        counts, programme_count = add_generic_event_listings(output, root, [], unmatched)
+
+        self.assertEqual(counts, Counter({"NFL": 2, "NHL": 2}))
+        self.assertEqual(programme_count, 8)
+        self.assertEqual(len(output.findall("channel")), 4)
+        titles = {node.text for node in output.findall("programme/title")}
+        self.assertEqual(titles, {"NFL Live Event", "NHL Live Event"})
+        names = {node.text for node in output.findall("channel/display-name")}
+        self.assertNotIn("US: NHL NETWORK", names)
+
     def test_cw_station_mapping_overrides_generic_match(self):
         def public_channel(channel_id, name):
             channel = ET.Element("channel", {"id": channel_id})
