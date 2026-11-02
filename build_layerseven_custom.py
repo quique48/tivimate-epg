@@ -641,6 +641,8 @@ def generic_event_sport(value: str) -> str | None:
         return "NCAAB"
     if normalized.startswith("US (P+) ") or re.match(r"^US P\+\s+\d+\b", normalized):
         return "Paramount+"
+    if re.match(r"^BTN\+\s+\d+\b", normalized):
+        return "BTN+"
     return None
 
 
@@ -842,6 +844,7 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         "ncaaf_ppv_channels": generic_event_counts["NCAAF"],
         "ncaab_ppv_channels": generic_event_counts["NCAAB"],
         "paramount_plus_ppv_channels": generic_event_counts["Paramount+"],
+        "btn_plus_ppv_channels": generic_event_counts["BTN+"],
         "generic_event_channels": sum(generic_event_counts.values()),
         "hbo_epix_channels": len(premium_channel_ids & selected),
         "paramount_plus_channels": len(paramount_channel_ids & selected),
