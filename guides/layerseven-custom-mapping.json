@@ -181,6 +181,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: BUZZR",
+      "category": "US| ENTERTAINMENT HD/4K",
+      "country": "US",
+      "epg_id": "I32.3.108536.gracenote.com",
+      "epg_name": "BUZZR",
+      "matched_key": "BUZZR",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: BYU TV",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US",
@@ -256,7 +265,7 @@
       "layerseven_name": "US: COURT TV HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US",
-      "epg_id": "465226",
+      "epg_id": "I9.3.83118.gracenote.com",
       "epg_name": "Court TV",
       "matched_key": "COURT TV",
       "match_method": "exact"
@@ -1153,6 +1162,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: WGN9",
+      "category": "US| ENTERTAINMENT HD/4K",
+      "country": "US",
+      "epg_id": "I9.1.20455.gracenote.com",
+      "epg_name": "WGN 9",
+      "matched_key": "WGN9",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: KTLA LOS ANGELES HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US",
@@ -1162,10 +1180,19 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: ION PLUS 4K",
+      "category": "US| ENTERTAINMENT HD/4K",
+      "country": "US",
+      "epg_id": "I38.5.24127.gracenote.com",
+      "epg_name": "ION Plus",
+      "matched_key": "ION PLUS",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: ION MYSTERY HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US",
-      "epg_id": "492942",
+      "epg_id": "I60.2.68257.gracenote.com",
       "epg_name": "ION Mystery",
       "matched_key": "ION MYSTERY",
       "match_method": "exact"
@@ -3142,6 +3169,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FOX WEATHER HD",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "I32.5.125045.gracenote.com",
+      "epg_name": "Fox Weather",
+      "matched_key": "FOX WEATHER",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: FOX NEWS CHANNEL 4K",
       "category": "US| FOX HD/4K",
       "country": "US",
@@ -3727,6 +3763,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FOX 2 HD [SAN FRANCISCO]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "I40.1.21211.gracenote.com",
+      "epg_name": "FOX San Francisco.",
+      "matched_key": "FOX SAN FRANCISCO",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: FOX 4 (KDFW) DALLAS HD",
       "category": "US| FOX HD/4K",
       "country": "US",
@@ -3841,6 +3886,15 @@
       "epg_id": "469150",
       "epg_name": "WSVN-DT",
       "matched_key": "WSVN",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: FOX 7 HD [AUSTIN]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "I7.1.31222.gracenote.com",
+      "epg_name": "FOX Austin",
+      "matched_key": "FOX AUSTIN",
       "match_method": "exact"
     },
     {
@@ -4168,6 +4222,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: FOX 21 HD [GREENVILLE SC]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "I54.1.30439.gracenote.com",
+      "epg_name": "FOX Greenville",
+      "matched_key": "FOX GREENVILLE",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: FOX 21 (KXRM) COLORADO SPRINGS HD",
       "category": "US| FOX HD/4K",
       "country": "US",
@@ -4237,6 +4300,15 @@
       "epg_id": "468605",
       "epg_name": "KSAS-DT",
       "matched_key": "KSAS",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: FOX 24 HD [FORT SMITH]",
+      "category": "US| FOX HD/4K",
+      "country": "US",
+      "epg_id": "I24.1.52320.gracenote.com",
+      "epg_name": "FOX Fort Smith",
+      "matched_key": "FOX FORT SMITH",
       "match_method": "exact"
     },
     {
@@ -5866,6 +5938,15 @@
       "epg_id": "468288",
       "epg_name": "WBTV-DT",
       "matched_key": "WBTV",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: CBS 2 WCBS (NEW YORK) HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "I2.1.16689.gracenote.com",
+      "epg_name": "CBS New York",
+      "matched_key": "CBS NEW YORK",
       "match_method": "exact"
     },
     {
@@ -7525,6 +7606,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: CBS 46 (WGCL) ATLANTA HD",
+      "category": "US| CBS HD/4K",
+      "country": "US",
+      "epg_id": "I46.1.24505.gracenote.com",
+      "epg_name": "CBS Atlanta",
+      "matched_key": "CBS ATLANTA",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: CBS 47 (KGPE) FRESNO HD",
       "category": "US| CBS HD/4K",
       "country": "US",
@@ -8596,6 +8686,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC 8 HD [LAREDO]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "I8.1.43675.gracenote.com",
+      "epg_name": "NBC Laredo",
+      "matched_key": "NBC LAREDO",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: NBC 9 (KTSM) EL PASO HD",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -9142,6 +9241,15 @@
       "epg_id": "467573",
       "epg_name": "WGBA-DT",
       "matched_key": "WGBA",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC 27 HD [TOPEKA]",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "I27.1.33503.gracenote.com",
+      "epg_name": "NBC Topeka",
+      "matched_key": "NBC TOPEKA",
       "match_method": "exact"
     },
     {
@@ -9721,6 +9829,24 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: NBC SPORTS CHICAGO 4K",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "I62.2.62338.gracenote.com",
+      "epg_name": "NBC Sports Chicago",
+      "matched_key": "NBC SPORTS CHICAGO",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC SPORTS CHICAGO HD",
+      "category": "US| NBC HD/4K",
+      "country": "US",
+      "epg_id": "I62.2.62338.gracenote.com",
+      "epg_name": "NBC Sports Chicago",
+      "matched_key": "NBC SPORTS CHICAGO",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: NBC SPORTS NETWORK 4K",
       "category": "US| NBC HD/4K",
       "country": "US",
@@ -9763,6 +9889,24 @@
       "epg_id": "465150",
       "epg_name": "ABC News Live",
       "matched_key": "ABC NEWS LIVE",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: ABC HD [NEW YORK]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "I7.1.20453.gracenote.com",
+      "epg_name": "ABC New York",
+      "matched_key": "ABC NEW YORK",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: ABC 2 HD [ATLANTA]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "I2.1.19586.gracenote.com",
+      "epg_name": "ABC Atlanta",
+      "matched_key": "ABC ATLANTA",
       "match_method": "exact"
     },
     {
@@ -10090,6 +10234,15 @@
       "match_method": "exact"
     },
     {
+      "layerseven_name": "US: ABC 9 HD [SYRACUSE]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "I9.1.35712.gracenote.com",
+      "epg_name": "ABC Syracuse",
+      "matched_key": "ABC SYRACUSE",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: ABC 9 COLUMBUS GA (WTVM) HD",
       "category": "US| ABC HD/4K",
       "country": "US",
@@ -10132,6 +10285,15 @@
       "epg_id": "466285",
       "epg_name": "WPLG-DT",
       "matched_key": "WPLG",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: ABC 10 HD [ALBANY]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "I10.1.32470.gracenote.com",
+      "epg_name": "ABC Albany",
+      "matched_key": "ABC ALBANY",
       "match_method": "exact"
     },
     {
@@ -10234,6 +10396,15 @@
       "match_method": "local-station"
     },
     {
+      "layerseven_name": "US: ABC 13 HD [LAS VEGAS]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "I13.1.30785.gracenote.com",
+      "epg_name": "ABC Las Vegas",
+      "matched_key": "ABC LAS VEGAS",
+      "match_method": "exact"
+    },
+    {
       "layerseven_name": "US: ABC 13 ANCHORAGE AK (KYUR)",
       "category": "US| ABC HD/4K",
       "country": "US",
@@ -10330,6 +10501,15 @@
       "epg_id": "I22.1.60299.gracenote.com",
       "epg_name": "ABC Savannah",
       "matched_key": "ABC SAVANNAH",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: ABC 27 HD [HARRISBURG]",
+      "category": "US| ABC HD/4K",
+      "country": "US",
+      "epg_id": "I27.1.44627.gracenote.com",
+      "epg_name": "ABC Harrisburg",
+      "matched_key": "ABC HARRISBURG",
       "match_method": "exact"
     },
     {
@@ -10969,6 +11149,15 @@
       "epg_id": "I438.73565.gracenote.com",
       "epg_name": "NBC Sports California",
       "matched_key": "NBC SPORTS CALIFORNIA",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "US: NBC SPORTS CHICAGO",
+      "category": "US| SPORT HD/4K",
+      "country": "US",
+      "epg_id": "I62.2.62338.gracenote.com",
+      "epg_name": "NBC Sports Chicago",
+      "matched_key": "NBC SPORTS CHICAGO",
       "match_method": "exact"
     },
     {
@@ -12913,6 +13102,15 @@
       "epg_id": "576606",
       "epg_name": "MLB - Washington Nationals",
       "matched_key": "MLB WASHINGTON NATIONALS",
+      "match_method": "exact"
+    },
+    {
+      "layerseven_name": "WNBA 9",
+      "category": "US| WNBA PPV",
+      "country": "US",
+      "epg_id": "I9.1.20455.gracenote.com",
+      "epg_name": "WGN 9",
+      "matched_key": "9",
       "match_method": "exact"
     },
     {
@@ -22016,11 +22214,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: BUZZR",
-      "category": "US| ENTERTAINMENT HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: CBN",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US"
@@ -22352,16 +22545,6 @@
     },
     {
       "layerseven_name": "US: VSIN",
-      "category": "US| ENTERTAINMENT HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: WGN9",
-      "category": "US| ENTERTAINMENT HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: ION PLUS 4K",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US"
     },
@@ -25851,11 +26034,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX WEATHER HD",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: FOX SPORTS ARIZONA HD",
       "category": "US| FOX HD/4K",
       "country": "US"
@@ -26046,11 +26224,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX 2 HD [SAN FRANCISCO]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: FOX 5 HD [SAN DIEGO]",
       "category": "US| FOX HD/4K",
       "country": "US"
@@ -26062,11 +26235,6 @@
     },
     {
       "layerseven_name": "US: FOX 5 PLUS HD [WASHINGTON]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 7 HD [AUSTIN]",
       "category": "US| FOX HD/4K",
       "country": "US"
     },
@@ -26096,16 +26264,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: FOX 21 HD [GREENVILLE SC]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: FOX 24 HD [FORT SMITH]",
-      "category": "US| FOX HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: FOX 35 PLUS HD [ORLANDO]",
       "category": "US| FOX HD/4K",
       "country": "US"
@@ -26131,17 +26289,7 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: CBS 2 WCBS (NEW YORK) HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: CBS 13 (WSVF-CD2) HARRISONBURG HD",
-      "category": "US| CBS HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: CBS 46 (WGCL) ATLANTA HD",
       "category": "US| CBS HD/4K",
       "country": "US"
     },
@@ -26227,11 +26375,6 @@
     },
     {
       "layerseven_name": "US: NBC 7 HD [TRAVERSE CITY]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC 8 HD [LAREDO]",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26421,11 +26564,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: NBC 27 HD [TOPEKA]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: NBC 32 HD [BATON ROUGE]",
       "category": "US| NBC HD/4K",
       "country": "US"
@@ -26447,16 +26585,6 @@
     },
     {
       "layerseven_name": "US: NBC SD [SIOUX CITY]",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC SPORTS CHICAGO 4K",
-      "category": "US| NBC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC SPORTS CHICAGO HD",
       "category": "US| NBC HD/4K",
       "country": "US"
     },
@@ -26486,22 +26614,12 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: ABC HD [NEW YORK]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: ABC NEWS INTERNATIONAL",
       "category": "US| ABC HD/4K",
       "country": "US"
     },
     {
       "layerseven_name": "US: ABC NEWS 2 HD",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: ABC 2 HD [ATLANTA]",
       "category": "US| ABC HD/4K",
       "country": "US"
     },
@@ -26531,16 +26649,6 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: ABC 9 HD [SYRACUSE]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: ABC 10 HD [ALBANY]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: ABC 13 HD [HAMPTON ROADS]",
       "category": "US| ABC HD/4K",
       "country": "US"
@@ -26551,22 +26659,12 @@
       "country": "US"
     },
     {
-      "layerseven_name": "US: ABC 13 HD [LAS VEGAS]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
       "layerseven_name": "US: ABC 20 HD [SAN FRANCISCO]",
       "category": "US| ABC HD/4K",
       "country": "US"
     },
     {
       "layerseven_name": "US: ABC 25 HD [DISCTRICT OF COLUMBIA]",
-      "category": "US| ABC HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: ABC 27 HD [HARRISBURG]",
       "category": "US| ABC HD/4K",
       "country": "US"
     },
@@ -26712,11 +26810,6 @@
     },
     {
       "layerseven_name": "US: NBC GOLF",
-      "category": "US| SPORT HD/4K",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "US: NBC SPORTS CHICAGO",
       "category": "US| SPORT HD/4K",
       "country": "US"
     },
@@ -29707,11 +29800,6 @@
     },
     {
       "layerseven_name": "WNBA 8 Connecticut Sun @ Dallas Wings start:2024-08-17 02:30:00 stop:2024-08-17 04:30:00",
-      "category": "US| WNBA PPV",
-      "country": "US"
-    },
-    {
-      "layerseven_name": "WNBA 9",
       "category": "US| WNBA PPV",
       "country": "US"
     },
