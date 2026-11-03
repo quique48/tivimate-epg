@@ -1,10 +1,10 @@
 {
   "errors": {},
-  "generated_at": "2026-11-03T14:22:19.086101+00:00",
+  "generated_at": "2026-11-03T23:26:21.149301+00:00",
   "groups": {
     "all": {
       "channels": 9106,
-      "gzip_bytes": 52141932,
+      "gzip_bytes": 52142051,
       "gzip_url": "guides/all.xml.gz",
       "programmes": 801632,
       "updated_from_sources": true,
@@ -40,7 +40,7 @@
     },
     "layerseven": {
       "channels": 9106,
-      "gzip_bytes": 52141932,
+      "gzip_bytes": 52142051,
       "gzip_url": "guides/layerseven.xml.gz",
       "programmes": 801632,
       "updated_from_sources": true,
@@ -53,9 +53,9 @@
       "cw_layerseven_entries": 58,
       "direct_station_aliases": 931,
       "disney_plus_channels": 0,
-      "fubo_programmes": 79,
+      "fubo_programmes": 80,
       "generic_event_channels": 599,
-      "gzip_bytes": 12779047,
+      "gzip_bytes": 12778966,
       "gzip_url": "guides/layerseven-custom.xml.gz",
       "hbo_epix_channels": 6,
       "matched_layerseven_entries": 2424,
@@ -70,7 +70,7 @@
       "nhl_ppv_channels": 48,
       "paramount_plus_channels": 0,
       "paramount_plus_ppv_channels": 300,
-      "programmes": 233119,
+      "programmes": 233121,
       "tudn_aliases": 1,
       "tudn_channels": 1,
       "unmatched_layerseven_entries": 5389,
@@ -80,11 +80,11 @@
     },
     "sports": {
       "channels": 526,
-      "gzip_bytes": 118422,
+      "gzip_bytes": 118546,
       "gzip_url": "guides/sports.xml.gz",
       "programmes": 5352,
       "updated_from_sources": true,
-      "xml_bytes": 2749755,
+      "xml_bytes": 2747495,
       "xml_url": "guides/sports.xml"
     },
     "us": {
