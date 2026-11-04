@@ -1,12 +1,12 @@
 {
   "errors": {},
-  "generated_at": "2026-11-04T06:31:03.149134+00:00",
+  "generated_at": "2026-11-04T19:49:21.727048+00:00",
   "groups": {
     "all": {
-      "channels": 9107,
-      "gzip_bytes": 52651967,
+      "channels": 9106,
+      "gzip_bytes": 52939234,
       "gzip_url": "guides/all.xml.gz",
-      "programmes": 803882,
+      "programmes": 805100,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
@@ -31,31 +31,31 @@
     },
     "gb": {
       "channels": 1315,
-      "gzip_bytes": 12789251,
+      "gzip_bytes": 13067909,
       "gzip_url": "guides/gb.xml.gz",
-      "programmes": 153982,
+      "programmes": 154797,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
     },
     "layerseven": {
-      "channels": 9107,
-      "gzip_bytes": 52651967,
+      "channels": 9106,
+      "gzip_bytes": 52939234,
       "gzip_url": "guides/layerseven.xml.gz",
-      "programmes": 803882,
+      "programmes": 805100,
       "updated_from_sources": true,
       "xml_bytes": 0,
       "xml_url": null
     },
     "layerseven-custom": {
       "btn_plus_ppv_channels": 50,
-      "channels": 2968,
+      "channels": 2967,
       "cw_layerseven_entries": 58,
       "direct_station_aliases": 931,
       "disney_plus_channels": 0,
       "fubo_programmes": 73,
       "generic_event_channels": 599,
-      "gzip_bytes": 12843868,
+      "gzip_bytes": 12918869,
       "gzip_url": "guides/layerseven-custom.xml.gz",
       "hbo_epix_channels": 6,
       "matched_layerseven_entries": 2424,
@@ -70,7 +70,7 @@
       "nhl_ppv_channels": 48,
       "paramount_plus_channels": 0,
       "paramount_plus_ppv_channels": 300,
-      "programmes": 234957,
+      "programmes": 234587,
       "tudn_aliases": 1,
       "tudn_channels": 1,
       "unmatched_layerseven_entries": 5389,
@@ -79,12 +79,12 @@
       "xml_url": null
     },
     "sports": {
-      "channels": 526,
-      "gzip_bytes": 114509,
+      "channels": 525,
+      "gzip_bytes": 118537,
       "gzip_url": "guides/sports.xml.gz",
-      "programmes": 4931,
+      "programmes": 5334,
       "updated_from_sources": true,
-      "xml_bytes": 2553457,
+      "xml_bytes": 2740856,
       "xml_url": "guides/sports.xml"
     },
     "us": {

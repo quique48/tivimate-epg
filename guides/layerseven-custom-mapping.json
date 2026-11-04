@@ -16627,8 +16627,8 @@
       "layerseven_name": "UK: CHANNEL 4 4K ◉",
       "category": "UK| GENERAL HD/4K",
       "country": "UK",
-      "epg_id": "I1021.50716.schedulesdirect.org",
-      "epg_name": "Channel 4 HD",
+      "epg_id": "I324.17155.schedulesdirect.org",
+      "epg_name": "Channel 4",
       "matched_key": "CHANNEL 4",
       "match_method": "exact"
     },
@@ -16816,8 +16816,8 @@
       "layerseven_name": "UK: CHANNEL 4 ◉",
       "category": "UK| GENERAL HD/4K",
       "country": "UK",
-      "epg_id": "I1021.50716.schedulesdirect.org",
-      "epg_name": "Channel 4 HD",
+      "epg_id": "I324.17155.schedulesdirect.org",
+      "epg_name": "Channel 4",
       "matched_key": "CHANNEL 4",
       "match_method": "exact"
     },
@@ -17986,8 +17986,8 @@
       "layerseven_name": "UK: CHANNEL 4 HEVC HD",
       "category": "UK| GENERAL HEVC",
       "country": "UK",
-      "epg_id": "I1021.50716.schedulesdirect.org",
-      "epg_name": "Channel 4 HD",
+      "epg_id": "I324.17155.schedulesdirect.org",
+      "epg_name": "Channel 4",
       "matched_key": "CHANNEL 4",
       "match_method": "exact"
     },
@@ -18121,8 +18121,8 @@
       "layerseven_name": "UK: CHANNEL 4 HEVC 4K",
       "category": "UK| GENERAL HEVC",
       "country": "UK",
-      "epg_id": "I1021.50716.schedulesdirect.org",
-      "epg_name": "Channel 4 HD",
+      "epg_id": "I324.17155.schedulesdirect.org",
+      "epg_name": "Channel 4",
       "matched_key": "CHANNEL 4",
       "match_method": "exact"
     },
@@ -18778,7 +18778,7 @@
       "layerseven_name": "UK: EURONEWS ◉",
       "category": "UK| NEWS",
       "country": "UK",
-      "epg_id": "I461.51849.schedulesdirect.org",
+      "epg_id": "I459.83671.schedulesdirect.org",
       "epg_name": "euronews",
       "matched_key": "EURONEWS",
       "match_method": "exact"
