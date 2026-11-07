@@ -265,7 +265,7 @@
       "layerseven_name": "US: COURT TV HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US",
-      "epg_id": "I9.3.83118.gracenote.com",
+      "epg_id": "465226",
       "epg_name": "Court TV",
       "matched_key": "COURT TV",
       "match_method": "exact"
@@ -15520,8 +15520,8 @@
       "layerseven_name": "CA EN: CRAVE3 HD",
       "category": "CA| GENERAL EN",
       "country": "CA",
-      "epg_id": "470592",
-      "epg_name": "Crave 3 West HD",
+      "epg_id": "470433",
+      "epg_name": "Crave3 HD",
       "matched_key": "CRAVE3",
       "match_method": "exact"
     },
