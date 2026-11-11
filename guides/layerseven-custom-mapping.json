@@ -14179,8 +14179,8 @@
       "layerseven_name": "CA: CITY TV  WINNIPEG HD",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
-      "epg_id": "470906",
-      "epg_name": "Citytv Winnipeg",
+      "epg_id": "470539",
+      "epg_name": "Citytv Winnipeg HD",
       "matched_key": "CITYTVWINNIPEG",
       "match_method": "exact"
     },
@@ -15511,8 +15511,8 @@
       "layerseven_name": "CA EN: CRAVE2 HD",
       "category": "CA| GENERAL EN",
       "country": "CA",
-      "epg_id": "470445",
-      "epg_name": "Crave2",
+      "epg_id": "470403",
+      "epg_name": "Crave 2 West HD",
       "matched_key": "CRAVE2",
       "match_method": "exact"
     },
