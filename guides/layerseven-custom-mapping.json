@@ -2371,10 +2371,11 @@
       "layerseven_name": "US: CBS 11 DALLAS TX (KTVT) HD",
       "category": "US| NEWS HD/4K",
       "country": "US",
-      "epg_id": "469811",
-      "epg_name": "KTVT-DT",
+      "epg_id": "I11.1.20204.gracenote.com",
+      "epg_name": "US - CBS News Forth Worth",
       "matched_key": "KTVT",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469811"
     },
     {
       "layerseven_name": "US: CBS 11 FORT MYERS FL (WINK) HD",
@@ -2569,10 +2570,11 @@
       "layerseven_name": "US: FOX HARTFORD (WTIC)",
       "category": "US| NEWS HD/4K",
       "country": "US",
-      "epg_id": "468085",
-      "epg_name": "WTIC-DT",
+      "epg_id": "I61.1.21216.gracenote.com",
+      "epg_name": "US - Fox News Hartford",
       "matched_key": "WTIC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468085"
     },
     {
       "layerseven_name": "US: FOX BUSINESS NETWORK HD",
@@ -2605,10 +2607,11 @@
       "layerseven_name": "US: FOX 61 HARTFORD (WTIC) HD",
       "category": "US| NEWS HD/4K",
       "country": "US",
-      "epg_id": "468085",
-      "epg_name": "WTIC-DT",
+      "epg_id": "I61.1.21216.gracenote.com",
+      "epg_name": "US - Fox News Hartford",
       "matched_key": "WTIC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468085"
     },
     {
       "layerseven_name": "US: NEWS 12 THE BRONX 4K",
@@ -2695,10 +2698,11 @@
       "layerseven_name": "US: NBC 5 DALLAS TX (KXAS) HD",
       "category": "US| NEWS HD/4K",
       "country": "US",
-      "epg_id": "468293",
-      "epg_name": "KXAS-DT",
+      "epg_id": "I5.1.19627.gracenote.com",
+      "epg_name": "US - NBC News Dallas Fortworth",
       "matched_key": "KXAS",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468293"
     },
     {
       "layerseven_name": "US: NBC 5 MEMPHIS TN (WMC) HD",
@@ -2731,10 +2735,11 @@
       "layerseven_name": "US: NBC 5 ST LOUIS MO (KSDK) HD",
       "category": "US| NEWS HD/4K",
       "country": "US",
-      "epg_id": "466143",
-      "epg_name": "KSDK-DT",
+      "epg_id": "I5.1.20513.gracenote.com",
+      "epg_name": "US - NBC News St. Louis",
       "matched_key": "KSDK",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466143"
     },
     {
       "layerseven_name": "US: NBC 5 PUEBLO CO (KOAA) HD",
@@ -3505,10 +3510,11 @@
       "layerseven_name": "US: FOX (KBSI) PADUCAH HD ",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "469034",
-      "epg_name": "KBSI-DT",
+      "epg_id": "I23.1.34415.gracenote.com",
+      "epg_name": "US - FOX News Cape Girardeau",
       "matched_key": "KBSI",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469034"
     },
     {
       "layerseven_name": "US: FOX (KDSM) DES MOINES HD ",
@@ -3631,10 +3637,11 @@
       "layerseven_name": "US: FOX (WACH) COLUMBIA HD ",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "466225",
-      "epg_name": "WACH-DT",
+      "epg_id": "I57.1.32472.gracenote.com",
+      "epg_name": "US - Fox Columbia",
       "matched_key": "WACH",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466225"
     },
     {
       "layerseven_name": "US: FOX (WBFF) BALTIMORE HD ",
@@ -3748,10 +3755,11 @@
       "layerseven_name": "US: FOX 2 (WJBK) DETROIT HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "468599",
-      "epg_name": "WJBK-DT",
+      "epg_id": "I2.1.19600.gracenote.com",
+      "epg_name": "US - FOX News Detroit",
       "matched_key": "WJBK",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468599"
     },
     {
       "layerseven_name": "US: FOX 2 (KHON) HONOLULU HD",
@@ -3784,10 +3792,11 @@
       "layerseven_name": "US: FOX 4 (WDAF) KANSAS CITY HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "469704",
-      "epg_name": "WDAF-DT",
+      "epg_id": "I4.1.30912.gracenote.com",
+      "epg_name": "US - Fox News Kansas City",
       "matched_key": "WDAF",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469704"
     },
     {
       "layerseven_name": "US: FOX 4 BILLINGS MT (KHMT) HD",
@@ -4009,10 +4018,11 @@
       "layerseven_name": "US: FOX 11 (KTTV) LOS ANGELES HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "466724",
-      "epg_name": "KTTV-DT",
+      "epg_id": "I11.1.20450.gracenote.com",
+      "epg_name": "US - FOX Los Angeles",
       "matched_key": "KTTV",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466724"
     },
     {
       "layerseven_name": "US: FOX 11 (WLUK) GREEN BAY HD",
@@ -4072,10 +4082,11 @@
       "layerseven_name": "US: FOX 13 (WHBQ) MEMPHIS HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "468215",
-      "epg_name": "WHBQ-DT",
+      "epg_id": "I13.1.30979.gracenote.com",
+      "epg_name": "US - FOX News Memphis",
       "matched_key": "WHBQ",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468215"
     },
     {
       "layerseven_name": "US: FOX 13 HD [ALBUQUERQUE]",
@@ -4261,19 +4272,21 @@
       "layerseven_name": "US: FOX 23 (KBSI) CAPE GIRARDEAU HD ",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "469034",
-      "epg_name": "KBSI-DT",
+      "epg_id": "I23.1.34415.gracenote.com",
+      "epg_name": "US - FOX News Cape Girardeau",
       "matched_key": "KBSI",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469034"
     },
     {
       "layerseven_name": "US: FOX 23 (KOKI) TULSA HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "469094",
-      "epg_name": "KOKI-DT",
+      "epg_id": "I23.1.34878.gracenote.com",
+      "epg_name": "US - Fox News Tulsa",
       "matched_key": "KOKI",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469094"
     },
     {
       "layerseven_name": "US: FOX 23 (WPFO) PORTLAND HD",
@@ -4396,19 +4409,21 @@
       "layerseven_name": "US: FOX 28 (KAYU) SPOKANE HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "466827",
-      "epg_name": "KAYU-DT",
+      "epg_id": "I28.1.36009.gracenote.com",
+      "epg_name": "US - FOX Spokane",
       "matched_key": "KAYU",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466827"
     },
     {
       "layerseven_name": "US: FOX 28 (KAYU) SPOKANE HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "466827",
-      "epg_name": "KAYU-DT",
+      "epg_id": "I28.1.36009.gracenote.com",
+      "epg_name": "US - FOX Spokane",
       "matched_key": "KAYU",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466827"
     },
     {
       "layerseven_name": "US: FOX 28 (WTGS) HARDEEVILLE HD  ",
@@ -4522,10 +4537,11 @@
       "layerseven_name": "US: FOX 32 (WFLD) CHICAGO HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "466751",
-      "epg_name": "WFLD-DT",
+      "epg_id": "I190.20361.gracenote.com",
+      "epg_name": "US - Fox 32 Chicago",
       "matched_key": "WFLD",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466751"
     },
     {
       "layerseven_name": "US: FOX 33 (KMSS) SHREVEPORT HD",
@@ -4945,10 +4961,11 @@
       "layerseven_name": "US: FOX 57 (WACH) COLUMBIA HD",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "466225",
-      "epg_name": "WACH-DT",
+      "epg_id": "I57.1.32472.gracenote.com",
+      "epg_name": "US - Fox Columbia",
       "matched_key": "WACH",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466225"
     },
     {
       "layerseven_name": "US: FOX 59 (WXIN) INDIANAPOLIS HD",
@@ -4963,19 +4980,21 @@
       "layerseven_name": "US: FOX 61 (WTIC) HARTFORD HD ",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "468085",
-      "epg_name": "WTIC-DT",
+      "epg_id": "I61.1.21216.gracenote.com",
+      "epg_name": "US - Fox News Hartford",
       "matched_key": "WTIC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468085"
     },
     {
       "layerseven_name": "US: FOX 61 HD [HARTFORD]",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "468085",
-      "epg_name": "WTIC-DT",
-      "matched_key": "WTIC-TV",
-      "match_method": "local-station"
+      "epg_id": "I61.1.21216.gracenote.com",
+      "epg_name": "US - Fox News Hartford",
+      "matched_key": "WTIC",
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468085"
     },
     {
       "layerseven_name": "US: FOX 62 (WYFX) YOUNGSTOWN HD ",
@@ -5134,10 +5153,11 @@
       "layerseven_name": "US: FOX (KTTV)",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "466724",
-      "epg_name": "KTTV-DT",
+      "epg_id": "I11.1.20450.gracenote.com",
+      "epg_name": "US - FOX Los Angeles",
       "matched_key": "KTTV",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466724"
     },
     {
       "layerseven_name": "US: FOX (KTVI)",
@@ -5179,10 +5199,11 @@
       "layerseven_name": "US: FOX (WFLD)",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "466751",
-      "epg_name": "WFLD-DT",
+      "epg_id": "I190.20361.gracenote.com",
+      "epg_name": "US - Fox 32 Chicago",
       "matched_key": "WFLD",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466751"
     },
     {
       "layerseven_name": "US: FOX (WFXT)",
@@ -5197,10 +5218,11 @@
       "layerseven_name": "US: FOX (WJBK)",
       "category": "US| FOX HD/4K",
       "country": "US",
-      "epg_id": "468599",
-      "epg_name": "WJBK-DT",
+      "epg_id": "I2.1.19600.gracenote.com",
+      "epg_name": "US - FOX News Detroit",
       "matched_key": "WJBK",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468599"
     },
     {
       "layerseven_name": "US: FOX (WJZY)",
@@ -5953,10 +5975,11 @@
       "layerseven_name": "US: CBS 2 (KDKA) PITTSBURGH HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "468623",
-      "epg_name": "KDKA-DT",
+      "epg_id": "I2.1.21248.gracenote.com",
+      "epg_name": "US - CBS News Pittsburgh",
       "matched_key": "KDKA",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468623"
     },
     {
       "layerseven_name": "US: CBS 2 (KBOI) BOISE HD",
@@ -5971,10 +5994,11 @@
       "layerseven_name": "US: CBS 2 (KCBS) LOS ANGELES HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "469378",
-      "epg_name": "KCBS-DT",
+      "epg_id": "I2.1.19567.gracenote.com",
+      "epg_name": "US - CBS Los Angeles",
       "matched_key": "KCBS",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469378"
     },
     {
       "layerseven_name": "US: CBS 2 (KGAN) CEDAR RAPIDS HD",
@@ -5998,10 +6022,11 @@
       "layerseven_name": "US: CBS 2 (KREM) SPOKANE HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467905",
-      "epg_name": "KREM-DT",
+      "epg_id": "I2.1.35354.gracenote.com",
+      "epg_name": "US - CBS Spokane",
       "matched_key": "KREM",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467905"
     },
     {
       "layerseven_name": "US: CBS 2 (KTVN) RENO HD",
@@ -6088,10 +6113,11 @@
       "layerseven_name": "US: CBS 3 (KYW) PHILADELPHIA HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467842",
-      "epg_name": "KYW-DT",
+      "epg_id": "I3.1.19611.gracenote.com",
+      "epg_name": "US - CBS News Philadelphia",
       "matched_key": "KYW",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467842"
     },
     {
       "layerseven_name": "US: CBS 3 (WBTV) CHARLOTTE HD",
@@ -6151,10 +6177,11 @@
       "layerseven_name": "US: CBS 3 (WREG) MEMPHIS HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "470244",
-      "epg_name": "WREG-DT",
+      "epg_id": "I3.1.30973.gracenote.com",
+      "epg_name": "US - CBS News Greensboro",
       "matched_key": "WREG",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470244"
     },
     {
       "layerseven_name": "US: CBS 3 (WSHM) SPRINGFIELD   (P) HD",
@@ -6295,10 +6322,11 @@
       "layerseven_name": "US: CBS 4 (WCCO) MINNEAPOLIS HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "469181",
-      "epg_name": "WCCO-DT",
+      "epg_id": "I4.1.21234.gracenote.com",
+      "epg_name": "US - CBS News Minneapolis",
       "matched_key": "WCCO",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469181"
     },
     {
       "layerseven_name": "US: CBS 4 (WFOR) MIAMI HD",
@@ -6376,10 +6404,11 @@
       "layerseven_name": "US: CBS 5 (KFSM) FORT SMITH HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467319",
-      "epg_name": "KFSM-DT",
+      "epg_id": "I5.1.32817.gracenote.com",
+      "epg_name": "US - CBS News Fort Smith",
       "matched_key": "KFSM",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467319"
     },
     {
       "layerseven_name": "US: CBS 5 (KGMB) HONOLULU HD",
@@ -6538,10 +6567,11 @@
       "layerseven_name": "US: CBS 6 (WLNS) LANSING HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "469753",
-      "epg_name": "WLNS-DT",
+      "epg_id": "I6.1.25664.gracenote.com",
+      "epg_name": "US - CBS Detroit",
       "matched_key": "WLNS",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469753"
     },
     {
       "layerseven_name": "US: CBS 6 (WRGB) ALBANY HD",
@@ -6583,10 +6613,11 @@
       "layerseven_name": "US: CBS 7 (KIRO) SEATTLE HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467724",
-      "epg_name": "KIRO-LD",
+      "epg_id": "I7.1.73870.gracenote.com",
+      "epg_name": "US - CBS Seattle",
       "matched_key": "KIRO",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467724"
     },
     {
       "layerseven_name": "US: CBS 7 (KOAM) JOPLIN HD",
@@ -6664,10 +6695,11 @@
       "layerseven_name": "US: CBS 8 (KFMB) SAN DIEGO HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467424",
-      "epg_name": "KFMB-DT",
+      "epg_id": "I8.1.21212.gracenote.com",
+      "epg_name": "US - CBS News San Diego",
       "matched_key": "KFMB",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467424"
     },
     {
       "layerseven_name": "US: CBS 8 (KLAS) LAS VEGAS HD",
@@ -6844,10 +6876,11 @@
       "layerseven_name": "US: CBS 10 (WBNS) COLUMBHD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "466899",
-      "epg_name": "WBNS-DT",
+      "epg_id": "I10.1.19607.gracenote.com",
+      "epg_name": "US - CBS News Columbus",
       "matched_key": "WBNS",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466899"
     },
     {
       "layerseven_name": "US: CBS 10 (KZTV) CORPCHRISTI HD",
@@ -6880,19 +6913,21 @@
       "layerseven_name": "US: CBS 10 (WTSP) ST. PETERSBURG HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467823",
-      "epg_name": "WTSP-DT",
+      "epg_id": "I10.1.20495.gracenote.com",
+      "epg_name": "US - CBS News St. Petersburg",
       "matched_key": "WTSP",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467823"
     },
     {
       "layerseven_name": "US: CBS 10 TAMPA FL (WTSP) HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467823",
-      "epg_name": "WTSP-DT",
+      "epg_id": "I10.1.20495.gracenote.com",
+      "epg_name": "US - CBS News St. Petersburg",
       "matched_key": "WTSP",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467823"
     },
     {
       "layerseven_name": "US: CBS 10 CORPUS CHRISTI TX (KZTV) HD",
@@ -6934,10 +6969,11 @@
       "layerseven_name": "US: CBS 11 LITTLE ROCK AR (KTHV)",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "470088",
-      "epg_name": "KTHV-DT",
+      "epg_id": "I11.1.31316.gracenote.com",
+      "epg_name": "US - CBS Little Rock",
       "matched_key": "KTHV",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470088"
     },
     {
       "layerseven_name": "US: CBS 11 (KMVT) TWIN FALLS HD",
@@ -6952,10 +6988,11 @@
       "layerseven_name": "US: CBS 11 LITTLE ROCK AR (KTHV) HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "470088",
-      "epg_name": "KTHV-DT",
+      "epg_id": "I11.1.31316.gracenote.com",
+      "epg_name": "US - CBS Little Rock",
       "matched_key": "KTHV",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470088"
     },
     {
       "layerseven_name": "US: CBS 11 (KKTV) COLORADO SPRINGS HD",
@@ -6970,19 +7007,21 @@
       "layerseven_name": "US: CBS 11 (KTHV) LITTLE ROCK HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "470088",
-      "epg_name": "KTHV-DT",
+      "epg_id": "I11.1.31316.gracenote.com",
+      "epg_name": "US - CBS Little Rock",
       "matched_key": "KTHV",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470088"
     },
     {
       "layerseven_name": "US: CBS 11 (KTVT) FORT WORTH HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "469811",
-      "epg_name": "KTVT-DT",
+      "epg_id": "I11.1.20204.gracenote.com",
+      "epg_name": "US - CBS News Forth Worth",
       "matched_key": "KTVT",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469811"
     },
     {
       "layerseven_name": "US: CBS 11 (WINK) FORT MYERS HD",
@@ -7015,10 +7054,11 @@
       "layerseven_name": "US: CBS 11 (WTOL) TOLEDO HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "468983",
-      "epg_name": "WTOL-DT",
+      "epg_id": "I11.1.30754.gracenote.com",
+      "epg_name": "US - CBS News Toledo",
       "matched_key": "WTOL",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468983"
     },
     {
       "layerseven_name": "US: CBS 12 (KCOY) SANTA MARIA HD",
@@ -7114,10 +7154,11 @@
       "layerseven_name": "US: CBS 12 (WPRI) PROVIDENCE HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "466686",
-      "epg_name": "WPRI-DT",
+      "epg_id": "I12.1.35455.gracenote.com",
+      "epg_name": "US - CBS News Boston",
       "matched_key": "WPRI",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466686"
     },
     {
       "layerseven_name": "US: CBS 12 (WRDW) AUGUSTA HD",
@@ -7141,10 +7182,11 @@
       "layerseven_name": "US: CBS 13 (KOVR) STOCKTON HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "466087",
-      "epg_name": "KOVR-DT",
+      "epg_id": "I13.1.21214.gracenote.com",
+      "epg_name": "US - CBS News Sacramento",
       "matched_key": "KOVR",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466087"
     },
     {
       "layerseven_name": "US: CBS 13 (KRQE) ALBUQUERQUE HD",
@@ -7213,10 +7255,11 @@
       "layerseven_name": "US: CBS 13 JEFFERSON CITY MO (KRCG)",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "469808",
-      "epg_name": "KRCG-DT",
+      "epg_id": "I13.1.43143.gracenote.com",
+      "epg_name": "US - CBS Jefferson City",
       "matched_key": "KRCG",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469808"
     },
     {
       "layerseven_name": "US: CBS 13 (WJZ) BALTIMORE HD",
@@ -7231,19 +7274,21 @@
       "layerseven_name": "US: CBS 13 (WMAZ) GEORGIA   (P) HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467515",
-      "epg_name": "WMAZ-DT",
+      "epg_id": "I13.1.32580.gracenote.com",
+      "epg_name": "US - CBS News Macon",
       "matched_key": "WMAZ",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467515"
     },
     {
       "layerseven_name": "US: CBS 13 (WMAZ) MACON HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467515",
-      "epg_name": "WMAZ-DT",
+      "epg_id": "I13.1.32580.gracenote.com",
+      "epg_name": "US - CBS News Macon",
       "matched_key": "WMAZ",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467515"
     },
     {
       "layerseven_name": "US: CBS 13 (WOWK) HUNTINGTON HD",
@@ -7258,10 +7303,11 @@
       "layerseven_name": "US: CBS 13 SACRAMENTO CA (KOVR)",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "466087",
-      "epg_name": "KOVR-DT",
+      "epg_id": "I13.1.21214.gracenote.com",
+      "epg_name": "US - CBS News Sacramento",
       "matched_key": "KOVR",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466087"
     },
     {
       "layerseven_name": "US: CBS 14 (KMEG) SIOUX CITY HD",
@@ -7357,10 +7403,11 @@
       "layerseven_name": "US: CBS 19 (WLTX) COLUMBIA HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467798",
-      "epg_name": "WLTX-DT",
+      "epg_id": "I19.1.30974.gracenote.com",
+      "epg_name": "US - CBS News Columbia",
       "matched_key": "WLTX",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467798"
     },
     {
       "layerseven_name": "US: CBS 19 (WOIO) SHAKER HEIGHTS HD",
@@ -7735,10 +7782,11 @@
       "layerseven_name": "US: CBS (KTVT)",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "469811",
-      "epg_name": "KTVT-DT",
+      "epg_id": "I11.1.20204.gracenote.com",
+      "epg_name": "US - CBS News Forth Worth",
       "matched_key": "KTVT",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469811"
     },
     {
       "layerseven_name": "US: CBS (KWTV)",
@@ -7753,10 +7801,11 @@
       "layerseven_name": "US: CBS (KYW)",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "467842",
-      "epg_name": "KYW-DT",
+      "epg_id": "I3.1.19611.gracenote.com",
+      "epg_name": "US - CBS News Philadelphia",
       "matched_key": "KYW",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467842"
     },
     {
       "layerseven_name": "US: CBS (WBBM)",
@@ -7798,10 +7847,11 @@
       "layerseven_name": "US: CBS (WCCO)",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "469181",
-      "epg_name": "WCCO-DT",
+      "epg_id": "I4.1.21234.gracenote.com",
+      "epg_name": "US - CBS News Minneapolis",
       "matched_key": "WCCO",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469181"
     },
     {
       "layerseven_name": "US: CBS (WFOR)",
@@ -7933,10 +7983,11 @@
       "layerseven_name": "US:  California CBS (KOVR) Sacramento",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "466087",
-      "epg_name": "KOVR-DT",
+      "epg_id": "I13.1.21214.gracenote.com",
+      "epg_name": "US - CBS News Sacramento",
       "matched_key": "KOVR",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466087"
     },
     {
       "layerseven_name": "US: NBC (WCNC) CHARLOTTE 4K",
@@ -7960,10 +8011,11 @@
       "layerseven_name": "US: NBC 2 (KPRC) HOUSTON HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "468285",
-      "epg_name": "KPRC-DT",
+      "epg_id": "I2.1.21250.gracenote.com",
+      "epg_name": "US - NBC News Houston",
       "matched_key": "KPRC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468285"
     },
     {
       "layerseven_name": "US: NBC 2 (WESH) DAYTONA BEACH HD",
@@ -7987,10 +8039,11 @@
       "layerseven_name": "US: NBC 2 (WGRZ) BUFFALO HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "469453",
-      "epg_name": "WGRZ-DT",
+      "epg_id": "I2.1.31507.gracenote.com",
+      "epg_name": "US - NBC News Buffalo",
       "matched_key": "WGRZ",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469453"
     },
     {
       "layerseven_name": "US: NBC 2 HD [BANGOR]",
@@ -8068,10 +8121,11 @@
       "layerseven_name": "US: NBC 3 (WKYC) CLEVELAND HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "466677",
-      "epg_name": "WKYC-DT",
+      "epg_id": "I3.1.20492.gracenote.com",
+      "epg_name": "US - NBC News Cleveland",
       "matched_key": "WKYC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466677"
     },
     {
       "layerseven_name": "US: NBC 3 (WLBT) JACKSON HD",
@@ -8140,10 +8194,11 @@
       "layerseven_name": "US: NBC 4 (KNBC) LOS ANGELES HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "469871",
-      "epg_name": "KNBC-DT",
+      "epg_id": "I4.1.19568.gracenote.com",
+      "epg_name": "US - NBC News Los Angeles",
       "matched_key": "KNBC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469871"
     },
     {
       "layerseven_name": "US: NBC 4 (KARK) LITTLE ROCK HD",
@@ -8221,10 +8276,11 @@
       "layerseven_name": "US: NBC 4 (WRC) WASHINGTON HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467604",
-      "epg_name": "WRC-DT",
+      "epg_id": "I4.1.19578.gracenote.com",
+      "epg_name": "US - NBC News Washington",
       "matched_key": "WRC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467604"
     },
     {
       "layerseven_name": "US: NBC 4 (WSMV) NASHVILLE HD",
@@ -8302,10 +8358,11 @@
       "layerseven_name": "US: NBC 5 (KSDK) ST. LOUIS HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "466143",
-      "epg_name": "KSDK-DT",
+      "epg_id": "I5.1.20513.gracenote.com",
+      "epg_name": "US - NBC News St. Louis",
       "matched_key": "KSDK",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466143"
     },
     {
       "layerseven_name": "US: NBC 5 (KSL) SALT LAKE CITY HD",
@@ -8320,10 +8377,11 @@
       "layerseven_name": "US: NBC 5 (KXAS) FORT WORTH HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "468293",
-      "epg_name": "KXAS-DT",
+      "epg_id": "I5.1.19627.gracenote.com",
+      "epg_name": "US - NBC News Dallas Fortworth",
       "matched_key": "KXAS",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468293"
     },
     {
       "layerseven_name": "US: NBC 5 (WLWT) CINCINNATI HD",
@@ -8392,10 +8450,11 @@
       "layerseven_name": "US: NBC 5 HD [DALLAS TX]",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "468293",
-      "epg_name": "KXAS-DT",
-      "matched_key": "KXAS-TV",
-      "match_method": "local-station"
+      "epg_id": "I5.1.19627.gracenote.com",
+      "epg_name": "US - NBC News Dallas Fortworth",
+      "matched_key": "KXAS",
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468293"
     },
     {
       "layerseven_name": "US: NBC 6 (KCEN) TEMPLE HD",
@@ -8410,10 +8469,11 @@
       "layerseven_name": "US: NBC 6 (KHQ) SPOKANE HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "465912",
-      "epg_name": "KHQ-DT",
+      "epg_id": "I6.1.33819.gracenote.com",
+      "epg_name": "US - NBC Spokane",
       "matched_key": "KHQ",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "465912"
     },
     {
       "layerseven_name": "US: NBC 6 (KRIS) CORPCHRISTI HD",
@@ -8545,10 +8605,11 @@
       "layerseven_name": "US: NBC 7 (KTVB) BOISE HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "470032",
-      "epg_name": "KTVB-DT",
+      "epg_id": "I7.1.43333.gracenote.com",
+      "epg_name": "US - NBC News Boise",
       "matched_key": "KTVB",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470032"
     },
     {
       "layerseven_name": "US: NBC 7 (KWWL) WATERLOO HD",
@@ -8599,10 +8660,11 @@
       "layerseven_name": "US: NBC 8 (KGW) PORTLAND HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467846",
-      "epg_name": "KGW-DT",
+      "epg_id": "I8.1.20378.gracenote.com",
+      "epg_name": "US - NBC News Portland",
       "matched_key": "KGW",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467846"
     },
     {
       "layerseven_name": "US: NBC 8 (KSBW) SALINAS HD",
@@ -8752,19 +8814,21 @@
       "layerseven_name": "US: NBC 10 (WBIR) KNOXVILLE HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467710",
-      "epg_name": "WBIR-DT",
+      "epg_id": "I10.1.31654.gracenote.com",
+      "epg_name": "US - NBC News Knoxville",
       "matched_key": "WBIR",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467710"
     },
     {
       "layerseven_name": "US: NBC 10 (WCAU) PHILADELPHIA HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "468233",
-      "epg_name": "WCAU-DT",
+      "epg_id": "I10.1.19613.gracenote.com",
+      "epg_name": "US - NBC News Philadelphia",
       "matched_key": "WCAU",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468233"
     },
     {
       "layerseven_name": "US: NBC 10 (WHEC) ROCHESTER HD",
@@ -8788,10 +8852,11 @@
       "layerseven_name": "US: NBC 10 (WIS) COLUMBIA HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "466749",
-      "epg_name": "WIS-DT",
+      "epg_id": "I10.1.36079.gracenote.com",
+      "epg_name": "US - NBC Columbia",
       "matched_key": "WIS",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466749"
     },
     {
       "layerseven_name": "US: NBC 10 (WSLS) ROANOKE HD",
@@ -8824,10 +8889,11 @@
       "layerseven_name": "US: NBC 10 (WJAR) RHODE ISLAND",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "469861",
-      "epg_name": "WJAR-DT",
+      "epg_id": "I10.1.35936.gracenote.com",
+      "epg_name": "US - NBC Providence",
       "matched_key": "WJAR",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469861"
     },
     {
       "layerseven_name": "US: NBC 11 (KNTV) SAN JOSE HD",
@@ -8842,10 +8908,11 @@
       "layerseven_name": "US: NBC 11 (KARE) MINNEAPOLIS HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "468830",
-      "epg_name": "KARE-DT",
+      "epg_id": "I11.1.20505.gracenote.com",
+      "epg_name": "US - NBC News Minneapolis",
       "matched_key": "KARE",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468830"
     },
     {
       "layerseven_name": "US: NBC 11 (KVLY) FARGO HD",
@@ -8878,10 +8945,11 @@
       "layerseven_name": "US: NBC 11 (WXIA) ATLANTA HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "466182",
-      "epg_name": "WXIA-DT",
+      "epg_id": "I11.1.19587.gracenote.com",
+      "epg_name": "US - NBC News Atlanta",
       "matched_key": "WXIA",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466182"
     },
     {
       "layerseven_name": "US: NBC 11 HD [BALTIMORE]",
@@ -8932,10 +9000,11 @@
       "layerseven_name": "US: NBC 12 (WXII) WINSTON-SALEM HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467666",
-      "epg_name": "WXII-DT",
+      "epg_id": "I12.1.29026.gracenote.com",
+      "epg_name": "US - NBC News Charlotte",
       "matched_key": "WXII",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467666"
     },
     {
       "layerseven_name": "US: NBC 12 HD [PHOENIX AZ]",
@@ -8995,10 +9064,11 @@
       "layerseven_name": "US: NBC 13 (WTHR) INDIANAPOLIS HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467521",
-      "epg_name": "WTHR-DT",
+      "epg_id": "I13.1.19593.gracenote.com",
+      "epg_name": "US - NBC News Indianapolis",
       "matched_key": "WTHR",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467521"
     },
     {
       "layerseven_name": "US: NBC 13 (WVTM) BIRMINGHAM HD",
@@ -9031,10 +9101,11 @@
       "layerseven_name": "US: NBC 13 HD [DES MOINES]",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "469841",
-      "epg_name": "WHO-DT",
-      "matched_key": "WHO-DT",
-      "match_method": "local-station"
+      "epg_id": "I13.1.31231.gracenote.com",
+      "epg_name": "US - NBC Ottumwa",
+      "matched_key": "WHO",
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469841"
     },
     {
       "layerseven_name": "US: NBC 14 (WFIE) EVANSVILLE HD",
@@ -9175,10 +9246,11 @@
       "layerseven_name": "US: NBC 22 (WWLP) SPRINGFIELD HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "468724",
-      "epg_name": "WWLP-DT",
+      "epg_id": "I22.1.32503.gracenote.com",
+      "epg_name": "US - NBC News Connecticut",
       "matched_key": "WWLP",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468724"
     },
     {
       "layerseven_name": "US: NBC 23 (KNDO) YAKIMA HD",
@@ -9346,10 +9418,11 @@
       "layerseven_name": "US: NBC 39 (KNSD) SAN DIEGO HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467055",
-      "epg_name": "KNSD-DT",
+      "epg_id": "I39.1.21213.gracenote.com",
+      "epg_name": "US - NBC News San Diego",
       "matched_key": "KNSD",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467055"
     },
     {
       "layerseven_name": "US: NBC 39 HD [JACKSON]",
@@ -9400,10 +9473,11 @@
       "layerseven_name": "US: NBC 41 (KSHB) KANSAS CITY HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467910",
-      "epg_name": "KSHB-DT",
+      "epg_id": "I41.1.34885.gracenote.com",
+      "epg_name": "US - NBC Kansas City",
       "matched_key": "KSHB",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467910"
     },
     {
       "layerseven_name": "US: NBC 45 HD [WATERTOWN]",
@@ -9463,37 +9537,41 @@
       "layerseven_name": "US: NBC (KARE)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "468830",
-      "epg_name": "KARE-DT",
+      "epg_id": "I11.1.20505.gracenote.com",
+      "epg_name": "US - NBC News Minneapolis",
       "matched_key": "KARE",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468830"
     },
     {
       "layerseven_name": "US: NBC (KNBC)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "469871",
-      "epg_name": "KNBC-DT",
+      "epg_id": "I4.1.19568.gracenote.com",
+      "epg_name": "US - NBC News Los Angeles",
       "matched_key": "KNBC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469871"
     },
     {
       "layerseven_name": "US: NBC (WBTS)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "465922",
-      "epg_name": "WBTS-CD",
+      "epg_id": "I15.1.91446.gracenote.com",
+      "epg_name": "US - NBC News Boston",
       "matched_key": "WBTS",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "465922"
     },
     {
       "layerseven_name": "US: NBC (WCAU)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "468233",
-      "epg_name": "WCAU-DT",
+      "epg_id": "I10.1.19613.gracenote.com",
+      "epg_name": "US - NBC News Philadelphia",
       "matched_key": "WCAU",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468233"
     },
     {
       "layerseven_name": "US: NBC (WDIV)",
@@ -9553,10 +9631,11 @@
       "layerseven_name": "US: NBC (WRC)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467604",
-      "epg_name": "WRC-DT",
+      "epg_id": "I4.1.19578.gracenote.com",
+      "epg_name": "US - NBC News Washington",
       "matched_key": "WRC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467604"
     },
     {
       "layerseven_name": "US: NBC (WSMV)",
@@ -9580,19 +9659,21 @@
       "layerseven_name": "US: NBC (WXIA)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "466182",
-      "epg_name": "WXIA-DT",
+      "epg_id": "I11.1.19587.gracenote.com",
+      "epg_name": "US - NBC News Atlanta",
       "matched_key": "WXIA",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466182"
     },
     {
       "layerseven_name": "US: NBC (KNSD)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467055",
-      "epg_name": "KNSD-DT",
+      "epg_id": "I39.1.21213.gracenote.com",
+      "epg_name": "US - NBC News San Diego",
       "matched_key": "KNSD",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467055"
     },
     {
       "layerseven_name": "US: NBC (WVIT)",
@@ -9625,19 +9706,21 @@
       "layerseven_name": "US: NBC (KPRC)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "468285",
-      "epg_name": "KPRC-DT",
+      "epg_id": "I2.1.21250.gracenote.com",
+      "epg_name": "US - NBC News Houston",
       "matched_key": "KPRC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468285"
     },
     {
       "layerseven_name": "US: NBC (KSDK)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "466143",
-      "epg_name": "KSDK-DT",
+      "epg_id": "I5.1.20513.gracenote.com",
+      "epg_name": "US - NBC News St. Louis",
       "matched_key": "KSDK",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "466143"
     },
     {
       "layerseven_name": "US: NBC (KSNVDT)",
@@ -9661,10 +9744,11 @@
       "layerseven_name": "US: NBC (KXAS)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "468293",
-      "epg_name": "KXAS-DT",
+      "epg_id": "I5.1.19627.gracenote.com",
+      "epg_name": "US - NBC News Dallas Fortworth",
       "matched_key": "KXAS",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468293"
     },
     {
       "layerseven_name": "US: NBC (WBAL)",
@@ -10039,10 +10123,11 @@
       "layerseven_name": "US: ABC 6 (WPVI) PHILADELPHIA HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "467172",
-      "epg_name": "WPVI-DT",
+      "epg_id": "I6.1.19612.gracenote.com",
+      "epg_name": "US - ABC News Philadelphia",
       "matched_key": "WPVI",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467172"
     },
     {
       "layerseven_name": "US: ABC 6 WESLACO TX (KRGV) HD",
@@ -10093,10 +10178,11 @@
       "layerseven_name": "US: ABC 7 (KABC) LOS ANGELES HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "470185",
-      "epg_name": "KABC-DT",
+      "epg_id": "I7.1.19570.gracenote.com",
+      "epg_name": "US - ABC Los Angeles",
       "matched_key": "KABC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470185"
     },
     {
       "layerseven_name": "US: ABC 7 HD [FORT MYERS]",
@@ -10138,10 +10224,11 @@
       "layerseven_name": "US: ABC 7 (KGO) SAN FRANCISCO HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "469603",
-      "epg_name": "KGO-LD",
+      "epg_id": "I7.1.19574.gracenote.com",
+      "epg_name": "US - ABC News San Francisco",
       "matched_key": "KGO",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469603"
     },
     {
       "layerseven_name": "US: ABC 7 (WJLA) WASHINGTON HD",
@@ -10156,19 +10243,21 @@
       "layerseven_name": "US: ABC 7 (WLS) CHICAGO HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "468322",
-      "epg_name": "WLS-DT",
+      "epg_id": "I187.20456.gracenote.com",
+      "epg_name": "US - ABC Chicago",
       "matched_key": "WLS",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468322"
     },
     {
       "layerseven_name": "US: ABC 7 (WXYZ) DETROIT HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "470253",
-      "epg_name": "WXYZ-DT",
+      "epg_id": "I7.1.19601.gracenote.com",
+      "epg_name": "US - ABC 7 Detroit",
       "matched_key": "WXYZ",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470253"
     },
     {
       "layerseven_name": "US: ABC 8 RICHMOND VA (WRIC)",
@@ -10219,10 +10308,11 @@
       "layerseven_name": "US: ABC 9 (KMBC) KANSAS CITY HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "469802",
-      "epg_name": "KMBC-DT",
+      "epg_id": "I9.1.30821.gracenote.com",
+      "epg_name": "US - ABC Kansas City",
       "matched_key": "KMBC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469802"
     },
     {
       "layerseven_name": "US: ABC 9 (WFTV) ORLANDO HD",
@@ -10255,10 +10345,11 @@
       "layerseven_name": "US: ABC 10 (KXTV) SACRAMENTO HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "468366",
-      "epg_name": "KXTV-DT",
+      "epg_id": "I10.1.20775.gracenote.com",
+      "epg_name": "US - ABC News Sacramento",
       "matched_key": "KXTV",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468366"
     },
     {
       "layerseven_name": "US: ABC 10 (KGTV) SAN DIEGO HD",
@@ -10300,19 +10391,21 @@
       "layerseven_name": "US: ABC 11 HD [RALEIGH]",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "467664",
-      "epg_name": "WTVD-DT",
+      "epg_id": "I11.1.21103.gracenote.com",
+      "epg_name": "US - ABC News Raleigh-Durham",
       "matched_key": "WTVD",
-      "match_method": "local-station"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467664"
     },
     {
       "layerseven_name": "US: ABC 11 (WTVD) DURHAM HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "467664",
-      "epg_name": "WTVD-DT",
+      "epg_id": "I11.1.21103.gracenote.com",
+      "epg_name": "US - ABC News Raleigh-Durham",
       "matched_key": "WTVD",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467664"
     },
     {
       "layerseven_name": "US: ABC 11 LOUISVILLE KY (WHAS) HD",
@@ -10336,19 +10429,21 @@
       "layerseven_name": "US: ABC 11 DURHAM NC (WTVD) HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "467664",
-      "epg_name": "WTVD-DT",
+      "epg_id": "I11.1.21103.gracenote.com",
+      "epg_name": "US - ABC News Raleigh-Durham",
       "matched_key": "WTVD",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467664"
     },
     {
       "layerseven_name": "US: ABC 12 (KSAT) SAN ANTONIO HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "469367",
-      "epg_name": "KSAT-DT",
+      "epg_id": "I12.1.21662.gracenote.com",
+      "epg_name": "US - ABC San Antonio",
       "matched_key": "KSAT",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469367"
     },
     {
       "layerseven_name": "US: ABC 12 (WISN) MILWAUKEE HD",
@@ -10363,10 +10458,11 @@
       "layerseven_name": "US: ABC 13 (KTRK) HOUSTON HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "470077",
-      "epg_name": "KTRK-DT",
+      "epg_id": "I13.1.21251.gracenote.com",
+      "epg_name": "US - ABC News Houston",
       "matched_key": "KTRK",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470077"
     },
     {
       "layerseven_name": "US: ABC 13 LYNCHBURG VA (WSET)",
@@ -10417,19 +10513,21 @@
       "layerseven_name": "US: ABC 13 GRAND RAPIDS MI (WZZM)",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "468316",
-      "epg_name": "WZZM-DT",
+      "epg_id": "I13.1.31482.gracenote.com",
+      "epg_name": "US - ABC News Grand Rapids",
       "matched_key": "WZZM",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468316"
     },
     {
       "layerseven_name": "US: ABC 15 (KNXV) PHOENIX HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "468352",
-      "epg_name": "KNXV-DT",
+      "epg_id": "I15.1.21210.gracenote.com",
+      "epg_name": "US - ABC News Phoenix",
       "matched_key": "KNXV",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468352"
     },
     {
       "layerseven_name": "US: ABC 16 (WNEP)",
@@ -10525,10 +10623,11 @@
       "layerseven_name": "US: ABC 30 (KFSN) FRESNO HD",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "467148",
-      "epg_name": "KFSN-DT",
+      "epg_id": "I30.1.25120.gracenote.com",
+      "epg_name": "US - ABC News Fresno",
       "matched_key": "KFSN",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467148"
     },
     {
       "layerseven_name": "US: ABC 36 HD [LEXINGTON]",
@@ -10552,10 +10651,11 @@
       "layerseven_name": "US: ABC (KABC)",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "470185",
-      "epg_name": "KABC-DT",
+      "epg_id": "I7.1.19570.gracenote.com",
+      "epg_name": "US - ABC Los Angeles",
       "matched_key": "KABC",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470185"
     },
     {
       "layerseven_name": "US: ABC (KDNL)",
@@ -10579,10 +10679,11 @@
       "layerseven_name": "US: ABC (KNXV)",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "468352",
-      "epg_name": "KNXV-DT",
+      "epg_id": "I15.1.21210.gracenote.com",
+      "epg_name": "US - ABC News Phoenix",
       "matched_key": "KNXV",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468352"
     },
     {
       "layerseven_name": "US: ABC (KOCO)",
@@ -10624,10 +10725,11 @@
       "layerseven_name": "US: ABC (KTRK)",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "470077",
-      "epg_name": "KTRK-DT",
+      "epg_id": "I13.1.21251.gracenote.com",
+      "epg_name": "US - ABC News Houston",
       "matched_key": "KTRK",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470077"
     },
     {
       "layerseven_name": "US: ABC (WABC)",
@@ -10678,10 +10780,11 @@
       "layerseven_name": "US: ABC (WLS)",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "468322",
-      "epg_name": "WLS-DT",
+      "epg_id": "I187.20456.gracenote.com",
+      "epg_name": "US - ABC Chicago",
       "matched_key": "WLS",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "468322"
     },
     {
       "layerseven_name": "US: ABC (WMAR)",
@@ -10705,10 +10808,11 @@
       "layerseven_name": "US: ABC (WPVI)",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "467172",
-      "epg_name": "WPVI-DT",
+      "epg_id": "I6.1.19612.gracenote.com",
+      "epg_name": "US - ABC News Philadelphia",
       "matched_key": "WPVI",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467172"
     },
     {
       "layerseven_name": "US: ABC (WSB)",
@@ -10741,10 +10845,11 @@
       "layerseven_name": "US: ABC (WXYZ)",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "470253",
-      "epg_name": "WXYZ-DT",
+      "epg_id": "I7.1.19601.gracenote.com",
+      "epg_name": "US - ABC 7 Detroit",
       "matched_key": "WXYZ",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "470253"
     },
     {
       "layerseven_name": "US: ABC (WMTW) PORTLAND MAINE",
@@ -10759,10 +10864,11 @@
       "layerseven_name": "US: ABC (KGO) SAN FRANCISCO CALIFORNIA",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "469603",
-      "epg_name": "KGO-LD",
+      "epg_id": "I7.1.19574.gracenote.com",
+      "epg_name": "US - ABC News San Francisco",
       "matched_key": "KGO",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "469603"
     },
     {
       "layerseven_name": "US: ABC (KOAT) ALBUQUERQUE NEW MEXICO",
@@ -10777,10 +10883,11 @@
       "layerseven_name": "US: ABC (WTVD) DURHAM NORTH CAROLINA",
       "category": "US| ABC HD/4K",
       "country": "US",
-      "epg_id": "467664",
-      "epg_name": "WTVD-DT",
+      "epg_id": "I11.1.21103.gracenote.com",
+      "epg_name": "US - ABC News Raleigh-Durham",
       "matched_key": "WTVD",
-      "match_method": "exact"
+      "match_method": "preferred-local-station",
+      "direct_id_source": "467664"
     },
     {
       "layerseven_name": "US: ABC (WZVN) FORT MYERS FLORIDA",

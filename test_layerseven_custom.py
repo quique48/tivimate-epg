@@ -235,6 +235,73 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertEqual(matches[0]["match_method"], "preferred-local-station")
         self.assertEqual(matches[0]["matched_key"], "WMAQ")
 
+    def test_preferred_station_does_not_replace_its_digital_subchannel(self):
+        from unittest.mock import patch
+
+        def public_channel(channel_id, name):
+            channel = ET.Element("channel", {"id": channel_id})
+            ET.SubElement(channel, "display-name").text = name
+            return channel
+
+        channels = {
+            "main": public_channel("main", "KRDO-DT"),
+            "subchannel": public_channel("subchannel", "KRDO-DT2"),
+            "preferred": public_channel("preferred", "US - ABC News Colorado Springs"),
+        }
+        programme_counts = Counter({"main": 100, "subchannel": 100, "preferred": 200})
+        regions = {channel_id: {"us"} for channel_id in channels}
+        inventory = [
+            {
+                "country": "US",
+                "name": "US| ABC HD/4K",
+                "channels": ["US: ABC 13 (KRDO) COLORADO SPRINGS HD"],
+            },
+            {
+                "country": "US",
+                "name": "US| TELEMUNDO NETWORK",
+                "channels": ["US: TELEMUNDO 13 (KRDO-DT2) PUEBLO HD"],
+            },
+        ]
+
+        with patch.dict("build_layerseven_custom.PREFERRED_LOCAL_STATION_IDS", {"KRDO": "preferred"}):
+            matches, unmatched = match_channels(inventory, channels, programme_counts, regions)
+
+        self.assertEqual(unmatched, [])
+        by_name = {match["layerseven_name"]: match for match in matches}
+        self.assertEqual(
+            by_name["US: ABC 13 (KRDO) COLORADO SPRINGS HD"]["epg_id"], "preferred"
+        )
+        self.assertEqual(
+            by_name["US: TELEMUNDO 13 (KRDO-DT2) PUEBLO HD"]["epg_id"], "subchannel"
+        )
+
+    def test_preferred_station_uses_callsign_from_station_override(self):
+        from unittest.mock import patch
+
+        def public_channel(channel_id, name):
+            channel = ET.Element("channel", {"id": channel_id})
+            ET.SubElement(channel, "display-name").text = name
+            return channel
+
+        channels = {
+            "generic": public_channel("generic", "WTIC-DT"),
+            "preferred": public_channel("preferred", "US - Fox News Hartford"),
+        }
+        programme_counts = Counter({"generic": 100, "preferred": 200})
+        regions = {channel_id: {"us"} for channel_id in channels}
+        name = "US: FOX 61 HD [HARTFORD]"
+        inventory = [{"country": "US", "name": "US| FOX HD/4K", "channels": [name]}]
+
+        with (
+            patch.dict("build_layerseven_custom.LOCAL_STATION_OVERRIDES", {name: "WTIC-TV"}),
+            patch.dict("build_layerseven_custom.PREFERRED_LOCAL_STATION_IDS", {"WTIC": "preferred"}),
+        ):
+            matches, unmatched = match_channels(inventory, channels, programme_counts, regions)
+
+        self.assertEqual(unmatched, [])
+        self.assertEqual(matches[0]["epg_id"], "preferred")
+        self.assertEqual(matches[0]["match_method"], "preferred-local-station")
+
     def test_explicit_call_sign_overrides_generic_network_match(self):
         def public_channel(channel_id, name):
             channel = ET.Element("channel", {"id": channel_id})

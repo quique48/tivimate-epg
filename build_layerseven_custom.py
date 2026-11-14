@@ -167,10 +167,83 @@ NBC_SPORTS_LISTING_KEYS = {
 }
 
 # Dedicated local schedules are more accurate than generic call-sign feeds.
+# Verify these through local programme branding and schedule alignment: some
+# upstream display names advertise a different market from the actual station.
 PREFERRED_LOCAL_STATION_IDS = {
+    "WJBK": "I2.1.19600.gracenote.com",
+    "WLNS": "I6.1.25664.gracenote.com",
+    "WXYZ": "I7.1.19601.gracenote.com",
+    "WLS": "I187.20456.gracenote.com",
     "WMAQ": "I188.20452.gracenote.com",
     "WBBM": "I189.20454.gracenote.com",
+    "WFLD": "I190.20361.gracenote.com",
+    "WDAF": "I4.1.30912.gracenote.com",
+    "KMBC": "I9.1.30821.gracenote.com",
+    "KRCG": "I13.1.43143.gracenote.com",
+    "KSHB": "I41.1.34885.gracenote.com",
+    "WRC": "I4.1.19578.gracenote.com",
+    "KGW": "I8.1.20378.gracenote.com",
+    "KREM": "I2.1.35354.gracenote.com",
+    "KHQ": "I6.1.33819.gracenote.com",
+    "KAYU": "I28.1.36009.gracenote.com",
+    "WREG": "I3.1.30973.gracenote.com",
+    "WHBQ": "I13.1.30979.gracenote.com",
+    "WTOL": "I11.1.30754.gracenote.com",
+    "WXII": "I12.1.29026.gracenote.com",
+    "KSDK": "I5.1.20513.gracenote.com",
+    "KYW": "I3.1.19611.gracenote.com",
+    "WPVI": "I6.1.19612.gracenote.com",
+    "WCAU": "I10.1.19613.gracenote.com",
+    "KNXV": "I15.1.21210.gracenote.com",
+    "WTHR": "I13.1.19593.gracenote.com",
+    "WGRZ": "I2.1.31507.gracenote.com",
+    "KOKI": "I23.1.34878.gracenote.com",
+    "WWLP": "I22.1.32503.gracenote.com",
+    "WTIC": "I61.1.21216.gracenote.com",
+    "KBSI": "I23.1.34415.gracenote.com",
+    "WHO": "I13.1.31231.gracenote.com",
+    "WTSP": "I10.1.20495.gracenote.com",
+    "KFMB": "I8.1.21212.gracenote.com",
+    "KNSD": "I39.1.21213.gracenote.com",
+    "KDKA": "I2.1.21248.gracenote.com",
+    "WMAZ": "I13.1.32580.gracenote.com",
+    "KXAS": "I5.1.19627.gracenote.com",
+    "KTVT": "I11.1.20204.gracenote.com",
+    "WIS": "I10.1.36079.gracenote.com",
+    "WLTX": "I19.1.30974.gracenote.com",
+    "WACH": "I57.1.32472.gracenote.com",
+    "WJAR": "I10.1.35936.gracenote.com",
+    "WPRI": "I12.1.35455.gracenote.com",
+    "WBTS": "I15.1.91446.gracenote.com",
+    "KTHV": "I11.1.31316.gracenote.com",
+    "WTVD": "I11.1.21103.gracenote.com",
+    "WZZM": "I13.1.31482.gracenote.com",
+    "KFSN": "I30.1.25120.gracenote.com",
+    "WKYC": "I3.1.20492.gracenote.com",
+    "WBNS": "I10.1.19607.gracenote.com",
+    "WCCO": "I4.1.21234.gracenote.com",
+    "KARE": "I11.1.20505.gracenote.com",
+    "WBIR": "I10.1.31654.gracenote.com",
+    "WXIA": "I11.1.19587.gracenote.com",
+    "KCBS": "I2.1.19567.gracenote.com",
+    "KNBC": "I4.1.19568.gracenote.com",
+    "KABC": "I7.1.19570.gracenote.com",
+    "KTTV": "I11.1.20450.gracenote.com",
+    "KGO": "I7.1.19574.gracenote.com",
+    "KXTV": "I10.1.20775.gracenote.com",
+    "KOVR": "I13.1.21214.gracenote.com",
+    "KTVB": "I7.1.43333.gracenote.com",
+    "KIRO": "I7.1.73870.gracenote.com",
+    "KFSM": "I5.1.32817.gracenote.com",
+    "KPRC": "I2.1.21250.gracenote.com",
+    "KTRK": "I13.1.21251.gracenote.com",
+    "KSAT": "I12.1.21662.gracenote.com",
 }
+
+# These two Chicago replacements were already published using their dedicated
+# source IDs. Keep those IDs unchanged while other replacements retain the IDs
+# of the generic direct entries that TiViMate users already assigned.
+PREFERRED_DIRECT_ID_FROM_SOURCE = {"WMAQ", "WBBM"}
 
 
 def fox_sports_key(value: str) -> str:
@@ -455,6 +528,7 @@ def match_channels(inventory, channels, programme_counts, regions):
             found = None
             matched_key = None
             match_method = None
+            direct_id_source = None
             station_override = LOCAL_STATION_OVERRIDES.get(layerseven_name)
             if station_override:
                 has_subchannel = re.search(r"(?:DT|LD|CD|TV)\d", station_override)
@@ -594,9 +668,38 @@ def match_channels(inventory, channels, programme_counts, regions):
                     matched_key = station_name
                     match_method = "cw-station"
 
-            for station_key in panel_call_sign_keys(layerseven_name):
+            current_station_keys = set()
+            if found:
+                public_name = (channels[found].findtext("display-name") or "").strip().upper()
+                if re.fullmatch(r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*", public_name):
+                    current_station_keys.add(canonical_call_sign(public_name))
+                    if not re.search(r"(?:DT|LD|CD|TV)\d", public_name):
+                        base = re.match(r"[KWC][A-Z]{2,3}", public_name).group()
+                        current_station_keys.add(base)
+
+            preferred_station_keys = panel_call_sign_keys(layerseven_name)
+            if station_override:
+                has_subchannel = re.search(r"(?:DT|LD|CD|TV)\d", station_override)
+                override_key = (
+                    canonical_call_sign(station_override)
+                    if has_subchannel
+                    else re.match(r"[KWC][A-Z]{2,3}", station_override).group()
+                )
+                if override_key not in preferred_station_keys:
+                    preferred_station_keys.append(override_key)
+
+            for station_key in preferred_station_keys:
                 preferred_id = PREFERRED_LOCAL_STATION_IDS.get(station_key)
-                if preferred_id in channels and programme_counts[preferred_id]:
+                # Do not replace a digital subchannel with its parent station's
+                # schedule merely because they share the same base call sign.
+                if (
+                    preferred_id in channels
+                    and programme_counts[preferred_id]
+                    and (found == preferred_id or station_key in current_station_keys)
+                ):
+                    direct_id_source = (
+                        preferred_id if station_key in PREFERRED_DIRECT_ID_FROM_SOURCE else found
+                    )
                     found = preferred_id
                     matched_key = station_key
                     match_method = "preferred-local-station"
@@ -615,6 +718,8 @@ def match_channels(inventory, channels, programme_counts, regions):
                     "matched_key": matched_key,
                     "match_method": match_method,
                 })
+                if direct_id_source and direct_id_source != found:
+                    record["direct_id_source"] = direct_id_source
                 matches.append(record)
             else:
                 unmatched.append(record)
@@ -803,7 +908,8 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
         if (source_id, alias) in seen_direct_aliases:
             continue
         seen_direct_aliases.add((source_id, alias))
-        digest = hashlib.sha256(f"{source_id}\0{alias}".encode("utf-8")).hexdigest()[:16]
+        direct_id_source = match.get("direct_id_source", source_id)
+        digest = hashlib.sha256(f"{direct_id_source}\0{alias}".encode("utf-8")).hexdigest()[:16]
         direct_id = f"layerseven.{digest}"
         direct_station_aliases.append((direct_id, source_id, alias))
         direct_ids_by_source[source_id].append(direct_id)
