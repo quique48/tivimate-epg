@@ -2686,10 +2686,10 @@
       "layerseven_name": "US: NBC 5 CHICAGO IL (WMAQ) HD",
       "category": "US| NEWS HD/4K",
       "country": "US",
-      "epg_id": "467207",
-      "epg_name": "WMAQ-DT",
+      "epg_id": "I188.20452.gracenote.com",
+      "epg_name": "US - NBC Chicago",
       "matched_key": "WMAQ",
-      "match_method": "exact"
+      "match_method": "preferred-local-station"
     },
     {
       "layerseven_name": "US: NBC 5 DALLAS TX (KXAS) HD",
@@ -6034,10 +6034,10 @@
       "layerseven_name": "US: CBS 2 (WBBM) CHICAGO HD",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "468836",
-      "epg_name": "WBBM-DT",
+      "epg_id": "I189.20454.gracenote.com",
+      "epg_name": "US - CBS Chicago",
       "matched_key": "WBBM",
-      "match_method": "exact"
+      "match_method": "preferred-local-station"
     },
     {
       "layerseven_name": "US: CBS 2 (WCBS) NEW YORK HD",
@@ -7762,10 +7762,10 @@
       "layerseven_name": "US: CBS (WBBM)",
       "category": "US| CBS HD/4K",
       "country": "US",
-      "epg_id": "468836",
-      "epg_name": "WBBM-DT",
+      "epg_id": "I189.20454.gracenote.com",
+      "epg_name": "US - CBS Chicago",
       "matched_key": "WBBM",
-      "match_method": "exact"
+      "match_method": "preferred-local-station"
     },
     {
       "layerseven_name": "US: CBS (WBTV)",
@@ -8338,10 +8338,10 @@
       "layerseven_name": "US: NBC 5 (WMAQ) CHICAGO HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467207",
-      "epg_name": "WMAQ-DT",
+      "epg_id": "I188.20452.gracenote.com",
+      "epg_name": "US - NBC Chicago",
       "matched_key": "WMAQ",
-      "match_method": "exact"
+      "match_method": "preferred-local-station"
     },
     {
       "layerseven_name": "US: NBC 5 (WMC) MEMPHIS HD",
@@ -9526,10 +9526,10 @@
       "layerseven_name": "US: NBC (WMAQ)",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "467207",
-      "epg_name": "WMAQ-DT",
+      "epg_id": "I188.20452.gracenote.com",
+      "epg_name": "US - NBC Chicago",
       "matched_key": "WMAQ",
-      "match_method": "exact"
+      "match_method": "preferred-local-station"
     },
     {
       "layerseven_name": "US: NBC (WNBC)",

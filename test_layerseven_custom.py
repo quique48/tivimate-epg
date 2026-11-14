@@ -208,6 +208,33 @@ class LayerSevenMatchingTest(unittest.TestCase):
         self.assertNotIn("SUPER ECRAN", name_variants("CA FR: SUPER ECRAN 1 HD"))
         self.assertNotIn("NATIONAL GEOGRAPHIC", name_variants("US: NAT GEO HD"))
 
+    def test_preferred_chicago_station_uses_dedicated_listing(self):
+        def public_channel(channel_id, name):
+            channel = ET.Element("channel", {"id": channel_id})
+            ET.SubElement(channel, "display-name").text = name
+            return channel
+
+        channels = {
+            "467207": public_channel("467207", "WMAQ-DT"),
+            "I188.20452.gracenote.com": public_channel(
+                "I188.20452.gracenote.com", "US - NBC Chicago"
+            ),
+        }
+        programme_counts = Counter({"467207": 69, "I188.20452.gracenote.com": 208})
+        regions = {"467207": {"us"}, "I188.20452.gracenote.com": {"chicago"}}
+        inventory = [{
+            "country": "US",
+            "name": "US| NBC HD/4K",
+            "channels": ["US: NBC 5 CHICAGO IL (WMAQ) HD"],
+        }]
+
+        matches, unmatched = match_channels(inventory, channels, programme_counts, regions)
+
+        self.assertEqual(unmatched, [])
+        self.assertEqual(matches[0]["epg_id"], "I188.20452.gracenote.com")
+        self.assertEqual(matches[0]["match_method"], "preferred-local-station")
+        self.assertEqual(matches[0]["matched_key"], "WMAQ")
+
     def test_explicit_call_sign_overrides_generic_network_match(self):
         def public_channel(channel_id, name):
             channel = ET.Element("channel", {"id": channel_id})

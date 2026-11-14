@@ -166,6 +166,12 @@ NBC_SPORTS_LISTING_KEYS = {
     "NBC SPORTS PHILADELPHIA",
 }
 
+# Dedicated local schedules are more accurate than generic call-sign feeds.
+PREFERRED_LOCAL_STATION_IDS = {
+    "WMAQ": "I188.20452.gracenote.com",
+    "WBBM": "I189.20454.gracenote.com",
+}
+
 
 def fox_sports_key(value: str) -> str:
     return " ".join(token for token in tokens(value) if token not in QUALITY_TOKENS)
@@ -588,6 +594,14 @@ def match_channels(inventory, channels, programme_counts, regions):
                     matched_key = station_name
                     match_method = "cw-station"
 
+            for station_key in panel_call_sign_keys(layerseven_name):
+                preferred_id = PREFERRED_LOCAL_STATION_IDS.get(station_key)
+                if preferred_id in channels and programme_counts[preferred_id]:
+                    found = preferred_id
+                    matched_key = station_key
+                    match_method = "preferred-local-station"
+                    break
+
             record = {
                 "layerseven_name": layerseven_name,
                 "category": category["name"],
@@ -779,7 +793,9 @@ def write_custom_guide(guides_dir: Path, root, channels, matches, unmatched):
             and programme_counts[source_id] > 0
         )
         if (
-            match["match_method"] not in {"fox-sports", "fubo-sports", "tsn-sports"}
+            match["match_method"] not in {
+                "fox-sports", "fubo-sports", "tsn-sports", "preferred-local-station",
+            }
             and not is_nbc_sports
             and not re.fullmatch(r"[KWC][A-Z]{2,3}(?:-?(?:DT|LD|CD|TV))?\d*", public_name)
         ):
