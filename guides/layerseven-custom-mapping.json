@@ -8688,8 +8688,8 @@
       "layerseven_name": "US: NBC 8 (WGAL) LANCASTER HD",
       "category": "US| NBC HD/4K",
       "country": "US",
-      "epg_id": "466445",
-      "epg_name": "WGAL-LD",
+      "epg_id": "466541",
+      "epg_name": "WGAL-DT",
       "matched_key": "WGAL",
       "match_method": "exact"
     },
@@ -14466,8 +14466,8 @@
       "layerseven_name": "CA: CTV TORONTO",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
-      "epg_id": "470859",
-      "epg_name": "CTV Toronto HD",
+      "epg_id": "470799",
+      "epg_name": "CTV Two - Toronto",
       "matched_key": "CTV TORONTO",
       "match_method": "exact"
     },
@@ -20154,8 +20154,8 @@
       "layerseven_name": "UK: NAT GEO +1 ◉",
       "category": "UK| DOCUMENTARY HD/4K",
       "country": "UK",
-      "epg_id": "12565",
-      "epg_name": "Nat Geo",
+      "epg_id": "12083",
+      "epg_name": "Nat Geo Wild",
       "matched_key": "NAT GEO",
       "match_method": "exact"
     },
@@ -20163,8 +20163,8 @@
       "layerseven_name": "UK: NAT GEO 4K ◉",
       "category": "UK| DOCUMENTARY HD/4K",
       "country": "UK",
-      "epg_id": "12565",
-      "epg_name": "Nat Geo",
+      "epg_id": "12083",
+      "epg_name": "Nat Geo Wild",
       "matched_key": "NAT GEO",
       "match_method": "exact"
     },
