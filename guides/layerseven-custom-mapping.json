@@ -14844,8 +14844,8 @@
       "layerseven_name": "CA: TVA SPORTS",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
-      "epg_id": "470720",
-      "epg_name": "TVA Sports 2 HD",
+      "epg_id": "470578",
+      "epg_name": "TVA Sports HD",
       "matched_key": "TVA SPORTS",
       "match_method": "exact"
     },
@@ -15312,8 +15312,8 @@
       "layerseven_name": "CA FR: TVA SPORTS HD",
       "category": "CA| SPORTS FR",
       "country": "CA",
-      "epg_id": "470720",
-      "epg_name": "TVA Sports 2 HD",
+      "epg_id": "470578",
+      "epg_name": "TVA Sports HD",
       "matched_key": "TVA SPORTS",
       "match_method": "exact"
     },
@@ -15618,8 +15618,8 @@
       "layerseven_name": "CA EN: CRAVE2 HD",
       "category": "CA| GENERAL EN",
       "country": "CA",
-      "epg_id": "470445",
-      "epg_name": "Crave2",
+      "epg_id": "470403",
+      "epg_name": "Crave 2 West HD",
       "matched_key": "CRAVE2",
       "match_method": "exact"
     },
