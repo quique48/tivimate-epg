@@ -265,7 +265,7 @@
       "layerseven_name": "US: COURT TV HD",
       "category": "US| ENTERTAINMENT HD/4K",
       "country": "US",
-      "epg_id": "465226",
+      "epg_id": "I9.3.83118.gracenote.com",
       "epg_name": "Court TV",
       "matched_key": "COURT TV",
       "match_method": "exact"
@@ -14844,8 +14844,8 @@
       "layerseven_name": "CA: TVA SPORTS",
       "category": "CA| CANADA HD/4K",
       "country": "CA",
-      "epg_id": "470578",
-      "epg_name": "TVA Sports HD",
+      "epg_id": "470720",
+      "epg_name": "TVA Sports 2 HD",
       "matched_key": "TVA SPORTS",
       "match_method": "exact"
     },
@@ -15312,8 +15312,8 @@
       "layerseven_name": "CA FR: TVA SPORTS HD",
       "category": "CA| SPORTS FR",
       "country": "CA",
-      "epg_id": "470578",
-      "epg_name": "TVA Sports HD",
+      "epg_id": "470720",
+      "epg_name": "TVA Sports 2 HD",
       "matched_key": "TVA SPORTS",
       "match_method": "exact"
     },
@@ -20154,8 +20154,8 @@
       "layerseven_name": "UK: NAT GEO +1 ◉",
       "category": "UK| DOCUMENTARY HD/4K",
       "country": "UK",
-      "epg_id": "12083",
-      "epg_name": "Nat Geo Wild",
+      "epg_id": "12565",
+      "epg_name": "Nat Geo",
       "matched_key": "NAT GEO",
       "match_method": "exact"
     },
@@ -20163,8 +20163,8 @@
       "layerseven_name": "UK: NAT GEO 4K ◉",
       "category": "UK| DOCUMENTARY HD/4K",
       "country": "UK",
-      "epg_id": "12083",
-      "epg_name": "Nat Geo Wild",
+      "epg_id": "12565",
+      "epg_name": "Nat Geo",
       "matched_key": "NAT GEO",
       "match_method": "exact"
     },
